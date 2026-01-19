@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "Trading Assistant (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "Trading Assistant (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}

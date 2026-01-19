@@ -1,0 +1,12 @@
+C:\Sources\Trading Assistant.Service\bin\x86\Debug\net10.0\Trading Assistant.Service.deps.json
+C:\Sources\Trading Assistant.Service\bin\x86\Debug\net10.0\Trading Assistant.Service.dll
+C:\Sources\Trading Assistant.Service\bin\x86\Debug\net10.0\Trading Assistant.Service.pdb
+C:\Sources\Trading Assistant.Service\obj\x86\Debug\net10.0\Trading Assistant.Service.csproj.AssemblyReference.cache
+C:\Sources\Trading Assistant.Service\obj\x86\Debug\net10.0\Trading Assistant.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sources\Trading Assistant.Service\obj\x86\Debug\net10.0\Trading Assistant.Service.AssemblyInfoInputs.cache
+C:\Sources\Trading Assistant.Service\obj\x86\Debug\net10.0\Trading Assistant.Service.AssemblyInfo.cs
+C:\Sources\Trading Assistant.Service\obj\x86\Debug\net10.0\Trading Assistant.Service.csproj.CoreCompileInputs.cache
+C:\Sources\Trading Assistant.Service\obj\x86\Debug\net10.0\Trading Assistant.Service.dll
+C:\Sources\Trading Assistant.Service\obj\x86\Debug\net10.0\refint\Trading Assistant.Service.dll
+C:\Sources\Trading Assistant.Service\obj\x86\Debug\net10.0\Trading Assistant.Service.pdb
+C:\Sources\Trading Assistant.Service\obj\x86\Debug\net10.0\ref\Trading Assistant.Service.dll
