@@ -15,7 +15,7 @@ public interface ITradingAssistantService
     Task<ServiceStatusDto?> GetStatusAsync();
     Task<AnalysisResultDto?> GetLastAnalysisAsync();
     Task<List<OpportunityDto>> GetOpportunitiesAsync();
-    Task<bool> UpdateAssetsAsync(List<AssetDto> assets);
-    Task<bool> UpdateTradingConfigAsync(decimal capital, string riskProfile);
+    Task<PortfolioDto?> GetPortfolioAsync();
+    Task<bool> UpdatePortfolioAsync(PortfolioDto portfolio);
     Task<bool> RequestAnalysisAsync();
 }

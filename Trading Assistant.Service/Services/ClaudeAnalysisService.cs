@@ -63,7 +63,7 @@ public class ClaudeAnalysisService : IClaudeAnalysisService
     {
         var processStartInfo = new ProcessStartInfo
         {
-            FileName = "claude",
+            FileName = ClaudeCliResolver.Resolve(),
             ArgumentList = { prompt },
             RedirectStandardOutput = true,
             RedirectStandardError = true,

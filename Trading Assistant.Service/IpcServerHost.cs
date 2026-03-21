@@ -14,15 +14,18 @@ public class IpcServerHost : IHostedService
     private readonly ILogger<IpcServerHost> _logger;
     private readonly ILoggerFactory _loggerFactory;
     private readonly ServiceState _state;
+    private readonly IPortfolioService _portfolioService;
     private readonly IConfigurationService _configService;
     private readonly AnalysisBackgroundService _analysisService;
     private readonly IHostApplicationLifetime _appLifetime;
     private NamedPipeServer? _pipeServer;
+    private PortfolioDto _cachedPortfolio = new();
 
     public IpcServerHost(
         ILogger<IpcServerHost> logger,
         ILoggerFactory loggerFactory,
         ServiceState state,
+        IPortfolioService portfolioService,
         IConfigurationService configService,
         AnalysisBackgroundService analysisService,
         IHostApplicationLifetime appLifetime)
@@ -30,18 +33,21 @@ public class IpcServerHost : IHostedService
         _logger = logger;
         _loggerFactory = loggerFactory;
         _state = state;
+        _portfolioService = portfolioService;
         _configService = configService;
         _analysisService = analysisService;
         _appLifetime = appLifetime;
     }
 
-    public Task StartAsync(CancellationToken cancellationToken)
+    public async Task StartAsync(CancellationToken cancellationToken)
     {
         _logger.LogInformation("Starting IPC server host");
+        _cachedPortfolio = await _portfolioService.LoadAsync();
+        _logger.LogInformation("Portfolio loaded: {Count} assets", _cachedPortfolio.Assets.Count);
+
         _pipeServer = new NamedPipeServer(_loggerFactory.CreateLogger<NamedPipeServer>(), HandleCommandAsync);
         _pipeServer.Start();
         _logger.LogInformation("IPC server started successfully");
-        return Task.CompletedTask;
     }
 
     public async Task StopAsync(CancellationToken cancellationToken)
@@ -61,8 +67,8 @@ public class IpcServerHost : IHostedService
                 CommandType.GetStatus => HandleGetStatus(command),
                 CommandType.GetLastAnalysis => HandleGetLastAnalysis(command),
                 CommandType.GetOpportunities => HandleGetOpportunities(command),
-                CommandType.UpdateAssets => await HandleUpdateAssetsAsync(command),
-                CommandType.UpdateTradingConfig => await HandleUpdateTradingConfigAsync(command),
+                CommandType.GetPortfolio => HandleGetPortfolio(command),
+                CommandType.UpdatePortfolio => await HandleUpdatePortfolioAsync(command),
                 CommandType.RequestAnalysis => HandleRequestAnalysis(command),
                 CommandType.RegisterUI => await HandleRegisterUIAsync(command),
                 CommandType.UnregisterUI => await HandleUnregisterUIAsync(command),
@@ -78,11 +84,10 @@ public class IpcServerHost : IHostedService
 
     private ServiceCommandResponse HandleGetStatus(ServiceCommand command)
     {
-        var config = _configService.LoadConfiguration();
         var status = new ServiceStatusDto
         {
             IsRunning = true, LastAnalysisTime = _state.LastAnalysisTime, NextScheduledAnalysis = _state.NextScheduledAnalysis,
-            RegisteredUIClients = _state.RegisteredUICount, WatchedAssetsCount = config.Trading.WatchedAssets.Count, IsAnalyzing = _state.IsAnalyzing
+            RegisteredUIClients = _state.RegisteredUICount, WatchedAssetsCount = _cachedPortfolio.Assets.Count, IsAnalyzing = _state.IsAnalyzing
         };
         return new() { RequestId = command.RequestId, Success = true, Result = JsonSerializer.Serialize(status) };
     }
@@ -103,21 +108,21 @@ public class IpcServerHost : IHostedService
         return new() { RequestId = command.RequestId, Success = true, Result = JsonSerializer.Serialize(opps) };
     }
 
-    private async Task<ServiceCommandResponse> HandleUpdateAssetsAsync(ServiceCommand command)
+    private ServiceCommandResponse HandleGetPortfolio(ServiceCommand command)
     {
-        var dto = JsonSerializer.Deserialize<UpdateAssetsCommandDto>(command.Payload ?? "");
-        if (dto == null) return new() { RequestId = command.RequestId, Success = false, ErrorMessage = "Invalid payload" };
-        var config = _configService.LoadConfiguration();
-        config.Trading.WatchedAssets = dto.Assets;
-        await _configService.SaveConfigurationAsync(config);
-        return new() { RequestId = command.RequestId, Success = true };
+        return new() { RequestId = command.RequestId, Success = true, Result = JsonSerializer.Serialize(_cachedPortfolio) };
     }
 
-    private async Task<ServiceCommandResponse> HandleUpdateTradingConfigAsync(ServiceCommand command)
+    private async Task<ServiceCommandResponse> HandleUpdatePortfolioAsync(ServiceCommand command)
     {
-        var dto = JsonSerializer.Deserialize<UpdateTradingConfigDto>(command.Payload ?? "");
+        var dto = JsonSerializer.Deserialize<PortfolioDto>(command.Payload ?? "");
         if (dto == null) return new() { RequestId = command.RequestId, Success = false, ErrorMessage = "Invalid payload" };
-        await _configService.UpdateTradingConfigAsync(dto.AvailableCapital, dto.RiskProfile);
+
+        await _portfolioService.SaveAsync(dto);
+        _cachedPortfolio = dto;
+        _logger.LogInformation("Portfolio updated via IPC: {Count} assets, capital={Capital}",
+            dto.Assets.Count, dto.AvailableCapital);
+
         return new() { RequestId = command.RequestId, Success = true };
     }
 
@@ -130,10 +135,9 @@ public class IpcServerHost : IHostedService
     private ServiceCommandResponse HandleShutdown(ServiceCommand command)
     {
         _logger.LogInformation("Shutdown command received, stopping service...");
-        // Trigger graceful shutdown on a background thread to allow response to be sent first
         _ = Task.Run(async () =>
         {
-            await Task.Delay(100); // Small delay to ensure response is sent
+            await Task.Delay(100);
             _appLifetime.StopApplication();
         });
         return new() { RequestId = command.RequestId, Success = true, Result = "Service shutdown initiated" };
@@ -161,4 +165,7 @@ public class IpcServerHost : IHostedService
             ConfidenceLevel = o.ConfidenceLevel, TargetPrice = o.TargetPrice, StopLoss = o.StopLoss, Timeframe = o.Timeframe
         }).ToList()
     };
+
+    // Expose cached portfolio to AnalysisBackgroundService
+    public PortfolioDto GetCachedPortfolio() => _cachedPortfolio;
 }

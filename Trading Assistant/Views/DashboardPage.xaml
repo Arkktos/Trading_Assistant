@@ -4,124 +4,189 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:models="using:Trading_Assistant.Models"
+    xmlns:dtos="using:Trading_Assistant.IPC.Messages.DTOs"
+    xmlns:vm="using:Trading_Assistant.ViewModels"
+    x:Name="PageRoot"
     Background="{ThemeResource SolidBackgroundFillColorBaseBrush}"
     mc:Ignorable="d">
 
-    <Grid Padding="24">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="360"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
 
-        <!-- Header -->
-        <StackPanel Grid.Row="0" Spacing="8" Margin="0,0,0,24">
-            <TextBlock Text="Trading Dashboard" Style="{StaticResource TitleTextBlockStyle}"/>
-            <StackPanel Orientation="Horizontal" Spacing="16">
-                <TextBlock x:Name="StatusText"
-                           Text="{x:Bind ViewModel.StatusMessage, Mode=OneWay}"
-                           Style="{StaticResource BodyTextBlockStyle}"
-                           VerticalAlignment="Center"/>
-                <ProgressRing x:Name="LoadingRing"
-                              IsActive="{x:Bind ViewModel.IsLoading, Mode=OneWay}"
-                              Width="20" Height="20"/>
-            </StackPanel>
-        </StackPanel>
+        <!-- ═══ LEFT PANEL ═══════════════════════════════════════════════════ -->
+        <Border Grid.Column="0"
+                BorderBrush="{ThemeResource DividerStrokeColorDefaultBrush}"
+                BorderThickness="0,0,1,0">
+            <ScrollViewer VerticalScrollBarVisibility="Auto" Padding="16,16,12,16">
+                <StackPanel Spacing="16">
 
-        <!-- Action Buttons -->
-        <StackPanel Grid.Row="1" Orientation="Horizontal" Spacing="12" Margin="0,0,0,24">
-            <Button Content="Refresh"
-                    Command="{x:Bind ViewModel.RefreshDataCommand}"
-                    Style="{StaticResource AccentButtonStyle}"/>
-            <Button Content="Run Analysis"
-                    Command="{x:Bind ViewModel.RequestAnalysisCommand}"
-                    IsEnabled="{x:Bind ViewModel.IsConnected, Mode=OneWay}"/>
-            <Button x:Name="ReconnectButton"
-                    Content="Reconnect"
-                    Command="{x:Bind ViewModel.ConnectToServiceCommand}"/>
-        </StackPanel>
+                    <!-- Service -->
+                    <StackPanel Spacing="8">
+                        <TextBlock Text="Service" Style="{StaticResource SubtitleTextBlockStyle}"/>
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <TextBlock Text="{x:Bind ViewModel.StatusMessage, Mode=OneWay}"
+                                       Style="{StaticResource BodyTextBlockStyle}"
+                                       VerticalAlignment="Center"
+                                       TextWrapping="Wrap"
+                                       MaxWidth="280"/>
+                            <ProgressRing IsActive="{x:Bind ViewModel.IsLoading, Mode=OneWay}"
+                                          Width="16" Height="16"
+                                          VerticalAlignment="Center"/>
+                        </StackPanel>
+                        <Button Content="Connect"
+                                Command="{x:Bind ViewModel.ConnectToServiceCommand}"
+                                HorizontalAlignment="Stretch"/>
+                        <Button Content="Refresh"
+                                Command="{x:Bind ViewModel.RefreshDataCommand}"
+                                IsEnabled="{x:Bind ViewModel.IsConnected, Mode=OneWay}"
+                                HorizontalAlignment="Stretch"/>
+                        <Button Content="Run Analysis"
+                                Command="{x:Bind ViewModel.RequestAnalysisCommand}"
+                                IsEnabled="{x:Bind ViewModel.IsConnected, Mode=OneWay}"
+                                Style="{StaticResource AccentButtonStyle}"
+                                HorizontalAlignment="Stretch"/>
+                    </StackPanel>
 
-        <!-- Content -->
-        <ScrollViewer Grid.Row="2">
+                    <Border Height="1" Background="{ThemeResource DividerStrokeColorDefaultBrush}"/>
+
+                    <!-- Portfolio Config -->
+                    <StackPanel Spacing="8">
+                        <TextBlock Text="Portfolio" Style="{StaticResource SubtitleTextBlockStyle}"/>
+                        <NumberBox Header="Available Capital ($)"
+                                   Value="{x:Bind ViewModel.AvailableCapital, Mode=TwoWay}"
+                                   Minimum="0"
+                                   SpinButtonPlacementMode="Compact"
+                                   HorizontalAlignment="Stretch"/>
+                        <ComboBox Header="Risk Profile"
+                                  SelectedIndex="{x:Bind ViewModel.SelectedRiskProfileIndex, Mode=TwoWay}"
+                                  HorizontalAlignment="Stretch">
+                            <ComboBoxItem Content="Conservative"/>
+                            <ComboBoxItem Content="Moderate"/>
+                            <ComboBoxItem Content="Aggressive"/>
+                        </ComboBox>
+                        <Button Content="Save Portfolio"
+                                Command="{x:Bind ViewModel.SavePortfolioCommand}"
+                                IsEnabled="{x:Bind ViewModel.IsConnected, Mode=OneWay}"
+                                Style="{StaticResource AccentButtonStyle}"
+                                HorizontalAlignment="Stretch"/>
+                    </StackPanel>
+
+                    <Border Height="1" Background="{ThemeResource DividerStrokeColorDefaultBrush}"/>
+
+                    <!-- Watched Assets -->
+                    <StackPanel Spacing="8">
+                        <TextBlock Text="Watched Assets" Style="{StaticResource SubtitleTextBlockStyle}"/>
+
+                        <ListView ItemsSource="{x:Bind ViewModel.WatchedAssets, Mode=OneWay}"
+                                  SelectionMode="None">
+                            <ListView.ItemContainerStyle>
+                                <Style TargetType="ListViewItem">
+                                    <Setter Property="Padding" Value="0"/>
+                                    <Setter Property="MinHeight" Value="0"/>
+                                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                                </Style>
+                            </ListView.ItemContainerStyle>
+                            <ListView.ItemTemplate>
+                                <DataTemplate x:DataType="models:AssetPosition">
+                                    <Border Padding="0,8"
+                                            BorderBrush="{ThemeResource DividerStrokeColorDefaultBrush}"
+                                            BorderThickness="0,0,0,1">
+                                        <Grid ColumnSpacing="8">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="Auto"/>
+                                            </Grid.ColumnDefinitions>
+                                            <StackPanel Grid.Column="0" Spacing="4">
+                                                <StackPanel Orientation="Horizontal" Spacing="6">
+                                                    <TextBlock Text="{x:Bind Symbol, Mode=OneWay}"
+                                                               FontWeight="SemiBold"/>
+                                                    <TextBlock Text="{x:Bind Type, Mode=OneWay}"
+                                                               Foreground="{ThemeResource TextFillColorSecondaryBrush}"
+                                                               FontSize="11"
+                                                               VerticalAlignment="Center"/>
+                                                </StackPanel>
+                                                <TextBlock Text="{x:Bind Name, Mode=OneWay}"
+                                                           Foreground="{ThemeResource TextFillColorSecondaryBrush}"
+                                                           FontSize="12"
+                                                           TextTrimming="CharacterEllipsis"/>
+                                                <NumberBox Value="{x:Bind SharesOwned, Mode=TwoWay}"
+                                                           PlaceholderText="Shares owned"
+                                                           Minimum="0"
+                                                           SmallChange="1"
+                                                           SpinButtonPlacementMode="Hidden"
+                                                           FontSize="12"
+                                                           HorizontalAlignment="Stretch"/>
+                                            </StackPanel>
+                                            <Button Grid.Column="1"
+                                                    Content="✕"
+                                                    Command="{Binding ViewModel.RemoveAssetCommand, ElementName=PageRoot}"
+                                                    CommandParameter="{x:Bind}"
+                                                    VerticalAlignment="Center"
+                                                    Padding="8,4"
+                                                    FontSize="11"/>
+                                        </Grid>
+                                    </Border>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+
+                        <!-- Add Asset Form -->
+                        <Border Background="{ThemeResource LayerFillColorDefaultBrush}"
+                                CornerRadius="4"
+                                Padding="10">
+                            <StackPanel Spacing="6">
+                                <TextBlock Text="Add asset"
+                                           Style="{StaticResource CaptionTextBlockStyle}"
+                                           Foreground="{ThemeResource TextFillColorSecondaryBrush}"/>
+                                <TextBox PlaceholderText="Symbol (e.g. AAPL)"
+                                         Text="{x:Bind ViewModel.NewAssetSymbol, Mode=TwoWay}"/>
+                                <TextBox PlaceholderText="Name (e.g. Apple Inc.)"
+                                         Text="{x:Bind ViewModel.NewAssetName, Mode=TwoWay}"/>
+                                <ComboBox SelectedIndex="{x:Bind ViewModel.SelectedAssetTypeIndex, Mode=TwoWay}"
+                                          HorizontalAlignment="Stretch">
+                                    <ComboBoxItem Content="Stock"/>
+                                    <ComboBoxItem Content="ETF"/>
+                                    <ComboBoxItem Content="Crypto"/>
+                                    <ComboBoxItem Content="Forex"/>
+                                </ComboBox>
+                                <Button Content="Add Asset"
+                                        Command="{x:Bind ViewModel.AddAssetCommand}"
+                                        HorizontalAlignment="Stretch"/>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+
+                </StackPanel>
+            </ScrollViewer>
+        </Border>
+
+        <!-- ═══ RIGHT PANEL ══════════════════════════════════════════════════ -->
+        <ScrollViewer Grid.Column="1"
+                      VerticalScrollBarVisibility="Auto"
+                      Padding="16">
             <StackPanel Spacing="16">
 
-                <!-- Summary Card -->
+                <!-- Market Summary -->
                 <Border Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
                         BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
                         BorderThickness="1"
                         CornerRadius="8"
                         Padding="16">
                     <StackPanel Spacing="8">
-                        <TextBlock Text="Market Summary" Style="{StaticResource SubtitleTextBlockStyle}"/>
-                        <TextBlock x:Name="SummaryText"
-                                   Text="{x:Bind ViewModel.Summary, Mode=OneWay}"
+                        <StackPanel Orientation="Horizontal" Spacing="12">
+                            <TextBlock Text="Market Summary" Style="{StaticResource SubtitleTextBlockStyle}"/>
+                            <TextBlock Text="{x:Bind ViewModel.LastAnalysisDate, Mode=OneWay}"
+                                       VerticalAlignment="Center"
+                                       Style="{StaticResource CaptionTextBlockStyle}"
+                                       Foreground="{ThemeResource TextFillColorSecondaryBrush}"/>
+                        </StackPanel>
+                        <TextBlock Text="{x:Bind ViewModel.Summary, Mode=OneWay}"
                                    TextWrapping="Wrap"
                                    Style="{StaticResource BodyTextBlockStyle}"/>
-                        <TextBlock x:Name="LastAnalysisText"
-                                   Style="{StaticResource CaptionTextBlockStyle}"
-                                   Foreground="{ThemeResource TextFillColorSecondaryBrush}"/>
-                    </StackPanel>
-                </Border>
-
-                <!-- Opportunities -->
-                <Border Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
-                        BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
-                        BorderThickness="1"
-                        CornerRadius="8"
-                        Padding="16">
-                    <StackPanel Spacing="12">
-                        <StackPanel Orientation="Horizontal" Spacing="8">
-                            <TextBlock Text="Trading Opportunities" Style="{StaticResource SubtitleTextBlockStyle}"/>
-                            <Border Background="{ThemeResource AccentFillColorDefaultBrush}"
-                                    CornerRadius="10"
-                                    Padding="8,2"
-                                    VerticalAlignment="Center">
-                                <TextBlock x:Name="OpportunityCount"
-                                           Text="0"
-                                           Foreground="White"
-                                           FontWeight="SemiBold"/>
-                            </Border>
-                        </StackPanel>
-
-                        <!-- Opportunities List -->
-                        <ListView x:Name="OpportunitiesList"
-                                  ItemsSource="{x:Bind ViewModel.Opportunities, Mode=OneWay}"
-                                  SelectionMode="None">
-                            <ListView.ItemTemplate>
-                                <DataTemplate>
-                                    <Border Background="{ThemeResource LayerFillColorDefaultBrush}"
-                                            BorderBrush="{ThemeResource DividerStrokeColorDefaultBrush}"
-                                            BorderThickness="1"
-                                            CornerRadius="4"
-                                            Padding="12"
-                                            Margin="0,4">
-                                        <StackPanel Spacing="4">
-                                            <StackPanel Orientation="Horizontal" Spacing="8">
-                                                <TextBlock Text="{Binding Symbol}"
-                                                           FontWeight="SemiBold"
-                                                           FontSize="16"/>
-                                                <TextBlock Text="-"
-                                                           Foreground="{ThemeResource TextFillColorSecondaryBrush}"/>
-                                                <TextBlock Text="{Binding Direction}"
-                                                           FontWeight="SemiBold"/>
-                                                <Border Background="{ThemeResource SystemFillColorSuccessBackgroundBrush}"
-                                                        CornerRadius="4"
-                                                        Padding="6,2">
-                                                    <TextBlock Text="{Binding ConfidenceLevel}"
-                                                               FontSize="12"/>
-                                                </Border>
-                                            </StackPanel>
-                                            <TextBlock Text="{Binding Reason}"
-                                                       TextWrapping="Wrap"
-                                                       Foreground="{ThemeResource TextFillColorSecondaryBrush}"/>
-                                            <TextBlock Text="{Binding Timeframe}"
-                                                       Style="{StaticResource CaptionTextBlockStyle}"
-                                                       Foreground="{ThemeResource TextFillColorTertiaryBrush}"/>
-                                        </StackPanel>
-                                    </Border>
-                                </DataTemplate>
-                            </ListView.ItemTemplate>
-                        </ListView>
                     </StackPanel>
                 </Border>
 
@@ -131,7 +196,6 @@
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-
                     <Border Grid.Column="0"
                             Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
                             BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
@@ -145,7 +209,6 @@
                                        Style="{StaticResource BodyTextBlockStyle}"/>
                         </StackPanel>
                     </Border>
-
                     <Border Grid.Column="1"
                             Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
                             BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
@@ -161,34 +224,150 @@
                     </Border>
                 </Grid>
 
-                <!-- Service Info -->
+                <!-- Trading Opportunities -->
                 <Border Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
                         BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
                         BorderThickness="1"
                         CornerRadius="8"
                         Padding="16">
-                    <Grid ColumnSpacing="24">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="*"/>
-                        </Grid.ColumnDefinitions>
-
-                        <StackPanel Grid.Column="0" Spacing="4">
-                            <TextBlock Text="Next Scheduled Analysis"
-                                       Style="{StaticResource CaptionTextBlockStyle}"
-                                       Foreground="{ThemeResource TextFillColorSecondaryBrush}"/>
-                            <TextBlock x:Name="NextAnalysisText"
-                                       Style="{StaticResource BodyTextBlockStyle}"/>
+                    <StackPanel Spacing="12">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <TextBlock Text="Trading Opportunities" Style="{StaticResource SubtitleTextBlockStyle}"/>
+                            <Border Background="{ThemeResource AccentFillColorDefaultBrush}"
+                                    CornerRadius="10"
+                                    Padding="8,2"
+                                    VerticalAlignment="Center">
+                                <TextBlock Text="{x:Bind ViewModel.Opportunities.Count, Mode=OneWay}"
+                                           Foreground="White"
+                                           FontWeight="SemiBold"
+                                           FontSize="12"/>
+                            </Border>
                         </StackPanel>
+                        <ListView ItemsSource="{x:Bind ViewModel.Opportunities, Mode=OneWay}"
+                                  SelectionMode="None">
+                            <ListView.ItemContainerStyle>
+                                <Style TargetType="ListViewItem">
+                                    <Setter Property="Padding" Value="0"/>
+                                    <Setter Property="MinHeight" Value="0"/>
+                                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                                </Style>
+                            </ListView.ItemContainerStyle>
+                            <ListView.ItemTemplate>
+                                <DataTemplate x:DataType="dtos:OpportunityDto">
+                                    <Border Background="{ThemeResource LayerFillColorDefaultBrush}"
+                                            BorderBrush="{ThemeResource DividerStrokeColorDefaultBrush}"
+                                            BorderThickness="1"
+                                            CornerRadius="4"
+                                            Padding="12"
+                                            Margin="0,4">
+                                        <StackPanel Spacing="4">
+                                            <StackPanel Orientation="Horizontal" Spacing="8">
+                                                <TextBlock Text="{x:Bind Symbol}"
+                                                           FontWeight="SemiBold"
+                                                           FontSize="15"/>
+                                                <TextBlock Text="{x:Bind Direction}"
+                                                           FontWeight="SemiBold"
+                                                           Foreground="{ThemeResource AccentFillColorDefaultBrush}"/>
+                                                <Border Background="{ThemeResource SystemFillColorSuccessBackgroundBrush}"
+                                                        CornerRadius="4"
+                                                        Padding="6,2">
+                                                    <TextBlock Text="{x:Bind ConfidenceLevel}" FontSize="11"/>
+                                                </Border>
+                                            </StackPanel>
+                                            <TextBlock Text="{x:Bind Reason}"
+                                                       TextWrapping="Wrap"
+                                                       Foreground="{ThemeResource TextFillColorSecondaryBrush}"/>
+                                            <StackPanel Orientation="Horizontal" Spacing="16">
+                                                <TextBlock FontSize="12"
+                                                           Foreground="{ThemeResource TextFillColorTertiaryBrush}">
+                                                    <Run Text="Target: "/>
+                                                    <Run Text="{x:Bind TargetPriceText}"/>
+                                                </TextBlock>
+                                                <TextBlock FontSize="12"
+                                                           Foreground="{ThemeResource TextFillColorTertiaryBrush}">
+                                                    <Run Text="Stop: "/>
+                                                    <Run Text="{x:Bind StopLossText}"/>
+                                                </TextBlock>
+                                                <TextBlock Text="{x:Bind Timeframe}"
+                                                           FontSize="12"
+                                                           Foreground="{ThemeResource TextFillColorTertiaryBrush}"/>
+                                            </StackPanel>
+                                        </StackPanel>
+                                    </Border>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </StackPanel>
+                </Border>
 
-                        <StackPanel Grid.Column="1" Spacing="4">
-                            <TextBlock Text="Watched Assets"
-                                       Style="{StaticResource CaptionTextBlockStyle}"
-                                       Foreground="{ThemeResource TextFillColorSecondaryBrush}"/>
-                            <TextBlock x:Name="WatchedAssetsText"
-                                       Style="{StaticResource BodyTextBlockStyle}"/>
+                <!-- Portfolio Positions -->
+                <Border Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+                        BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+                        BorderThickness="1"
+                        CornerRadius="8"
+                        Padding="16">
+                    <StackPanel Spacing="12">
+                        <StackPanel Orientation="Horizontal" Spacing="12">
+                            <TextBlock Text="My Positions" Style="{StaticResource SubtitleTextBlockStyle}"/>
+                            <TextBlock Text="{x:Bind ViewModel.PortfolioValueText, Mode=OneWay}"
+                                       VerticalAlignment="Center"
+                                       FontWeight="SemiBold"
+                                       Foreground="{ThemeResource AccentFillColorDefaultBrush}"/>
                         </StackPanel>
-                    </Grid>
+                        <ListView ItemsSource="{x:Bind ViewModel.PortfolioSnapshot, Mode=OneWay}"
+                                  SelectionMode="None">
+                            <ListView.ItemContainerStyle>
+                                <Style TargetType="ListViewItem">
+                                    <Setter Property="Padding" Value="0"/>
+                                    <Setter Property="MinHeight" Value="0"/>
+                                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                                </Style>
+                            </ListView.ItemContainerStyle>
+                            <ListView.ItemTemplate>
+                                <DataTemplate x:DataType="vm:AssetSnapshot">
+                                    <Border Padding="4,8"
+                                            BorderBrush="{ThemeResource DividerStrokeColorDefaultBrush}"
+                                            BorderThickness="0,0,0,1">
+                                        <Grid ColumnSpacing="12">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="70"/>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="60"/>
+                                                <ColumnDefinition Width="100"/>
+                                                <ColumnDefinition Width="120"/>
+                                            </Grid.ColumnDefinitions>
+                                            <TextBlock Grid.Column="0"
+                                                       Text="{x:Bind Symbol}"
+                                                       FontWeight="SemiBold"
+                                                       VerticalAlignment="Center"/>
+                                            <TextBlock Grid.Column="1"
+                                                       Text="{x:Bind Name}"
+                                                       Foreground="{ThemeResource TextFillColorSecondaryBrush}"
+                                                       TextTrimming="CharacterEllipsis"
+                                                       VerticalAlignment="Center"/>
+                                            <TextBlock Grid.Column="2"
+                                                       Text="{x:Bind Direction}"
+                                                       Foreground="{ThemeResource AccentFillColorDefaultBrush}"
+                                                       VerticalAlignment="Center"/>
+                                            <StackPanel Grid.Column="3" VerticalAlignment="Center">
+                                                <TextBlock FontSize="13" FontWeight="SemiBold">
+                                                    <Run Text="{x:Bind SharesText}"/>
+                                                </TextBlock>
+                                                <TextBlock Text="shares"
+                                                           FontSize="10"
+                                                           Foreground="{ThemeResource TextFillColorSecondaryBrush}"/>
+                                            </StackPanel>
+                                            <TextBlock Grid.Column="4"
+                                                       Text="{x:Bind EstimatedValueText}"
+                                                       HorizontalAlignment="Right"
+                                                       VerticalAlignment="Center"
+                                                       FontWeight="SemiBold"/>
+                                        </Grid>
+                                    </Border>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </StackPanel>
                 </Border>
 
             </StackPanel>

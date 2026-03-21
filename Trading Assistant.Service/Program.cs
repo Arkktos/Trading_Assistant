@@ -2,10 +2,26 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Logging.EventLog;
+using Serilog;
 using Trading_Assistant.Service.Configuration;
 using Trading_Assistant.Service.Services;
 using Trading_Assistant.Service.State;
+
+var logFolder = Path.Combine(
+    Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData),
+    "Trading Assistant", "logs");
+Directory.CreateDirectory(logFolder);
+
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Information()
+    .MinimumLevel.Override("Microsoft", Serilog.Events.LogEventLevel.Warning)
+    .MinimumLevel.Override("Microsoft.Hosting.Lifetime", Serilog.Events.LogEventLevel.Information)
+    .WriteTo.File(
+        path: Path.Combine(logFolder, "service-.log"),
+        rollingInterval: RollingInterval.Day,
+        retainedFileCountLimit: 30,
+        outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] {SourceContext}: {Message:lj}{NewLine}{Exception}")
+    .CreateLogger();
 
 var builder = Host.CreateApplicationBuilder(args);
 
@@ -23,15 +39,11 @@ builder.Configuration.Bind(appConfig);
 if (Environment.GetEnvironmentVariable("ALPHA_VANTAGE_API_KEY") is { } alphaKey)
     appConfig.AlphaVantage.ApiKey = alphaKey;
 
-if (Environment.GetEnvironmentVariable("GMAIL_APP_PASSWORD") is { } gmailPassword)
-    appConfig.Email.Password = gmailPassword;
-
 // Register configuration sections
 builder.Services.AddSingleton(appConfig);
 builder.Services.AddSingleton(appConfig.Trading);
 builder.Services.AddSingleton(appConfig.Claude);
 builder.Services.AddSingleton(appConfig.AlphaVantage);
-builder.Services.AddSingleton(appConfig.Email);
 builder.Services.AddSingleton(appConfig.Schedule);
 
 // Register Configuration Service
@@ -40,9 +52,9 @@ builder.Services.AddSingleton<IConfigurationService>(sp =>
     new ConfigurationService(configPath, sp.GetRequiredService<ILogger<ConfigurationService>>()));
 
 // Register Core services
+builder.Services.AddSingleton<IPortfolioService, PortfolioService>();
 builder.Services.AddSingleton<IMarketDataService, MarketDataService>();
 builder.Services.AddSingleton<IClaudeAnalysisService, ClaudeAnalysisService>();
-builder.Services.AddSingleton<IEmailService, EmailService>();
 
 // Register Service state
 builder.Services.AddSingleton<ServiceState>();
@@ -54,20 +66,9 @@ builder.Services.AddHostedService(sp => sp.GetRequiredService<Trading_Assistant.
 // Register IPC Server Host
 builder.Services.AddHostedService<Trading_Assistant.Service.IpcServerHost>();
 
-// Configure logging
+// Configure logging — Serilog with rolling file
 builder.Logging.ClearProviders();
-builder.Logging.AddConsole();
-
-if (OperatingSystem.IsWindows())
-{
-    builder.Logging.AddEventLog(new EventLogSettings
-    {
-        SourceName = "TradingAssistantService",
-        LogName = "Application"
-    });
-}
-
-builder.Logging.SetMinimumLevel(LogLevel.Information);
+builder.Logging.AddSerilog(Log.Logger, dispose: true);
 
 var host = builder.Build();
 

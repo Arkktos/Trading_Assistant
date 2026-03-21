@@ -53,7 +53,7 @@
     <genTemplate:Item Name="appmodel" Value="Desktop" />
   </genTemplate:Metadata>
   <build:Metadata>
-    <build:Item Name="Microsoft.UI.Xaml.Markup.Compiler.dll" Version="3.0.0.2512" />
+    <build:Item Name="Microsoft.UI.Xaml.Markup.Compiler.dll" Version="3.0.0.2602" />
     <build:Item Name="makepri.exe" Version="10.0.26100.4654 (WinBuild.160101.0800)" />
   </build:Metadata>
 </Package>

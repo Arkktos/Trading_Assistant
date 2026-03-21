@@ -19,7 +19,9 @@ public class NamedPipeClient : IServiceCommandClient
 
     public bool IsConnected => _pipeClient?.IsConnected ?? false;
 
+#pragma warning disable CS0067 // Event is never used - reserved for future server-push protocol
     public event EventHandler<ServiceEvent>? EventReceived;
+#pragma warning restore CS0067
     public event EventHandler<bool>? ConnectionStateChanged;
 
     public NamedPipeClient(ILogger<NamedPipeClient> logger)
@@ -154,22 +156,20 @@ public class NamedPipeClient : IServiceCommandClient
             : new();
     }
 
-    public async Task<bool> UpdateAssetsAsync(UpdateAssetsCommandDto dto)
+    public async Task<PortfolioDto?> GetPortfolioAsync()
     {
-        var command = new ServiceCommand
-        {
-            Type = CommandType.UpdateAssets,
-            Payload = JsonSerializer.Serialize(dto)
-        };
+        var command = new ServiceCommand { Type = CommandType.GetPortfolio };
         var response = await SendCommandAsync(command);
-        return response.Success;
+        return response.Success && response.Result != null
+            ? JsonSerializer.Deserialize<PortfolioDto>(response.Result)
+            : null;
     }
 
-    public async Task<bool> UpdateTradingConfigAsync(UpdateTradingConfigDto dto)
+    public async Task<bool> UpdatePortfolioAsync(PortfolioDto dto)
     {
         var command = new ServiceCommand
         {
-            Type = CommandType.UpdateTradingConfig,
+            Type = CommandType.UpdatePortfolio,
             Payload = JsonSerializer.Serialize(dto)
         };
         var response = await SendCommandAsync(command);

@@ -11,7 +11,7 @@ public class AnalysisBackgroundService : BackgroundService
     private readonly ILogger<AnalysisBackgroundService> _logger;
     private readonly IMarketDataService _marketDataService;
     private readonly IClaudeAnalysisService _claudeService;
-    private readonly IEmailService _emailService;
+    private readonly IPortfolioService _portfolioService;
     private readonly IConfigurationService _configService;
     private readonly ServiceState _state;
     private readonly ScheduleConfig _scheduleConfig;
@@ -23,7 +23,7 @@ public class AnalysisBackgroundService : BackgroundService
         ILogger<AnalysisBackgroundService> logger,
         IMarketDataService marketDataService,
         IClaudeAnalysisService claudeService,
-        IEmailService emailService,
+        IPortfolioService portfolioService,
         IConfigurationService configService,
         ServiceState state,
         ScheduleConfig scheduleConfig)
@@ -31,7 +31,7 @@ public class AnalysisBackgroundService : BackgroundService
         _logger = logger;
         _marketDataService = marketDataService;
         _claudeService = claudeService;
-        _emailService = emailService;
+        _portfolioService = portfolioService;
         _configService = configService;
         _state = state;
         _scheduleConfig = scheduleConfig;
@@ -104,8 +104,28 @@ public class AnalysisBackgroundService : BackgroundService
             _logger.LogInformation("Starting market analysis");
             await _state.SetAnalyzingAsync(true);
 
-            var config = _configService.LoadConfiguration();
-            var watchedAssets = config.Trading.WatchedAssets;
+            // Load portfolio from service-owned file; fall back to appsettings if empty (first run)
+            var portfolio = await _portfolioService.LoadAsync();
+            List<Models.Asset> watchedAssets;
+            decimal availableCapital;
+            string riskProfile;
+
+            if (portfolio.Assets.Any())
+            {
+                watchedAssets = portfolio.Assets
+                    .Select(a => new Models.Asset { Symbol = a.Symbol, Name = a.Name, Type = a.Type })
+                    .ToList();
+                availableCapital = portfolio.AvailableCapital;
+                riskProfile = portfolio.RiskProfile;
+            }
+            else
+            {
+                _logger.LogInformation("Portfolio file empty, falling back to appsettings.json");
+                var config = _configService.LoadConfiguration();
+                watchedAssets = config.Trading.WatchedAssets;
+                availableCapital = config.Trading.AvailableCapital;
+                riskProfile = config.Trading.RiskProfile;
+            }
 
             if (!watchedAssets.Any())
             {
@@ -129,22 +149,11 @@ public class AnalysisBackgroundService : BackgroundService
 
             var analysisResult = await _claudeService.AnalyzeMarketDataAsync(
                 marketDataList,
-                config.Trading.AvailableCapital,
-                config.Trading.RiskProfile);
+                availableCapital,
+                riskProfile);
 
             await _state.SetLastAnalysisAsync(analysisResult);
             _logger.LogInformation("Analysis completed. Found {Count} opportunities", analysisResult.Opportunities.Count);
-
-            if (_state.ShouldSendEmail())
-            {
-                _logger.LogInformation("No UI registered, sending email notification");
-                await _emailService.SendAnalysisReportAsync(analysisResult, marketDataList);
-                _logger.LogInformation("Email sent successfully");
-            }
-            else
-            {
-                _logger.LogInformation("UI is active ({Count} clients registered), skipping email", _state.RegisteredUICount);
-            }
         }
         catch (Exception ex)
         {

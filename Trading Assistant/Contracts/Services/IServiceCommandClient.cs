@@ -19,8 +19,8 @@ public interface IServiceCommandClient : IDisposable
     Task<ServiceStatusDto?> GetStatusAsync();
     Task<AnalysisResultDto?> GetLastAnalysisAsync();
     Task<List<OpportunityDto>> GetOpportunitiesAsync();
-    Task<bool> UpdateAssetsAsync(UpdateAssetsCommandDto dto);
-    Task<bool> UpdateTradingConfigAsync(UpdateTradingConfigDto dto);
+    Task<PortfolioDto?> GetPortfolioAsync();
+    Task<bool> UpdatePortfolioAsync(PortfolioDto dto);
     Task<bool> RequestAnalysisAsync();
     Task RegisterUIAsync();
     Task UnregisterUIAsync();

@@ -14,10 +14,10 @@ namespace Trading_Assistant
 {
     public partial class App : global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2512")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2602")]
         private global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMetaDataProvider __appProvider;
 
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2512")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2602")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         private global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMetaDataProvider _AppProvider
         {
@@ -34,7 +34,7 @@ namespace Trading_Assistant
         /// <summary>
         /// GetXamlType(Type)
         /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2512")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2602")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         public global::Microsoft.UI.Xaml.Markup.IXamlType GetXamlType(global::System.Type type)
         {
@@ -44,7 +44,7 @@ namespace Trading_Assistant
         /// <summary>
         /// GetXamlType(String)
         /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2512")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2602")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         public global::Microsoft.UI.Xaml.Markup.IXamlType GetXamlType(string fullName)
         {
@@ -54,7 +54,7 @@ namespace Trading_Assistant
         /// <summary>
         /// GetXmlnsDefinitions()
         /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2512")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2602")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         public global::Microsoft.UI.Xaml.Markup.XmlnsDefinition[] GetXmlnsDefinitions()
         {
@@ -68,7 +68,7 @@ namespace Trading_Assistant.Trading_Assistant_XamlTypeInfo
     /// <summary>
     /// Main class for providing metadata for the app or library
     /// </summary>
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2512")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2602")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     public sealed partial class XamlMetaDataProvider : global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider
     {
@@ -112,7 +112,7 @@ namespace Trading_Assistant.Trading_Assistant_XamlTypeInfo
         }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2512")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2602")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal partial class XamlTypeInfoProvider
     {
@@ -226,183 +226,97 @@ namespace Trading_Assistant.Trading_Assistant_XamlTypeInfo
         
         private void InitTypeTables()
         {
-            _typeNameTable = new string[85];
+            _typeNameTable = new string[42];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
             _typeNameTable[3] = "Boolean";
-            _typeNameTable[4] = "Trading_Assistant.Converters.BoolInverseConverter";
-            _typeNameTable[5] = "Trading_Assistant.Converters.BoolToVisibilityConverter";
-            _typeNameTable[6] = "Trading_Assistant.Converters.BoolToVisibilityInverseConverter";
-            _typeNameTable[7] = "Trading_Assistant.Converters.NullToVisibilityConverter";
-            _typeNameTable[8] = "Trading_Assistant.Converters.CountToVisibilityConverter";
-            _typeNameTable[9] = "Trading_Assistant.Converters.CountToVisibilityInverseConverter";
-            _typeNameTable[10] = "Trading_Assistant.Converters.DecimalToDoubleConverter";
-            _typeNameTable[11] = "WinUIEx.WindowEx";
-            _typeNameTable[12] = "Microsoft.UI.Xaml.Window";
-            _typeNameTable[13] = "Double";
-            _typeNameTable[14] = "String";
-            _typeNameTable[15] = "Microsoft.UI.Windowing.AppWindow";
-            _typeNameTable[16] = "WinUIEx.Icon";
-            _typeNameTable[17] = "WinUIEx.WindowState";
-            _typeNameTable[18] = "System.Enum";
-            _typeNameTable[19] = "System.ValueType";
-            _typeNameTable[20] = "Microsoft.UI.Windowing.AppWindowPresenter";
-            _typeNameTable[21] = "Microsoft.UI.Windowing.AppWindowPresenterKind";
-            _typeNameTable[22] = "WinUIEx.SystemBackdrop";
-            _typeNameTable[23] = "Microsoft.UI.Xaml.Media.MicaBackdrop";
-            _typeNameTable[24] = "Microsoft.UI.Xaml.Media.SystemBackdrop";
-            _typeNameTable[25] = "Microsoft.UI.Composition.SystemBackdrops.MicaKind";
-            _typeNameTable[26] = "Trading_Assistant.MainWindow";
-            _typeNameTable[27] = "Microsoft.UI.Xaml.Thickness";
-            _typeNameTable[28] = "Microsoft.UI.Xaml.CornerRadius";
-            _typeNameTable[29] = "Trading_Assistant.Views.BlankPage";
-            _typeNameTable[30] = "Microsoft.UI.Xaml.Controls.Page";
-            _typeNameTable[31] = "Microsoft.UI.Xaml.Controls.UserControl";
-            _typeNameTable[32] = "Trading_Assistant.ViewModels.BlankViewModel";
-            _typeNameTable[33] = "CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient";
-            _typeNameTable[34] = "CommunityToolkit.Mvvm.ComponentModel.ObservableObject";
-            _typeNameTable[35] = "Microsoft.UI.Xaml.Controls.ProgressRing";
-            _typeNameTable[36] = "Microsoft.UI.Xaml.Controls.Control";
-            _typeNameTable[37] = "Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings";
-            _typeNameTable[38] = "Microsoft.UI.Xaml.DependencyObject";
-            _typeNameTable[39] = "Trading_Assistant.Views.DashboardPage";
-            _typeNameTable[40] = "Trading_Assistant.ViewModels.DashboardViewModel";
-            _typeNameTable[41] = "Trading_Assistant.Views.MainPage";
-            _typeNameTable[42] = "Trading_Assistant.ViewModels.MainViewModel";
-            _typeNameTable[43] = "Microsoft.UI.Xaml.Controls.NumberBox";
-            _typeNameTable[44] = "Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode";
-            _typeNameTable[45] = "Microsoft.UI.Xaml.DataTemplate";
-            _typeNameTable[46] = "Windows.Globalization.NumberFormatting.INumberFormatter2";
-            _typeNameTable[47] = "Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase";
-            _typeNameTable[48] = "Microsoft.UI.Xaml.Media.SolidColorBrush";
-            _typeNameTable[49] = "Microsoft.UI.Xaml.TextReadingOrder";
-            _typeNameTable[50] = "Microsoft.UI.Xaml.Controls.NumberBoxValidationMode";
-            _typeNameTable[51] = "Trading_Assistant.Views.SettingsPage";
-            _typeNameTable[52] = "Trading_Assistant.ViewModels.SettingsViewModel";
-            _typeNameTable[53] = "Microsoft.UI.Xaml.Controls.NavigationView";
-            _typeNameTable[54] = "Microsoft.UI.Xaml.Controls.ContentControl";
-            _typeNameTable[55] = "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible";
-            _typeNameTable[56] = "System.Collections.Generic.IList`1<Object>";
-            _typeNameTable[57] = "Microsoft.UI.Xaml.Controls.AutoSuggestBox";
-            _typeNameTable[58] = "Microsoft.UI.Xaml.UIElement";
-            _typeNameTable[59] = "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode";
-            _typeNameTable[60] = "Microsoft.UI.Xaml.Style";
-            _typeNameTable[61] = "Microsoft.UI.Xaml.Controls.StyleSelector";
-            _typeNameTable[62] = "Microsoft.UI.Xaml.Controls.DataTemplateSelector";
-            _typeNameTable[63] = "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode";
-            _typeNameTable[64] = "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode";
-            _typeNameTable[65] = "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus";
-            _typeNameTable[66] = "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled";
-            _typeNameTable[67] = "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings";
-            _typeNameTable[68] = "Microsoft.Xaml.Interactivity.Interaction";
-            _typeNameTable[69] = "Microsoft.Xaml.Interactivity.BehaviorCollection";
-            _typeNameTable[70] = "Microsoft.UI.Xaml.DependencyObjectCollection";
-            _typeNameTable[71] = "Microsoft.UI.Xaml.Controls.NavigationViewItem";
-            _typeNameTable[72] = "Microsoft.UI.Xaml.Controls.NavigationViewItemBase";
-            _typeNameTable[73] = "Microsoft.UI.Xaml.Controls.IconElement";
-            _typeNameTable[74] = "Microsoft.UI.Xaml.Controls.InfoBadge";
-            _typeNameTable[75] = "Trading_Assistant.Helpers.NavigationHelper";
-            _typeNameTable[76] = "Trading_Assistant.Behaviors.NavigationViewHeaderBehavior";
-            _typeNameTable[77] = "Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.NavigationView>";
-            _typeNameTable[78] = "Microsoft.Xaml.Interactivity.Behavior";
-            _typeNameTable[79] = "Trading_Assistant.Behaviors.NavigationViewHeaderMode";
-            _typeNameTable[80] = "Trading_Assistant.Views.ShellPage";
-            _typeNameTable[81] = "Trading_Assistant.ViewModels.ShellViewModel";
-            _typeNameTable[82] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[83] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
-            _typeNameTable[84] = "Int32";
+            _typeNameTable[4] = "WinUIEx.WindowEx";
+            _typeNameTable[5] = "Microsoft.UI.Xaml.Window";
+            _typeNameTable[6] = "Double";
+            _typeNameTable[7] = "String";
+            _typeNameTable[8] = "Microsoft.UI.Windowing.AppWindow";
+            _typeNameTable[9] = "WinUIEx.Icon";
+            _typeNameTable[10] = "WinUIEx.WindowState";
+            _typeNameTable[11] = "System.Enum";
+            _typeNameTable[12] = "System.ValueType";
+            _typeNameTable[13] = "Microsoft.UI.Windowing.AppWindowPresenter";
+            _typeNameTable[14] = "Microsoft.UI.Windowing.AppWindowPresenterKind";
+            _typeNameTable[15] = "WinUIEx.SystemBackdrop";
+            _typeNameTable[16] = "Microsoft.UI.Xaml.Media.MicaBackdrop";
+            _typeNameTable[17] = "Microsoft.UI.Xaml.Media.SystemBackdrop";
+            _typeNameTable[18] = "Microsoft.UI.Composition.SystemBackdrops.MicaKind";
+            _typeNameTable[19] = "Trading_Assistant.MainWindow";
+            _typeNameTable[20] = "Microsoft.UI.Xaml.Thickness";
+            _typeNameTable[21] = "Microsoft.UI.Xaml.CornerRadius";
+            _typeNameTable[22] = "Microsoft.UI.Xaml.Controls.NumberBox";
+            _typeNameTable[23] = "Microsoft.UI.Xaml.Controls.Control";
+            _typeNameTable[24] = "Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode";
+            _typeNameTable[25] = "Microsoft.UI.Xaml.DataTemplate";
+            _typeNameTable[26] = "Windows.Globalization.NumberFormatting.INumberFormatter2";
+            _typeNameTable[27] = "Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase";
+            _typeNameTable[28] = "Microsoft.UI.Xaml.Media.SolidColorBrush";
+            _typeNameTable[29] = "Microsoft.UI.Xaml.TextReadingOrder";
+            _typeNameTable[30] = "Microsoft.UI.Xaml.Controls.NumberBoxValidationMode";
+            _typeNameTable[31] = "Microsoft.UI.Xaml.Controls.ProgressRing";
+            _typeNameTable[32] = "Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings";
+            _typeNameTable[33] = "Microsoft.UI.Xaml.DependencyObject";
+            _typeNameTable[34] = "Trading_Assistant.Views.DashboardPage";
+            _typeNameTable[35] = "Microsoft.UI.Xaml.Controls.Page";
+            _typeNameTable[36] = "Microsoft.UI.Xaml.Controls.UserControl";
+            _typeNameTable[37] = "Trading_Assistant.ViewModels.DashboardViewModel";
+            _typeNameTable[38] = "CommunityToolkit.Mvvm.ComponentModel.ObservableObject";
+            _typeNameTable[39] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[40] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[41] = "Int32";
 
-            _typeTable = new global::System.Type[85];
+            _typeTable = new global::System.Type[42];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
             _typeTable[3] = typeof(global::System.Boolean);
-            _typeTable[4] = typeof(global::Trading_Assistant.Converters.BoolInverseConverter);
-            _typeTable[5] = typeof(global::Trading_Assistant.Converters.BoolToVisibilityConverter);
-            _typeTable[6] = typeof(global::Trading_Assistant.Converters.BoolToVisibilityInverseConverter);
-            _typeTable[7] = typeof(global::Trading_Assistant.Converters.NullToVisibilityConverter);
-            _typeTable[8] = typeof(global::Trading_Assistant.Converters.CountToVisibilityConverter);
-            _typeTable[9] = typeof(global::Trading_Assistant.Converters.CountToVisibilityInverseConverter);
-            _typeTable[10] = typeof(global::Trading_Assistant.Converters.DecimalToDoubleConverter);
-            _typeTable[11] = typeof(global::WinUIEx.WindowEx);
-            _typeTable[12] = typeof(global::Microsoft.UI.Xaml.Window);
-            _typeTable[13] = typeof(global::System.Double);
-            _typeTable[14] = typeof(global::System.String);
-            _typeTable[15] = typeof(global::Microsoft.UI.Windowing.AppWindow);
+            _typeTable[4] = typeof(global::WinUIEx.WindowEx);
+            _typeTable[5] = typeof(global::Microsoft.UI.Xaml.Window);
+            _typeTable[6] = typeof(global::System.Double);
+            _typeTable[7] = typeof(global::System.String);
+            _typeTable[8] = typeof(global::Microsoft.UI.Windowing.AppWindow);
 #pragma warning disable 0618  //   Warning on Deprecated usage
-            _typeTable[16] = typeof(global::WinUIEx.Icon);
+            _typeTable[9] = typeof(global::WinUIEx.Icon);
 #pragma warning restore 0618
-            _typeTable[17] = typeof(global::WinUIEx.WindowState);
-            _typeTable[18] = typeof(global::System.Enum);
-            _typeTable[19] = typeof(global::System.ValueType);
-            _typeTable[20] = typeof(global::Microsoft.UI.Windowing.AppWindowPresenter);
-            _typeTable[21] = typeof(global::Microsoft.UI.Windowing.AppWindowPresenterKind);
+            _typeTable[10] = typeof(global::WinUIEx.WindowState);
+            _typeTable[11] = typeof(global::System.Enum);
+            _typeTable[12] = typeof(global::System.ValueType);
+            _typeTable[13] = typeof(global::Microsoft.UI.Windowing.AppWindowPresenter);
+            _typeTable[14] = typeof(global::Microsoft.UI.Windowing.AppWindowPresenterKind);
 #pragma warning disable 0618  //   Warning on Deprecated usage
-            _typeTable[22] = typeof(global::WinUIEx.SystemBackdrop);
+            _typeTable[15] = typeof(global::WinUIEx.SystemBackdrop);
 #pragma warning restore 0618
-            _typeTable[23] = typeof(global::Microsoft.UI.Xaml.Media.MicaBackdrop);
-            _typeTable[24] = typeof(global::Microsoft.UI.Xaml.Media.SystemBackdrop);
-            _typeTable[25] = typeof(global::Microsoft.UI.Composition.SystemBackdrops.MicaKind);
-            _typeTable[26] = typeof(global::Trading_Assistant.MainWindow);
-            _typeTable[27] = typeof(global::Microsoft.UI.Xaml.Thickness);
-            _typeTable[28] = typeof(global::Microsoft.UI.Xaml.CornerRadius);
-            _typeTable[29] = typeof(global::Trading_Assistant.Views.BlankPage);
-            _typeTable[30] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
-            _typeTable[31] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
-            _typeTable[32] = typeof(global::Trading_Assistant.ViewModels.BlankViewModel);
-            _typeTable[33] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient);
-            _typeTable[34] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject);
-            _typeTable[35] = typeof(global::Microsoft.UI.Xaml.Controls.ProgressRing);
-            _typeTable[36] = typeof(global::Microsoft.UI.Xaml.Controls.Control);
-            _typeTable[37] = typeof(global::Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings);
-            _typeTable[38] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
-            _typeTable[39] = typeof(global::Trading_Assistant.Views.DashboardPage);
-            _typeTable[40] = typeof(global::Trading_Assistant.ViewModels.DashboardViewModel);
-            _typeTable[41] = typeof(global::Trading_Assistant.Views.MainPage);
-            _typeTable[42] = typeof(global::Trading_Assistant.ViewModels.MainViewModel);
-            _typeTable[43] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBox);
-            _typeTable[44] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode);
-            _typeTable[45] = typeof(global::Microsoft.UI.Xaml.DataTemplate);
-            _typeTable[46] = typeof(global::Windows.Globalization.NumberFormatting.INumberFormatter2);
-            _typeTable[47] = typeof(global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase);
-            _typeTable[48] = typeof(global::Microsoft.UI.Xaml.Media.SolidColorBrush);
-            _typeTable[49] = typeof(global::Microsoft.UI.Xaml.TextReadingOrder);
-            _typeTable[50] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode);
-            _typeTable[51] = typeof(global::Trading_Assistant.Views.SettingsPage);
-            _typeTable[52] = typeof(global::Trading_Assistant.ViewModels.SettingsViewModel);
-            _typeTable[53] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationView);
-            _typeTable[54] = typeof(global::Microsoft.UI.Xaml.Controls.ContentControl);
-            _typeTable[55] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible);
-            _typeTable[56] = typeof(global::System.Collections.Generic.IList<global::System.Object>);
-            _typeTable[57] = typeof(global::Microsoft.UI.Xaml.Controls.AutoSuggestBox);
-            _typeTable[58] = typeof(global::Microsoft.UI.Xaml.UIElement);
-            _typeTable[59] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode);
-            _typeTable[60] = typeof(global::Microsoft.UI.Xaml.Style);
-            _typeTable[61] = typeof(global::Microsoft.UI.Xaml.Controls.StyleSelector);
-            _typeTable[62] = typeof(global::Microsoft.UI.Xaml.Controls.DataTemplateSelector);
-            _typeTable[63] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode);
-            _typeTable[64] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode);
-            _typeTable[65] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus);
-            _typeTable[66] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled);
-            _typeTable[67] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings);
-            _typeTable[68] = typeof(global::Microsoft.Xaml.Interactivity.Interaction);
-            _typeTable[69] = typeof(global::Microsoft.Xaml.Interactivity.BehaviorCollection);
-            _typeTable[70] = typeof(global::Microsoft.UI.Xaml.DependencyObjectCollection);
-            _typeTable[71] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItem);
-            _typeTable[72] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase);
-            _typeTable[73] = typeof(global::Microsoft.UI.Xaml.Controls.IconElement);
-            _typeTable[74] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBadge);
-            _typeTable[75] = typeof(global::Trading_Assistant.Helpers.NavigationHelper);
-            _typeTable[76] = typeof(global::Trading_Assistant.Behaviors.NavigationViewHeaderBehavior);
-            _typeTable[77] = typeof(global::Microsoft.Xaml.Interactivity.Behavior<global::Microsoft.UI.Xaml.Controls.NavigationView>);
-            _typeTable[78] = typeof(global::Microsoft.Xaml.Interactivity.Behavior);
-            _typeTable[79] = typeof(global::Trading_Assistant.Behaviors.NavigationViewHeaderMode);
-            _typeTable[80] = typeof(global::Trading_Assistant.Views.ShellPage);
-            _typeTable[81] = typeof(global::Trading_Assistant.ViewModels.ShellViewModel);
-            _typeTable[82] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[83] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
-            _typeTable[84] = typeof(global::System.Int32);
+            _typeTable[16] = typeof(global::Microsoft.UI.Xaml.Media.MicaBackdrop);
+            _typeTable[17] = typeof(global::Microsoft.UI.Xaml.Media.SystemBackdrop);
+            _typeTable[18] = typeof(global::Microsoft.UI.Composition.SystemBackdrops.MicaKind);
+            _typeTable[19] = typeof(global::Trading_Assistant.MainWindow);
+            _typeTable[20] = typeof(global::Microsoft.UI.Xaml.Thickness);
+            _typeTable[21] = typeof(global::Microsoft.UI.Xaml.CornerRadius);
+            _typeTable[22] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBox);
+            _typeTable[23] = typeof(global::Microsoft.UI.Xaml.Controls.Control);
+            _typeTable[24] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode);
+            _typeTable[25] = typeof(global::Microsoft.UI.Xaml.DataTemplate);
+            _typeTable[26] = typeof(global::Windows.Globalization.NumberFormatting.INumberFormatter2);
+            _typeTable[27] = typeof(global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase);
+            _typeTable[28] = typeof(global::Microsoft.UI.Xaml.Media.SolidColorBrush);
+            _typeTable[29] = typeof(global::Microsoft.UI.Xaml.TextReadingOrder);
+            _typeTable[30] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode);
+            _typeTable[31] = typeof(global::Microsoft.UI.Xaml.Controls.ProgressRing);
+            _typeTable[32] = typeof(global::Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings);
+            _typeTable[33] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
+            _typeTable[34] = typeof(global::Trading_Assistant.Views.DashboardPage);
+            _typeTable[35] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
+            _typeTable[36] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
+            _typeTable[37] = typeof(global::Trading_Assistant.ViewModels.DashboardViewModel);
+            _typeTable[38] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject);
+            _typeTable[39] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[40] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[41] = typeof(global::System.Int32);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -438,97 +352,43 @@ namespace Trading_Assistant.Trading_Assistant_XamlTypeInfo
         }
 
         private object Activate_0_XamlControlsResources() { return new global::Microsoft.UI.Xaml.Controls.XamlControlsResources(); }
-        private object Activate_4_BoolInverseConverter() { return new global::Trading_Assistant.Converters.BoolInverseConverter(); }
-        private object Activate_5_BoolToVisibilityConverter() { return new global::Trading_Assistant.Converters.BoolToVisibilityConverter(); }
-        private object Activate_6_BoolToVisibilityInverseConverter() { return new global::Trading_Assistant.Converters.BoolToVisibilityInverseConverter(); }
-        private object Activate_7_NullToVisibilityConverter() { return new global::Trading_Assistant.Converters.NullToVisibilityConverter(); }
-        private object Activate_8_CountToVisibilityConverter() { return new global::Trading_Assistant.Converters.CountToVisibilityConverter(); }
-        private object Activate_9_CountToVisibilityInverseConverter() { return new global::Trading_Assistant.Converters.CountToVisibilityInverseConverter(); }
-        private object Activate_10_DecimalToDoubleConverter() { return new global::Trading_Assistant.Converters.DecimalToDoubleConverter(); }
-        private object Activate_11_WindowEx() { return new global::WinUIEx.WindowEx(); }
-        private object Activate_23_MicaBackdrop() { return new global::Microsoft.UI.Xaml.Media.MicaBackdrop(); }
-        private object Activate_26_MainWindow() { return new global::Trading_Assistant.MainWindow(); }
-        private object Activate_29_BlankPage() { return new global::Trading_Assistant.Views.BlankPage(); }
-        private object Activate_32_BlankViewModel() { return new global::Trading_Assistant.ViewModels.BlankViewModel(); }
-        private object Activate_35_ProgressRing() { return new global::Microsoft.UI.Xaml.Controls.ProgressRing(); }
-        private object Activate_39_DashboardPage() { return new global::Trading_Assistant.Views.DashboardPage(); }
-        private object Activate_41_MainPage() { return new global::Trading_Assistant.Views.MainPage(); }
-        private object Activate_42_MainViewModel() { return new global::Trading_Assistant.ViewModels.MainViewModel(); }
-        private object Activate_43_NumberBox() { return new global::Microsoft.UI.Xaml.Controls.NumberBox(); }
-        private object Activate_51_SettingsPage() { return new global::Trading_Assistant.Views.SettingsPage(); }
-        private object Activate_53_NavigationView() { return new global::Microsoft.UI.Xaml.Controls.NavigationView(); }
-        private object Activate_67_NavigationViewTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings(); }
-        private object Activate_69_BehaviorCollection() { return new global::Microsoft.Xaml.Interactivity.BehaviorCollection(); }
-        private object Activate_71_NavigationViewItem() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewItem(); }
-        private object Activate_74_InfoBadge() { return new global::Microsoft.UI.Xaml.Controls.InfoBadge(); }
-        private object Activate_75_NavigationHelper() { return new global::Trading_Assistant.Helpers.NavigationHelper(); }
-        private object Activate_76_NavigationViewHeaderBehavior() { return new global::Trading_Assistant.Behaviors.NavigationViewHeaderBehavior(); }
-        private object Activate_82_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_4_WindowEx() { return new global::WinUIEx.WindowEx(); }
+        private object Activate_16_MicaBackdrop() { return new global::Microsoft.UI.Xaml.Media.MicaBackdrop(); }
+        private object Activate_19_MainWindow() { return new global::Trading_Assistant.MainWindow(); }
+        private object Activate_22_NumberBox() { return new global::Microsoft.UI.Xaml.Controls.NumberBox(); }
+        private object Activate_31_ProgressRing() { return new global::Microsoft.UI.Xaml.Controls.ProgressRing(); }
+        private object Activate_34_DashboardPage() { return new global::Trading_Assistant.Views.DashboardPage(); }
+        private object Activate_39_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void StaticInitializer_0_XamlControlsResources() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources).TypeHandle);
-        private void StaticInitializer_4_BoolInverseConverter() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Trading_Assistant.Converters.BoolInverseConverter).TypeHandle);
-        private void StaticInitializer_5_BoolToVisibilityConverter() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Trading_Assistant.Converters.BoolToVisibilityConverter).TypeHandle);
-        private void StaticInitializer_6_BoolToVisibilityInverseConverter() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Trading_Assistant.Converters.BoolToVisibilityInverseConverter).TypeHandle);
-        private void StaticInitializer_7_NullToVisibilityConverter() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Trading_Assistant.Converters.NullToVisibilityConverter).TypeHandle);
-        private void StaticInitializer_8_CountToVisibilityConverter() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Trading_Assistant.Converters.CountToVisibilityConverter).TypeHandle);
-        private void StaticInitializer_9_CountToVisibilityInverseConverter() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Trading_Assistant.Converters.CountToVisibilityInverseConverter).TypeHandle);
-        private void StaticInitializer_10_DecimalToDoubleConverter() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Trading_Assistant.Converters.DecimalToDoubleConverter).TypeHandle);
-        private void StaticInitializer_11_WindowEx() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WinUIEx.WindowEx).TypeHandle);
-        private void StaticInitializer_15_AppWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Windowing.AppWindow).TypeHandle);
+        private void StaticInitializer_4_WindowEx() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WinUIEx.WindowEx).TypeHandle);
+        private void StaticInitializer_8_AppWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Windowing.AppWindow).TypeHandle);
 #pragma warning disable 0618  //   Warning on Deprecated usage
-        private void StaticInitializer_16_Icon() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WinUIEx.Icon).TypeHandle);
+        private void StaticInitializer_9_Icon() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WinUIEx.Icon).TypeHandle);
 #pragma warning restore 0618
-        private void StaticInitializer_17_WindowState() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WinUIEx.WindowState).TypeHandle);
-        private void StaticInitializer_18_Enum() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Enum).TypeHandle);
-        private void StaticInitializer_19_ValueType() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.ValueType).TypeHandle);
-        private void StaticInitializer_20_AppWindowPresenter() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Windowing.AppWindowPresenter).TypeHandle);
-        private void StaticInitializer_21_AppWindowPresenterKind() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Windowing.AppWindowPresenterKind).TypeHandle);
+        private void StaticInitializer_10_WindowState() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WinUIEx.WindowState).TypeHandle);
+        private void StaticInitializer_11_Enum() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Enum).TypeHandle);
+        private void StaticInitializer_12_ValueType() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.ValueType).TypeHandle);
+        private void StaticInitializer_13_AppWindowPresenter() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Windowing.AppWindowPresenter).TypeHandle);
+        private void StaticInitializer_14_AppWindowPresenterKind() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Windowing.AppWindowPresenterKind).TypeHandle);
 #pragma warning disable 0618  //   Warning on Deprecated usage
-        private void StaticInitializer_22_SystemBackdrop() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WinUIEx.SystemBackdrop).TypeHandle);
+        private void StaticInitializer_15_SystemBackdrop() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WinUIEx.SystemBackdrop).TypeHandle);
 #pragma warning restore 0618
-        private void StaticInitializer_23_MicaBackdrop() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Media.MicaBackdrop).TypeHandle);
-        private void StaticInitializer_25_MicaKind() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Composition.SystemBackdrops.MicaKind).TypeHandle);
-        private void StaticInitializer_26_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Trading_Assistant.MainWindow).TypeHandle);
-        private void StaticInitializer_27_Thickness() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Thickness).TypeHandle);
-        private void StaticInitializer_28_CornerRadius() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.CornerRadius).TypeHandle);
-        private void StaticInitializer_29_BlankPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Trading_Assistant.Views.BlankPage).TypeHandle);
-        private void StaticInitializer_32_BlankViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Trading_Assistant.ViewModels.BlankViewModel).TypeHandle);
-        private void StaticInitializer_33_ObservableRecipient() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient).TypeHandle);
-        private void StaticInitializer_34_ObservableObject() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject).TypeHandle);
-        private void StaticInitializer_35_ProgressRing() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ProgressRing).TypeHandle);
-        private void StaticInitializer_37_ProgressRingTemplateSettings() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings).TypeHandle);
-        private void StaticInitializer_39_DashboardPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Trading_Assistant.Views.DashboardPage).TypeHandle);
-        private void StaticInitializer_40_DashboardViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Trading_Assistant.ViewModels.DashboardViewModel).TypeHandle);
-        private void StaticInitializer_41_MainPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Trading_Assistant.Views.MainPage).TypeHandle);
-        private void StaticInitializer_42_MainViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Trading_Assistant.ViewModels.MainViewModel).TypeHandle);
-        private void StaticInitializer_43_NumberBox() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NumberBox).TypeHandle);
-        private void StaticInitializer_44_NumberBoxSpinButtonPlacementMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode).TypeHandle);
-        private void StaticInitializer_46_INumberFormatter2() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Windows.Globalization.NumberFormatting.INumberFormatter2).TypeHandle);
-        private void StaticInitializer_50_NumberBoxValidationMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode).TypeHandle);
-        private void StaticInitializer_51_SettingsPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Trading_Assistant.Views.SettingsPage).TypeHandle);
-        private void StaticInitializer_52_SettingsViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Trading_Assistant.ViewModels.SettingsViewModel).TypeHandle);
-        private void StaticInitializer_53_NavigationView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationView).TypeHandle);
-        private void StaticInitializer_55_NavigationViewBackButtonVisible() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible).TypeHandle);
-        private void StaticInitializer_56_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::System.Object>).TypeHandle);
-        private void StaticInitializer_59_NavigationViewDisplayMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode).TypeHandle);
-        private void StaticInitializer_63_NavigationViewOverflowLabelMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode).TypeHandle);
-        private void StaticInitializer_64_NavigationViewPaneDisplayMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode).TypeHandle);
-        private void StaticInitializer_65_NavigationViewSelectionFollowsFocus() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus).TypeHandle);
-        private void StaticInitializer_66_NavigationViewShoulderNavigationEnabled() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled).TypeHandle);
-        private void StaticInitializer_67_NavigationViewTemplateSettings() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings).TypeHandle);
-        private void StaticInitializer_68_Interaction() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.Xaml.Interactivity.Interaction).TypeHandle);
-        private void StaticInitializer_69_BehaviorCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.Xaml.Interactivity.BehaviorCollection).TypeHandle);
-        private void StaticInitializer_71_NavigationViewItem() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItem).TypeHandle);
-        private void StaticInitializer_72_NavigationViewItemBase() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase).TypeHandle);
-        private void StaticInitializer_74_InfoBadge() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.InfoBadge).TypeHandle);
-        private void StaticInitializer_75_NavigationHelper() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Trading_Assistant.Helpers.NavigationHelper).TypeHandle);
-        private void StaticInitializer_76_NavigationViewHeaderBehavior() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Trading_Assistant.Behaviors.NavigationViewHeaderBehavior).TypeHandle);
-        private void StaticInitializer_77_Behavior() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.Xaml.Interactivity.Behavior<global::Microsoft.UI.Xaml.Controls.NavigationView>).TypeHandle);
-        private void StaticInitializer_78_Behavior() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.Xaml.Interactivity.Behavior).TypeHandle);
-        private void StaticInitializer_79_NavigationViewHeaderMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Trading_Assistant.Behaviors.NavigationViewHeaderMode).TypeHandle);
-        private void StaticInitializer_80_ShellPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Trading_Assistant.Views.ShellPage).TypeHandle);
-        private void StaticInitializer_81_ShellViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Trading_Assistant.ViewModels.ShellViewModel).TypeHandle);
-        private void StaticInitializer_82_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
-        private void StaticInitializer_83_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
+        private void StaticInitializer_16_MicaBackdrop() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Media.MicaBackdrop).TypeHandle);
+        private void StaticInitializer_18_MicaKind() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Composition.SystemBackdrops.MicaKind).TypeHandle);
+        private void StaticInitializer_19_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Trading_Assistant.MainWindow).TypeHandle);
+        private void StaticInitializer_20_Thickness() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Thickness).TypeHandle);
+        private void StaticInitializer_21_CornerRadius() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.CornerRadius).TypeHandle);
+        private void StaticInitializer_22_NumberBox() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NumberBox).TypeHandle);
+        private void StaticInitializer_24_NumberBoxSpinButtonPlacementMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode).TypeHandle);
+        private void StaticInitializer_26_INumberFormatter2() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Windows.Globalization.NumberFormatting.INumberFormatter2).TypeHandle);
+        private void StaticInitializer_30_NumberBoxValidationMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode).TypeHandle);
+        private void StaticInitializer_31_ProgressRing() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ProgressRing).TypeHandle);
+        private void StaticInitializer_32_ProgressRingTemplateSettings() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings).TypeHandle);
+        private void StaticInitializer_34_DashboardPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Trading_Assistant.Views.DashboardPage).TypeHandle);
+        private void StaticInitializer_37_DashboardViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Trading_Assistant.ViewModels.DashboardViewModel).TypeHandle);
+        private void StaticInitializer_38_ObservableObject() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject).TypeHandle);
+        private void StaticInitializer_39_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
+        private void StaticInitializer_40_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -536,19 +396,7 @@ namespace Trading_Assistant.Trading_Assistant_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
         }
-        private void VectorAdd_56_IList(object instance, object item)
-        {
-            var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
-            var newItem = (global::System.Object)item;
-            collection.Add(newItem);
-        }
-        private void VectorAdd_69_BehaviorCollection(object instance, object item)
-        {
-            var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.DependencyObject>)instance;
-            var newItem = (global::Microsoft.UI.Xaml.DependencyObject)item;
-            collection.Add(newItem);
-        }
-        private void VectorAdd_83_IList(object instance, object item)
+        private void VectorAdd_40_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -586,66 +434,10 @@ namespace Trading_Assistant.Trading_Assistant_XamlTypeInfo
                 xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 4:   //  Trading_Assistant.Converters.BoolInverseConverter
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_4_BoolInverseConverter;
-                userType.StaticInitializer = StaticInitializer_4_BoolInverseConverter;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 5:   //  Trading_Assistant.Converters.BoolToVisibilityConverter
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_5_BoolToVisibilityConverter;
-                userType.StaticInitializer = StaticInitializer_5_BoolToVisibilityConverter;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 6:   //  Trading_Assistant.Converters.BoolToVisibilityInverseConverter
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_6_BoolToVisibilityInverseConverter;
-                userType.StaticInitializer = StaticInitializer_6_BoolToVisibilityInverseConverter;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 7:   //  Trading_Assistant.Converters.NullToVisibilityConverter
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_7_NullToVisibilityConverter;
-                userType.StaticInitializer = StaticInitializer_7_NullToVisibilityConverter;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 8:   //  Trading_Assistant.Converters.CountToVisibilityConverter
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_8_CountToVisibilityConverter;
-                userType.StaticInitializer = StaticInitializer_8_CountToVisibilityConverter;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 9:   //  Trading_Assistant.Converters.CountToVisibilityInverseConverter
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_9_CountToVisibilityInverseConverter;
-                userType.StaticInitializer = StaticInitializer_9_CountToVisibilityInverseConverter;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 10:   //  Trading_Assistant.Converters.DecimalToDoubleConverter
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_10_DecimalToDoubleConverter;
-                userType.StaticInitializer = StaticInitializer_10_DecimalToDoubleConverter;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 11:   //  WinUIEx.WindowEx
+            case 4:   //  WinUIEx.WindowEx
                 userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
-                userType.Activator = Activate_11_WindowEx;
-                userType.StaticInitializer = StaticInitializer_11_WindowEx;
+                userType.Activator = Activate_4_WindowEx;
+                userType.StaticInitializer = StaticInitializer_4_WindowEx;
                 userType.SetContentPropertyName("WinUIEx.WindowEx.WindowContent");
                 userType.AddMemberName("WindowContent");
                 userType.AddMemberName("MinWidth");
@@ -672,64 +464,64 @@ namespace Trading_Assistant.Trading_Assistant_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 12:   //  Microsoft.UI.Xaml.Window
+            case 5:   //  Microsoft.UI.Xaml.Window
                 xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 13:   //  Double
+            case 6:   //  Double
                 xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 14:   //  String
+            case 7:   //  String
                 xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 15:   //  Microsoft.UI.Windowing.AppWindow
+            case 8:   //  Microsoft.UI.Windowing.AppWindow
                 userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.StaticInitializer = StaticInitializer_15_AppWindow;
+                userType.StaticInitializer = StaticInitializer_8_AppWindow;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 16:   //  WinUIEx.Icon
+            case 9:   //  WinUIEx.Icon
                 userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.StaticInitializer = StaticInitializer_16_Icon;
+                userType.StaticInitializer = StaticInitializer_9_Icon;
                 userType.CreateFromStringMethod = global::WinUIEx.Icon.FromFile;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 17:   //  WinUIEx.WindowState
+            case 10:   //  WinUIEx.WindowState
                 userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_17_WindowState;
+                userType.StaticInitializer = StaticInitializer_10_WindowState;
                 userType.AddEnumValue("Normal", global::WinUIEx.WindowState.Normal);
                 userType.AddEnumValue("Minimized", global::WinUIEx.WindowState.Minimized);
                 userType.AddEnumValue("Maximized", global::WinUIEx.WindowState.Maximized);
                 xamlType = userType;
                 break;
 
-            case 18:   //  System.Enum
+            case 11:   //  System.Enum
                 userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
-                userType.StaticInitializer = StaticInitializer_18_Enum;
+                userType.StaticInitializer = StaticInitializer_11_Enum;
                 xamlType = userType;
                 break;
 
-            case 19:   //  System.ValueType
+            case 12:   //  System.ValueType
                 userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.StaticInitializer = StaticInitializer_19_ValueType;
+                userType.StaticInitializer = StaticInitializer_12_ValueType;
                 xamlType = userType;
                 break;
 
-            case 20:   //  Microsoft.UI.Windowing.AppWindowPresenter
+            case 13:   //  Microsoft.UI.Windowing.AppWindowPresenter
                 userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.StaticInitializer = StaticInitializer_20_AppWindowPresenter;
+                userType.StaticInitializer = StaticInitializer_13_AppWindowPresenter;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 21:   //  Microsoft.UI.Windowing.AppWindowPresenterKind
+            case 14:   //  Microsoft.UI.Windowing.AppWindowPresenterKind
                 userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_21_AppWindowPresenterKind;
+                userType.StaticInitializer = StaticInitializer_14_AppWindowPresenterKind;
                 userType.AddEnumValue("Default", global::Microsoft.UI.Windowing.AppWindowPresenterKind.Default);
                 userType.AddEnumValue("CompactOverlay", global::Microsoft.UI.Windowing.AppWindowPresenterKind.CompactOverlay);
                 userType.AddEnumValue("FullScreen", global::Microsoft.UI.Windowing.AppWindowPresenterKind.FullScreen);
@@ -737,45 +529,45 @@ namespace Trading_Assistant.Trading_Assistant_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 22:   //  WinUIEx.SystemBackdrop
+            case 15:   //  WinUIEx.SystemBackdrop
                 userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.StaticInitializer = StaticInitializer_22_SystemBackdrop;
+                userType.StaticInitializer = StaticInitializer_15_SystemBackdrop;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 23:   //  Microsoft.UI.Xaml.Media.MicaBackdrop
+            case 16:   //  Microsoft.UI.Xaml.Media.MicaBackdrop
                 userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Media.SystemBackdrop"));
-                userType.Activator = Activate_23_MicaBackdrop;
-                userType.StaticInitializer = StaticInitializer_23_MicaBackdrop;
+                userType.Activator = Activate_16_MicaBackdrop;
+                userType.StaticInitializer = StaticInitializer_16_MicaBackdrop;
                 userType.AddMemberName("Kind");
                 xamlType = userType;
                 break;
 
-            case 24:   //  Microsoft.UI.Xaml.Media.SystemBackdrop
+            case 17:   //  Microsoft.UI.Xaml.Media.SystemBackdrop
                 xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 25:   //  Microsoft.UI.Composition.SystemBackdrops.MicaKind
+            case 18:   //  Microsoft.UI.Composition.SystemBackdrops.MicaKind
                 userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_25_MicaKind;
+                userType.StaticInitializer = StaticInitializer_18_MicaKind;
                 userType.AddEnumValue("Base", global::Microsoft.UI.Composition.SystemBackdrops.MicaKind.Base);
                 userType.AddEnumValue("BaseAlt", global::Microsoft.UI.Composition.SystemBackdrops.MicaKind.BaseAlt);
                 xamlType = userType;
                 break;
 
-            case 26:   //  Trading_Assistant.MainWindow
+            case 19:   //  Trading_Assistant.MainWindow
                 userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("WinUIEx.WindowEx"));
-                userType.Activator = Activate_26_MainWindow;
-                userType.StaticInitializer = StaticInitializer_26_MainWindow;
+                userType.Activator = Activate_19_MainWindow;
+                userType.StaticInitializer = StaticInitializer_19_MainWindow;
                 userType.SetContentPropertyName("WinUIEx.WindowEx.WindowContent");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 27:   //  Microsoft.UI.Xaml.Thickness
+            case 20:   //  Microsoft.UI.Xaml.Thickness
                 userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
-                userType.StaticInitializer = StaticInitializer_27_Thickness;
+                userType.StaticInitializer = StaticInitializer_20_Thickness;
                 userType.AddMemberName("Left");
                 userType.AddMemberName("Top");
                 userType.AddMemberName("Right");
@@ -783,9 +575,9 @@ namespace Trading_Assistant.Trading_Assistant_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 28:   //  Microsoft.UI.Xaml.CornerRadius
+            case 21:   //  Microsoft.UI.Xaml.CornerRadius
                 userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
-                userType.StaticInitializer = StaticInitializer_28_CornerRadius;
+                userType.StaticInitializer = StaticInitializer_21_CornerRadius;
                 userType.AddMemberName("TopLeft");
                 userType.AddMemberName("TopRight");
                 userType.AddMemberName("BottomRight");
@@ -793,122 +585,23 @@ namespace Trading_Assistant.Trading_Assistant_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 29:   //  Trading_Assistant.Views.BlankPage
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_29_BlankPage;
-                userType.StaticInitializer = StaticInitializer_29_BlankPage;
-                userType.AddMemberName("ViewModel");
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 30:   //  Microsoft.UI.Xaml.Controls.Page
-                xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 31:   //  Microsoft.UI.Xaml.Controls.UserControl
-                xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 32:   //  Trading_Assistant.ViewModels.BlankViewModel
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
-                userType.StaticInitializer = StaticInitializer_32_BlankViewModel;
-                userType.SetIsReturnTypeStub();
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 33:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableObject"));
-                userType.StaticInitializer = StaticInitializer_33_ObservableRecipient;
-                xamlType = userType;
-                break;
-
-            case 34:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableObject
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.StaticInitializer = StaticInitializer_34_ObservableObject;
-                xamlType = userType;
-                break;
-
-            case 35:   //  Microsoft.UI.Xaml.Controls.ProgressRing
+            case 22:   //  Microsoft.UI.Xaml.Controls.NumberBox
                 userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_35_ProgressRing;
-                userType.StaticInitializer = StaticInitializer_35_ProgressRing;
-                userType.AddMemberName("IsActive");
-                userType.AddMemberName("IsIndeterminate");
-                userType.AddMemberName("Maximum");
-                userType.AddMemberName("Minimum");
-                userType.AddMemberName("TemplateSettings");
-                userType.AddMemberName("Value");
-                xamlType = userType;
-                break;
-
-            case 36:   //  Microsoft.UI.Xaml.Controls.Control
-                xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 37:   //  Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.StaticInitializer = StaticInitializer_37_ProgressRingTemplateSettings;
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 38:   //  Microsoft.UI.Xaml.DependencyObject
-                xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 39:   //  Trading_Assistant.Views.DashboardPage
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_39_DashboardPage;
-                userType.StaticInitializer = StaticInitializer_39_DashboardPage;
-                userType.AddMemberName("ViewModel");
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 40:   //  Trading_Assistant.ViewModels.DashboardViewModel
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
-                userType.StaticInitializer = StaticInitializer_40_DashboardViewModel;
-                userType.SetIsReturnTypeStub();
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 41:   //  Trading_Assistant.Views.MainPage
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_41_MainPage;
-                userType.StaticInitializer = StaticInitializer_41_MainPage;
-                userType.AddMemberName("ViewModel");
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 42:   //  Trading_Assistant.ViewModels.MainViewModel
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
-                userType.StaticInitializer = StaticInitializer_42_MainViewModel;
-                userType.SetIsReturnTypeStub();
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 43:   //  Microsoft.UI.Xaml.Controls.NumberBox
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_43_NumberBox;
-                userType.StaticInitializer = StaticInitializer_43_NumberBox;
+                userType.Activator = Activate_22_NumberBox;
+                userType.StaticInitializer = StaticInitializer_22_NumberBox;
                 userType.AddMemberName("Header");
                 userType.AddMemberName("Value");
-                userType.AddMemberName("SpinButtonPlacementMode");
-                userType.AddMemberName("SmallChange");
-                userType.AddMemberName("LargeChange");
                 userType.AddMemberName("Minimum");
+                userType.AddMemberName("SpinButtonPlacementMode");
+                userType.AddMemberName("PlaceholderText");
+                userType.AddMemberName("SmallChange");
                 userType.AddMemberName("AcceptsExpression");
                 userType.AddMemberName("Description");
                 userType.AddMemberName("HeaderTemplate");
                 userType.AddMemberName("IsWrapEnabled");
+                userType.AddMemberName("LargeChange");
                 userType.AddMemberName("Maximum");
                 userType.AddMemberName("NumberFormatter");
-                userType.AddMemberName("PlaceholderText");
                 userType.AddMemberName("PreventKeyboardDisplayOnProgrammaticFocus");
                 userType.AddMemberName("SelectionFlyout");
                 userType.AddMemberName("SelectionHighlightColor");
@@ -918,318 +611,109 @@ namespace Trading_Assistant.Trading_Assistant_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 44:   //  Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode
+            case 23:   //  Microsoft.UI.Xaml.Controls.Control
+                xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 24:   //  Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode
                 userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_44_NumberBoxSpinButtonPlacementMode;
+                userType.StaticInitializer = StaticInitializer_24_NumberBoxSpinButtonPlacementMode;
                 userType.AddEnumValue("Hidden", global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode.Hidden);
                 userType.AddEnumValue("Compact", global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode.Compact);
                 userType.AddEnumValue("Inline", global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode.Inline);
                 xamlType = userType;
                 break;
 
-            case 45:   //  Microsoft.UI.Xaml.DataTemplate
+            case 25:   //  Microsoft.UI.Xaml.DataTemplate
                 xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 46:   //  Windows.Globalization.NumberFormatting.INumberFormatter2
+            case 26:   //  Windows.Globalization.NumberFormatting.INumberFormatter2
                 userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_46_INumberFormatter2;
+                userType.StaticInitializer = StaticInitializer_26_INumberFormatter2;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 47:   //  Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase
+            case 27:   //  Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase
                 xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 48:   //  Microsoft.UI.Xaml.Media.SolidColorBrush
+            case 28:   //  Microsoft.UI.Xaml.Media.SolidColorBrush
                 xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 49:   //  Microsoft.UI.Xaml.TextReadingOrder
+            case 29:   //  Microsoft.UI.Xaml.TextReadingOrder
                 xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 50:   //  Microsoft.UI.Xaml.Controls.NumberBoxValidationMode
+            case 30:   //  Microsoft.UI.Xaml.Controls.NumberBoxValidationMode
                 userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_50_NumberBoxValidationMode;
+                userType.StaticInitializer = StaticInitializer_30_NumberBoxValidationMode;
                 userType.AddEnumValue("InvalidInputOverwritten", global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode.InvalidInputOverwritten);
                 userType.AddEnumValue("Disabled", global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode.Disabled);
                 xamlType = userType;
                 break;
 
-            case 51:   //  Trading_Assistant.Views.SettingsPage
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_51_SettingsPage;
-                userType.StaticInitializer = StaticInitializer_51_SettingsPage;
-                userType.AddMemberName("ViewModel");
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 52:   //  Trading_Assistant.ViewModels.SettingsViewModel
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
-                userType.StaticInitializer = StaticInitializer_52_SettingsViewModel;
-                userType.SetIsReturnTypeStub();
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 53:   //  Microsoft.UI.Xaml.Controls.NavigationView
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
-                userType.Activator = Activate_53_NavigationView;
-                userType.StaticInitializer = StaticInitializer_53_NavigationView;
-                userType.AddMemberName("IsBackButtonVisible");
-                userType.AddMemberName("IsBackEnabled");
-                userType.AddMemberName("SelectedItem");
-                userType.AddMemberName("IsSettingsVisible");
-                userType.AddMemberName("ExpandedModeThresholdWidth");
-                userType.AddMemberName("Header");
-                userType.AddMemberName("MenuItems");
-                userType.AddMemberName("HeaderTemplate");
-                userType.AddMemberName("AlwaysShowHeader");
-                userType.AddMemberName("AutoSuggestBox");
-                userType.AddMemberName("CompactModeThresholdWidth");
-                userType.AddMemberName("CompactPaneLength");
-                userType.AddMemberName("ContentOverlay");
-                userType.AddMemberName("DisplayMode");
-                userType.AddMemberName("FooterMenuItems");
-                userType.AddMemberName("FooterMenuItemsSource");
-                userType.AddMemberName("IsPaneOpen");
-                userType.AddMemberName("IsPaneToggleButtonVisible");
-                userType.AddMemberName("IsPaneVisible");
-                userType.AddMemberName("IsTitleBarAutoPaddingEnabled");
-                userType.AddMemberName("MenuItemContainerStyle");
-                userType.AddMemberName("MenuItemContainerStyleSelector");
-                userType.AddMemberName("MenuItemTemplate");
-                userType.AddMemberName("MenuItemTemplateSelector");
-                userType.AddMemberName("MenuItemsSource");
-                userType.AddMemberName("OpenPaneLength");
-                userType.AddMemberName("OverflowLabelMode");
-                userType.AddMemberName("PaneCustomContent");
-                userType.AddMemberName("PaneDisplayMode");
-                userType.AddMemberName("PaneFooter");
-                userType.AddMemberName("PaneHeader");
-                userType.AddMemberName("PaneTitle");
-                userType.AddMemberName("PaneToggleButtonStyle");
-                userType.AddMemberName("SelectionFollowsFocus");
-                userType.AddMemberName("SettingsItem");
-                userType.AddMemberName("ShoulderNavigationEnabled");
-                userType.AddMemberName("TemplateSettings");
-                xamlType = userType;
-                break;
-
-            case 54:   //  Microsoft.UI.Xaml.Controls.ContentControl
-                xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 55:   //  Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_55_NavigationViewBackButtonVisible;
-                userType.AddEnumValue("Collapsed", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Collapsed);
-                userType.AddEnumValue("Visible", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Visible);
-                userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Auto);
-                xamlType = userType;
-                break;
-
-            case 56:   //  System.Collections.Generic.IList`1<Object>
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_56_IList;
-                userType.CollectionAdd = VectorAdd_56_IList;
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 57:   //  Microsoft.UI.Xaml.Controls.AutoSuggestBox
-                xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 58:   //  Microsoft.UI.Xaml.UIElement
-                xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 59:   //  Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_59_NavigationViewDisplayMode;
-                userType.AddEnumValue("Minimal", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Minimal);
-                userType.AddEnumValue("Compact", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Compact);
-                userType.AddEnumValue("Expanded", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Expanded);
-                xamlType = userType;
-                break;
-
-            case 60:   //  Microsoft.UI.Xaml.Style
-                xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 61:   //  Microsoft.UI.Xaml.Controls.StyleSelector
-                xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 62:   //  Microsoft.UI.Xaml.Controls.DataTemplateSelector
-                xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 63:   //  Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_63_NavigationViewOverflowLabelMode;
-                userType.AddEnumValue("MoreLabel", global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode.MoreLabel);
-                userType.AddEnumValue("NoLabel", global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode.NoLabel);
-                xamlType = userType;
-                break;
-
-            case 64:   //  Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_64_NavigationViewPaneDisplayMode;
-                userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Auto);
-                userType.AddEnumValue("Left", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Left);
-                userType.AddEnumValue("Top", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Top);
-                userType.AddEnumValue("LeftCompact", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.LeftCompact);
-                userType.AddEnumValue("LeftMinimal", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.LeftMinimal);
-                xamlType = userType;
-                break;
-
-            case 65:   //  Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_65_NavigationViewSelectionFollowsFocus;
-                userType.AddEnumValue("Disabled", global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus.Disabled);
-                userType.AddEnumValue("Enabled", global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus.Enabled);
-                xamlType = userType;
-                break;
-
-            case 66:   //  Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_66_NavigationViewShoulderNavigationEnabled;
-                userType.AddEnumValue("WhenSelectionFollowsFocus", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.WhenSelectionFollowsFocus);
-                userType.AddEnumValue("Always", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.Always);
-                userType.AddEnumValue("Never", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.Never);
-                xamlType = userType;
-                break;
-
-            case 67:   //  Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.StaticInitializer = StaticInitializer_67_NavigationViewTemplateSettings;
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 68:   //  Microsoft.Xaml.Interactivity.Interaction
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.StaticInitializer = StaticInitializer_68_Interaction;
-                userType.AddMemberName("Behaviors");
-                xamlType = userType;
-                break;
-
-            case 69:   //  Microsoft.Xaml.Interactivity.BehaviorCollection
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObjectCollection"));
-                userType.StaticInitializer = StaticInitializer_69_BehaviorCollection;
-                userType.CollectionAdd = VectorAdd_69_BehaviorCollection;
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 70:   //  Microsoft.UI.Xaml.DependencyObjectCollection
-                xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 71:   //  Microsoft.UI.Xaml.Controls.NavigationViewItem
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItemBase"));
-                userType.Activator = Activate_71_NavigationViewItem;
-                userType.StaticInitializer = StaticInitializer_71_NavigationViewItem;
-                userType.AddMemberName("Icon");
-                userType.AddMemberName("CompactPaneLength");
-                userType.AddMemberName("HasUnrealizedChildren");
-                userType.AddMemberName("InfoBadge");
-                userType.AddMemberName("IsChildSelected");
-                userType.AddMemberName("IsExpanded");
-                userType.AddMemberName("MenuItems");
-                userType.AddMemberName("MenuItemsSource");
-                userType.AddMemberName("SelectsOnInvoked");
-                xamlType = userType;
-                break;
-
-            case 72:   //  Microsoft.UI.Xaml.Controls.NavigationViewItemBase
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
-                userType.StaticInitializer = StaticInitializer_72_NavigationViewItemBase;
-                userType.AddMemberName("IsSelected");
-                xamlType = userType;
-                break;
-
-            case 73:   //  Microsoft.UI.Xaml.Controls.IconElement
-                xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 74:   //  Microsoft.UI.Xaml.Controls.InfoBadge
+            case 31:   //  Microsoft.UI.Xaml.Controls.ProgressRing
                 userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
-                userType.StaticInitializer = StaticInitializer_74_InfoBadge;
+                userType.Activator = Activate_31_ProgressRing;
+                userType.StaticInitializer = StaticInitializer_31_ProgressRing;
+                userType.AddMemberName("IsActive");
+                userType.AddMemberName("IsIndeterminate");
+                userType.AddMemberName("Maximum");
+                userType.AddMemberName("Minimum");
+                userType.AddMemberName("TemplateSettings");
+                userType.AddMemberName("Value");
+                xamlType = userType;
+                break;
+
+            case 32:   //  Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings
+                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType.StaticInitializer = StaticInitializer_32_ProgressRingTemplateSettings;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 75:   //  Trading_Assistant.Helpers.NavigationHelper
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_75_NavigationHelper;
-                userType.StaticInitializer = StaticInitializer_75_NavigationHelper;
-                userType.AddMemberName("NavigateTo");
-                userType.SetIsLocalType();
-                xamlType = userType;
+            case 33:   //  Microsoft.UI.Xaml.DependencyObject
+                xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 76:   //  Trading_Assistant.Behaviors.NavigationViewHeaderBehavior
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.NavigationView>"));
-                userType.Activator = Activate_76_NavigationViewHeaderBehavior;
-                userType.StaticInitializer = StaticInitializer_76_NavigationViewHeaderBehavior;
-                userType.AddMemberName("DefaultHeader");
-                userType.AddMemberName("DefaultHeaderTemplate");
-                userType.AddMemberName("HeaderMode");
-                userType.AddMemberName("HeaderContext");
-                userType.AddMemberName("HeaderTemplate");
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 77:   //  Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.NavigationView>
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Xaml.Interactivity.Behavior"));
-                userType.StaticInitializer = StaticInitializer_77_Behavior;
-                userType.AddMemberName("AssociatedObject");
-                xamlType = userType;
-                break;
-
-            case 78:   //  Microsoft.Xaml.Interactivity.Behavior
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.StaticInitializer = StaticInitializer_78_Behavior;
-                xamlType = userType;
-                break;
-
-            case 79:   //  Trading_Assistant.Behaviors.NavigationViewHeaderMode
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_79_NavigationViewHeaderMode;
-                userType.AddEnumValue("Always", global::Trading_Assistant.Behaviors.NavigationViewHeaderMode.Always);
-                userType.AddEnumValue("Never", global::Trading_Assistant.Behaviors.NavigationViewHeaderMode.Never);
-                userType.AddEnumValue("Minimal", global::Trading_Assistant.Behaviors.NavigationViewHeaderMode.Minimal);
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 80:   //  Trading_Assistant.Views.ShellPage
+            case 34:   //  Trading_Assistant.Views.DashboardPage
                 userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.StaticInitializer = StaticInitializer_80_ShellPage;
+                userType.Activator = Activate_34_DashboardPage;
+                userType.StaticInitializer = StaticInitializer_34_DashboardPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 81:   //  Trading_Assistant.ViewModels.ShellViewModel
-                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
-                userType.StaticInitializer = StaticInitializer_81_ShellViewModel;
+            case 35:   //  Microsoft.UI.Xaml.Controls.Page
+                xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 36:   //  Microsoft.UI.Xaml.Controls.UserControl
+                xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 37:   //  Trading_Assistant.ViewModels.DashboardViewModel
+                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableObject"));
+                userType.StaticInitializer = StaticInitializer_37_DashboardViewModel;
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 82:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 38:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+                userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.StaticInitializer = StaticInitializer_38_ObservableObject;
+                xamlType = userType;
+                break;
+
+            case 39:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_82_TreeViewNode;
-                userType.StaticInitializer = StaticInitializer_82_TreeViewNode;
+                userType.Activator = Activate_39_TreeViewNode;
+                userType.StaticInitializer = StaticInitializer_39_TreeViewNode;
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -1241,15 +725,15 @@ namespace Trading_Assistant.Trading_Assistant_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 83:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 40:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_83_IList;
-                userType.CollectionAdd = VectorAdd_83_IList;
+                userType.StaticInitializer = StaticInitializer_40_IList;
+                userType.CollectionAdd = VectorAdd_40_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 84:   //  Int32
+            case 41:   //  Int32
                 xamlType = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
@@ -1627,822 +1111,302 @@ namespace Trading_Assistant.Trading_Assistant_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.CornerRadius)instance;
             that.BottomLeft = (global::System.Double)Value;
         }
-        private object get_32_BlankPage_ViewModel(object instance)
-        {
-            var that = (global::Trading_Assistant.Views.BlankPage)instance;
-            return that.ViewModel;
-        }
-        private object get_33_ProgressRing_IsActive(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
-            return that.IsActive;
-        }
-        private void set_33_ProgressRing_IsActive(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
-            that.IsActive = (global::System.Boolean)Value;
-        }
-        private object get_34_ProgressRing_IsIndeterminate(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
-            return that.IsIndeterminate;
-        }
-        private void set_34_ProgressRing_IsIndeterminate(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
-            that.IsIndeterminate = (global::System.Boolean)Value;
-        }
-        private object get_35_ProgressRing_Maximum(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
-            return that.Maximum;
-        }
-        private void set_35_ProgressRing_Maximum(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
-            that.Maximum = (global::System.Double)Value;
-        }
-        private object get_36_ProgressRing_Minimum(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
-            return that.Minimum;
-        }
-        private void set_36_ProgressRing_Minimum(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
-            that.Minimum = (global::System.Double)Value;
-        }
-        private object get_37_ProgressRing_TemplateSettings(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
-            return that.TemplateSettings;
-        }
-        private object get_38_ProgressRing_Value(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
-            return that.Value;
-        }
-        private void set_38_ProgressRing_Value(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
-            that.Value = (global::System.Double)Value;
-        }
-        private object get_39_DashboardPage_ViewModel(object instance)
-        {
-            var that = (global::Trading_Assistant.Views.DashboardPage)instance;
-            return that.ViewModel;
-        }
-        private object get_40_MainPage_ViewModel(object instance)
-        {
-            var that = (global::Trading_Assistant.Views.MainPage)instance;
-            return that.ViewModel;
-        }
-        private object get_41_NumberBox_Header(object instance)
+        private object get_32_NumberBox_Header(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.Header;
         }
-        private void set_41_NumberBox_Header(object instance, object Value)
+        private void set_32_NumberBox_Header(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.Header = (global::System.Object)Value;
         }
-        private object get_42_NumberBox_Value(object instance)
+        private object get_33_NumberBox_Value(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.Value;
         }
-        private void set_42_NumberBox_Value(object instance, object Value)
+        private void set_33_NumberBox_Value(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.Value = (global::System.Double)Value;
         }
-        private object get_43_NumberBox_SpinButtonPlacementMode(object instance)
+        private object get_34_NumberBox_Minimum(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.Minimum;
+        }
+        private void set_34_NumberBox_Minimum(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.Minimum = (global::System.Double)Value;
+        }
+        private object get_35_NumberBox_SpinButtonPlacementMode(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.SpinButtonPlacementMode;
         }
-        private void set_43_NumberBox_SpinButtonPlacementMode(object instance, object Value)
+        private void set_35_NumberBox_SpinButtonPlacementMode(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.SpinButtonPlacementMode = (global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode)Value;
         }
-        private object get_44_NumberBox_SmallChange(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
-            return that.SmallChange;
-        }
-        private void set_44_NumberBox_SmallChange(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
-            that.SmallChange = (global::System.Double)Value;
-        }
-        private object get_45_NumberBox_LargeChange(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
-            return that.LargeChange;
-        }
-        private void set_45_NumberBox_LargeChange(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
-            that.LargeChange = (global::System.Double)Value;
-        }
-        private object get_46_NumberBox_Minimum(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
-            return that.Minimum;
-        }
-        private void set_46_NumberBox_Minimum(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
-            that.Minimum = (global::System.Double)Value;
-        }
-        private object get_47_NumberBox_AcceptsExpression(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
-            return that.AcceptsExpression;
-        }
-        private void set_47_NumberBox_AcceptsExpression(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
-            that.AcceptsExpression = (global::System.Boolean)Value;
-        }
-        private object get_48_NumberBox_Description(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
-            return that.Description;
-        }
-        private void set_48_NumberBox_Description(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
-            that.Description = (global::System.Object)Value;
-        }
-        private object get_49_NumberBox_HeaderTemplate(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
-            return that.HeaderTemplate;
-        }
-        private void set_49_NumberBox_HeaderTemplate(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
-            that.HeaderTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
-        }
-        private object get_50_NumberBox_IsWrapEnabled(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
-            return that.IsWrapEnabled;
-        }
-        private void set_50_NumberBox_IsWrapEnabled(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
-            that.IsWrapEnabled = (global::System.Boolean)Value;
-        }
-        private object get_51_NumberBox_Maximum(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
-            return that.Maximum;
-        }
-        private void set_51_NumberBox_Maximum(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
-            that.Maximum = (global::System.Double)Value;
-        }
-        private object get_52_NumberBox_NumberFormatter(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
-            return that.NumberFormatter;
-        }
-        private void set_52_NumberBox_NumberFormatter(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
-            that.NumberFormatter = (global::Windows.Globalization.NumberFormatting.INumberFormatter2)Value;
-        }
-        private object get_53_NumberBox_PlaceholderText(object instance)
+        private object get_36_NumberBox_PlaceholderText(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.PlaceholderText;
         }
-        private void set_53_NumberBox_PlaceholderText(object instance, object Value)
+        private void set_36_NumberBox_PlaceholderText(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.PlaceholderText = (global::System.String)Value;
         }
-        private object get_54_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus(object instance)
+        private object get_37_NumberBox_SmallChange(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.SmallChange;
+        }
+        private void set_37_NumberBox_SmallChange(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.SmallChange = (global::System.Double)Value;
+        }
+        private object get_38_NumberBox_AcceptsExpression(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.AcceptsExpression;
+        }
+        private void set_38_NumberBox_AcceptsExpression(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.AcceptsExpression = (global::System.Boolean)Value;
+        }
+        private object get_39_NumberBox_Description(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.Description;
+        }
+        private void set_39_NumberBox_Description(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.Description = (global::System.Object)Value;
+        }
+        private object get_40_NumberBox_HeaderTemplate(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.HeaderTemplate;
+        }
+        private void set_40_NumberBox_HeaderTemplate(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.HeaderTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_41_NumberBox_IsWrapEnabled(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.IsWrapEnabled;
+        }
+        private void set_41_NumberBox_IsWrapEnabled(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.IsWrapEnabled = (global::System.Boolean)Value;
+        }
+        private object get_42_NumberBox_LargeChange(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.LargeChange;
+        }
+        private void set_42_NumberBox_LargeChange(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.LargeChange = (global::System.Double)Value;
+        }
+        private object get_43_NumberBox_Maximum(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.Maximum;
+        }
+        private void set_43_NumberBox_Maximum(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.Maximum = (global::System.Double)Value;
+        }
+        private object get_44_NumberBox_NumberFormatter(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            return that.NumberFormatter;
+        }
+        private void set_44_NumberBox_NumberFormatter(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
+            that.NumberFormatter = (global::Windows.Globalization.NumberFormatting.INumberFormatter2)Value;
+        }
+        private object get_45_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.PreventKeyboardDisplayOnProgrammaticFocus;
         }
-        private void set_54_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus(object instance, object Value)
+        private void set_45_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.PreventKeyboardDisplayOnProgrammaticFocus = (global::System.Boolean)Value;
         }
-        private object get_55_NumberBox_SelectionFlyout(object instance)
+        private object get_46_NumberBox_SelectionFlyout(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.SelectionFlyout;
         }
-        private void set_55_NumberBox_SelectionFlyout(object instance, object Value)
+        private void set_46_NumberBox_SelectionFlyout(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.SelectionFlyout = (global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase)Value;
         }
-        private object get_56_NumberBox_SelectionHighlightColor(object instance)
+        private object get_47_NumberBox_SelectionHighlightColor(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.SelectionHighlightColor;
         }
-        private void set_56_NumberBox_SelectionHighlightColor(object instance, object Value)
+        private void set_47_NumberBox_SelectionHighlightColor(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.SelectionHighlightColor = (global::Microsoft.UI.Xaml.Media.SolidColorBrush)Value;
         }
-        private object get_57_NumberBox_Text(object instance)
+        private object get_48_NumberBox_Text(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.Text;
         }
-        private void set_57_NumberBox_Text(object instance, object Value)
+        private void set_48_NumberBox_Text(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.Text = (global::System.String)Value;
         }
-        private object get_58_NumberBox_TextReadingOrder(object instance)
+        private object get_49_NumberBox_TextReadingOrder(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.TextReadingOrder;
         }
-        private void set_58_NumberBox_TextReadingOrder(object instance, object Value)
+        private void set_49_NumberBox_TextReadingOrder(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.TextReadingOrder = (global::Microsoft.UI.Xaml.TextReadingOrder)Value;
         }
-        private object get_59_NumberBox_ValidationMode(object instance)
+        private object get_50_NumberBox_ValidationMode(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             return that.ValidationMode;
         }
-        private void set_59_NumberBox_ValidationMode(object instance, object Value)
+        private void set_50_NumberBox_ValidationMode(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NumberBox)instance;
             that.ValidationMode = (global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode)Value;
         }
-        private object get_60_SettingsPage_ViewModel(object instance)
+        private object get_51_ProgressRing_IsActive(object instance)
         {
-            var that = (global::Trading_Assistant.Views.SettingsPage)instance;
-            return that.ViewModel;
+            var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
+            return that.IsActive;
         }
-        private object get_61_NavigationView_IsBackButtonVisible(object instance)
+        private void set_51_ProgressRing_IsActive(object instance, object Value)
         {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.IsBackButtonVisible;
+            var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
+            that.IsActive = (global::System.Boolean)Value;
         }
-        private void set_61_NavigationView_IsBackButtonVisible(object instance, object Value)
+        private object get_52_ProgressRing_IsIndeterminate(object instance)
         {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.IsBackButtonVisible = (global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible)Value;
+            var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
+            return that.IsIndeterminate;
         }
-        private object get_62_NavigationView_IsBackEnabled(object instance)
+        private void set_52_ProgressRing_IsIndeterminate(object instance, object Value)
         {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.IsBackEnabled;
+            var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
+            that.IsIndeterminate = (global::System.Boolean)Value;
         }
-        private void set_62_NavigationView_IsBackEnabled(object instance, object Value)
+        private object get_53_ProgressRing_Maximum(object instance)
         {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.IsBackEnabled = (global::System.Boolean)Value;
+            var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
+            return that.Maximum;
         }
-        private object get_63_NavigationView_SelectedItem(object instance)
+        private void set_53_ProgressRing_Maximum(object instance, object Value)
         {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.SelectedItem;
+            var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
+            that.Maximum = (global::System.Double)Value;
         }
-        private void set_63_NavigationView_SelectedItem(object instance, object Value)
+        private object get_54_ProgressRing_Minimum(object instance)
         {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.SelectedItem = (global::System.Object)Value;
+            var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
+            return that.Minimum;
         }
-        private object get_64_NavigationView_IsSettingsVisible(object instance)
+        private void set_54_ProgressRing_Minimum(object instance, object Value)
         {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.IsSettingsVisible;
+            var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
+            that.Minimum = (global::System.Double)Value;
         }
-        private void set_64_NavigationView_IsSettingsVisible(object instance, object Value)
+        private object get_55_ProgressRing_TemplateSettings(object instance)
         {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.IsSettingsVisible = (global::System.Boolean)Value;
-        }
-        private object get_65_NavigationView_ExpandedModeThresholdWidth(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.ExpandedModeThresholdWidth;
-        }
-        private void set_65_NavigationView_ExpandedModeThresholdWidth(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.ExpandedModeThresholdWidth = (global::System.Double)Value;
-        }
-        private object get_66_NavigationView_Header(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.Header;
-        }
-        private void set_66_NavigationView_Header(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.Header = (global::System.Object)Value;
-        }
-        private object get_67_NavigationView_MenuItems(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.MenuItems;
-        }
-        private object get_68_NavigationView_HeaderTemplate(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.HeaderTemplate;
-        }
-        private void set_68_NavigationView_HeaderTemplate(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.HeaderTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
-        }
-        private object get_69_NavigationView_AlwaysShowHeader(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.AlwaysShowHeader;
-        }
-        private void set_69_NavigationView_AlwaysShowHeader(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.AlwaysShowHeader = (global::System.Boolean)Value;
-        }
-        private object get_70_NavigationView_AutoSuggestBox(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.AutoSuggestBox;
-        }
-        private void set_70_NavigationView_AutoSuggestBox(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.AutoSuggestBox = (global::Microsoft.UI.Xaml.Controls.AutoSuggestBox)Value;
-        }
-        private object get_71_NavigationView_CompactModeThresholdWidth(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.CompactModeThresholdWidth;
-        }
-        private void set_71_NavigationView_CompactModeThresholdWidth(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.CompactModeThresholdWidth = (global::System.Double)Value;
-        }
-        private object get_72_NavigationView_CompactPaneLength(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.CompactPaneLength;
-        }
-        private void set_72_NavigationView_CompactPaneLength(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.CompactPaneLength = (global::System.Double)Value;
-        }
-        private object get_73_NavigationView_ContentOverlay(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.ContentOverlay;
-        }
-        private void set_73_NavigationView_ContentOverlay(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.ContentOverlay = (global::Microsoft.UI.Xaml.UIElement)Value;
-        }
-        private object get_74_NavigationView_DisplayMode(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.DisplayMode;
-        }
-        private object get_75_NavigationView_FooterMenuItems(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.FooterMenuItems;
-        }
-        private object get_76_NavigationView_FooterMenuItemsSource(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.FooterMenuItemsSource;
-        }
-        private void set_76_NavigationView_FooterMenuItemsSource(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.FooterMenuItemsSource = (global::System.Object)Value;
-        }
-        private object get_77_NavigationView_IsPaneOpen(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.IsPaneOpen;
-        }
-        private void set_77_NavigationView_IsPaneOpen(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.IsPaneOpen = (global::System.Boolean)Value;
-        }
-        private object get_78_NavigationView_IsPaneToggleButtonVisible(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.IsPaneToggleButtonVisible;
-        }
-        private void set_78_NavigationView_IsPaneToggleButtonVisible(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.IsPaneToggleButtonVisible = (global::System.Boolean)Value;
-        }
-        private object get_79_NavigationView_IsPaneVisible(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.IsPaneVisible;
-        }
-        private void set_79_NavigationView_IsPaneVisible(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.IsPaneVisible = (global::System.Boolean)Value;
-        }
-        private object get_80_NavigationView_IsTitleBarAutoPaddingEnabled(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.IsTitleBarAutoPaddingEnabled;
-        }
-        private void set_80_NavigationView_IsTitleBarAutoPaddingEnabled(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.IsTitleBarAutoPaddingEnabled = (global::System.Boolean)Value;
-        }
-        private object get_81_NavigationView_MenuItemContainerStyle(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.MenuItemContainerStyle;
-        }
-        private void set_81_NavigationView_MenuItemContainerStyle(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.MenuItemContainerStyle = (global::Microsoft.UI.Xaml.Style)Value;
-        }
-        private object get_82_NavigationView_MenuItemContainerStyleSelector(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.MenuItemContainerStyleSelector;
-        }
-        private void set_82_NavigationView_MenuItemContainerStyleSelector(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.MenuItemContainerStyleSelector = (global::Microsoft.UI.Xaml.Controls.StyleSelector)Value;
-        }
-        private object get_83_NavigationView_MenuItemTemplate(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.MenuItemTemplate;
-        }
-        private void set_83_NavigationView_MenuItemTemplate(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.MenuItemTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
-        }
-        private object get_84_NavigationView_MenuItemTemplateSelector(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.MenuItemTemplateSelector;
-        }
-        private void set_84_NavigationView_MenuItemTemplateSelector(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.MenuItemTemplateSelector = (global::Microsoft.UI.Xaml.Controls.DataTemplateSelector)Value;
-        }
-        private object get_85_NavigationView_MenuItemsSource(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.MenuItemsSource;
-        }
-        private void set_85_NavigationView_MenuItemsSource(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.MenuItemsSource = (global::System.Object)Value;
-        }
-        private object get_86_NavigationView_OpenPaneLength(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.OpenPaneLength;
-        }
-        private void set_86_NavigationView_OpenPaneLength(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.OpenPaneLength = (global::System.Double)Value;
-        }
-        private object get_87_NavigationView_OverflowLabelMode(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.OverflowLabelMode;
-        }
-        private void set_87_NavigationView_OverflowLabelMode(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.OverflowLabelMode = (global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode)Value;
-        }
-        private object get_88_NavigationView_PaneCustomContent(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.PaneCustomContent;
-        }
-        private void set_88_NavigationView_PaneCustomContent(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.PaneCustomContent = (global::Microsoft.UI.Xaml.UIElement)Value;
-        }
-        private object get_89_NavigationView_PaneDisplayMode(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.PaneDisplayMode;
-        }
-        private void set_89_NavigationView_PaneDisplayMode(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.PaneDisplayMode = (global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode)Value;
-        }
-        private object get_90_NavigationView_PaneFooter(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.PaneFooter;
-        }
-        private void set_90_NavigationView_PaneFooter(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.PaneFooter = (global::Microsoft.UI.Xaml.UIElement)Value;
-        }
-        private object get_91_NavigationView_PaneHeader(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.PaneHeader;
-        }
-        private void set_91_NavigationView_PaneHeader(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.PaneHeader = (global::Microsoft.UI.Xaml.UIElement)Value;
-        }
-        private object get_92_NavigationView_PaneTitle(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.PaneTitle;
-        }
-        private void set_92_NavigationView_PaneTitle(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.PaneTitle = (global::System.String)Value;
-        }
-        private object get_93_NavigationView_PaneToggleButtonStyle(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.PaneToggleButtonStyle;
-        }
-        private void set_93_NavigationView_PaneToggleButtonStyle(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.PaneToggleButtonStyle = (global::Microsoft.UI.Xaml.Style)Value;
-        }
-        private object get_94_NavigationView_SelectionFollowsFocus(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.SelectionFollowsFocus;
-        }
-        private void set_94_NavigationView_SelectionFollowsFocus(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.SelectionFollowsFocus = (global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus)Value;
-        }
-        private object get_95_NavigationView_SettingsItem(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.SettingsItem;
-        }
-        private object get_96_NavigationView_ShoulderNavigationEnabled(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.ShoulderNavigationEnabled;
-        }
-        private void set_96_NavigationView_ShoulderNavigationEnabled(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.ShoulderNavigationEnabled = (global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled)Value;
-        }
-        private object get_97_NavigationView_TemplateSettings(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
+            var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
             return that.TemplateSettings;
         }
-        private object get_98_Interaction_Behaviors(object instance)
+        private object get_56_ProgressRing_Value(object instance)
         {
-            return global::Microsoft.Xaml.Interactivity.Interaction.GetBehaviors((global::Microsoft.UI.Xaml.DependencyObject)instance);
+            var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
+            return that.Value;
         }
-        private void set_98_Interaction_Behaviors(object instance, object Value)
+        private void set_56_ProgressRing_Value(object instance, object Value)
         {
-            global::Microsoft.Xaml.Interactivity.Interaction.SetBehaviors((global::Microsoft.UI.Xaml.DependencyObject)instance, (global::Microsoft.Xaml.Interactivity.BehaviorCollection)Value);
+            var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
+            that.Value = (global::System.Double)Value;
         }
-        private object get_99_NavigationViewItem_Icon(object instance)
+        private object get_57_DashboardPage_ViewModel(object instance)
         {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
-            return that.Icon;
-        }
-        private void set_99_NavigationViewItem_Icon(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
-            that.Icon = (global::Microsoft.UI.Xaml.Controls.IconElement)Value;
-        }
-        private object get_100_NavigationViewItem_CompactPaneLength(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
-            return that.CompactPaneLength;
-        }
-        private object get_101_NavigationViewItem_HasUnrealizedChildren(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
-            return that.HasUnrealizedChildren;
-        }
-        private void set_101_NavigationViewItem_HasUnrealizedChildren(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
-            that.HasUnrealizedChildren = (global::System.Boolean)Value;
-        }
-        private object get_102_NavigationViewItem_InfoBadge(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
-            return that.InfoBadge;
-        }
-        private void set_102_NavigationViewItem_InfoBadge(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
-            that.InfoBadge = (global::Microsoft.UI.Xaml.Controls.InfoBadge)Value;
-        }
-        private object get_103_NavigationViewItem_IsChildSelected(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
-            return that.IsChildSelected;
-        }
-        private void set_103_NavigationViewItem_IsChildSelected(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
-            that.IsChildSelected = (global::System.Boolean)Value;
-        }
-        private object get_104_NavigationViewItem_IsExpanded(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
-            return that.IsExpanded;
-        }
-        private void set_104_NavigationViewItem_IsExpanded(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
-            that.IsExpanded = (global::System.Boolean)Value;
-        }
-        private object get_105_NavigationViewItem_MenuItems(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
-            return that.MenuItems;
-        }
-        private object get_106_NavigationViewItem_MenuItemsSource(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
-            return that.MenuItemsSource;
-        }
-        private void set_106_NavigationViewItem_MenuItemsSource(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
-            that.MenuItemsSource = (global::System.Object)Value;
-        }
-        private object get_107_NavigationViewItem_SelectsOnInvoked(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
-            return that.SelectsOnInvoked;
-        }
-        private void set_107_NavigationViewItem_SelectsOnInvoked(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
-            that.SelectsOnInvoked = (global::System.Boolean)Value;
-        }
-        private object get_108_NavigationViewItemBase_IsSelected(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase)instance;
-            return that.IsSelected;
-        }
-        private void set_108_NavigationViewItemBase_IsSelected(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase)instance;
-            that.IsSelected = (global::System.Boolean)Value;
-        }
-        private object get_109_NavigationHelper_NavigateTo(object instance)
-        {
-            return global::Trading_Assistant.Helpers.NavigationHelper.GetNavigateTo((global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance);
-        }
-        private void set_109_NavigationHelper_NavigateTo(object instance, object Value)
-        {
-            global::Trading_Assistant.Helpers.NavigationHelper.SetNavigateTo((global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance, (global::System.String)Value);
-        }
-        private object get_110_NavigationViewHeaderBehavior_DefaultHeader(object instance)
-        {
-            var that = (global::Trading_Assistant.Behaviors.NavigationViewHeaderBehavior)instance;
-            return that.DefaultHeader;
-        }
-        private void set_110_NavigationViewHeaderBehavior_DefaultHeader(object instance, object Value)
-        {
-            var that = (global::Trading_Assistant.Behaviors.NavigationViewHeaderBehavior)instance;
-            that.DefaultHeader = (global::System.Object)Value;
-        }
-        private object get_111_NavigationViewHeaderBehavior_DefaultHeaderTemplate(object instance)
-        {
-            var that = (global::Trading_Assistant.Behaviors.NavigationViewHeaderBehavior)instance;
-            return that.DefaultHeaderTemplate;
-        }
-        private void set_111_NavigationViewHeaderBehavior_DefaultHeaderTemplate(object instance, object Value)
-        {
-            var that = (global::Trading_Assistant.Behaviors.NavigationViewHeaderBehavior)instance;
-            that.DefaultHeaderTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
-        }
-        private object get_112_Behavior_AssociatedObject(object instance)
-        {
-            var that = (global::Microsoft.Xaml.Interactivity.Behavior<global::Microsoft.UI.Xaml.Controls.NavigationView>)instance;
-            return that.AssociatedObject;
-        }
-        private object get_113_NavigationViewHeaderBehavior_HeaderMode(object instance)
-        {
-            return global::Trading_Assistant.Behaviors.NavigationViewHeaderBehavior.GetHeaderMode((global::Microsoft.UI.Xaml.Controls.Page)instance);
-        }
-        private void set_113_NavigationViewHeaderBehavior_HeaderMode(object instance, object Value)
-        {
-            global::Trading_Assistant.Behaviors.NavigationViewHeaderBehavior.SetHeaderMode((global::Microsoft.UI.Xaml.Controls.Page)instance, (global::Trading_Assistant.Behaviors.NavigationViewHeaderMode)Value);
-        }
-        private object get_114_NavigationViewHeaderBehavior_HeaderContext(object instance)
-        {
-            return global::Trading_Assistant.Behaviors.NavigationViewHeaderBehavior.GetHeaderContext((global::Microsoft.UI.Xaml.Controls.Page)instance);
-        }
-        private void set_114_NavigationViewHeaderBehavior_HeaderContext(object instance, object Value)
-        {
-            global::Trading_Assistant.Behaviors.NavigationViewHeaderBehavior.SetHeaderContext((global::Microsoft.UI.Xaml.Controls.Page)instance, (global::System.Object)Value);
-        }
-        private object get_115_NavigationViewHeaderBehavior_HeaderTemplate(object instance)
-        {
-            return global::Trading_Assistant.Behaviors.NavigationViewHeaderBehavior.GetHeaderTemplate((global::Microsoft.UI.Xaml.Controls.Page)instance);
-        }
-        private void set_115_NavigationViewHeaderBehavior_HeaderTemplate(object instance, object Value)
-        {
-            global::Trading_Assistant.Behaviors.NavigationViewHeaderBehavior.SetHeaderTemplate((global::Microsoft.UI.Xaml.Controls.Page)instance, (global::Microsoft.UI.Xaml.DataTemplate)Value);
-        }
-        private object get_116_ShellPage_ViewModel(object instance)
-        {
-            var that = (global::Trading_Assistant.Views.ShellPage)instance;
+            var that = (global::Trading_Assistant.Views.DashboardPage)instance;
             return that.ViewModel;
         }
-        private object get_117_TreeViewNode_Children(object instance)
+        private object get_58_TreeViewNode_Children(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Children;
         }
-        private object get_118_TreeViewNode_Content(object instance)
+        private object get_59_TreeViewNode_Content(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Content;
         }
-        private void set_118_TreeViewNode_Content(object instance, object Value)
+        private void set_59_TreeViewNode_Content(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.Content = (global::System.Object)Value;
         }
-        private object get_119_TreeViewNode_Depth(object instance)
+        private object get_60_TreeViewNode_Depth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Depth;
         }
-        private object get_120_TreeViewNode_HasChildren(object instance)
+        private object get_61_TreeViewNode_HasChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasChildren;
         }
-        private object get_121_TreeViewNode_HasUnrealizedChildren(object instance)
+        private object get_62_TreeViewNode_HasUnrealizedChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasUnrealizedChildren;
         }
-        private void set_121_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
+        private void set_62_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.HasUnrealizedChildren = (global::System.Boolean)Value;
         }
-        private object get_122_TreeViewNode_IsExpanded(object instance)
+        private object get_63_TreeViewNode_IsExpanded(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.IsExpanded;
         }
-        private void set_122_TreeViewNode_IsExpanded(object instance, object Value)
+        private void set_63_TreeViewNode_IsExpanded(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.IsExpanded = (global::System.Boolean)Value;
         }
-        private object get_123_TreeViewNode_Parent(object instance)
+        private object get_64_TreeViewNode_Parent(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Parent;
@@ -2649,645 +1613,230 @@ namespace Trading_Assistant.Trading_Assistant_XamlTypeInfo
                 xamlMember.Getter = get_31_CornerRadius_BottomLeft;
                 xamlMember.Setter = set_31_CornerRadius_BottomLeft;
                 break;
-            case "Trading_Assistant.Views.BlankPage.ViewModel":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Trading_Assistant.Views.BlankPage");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "ViewModel", "Trading_Assistant.ViewModels.BlankViewModel");
-                xamlMember.Getter = get_32_BlankPage_ViewModel;
-                xamlMember.SetIsReadOnly();
+            case "Microsoft.UI.Xaml.Controls.NumberBox.Header":
+                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "Header", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_32_NumberBox_Header;
+                xamlMember.Setter = set_32_NumberBox_Header;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.Value":
+                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "Value", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_33_NumberBox_Value;
+                xamlMember.Setter = set_33_NumberBox_Value;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.Minimum":
+                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "Minimum", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_34_NumberBox_Minimum;
+                xamlMember.Setter = set_34_NumberBox_Minimum;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.SpinButtonPlacementMode":
+                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "SpinButtonPlacementMode", "Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_35_NumberBox_SpinButtonPlacementMode;
+                xamlMember.Setter = set_35_NumberBox_SpinButtonPlacementMode;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.PlaceholderText":
+                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "PlaceholderText", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_36_NumberBox_PlaceholderText;
+                xamlMember.Setter = set_36_NumberBox_PlaceholderText;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.SmallChange":
+                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "SmallChange", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_37_NumberBox_SmallChange;
+                xamlMember.Setter = set_37_NumberBox_SmallChange;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.AcceptsExpression":
+                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "AcceptsExpression", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_38_NumberBox_AcceptsExpression;
+                xamlMember.Setter = set_38_NumberBox_AcceptsExpression;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.Description":
+                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "Description", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_39_NumberBox_Description;
+                xamlMember.Setter = set_39_NumberBox_Description;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.HeaderTemplate":
+                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_40_NumberBox_HeaderTemplate;
+                xamlMember.Setter = set_40_NumberBox_HeaderTemplate;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.IsWrapEnabled":
+                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "IsWrapEnabled", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_41_NumberBox_IsWrapEnabled;
+                xamlMember.Setter = set_41_NumberBox_IsWrapEnabled;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.LargeChange":
+                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "LargeChange", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_42_NumberBox_LargeChange;
+                xamlMember.Setter = set_42_NumberBox_LargeChange;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.Maximum":
+                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "Maximum", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_43_NumberBox_Maximum;
+                xamlMember.Setter = set_43_NumberBox_Maximum;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.NumberFormatter":
+                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "NumberFormatter", "Windows.Globalization.NumberFormatting.INumberFormatter2");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_44_NumberBox_NumberFormatter;
+                xamlMember.Setter = set_44_NumberBox_NumberFormatter;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.PreventKeyboardDisplayOnProgrammaticFocus":
+                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "PreventKeyboardDisplayOnProgrammaticFocus", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_45_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus;
+                xamlMember.Setter = set_45_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.SelectionFlyout":
+                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "SelectionFlyout", "Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_46_NumberBox_SelectionFlyout;
+                xamlMember.Setter = set_46_NumberBox_SelectionFlyout;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.SelectionHighlightColor":
+                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "SelectionHighlightColor", "Microsoft.UI.Xaml.Media.SolidColorBrush");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_47_NumberBox_SelectionHighlightColor;
+                xamlMember.Setter = set_47_NumberBox_SelectionHighlightColor;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.Text":
+                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "Text", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_48_NumberBox_Text;
+                xamlMember.Setter = set_48_NumberBox_Text;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.TextReadingOrder":
+                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "TextReadingOrder", "Microsoft.UI.Xaml.TextReadingOrder");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_49_NumberBox_TextReadingOrder;
+                xamlMember.Setter = set_49_NumberBox_TextReadingOrder;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NumberBox.ValidationMode":
+                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
+                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "ValidationMode", "Microsoft.UI.Xaml.Controls.NumberBoxValidationMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_50_NumberBox_ValidationMode;
+                xamlMember.Setter = set_50_NumberBox_ValidationMode;
                 break;
             case "Microsoft.UI.Xaml.Controls.ProgressRing.IsActive":
                 userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressRing");
                 xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "IsActive", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_33_ProgressRing_IsActive;
-                xamlMember.Setter = set_33_ProgressRing_IsActive;
+                xamlMember.Getter = get_51_ProgressRing_IsActive;
+                xamlMember.Setter = set_51_ProgressRing_IsActive;
                 break;
             case "Microsoft.UI.Xaml.Controls.ProgressRing.IsIndeterminate":
                 userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressRing");
                 xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "IsIndeterminate", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_34_ProgressRing_IsIndeterminate;
-                xamlMember.Setter = set_34_ProgressRing_IsIndeterminate;
+                xamlMember.Getter = get_52_ProgressRing_IsIndeterminate;
+                xamlMember.Setter = set_52_ProgressRing_IsIndeterminate;
                 break;
             case "Microsoft.UI.Xaml.Controls.ProgressRing.Maximum":
                 userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressRing");
                 xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "Maximum", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_35_ProgressRing_Maximum;
-                xamlMember.Setter = set_35_ProgressRing_Maximum;
+                xamlMember.Getter = get_53_ProgressRing_Maximum;
+                xamlMember.Setter = set_53_ProgressRing_Maximum;
                 break;
             case "Microsoft.UI.Xaml.Controls.ProgressRing.Minimum":
                 userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressRing");
                 xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "Minimum", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_36_ProgressRing_Minimum;
-                xamlMember.Setter = set_36_ProgressRing_Minimum;
+                xamlMember.Getter = get_54_ProgressRing_Minimum;
+                xamlMember.Setter = set_54_ProgressRing_Minimum;
                 break;
             case "Microsoft.UI.Xaml.Controls.ProgressRing.TemplateSettings":
                 userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressRing");
                 xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings");
-                xamlMember.Getter = get_37_ProgressRing_TemplateSettings;
+                xamlMember.Getter = get_55_ProgressRing_TemplateSettings;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.ProgressRing.Value":
                 userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressRing");
                 xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "Value", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_38_ProgressRing_Value;
-                xamlMember.Setter = set_38_ProgressRing_Value;
+                xamlMember.Getter = get_56_ProgressRing_Value;
+                xamlMember.Setter = set_56_ProgressRing_Value;
                 break;
             case "Trading_Assistant.Views.DashboardPage.ViewModel":
                 userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Trading_Assistant.Views.DashboardPage");
                 xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "ViewModel", "Trading_Assistant.ViewModels.DashboardViewModel");
-                xamlMember.Getter = get_39_DashboardPage_ViewModel;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "Trading_Assistant.Views.MainPage.ViewModel":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Trading_Assistant.Views.MainPage");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "ViewModel", "Trading_Assistant.ViewModels.MainViewModel");
-                xamlMember.Getter = get_40_MainPage_ViewModel;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "Microsoft.UI.Xaml.Controls.NumberBox.Header":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "Header", "Object");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_41_NumberBox_Header;
-                xamlMember.Setter = set_41_NumberBox_Header;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NumberBox.Value":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "Value", "Double");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_42_NumberBox_Value;
-                xamlMember.Setter = set_42_NumberBox_Value;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NumberBox.SpinButtonPlacementMode":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "SpinButtonPlacementMode", "Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_43_NumberBox_SpinButtonPlacementMode;
-                xamlMember.Setter = set_43_NumberBox_SpinButtonPlacementMode;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NumberBox.SmallChange":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "SmallChange", "Double");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_44_NumberBox_SmallChange;
-                xamlMember.Setter = set_44_NumberBox_SmallChange;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NumberBox.LargeChange":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "LargeChange", "Double");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_45_NumberBox_LargeChange;
-                xamlMember.Setter = set_45_NumberBox_LargeChange;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NumberBox.Minimum":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "Minimum", "Double");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_46_NumberBox_Minimum;
-                xamlMember.Setter = set_46_NumberBox_Minimum;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NumberBox.AcceptsExpression":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "AcceptsExpression", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_47_NumberBox_AcceptsExpression;
-                xamlMember.Setter = set_47_NumberBox_AcceptsExpression;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NumberBox.Description":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "Description", "Object");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_48_NumberBox_Description;
-                xamlMember.Setter = set_48_NumberBox_Description;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NumberBox.HeaderTemplate":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_49_NumberBox_HeaderTemplate;
-                xamlMember.Setter = set_49_NumberBox_HeaderTemplate;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NumberBox.IsWrapEnabled":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "IsWrapEnabled", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_50_NumberBox_IsWrapEnabled;
-                xamlMember.Setter = set_50_NumberBox_IsWrapEnabled;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NumberBox.Maximum":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "Maximum", "Double");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_51_NumberBox_Maximum;
-                xamlMember.Setter = set_51_NumberBox_Maximum;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NumberBox.NumberFormatter":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "NumberFormatter", "Windows.Globalization.NumberFormatting.INumberFormatter2");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_52_NumberBox_NumberFormatter;
-                xamlMember.Setter = set_52_NumberBox_NumberFormatter;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NumberBox.PlaceholderText":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "PlaceholderText", "String");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_53_NumberBox_PlaceholderText;
-                xamlMember.Setter = set_53_NumberBox_PlaceholderText;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NumberBox.PreventKeyboardDisplayOnProgrammaticFocus":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "PreventKeyboardDisplayOnProgrammaticFocus", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_54_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus;
-                xamlMember.Setter = set_54_NumberBox_PreventKeyboardDisplayOnProgrammaticFocus;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NumberBox.SelectionFlyout":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "SelectionFlyout", "Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_55_NumberBox_SelectionFlyout;
-                xamlMember.Setter = set_55_NumberBox_SelectionFlyout;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NumberBox.SelectionHighlightColor":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "SelectionHighlightColor", "Microsoft.UI.Xaml.Media.SolidColorBrush");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_56_NumberBox_SelectionHighlightColor;
-                xamlMember.Setter = set_56_NumberBox_SelectionHighlightColor;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NumberBox.Text":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "Text", "String");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_57_NumberBox_Text;
-                xamlMember.Setter = set_57_NumberBox_Text;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NumberBox.TextReadingOrder":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "TextReadingOrder", "Microsoft.UI.Xaml.TextReadingOrder");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_58_NumberBox_TextReadingOrder;
-                xamlMember.Setter = set_58_NumberBox_TextReadingOrder;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NumberBox.ValidationMode":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NumberBox");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "ValidationMode", "Microsoft.UI.Xaml.Controls.NumberBoxValidationMode");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_59_NumberBox_ValidationMode;
-                xamlMember.Setter = set_59_NumberBox_ValidationMode;
-                break;
-            case "Trading_Assistant.Views.SettingsPage.ViewModel":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Trading_Assistant.Views.SettingsPage");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "ViewModel", "Trading_Assistant.ViewModels.SettingsViewModel");
-                xamlMember.Getter = get_60_SettingsPage_ViewModel;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.IsBackButtonVisible":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "IsBackButtonVisible", "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_61_NavigationView_IsBackButtonVisible;
-                xamlMember.Setter = set_61_NavigationView_IsBackButtonVisible;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.IsBackEnabled":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "IsBackEnabled", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_62_NavigationView_IsBackEnabled;
-                xamlMember.Setter = set_62_NavigationView_IsBackEnabled;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.SelectedItem":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "SelectedItem", "Object");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_63_NavigationView_SelectedItem;
-                xamlMember.Setter = set_63_NavigationView_SelectedItem;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.IsSettingsVisible":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "IsSettingsVisible", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_64_NavigationView_IsSettingsVisible;
-                xamlMember.Setter = set_64_NavigationView_IsSettingsVisible;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.ExpandedModeThresholdWidth":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "ExpandedModeThresholdWidth", "Double");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_65_NavigationView_ExpandedModeThresholdWidth;
-                xamlMember.Setter = set_65_NavigationView_ExpandedModeThresholdWidth;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.Header":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "Header", "Object");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_66_NavigationView_Header;
-                xamlMember.Setter = set_66_NavigationView_Header;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItems":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "MenuItems", "System.Collections.Generic.IList`1<Object>");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_67_NavigationView_MenuItems;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.HeaderTemplate":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_68_NavigationView_HeaderTemplate;
-                xamlMember.Setter = set_68_NavigationView_HeaderTemplate;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.AlwaysShowHeader":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "AlwaysShowHeader", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_69_NavigationView_AlwaysShowHeader;
-                xamlMember.Setter = set_69_NavigationView_AlwaysShowHeader;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.AutoSuggestBox":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "AutoSuggestBox", "Microsoft.UI.Xaml.Controls.AutoSuggestBox");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_70_NavigationView_AutoSuggestBox;
-                xamlMember.Setter = set_70_NavigationView_AutoSuggestBox;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.CompactModeThresholdWidth":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "CompactModeThresholdWidth", "Double");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_71_NavigationView_CompactModeThresholdWidth;
-                xamlMember.Setter = set_71_NavigationView_CompactModeThresholdWidth;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.CompactPaneLength":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "CompactPaneLength", "Double");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_72_NavigationView_CompactPaneLength;
-                xamlMember.Setter = set_72_NavigationView_CompactPaneLength;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.ContentOverlay":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "ContentOverlay", "Microsoft.UI.Xaml.UIElement");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_73_NavigationView_ContentOverlay;
-                xamlMember.Setter = set_73_NavigationView_ContentOverlay;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.DisplayMode":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "DisplayMode", "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_74_NavigationView_DisplayMode;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.FooterMenuItems":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "FooterMenuItems", "System.Collections.Generic.IList`1<Object>");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_75_NavigationView_FooterMenuItems;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.FooterMenuItemsSource":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "FooterMenuItemsSource", "Object");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_76_NavigationView_FooterMenuItemsSource;
-                xamlMember.Setter = set_76_NavigationView_FooterMenuItemsSource;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.IsPaneOpen":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "IsPaneOpen", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_77_NavigationView_IsPaneOpen;
-                xamlMember.Setter = set_77_NavigationView_IsPaneOpen;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.IsPaneToggleButtonVisible":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "IsPaneToggleButtonVisible", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_78_NavigationView_IsPaneToggleButtonVisible;
-                xamlMember.Setter = set_78_NavigationView_IsPaneToggleButtonVisible;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.IsPaneVisible":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "IsPaneVisible", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_79_NavigationView_IsPaneVisible;
-                xamlMember.Setter = set_79_NavigationView_IsPaneVisible;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.IsTitleBarAutoPaddingEnabled":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "IsTitleBarAutoPaddingEnabled", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_80_NavigationView_IsTitleBarAutoPaddingEnabled;
-                xamlMember.Setter = set_80_NavigationView_IsTitleBarAutoPaddingEnabled;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemContainerStyle":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "MenuItemContainerStyle", "Microsoft.UI.Xaml.Style");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_81_NavigationView_MenuItemContainerStyle;
-                xamlMember.Setter = set_81_NavigationView_MenuItemContainerStyle;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemContainerStyleSelector":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "MenuItemContainerStyleSelector", "Microsoft.UI.Xaml.Controls.StyleSelector");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_82_NavigationView_MenuItemContainerStyleSelector;
-                xamlMember.Setter = set_82_NavigationView_MenuItemContainerStyleSelector;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemTemplate":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "MenuItemTemplate", "Microsoft.UI.Xaml.DataTemplate");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_83_NavigationView_MenuItemTemplate;
-                xamlMember.Setter = set_83_NavigationView_MenuItemTemplate;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemTemplateSelector":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "MenuItemTemplateSelector", "Microsoft.UI.Xaml.Controls.DataTemplateSelector");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_84_NavigationView_MenuItemTemplateSelector;
-                xamlMember.Setter = set_84_NavigationView_MenuItemTemplateSelector;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemsSource":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "MenuItemsSource", "Object");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_85_NavigationView_MenuItemsSource;
-                xamlMember.Setter = set_85_NavigationView_MenuItemsSource;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.OpenPaneLength":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "OpenPaneLength", "Double");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_86_NavigationView_OpenPaneLength;
-                xamlMember.Setter = set_86_NavigationView_OpenPaneLength;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.OverflowLabelMode":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "OverflowLabelMode", "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_87_NavigationView_OverflowLabelMode;
-                xamlMember.Setter = set_87_NavigationView_OverflowLabelMode;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.PaneCustomContent":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "PaneCustomContent", "Microsoft.UI.Xaml.UIElement");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_88_NavigationView_PaneCustomContent;
-                xamlMember.Setter = set_88_NavigationView_PaneCustomContent;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.PaneDisplayMode":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "PaneDisplayMode", "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_89_NavigationView_PaneDisplayMode;
-                xamlMember.Setter = set_89_NavigationView_PaneDisplayMode;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.PaneFooter":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "PaneFooter", "Microsoft.UI.Xaml.UIElement");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_90_NavigationView_PaneFooter;
-                xamlMember.Setter = set_90_NavigationView_PaneFooter;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.PaneHeader":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "PaneHeader", "Microsoft.UI.Xaml.UIElement");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_91_NavigationView_PaneHeader;
-                xamlMember.Setter = set_91_NavigationView_PaneHeader;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.PaneTitle":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "PaneTitle", "String");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_92_NavigationView_PaneTitle;
-                xamlMember.Setter = set_92_NavigationView_PaneTitle;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.PaneToggleButtonStyle":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "PaneToggleButtonStyle", "Microsoft.UI.Xaml.Style");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_93_NavigationView_PaneToggleButtonStyle;
-                xamlMember.Setter = set_93_NavigationView_PaneToggleButtonStyle;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.SelectionFollowsFocus":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "SelectionFollowsFocus", "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_94_NavigationView_SelectionFollowsFocus;
-                xamlMember.Setter = set_94_NavigationView_SelectionFollowsFocus;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.SettingsItem":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "SettingsItem", "Object");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_95_NavigationView_SettingsItem;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.ShoulderNavigationEnabled":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "ShoulderNavigationEnabled", "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_96_NavigationView_ShoulderNavigationEnabled;
-                xamlMember.Setter = set_96_NavigationView_ShoulderNavigationEnabled;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.TemplateSettings":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_97_NavigationView_TemplateSettings;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "Microsoft.Xaml.Interactivity.Interaction.Behaviors":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactivity.Interaction");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "Behaviors", "Microsoft.Xaml.Interactivity.BehaviorCollection");
-                xamlMember.SetTargetTypeName("Microsoft.UI.Xaml.DependencyObject");
-                xamlMember.SetIsAttachable();
-                xamlMember.Getter = get_98_Interaction_Behaviors;
-                xamlMember.Setter = set_98_Interaction_Behaviors;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationViewItem.Icon":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "Icon", "Microsoft.UI.Xaml.Controls.IconElement");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_99_NavigationViewItem_Icon;
-                xamlMember.Setter = set_99_NavigationViewItem_Icon;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationViewItem.CompactPaneLength":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "CompactPaneLength", "Double");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_100_NavigationViewItem_CompactPaneLength;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationViewItem.HasUnrealizedChildren":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_101_NavigationViewItem_HasUnrealizedChildren;
-                xamlMember.Setter = set_101_NavigationViewItem_HasUnrealizedChildren;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationViewItem.InfoBadge":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "InfoBadge", "Microsoft.UI.Xaml.Controls.InfoBadge");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_102_NavigationViewItem_InfoBadge;
-                xamlMember.Setter = set_102_NavigationViewItem_InfoBadge;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationViewItem.IsChildSelected":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "IsChildSelected", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_103_NavigationViewItem_IsChildSelected;
-                xamlMember.Setter = set_103_NavigationViewItem_IsChildSelected;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationViewItem.IsExpanded":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_104_NavigationViewItem_IsExpanded;
-                xamlMember.Setter = set_104_NavigationViewItem_IsExpanded;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationViewItem.MenuItems":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "MenuItems", "System.Collections.Generic.IList`1<Object>");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_105_NavigationViewItem_MenuItems;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationViewItem.MenuItemsSource":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "MenuItemsSource", "Object");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_106_NavigationViewItem_MenuItemsSource;
-                xamlMember.Setter = set_106_NavigationViewItem_MenuItemsSource;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationViewItem.SelectsOnInvoked":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "SelectsOnInvoked", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_107_NavigationViewItem_SelectsOnInvoked;
-                xamlMember.Setter = set_107_NavigationViewItem_SelectsOnInvoked;
-                break;
-            case "Microsoft.UI.Xaml.Controls.NavigationViewItemBase.IsSelected":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItemBase");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "IsSelected", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_108_NavigationViewItemBase_IsSelected;
-                xamlMember.Setter = set_108_NavigationViewItemBase_IsSelected;
-                break;
-            case "Trading_Assistant.Helpers.NavigationHelper.NavigateTo":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Trading_Assistant.Helpers.NavigationHelper");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "NavigateTo", "String");
-                xamlMember.SetTargetTypeName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember.SetIsAttachable();
-                xamlMember.Getter = get_109_NavigationHelper_NavigateTo;
-                xamlMember.Setter = set_109_NavigationHelper_NavigateTo;
-                break;
-            case "Trading_Assistant.Behaviors.NavigationViewHeaderBehavior.DefaultHeader":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Trading_Assistant.Behaviors.NavigationViewHeaderBehavior");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "DefaultHeader", "Object");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_110_NavigationViewHeaderBehavior_DefaultHeader;
-                xamlMember.Setter = set_110_NavigationViewHeaderBehavior_DefaultHeader;
-                break;
-            case "Trading_Assistant.Behaviors.NavigationViewHeaderBehavior.DefaultHeaderTemplate":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Trading_Assistant.Behaviors.NavigationViewHeaderBehavior");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "DefaultHeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
-                xamlMember.Getter = get_111_NavigationViewHeaderBehavior_DefaultHeaderTemplate;
-                xamlMember.Setter = set_111_NavigationViewHeaderBehavior_DefaultHeaderTemplate;
-                break;
-            case "Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.NavigationView>.AssociatedObject":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.NavigationView>");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "AssociatedObject", "Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember.Getter = get_112_Behavior_AssociatedObject;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "Trading_Assistant.Behaviors.NavigationViewHeaderBehavior.HeaderMode":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Trading_Assistant.Behaviors.NavigationViewHeaderBehavior");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "HeaderMode", "Trading_Assistant.Behaviors.NavigationViewHeaderMode");
-                xamlMember.SetTargetTypeName("Microsoft.UI.Xaml.Controls.Page");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.SetIsAttachable();
-                xamlMember.Getter = get_113_NavigationViewHeaderBehavior_HeaderMode;
-                xamlMember.Setter = set_113_NavigationViewHeaderBehavior_HeaderMode;
-                break;
-            case "Trading_Assistant.Behaviors.NavigationViewHeaderBehavior.HeaderContext":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Trading_Assistant.Behaviors.NavigationViewHeaderBehavior");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "HeaderContext", "Object");
-                xamlMember.SetTargetTypeName("Microsoft.UI.Xaml.Controls.Page");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.SetIsAttachable();
-                xamlMember.Getter = get_114_NavigationViewHeaderBehavior_HeaderContext;
-                xamlMember.Setter = set_114_NavigationViewHeaderBehavior_HeaderContext;
-                break;
-            case "Trading_Assistant.Behaviors.NavigationViewHeaderBehavior.HeaderTemplate":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Trading_Assistant.Behaviors.NavigationViewHeaderBehavior");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
-                xamlMember.SetTargetTypeName("Microsoft.UI.Xaml.Controls.Page");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.SetIsAttachable();
-                xamlMember.Getter = get_115_NavigationViewHeaderBehavior_HeaderTemplate;
-                xamlMember.Setter = set_115_NavigationViewHeaderBehavior_HeaderTemplate;
-                break;
-            case "Trading_Assistant.Views.ShellPage.ViewModel":
-                userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Trading_Assistant.Views.ShellPage");
-                xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "ViewModel", "Trading_Assistant.ViewModels.ShellViewModel");
-                xamlMember.Getter = get_116_ShellPage_ViewModel;
+                xamlMember.Getter = get_57_DashboardPage_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
                 userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
-                xamlMember.Getter = get_117_TreeViewNode_Children;
+                xamlMember.Getter = get_58_TreeViewNode_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
                 userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_118_TreeViewNode_Content;
-                xamlMember.Setter = set_118_TreeViewNode_Content;
+                xamlMember.Getter = get_59_TreeViewNode_Content;
+                xamlMember.Setter = set_59_TreeViewNode_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
                 userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_119_TreeViewNode_Depth;
+                xamlMember.Getter = get_60_TreeViewNode_Depth;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
                 userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_120_TreeViewNode_HasChildren;
+                xamlMember.Getter = get_61_TreeViewNode_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
                 userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
-                xamlMember.Getter = get_121_TreeViewNode_HasUnrealizedChildren;
-                xamlMember.Setter = set_121_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Getter = get_62_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Setter = set_62_TreeViewNode_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
                 userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_122_TreeViewNode_IsExpanded;
-                xamlMember.Setter = set_122_TreeViewNode_IsExpanded;
+                xamlMember.Getter = get_63_TreeViewNode_IsExpanded;
+                xamlMember.Setter = set_63_TreeViewNode_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
                 userType = (global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember.Getter = get_123_TreeViewNode_Parent;
+                xamlMember.Getter = get_64_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
                 break;
             }
@@ -3295,7 +1844,7 @@ namespace Trading_Assistant.Trading_Assistant_XamlTypeInfo
         }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2512")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2602")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal partial class XamlSystemBaseType : global::Microsoft.UI.Xaml.Markup.IXamlType
     {
@@ -3347,7 +1896,7 @@ namespace Trading_Assistant.Trading_Assistant_XamlTypeInfo
     internal delegate object CreateFromStringMethod(string args);
     internal delegate object BoxInstanceMethod(object instance);
 
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2512")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2602")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal partial class XamlUserType : global::Trading_Assistant.Trading_Assistant_XamlTypeInfo.XamlSystemBaseType
         , global::Microsoft.UI.Xaml.Markup.IXamlType
@@ -3580,7 +2129,7 @@ namespace Trading_Assistant.Trading_Assistant_XamlTypeInfo
     internal delegate object Getter(object instance);
     internal delegate void Setter(object instance, object value);
 
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2512")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2602")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal partial class XamlMember : global::Microsoft.UI.Xaml.Markup.IXamlMember
     {

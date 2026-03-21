@@ -33,18 +33,6 @@ public class StartupValidator
             _logger.LogInformation("Claude CLI: {Message}", claudeResult.Message);
         }
 
-        // Validate Email configuration
-        var emailResult = ValidateEmailConfig();
-        result.EmailConfigValid = emailResult.Success;
-        if (!emailResult.Success)
-        {
-            result.Warnings.Add($"Email: {emailResult.Message}");
-        }
-        else
-        {
-            _logger.LogInformation("Email config: Valid");
-        }
-
         // Validate Alpha Vantage configuration
         var alphaResult = ValidateAlphaVantageConfig();
         result.AlphaVantageConfigValid = alphaResult.Success;
@@ -98,9 +86,12 @@ public class StartupValidator
     {
         try
         {
+            var claudePath = ClaudeCliResolver.Resolve();
+            _logger.LogInformation("Resolved Claude CLI path: {Path}", claudePath);
+
             var processStartInfo = new ProcessStartInfo
             {
-                FileName = "claude",
+                FileName = claudePath,
                 Arguments = "--version",
                 RedirectStandardOutput = true,
                 RedirectStandardError = true,
@@ -134,31 +125,6 @@ public class StartupValidator
         }
     }
 
-    private (bool Success, string Message) ValidateEmailConfig()
-    {
-        var email = _config.Email;
-        var issues = new List<string>();
-
-        if (string.IsNullOrWhiteSpace(email.SmtpServer))
-            issues.Add("SMTP server not configured");
-
-        if (email.SmtpPort <= 0)
-            issues.Add("SMTP port not configured");
-
-        if (string.IsNullOrWhiteSpace(email.FromAddress))
-            issues.Add("From address not configured");
-
-        if (string.IsNullOrWhiteSpace(email.ToAddress))
-            issues.Add("To address not configured");
-
-        if (issues.Any())
-        {
-            return (false, string.Join("; ", issues) + " (emails will fail)");
-        }
-
-        return (true, "All required fields configured");
-    }
-
     private (bool Success, string Message) ValidateAlphaVantageConfig()
     {
         var alpha = _config.AlphaVantage;
@@ -180,7 +146,6 @@ public class StartupValidator
 public class StartupValidationResult
 {
     public bool ClaudeCliAvailable { get; set; }
-    public bool EmailConfigValid { get; set; }
     public bool AlphaVantageConfigValid { get; set; }
     public List<string> Errors { get; } = new();
     public List<string> Warnings { get; } = new();

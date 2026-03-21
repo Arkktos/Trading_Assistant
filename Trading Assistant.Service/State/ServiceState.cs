@@ -67,5 +67,4 @@ public class ServiceState
         }
     }
 
-    public bool ShouldSendEmail() => RegisteredUICount == 0;
 }

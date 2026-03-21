@@ -10,4 +10,7 @@ public class OpportunityDto
     public decimal? TargetPrice { get; set; }
     public decimal? StopLoss { get; set; }
     public string Timeframe { get; set; } = string.Empty;
+
+    public string TargetPriceText => TargetPrice.HasValue ? $"${TargetPrice:F2}" : "-";
+    public string StopLossText => StopLoss.HasValue ? $"${StopLoss:F2}" : "-";
 }

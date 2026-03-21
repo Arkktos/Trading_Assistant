@@ -7,7 +7,6 @@ public class AppConfig
     public TradingConfig Trading { get; set; } = new();
     public ClaudeConfig Claude { get; set; } = new();
     public AlphaVantageConfig AlphaVantage { get; set; } = new();
-    public EmailConfig Email { get; set; } = new();
     public ScheduleConfig Schedule { get; set; } = new();
 }
 
@@ -30,18 +29,6 @@ public class AlphaVantageConfig
 {
     public string ApiKey { get; set; } = string.Empty;
     public string BaseUrl { get; set; } = "https://www.alphavantage.co/query";
-}
-
-public class EmailConfig
-{
-    public string SmtpServer { get; set; } = string.Empty;
-    public int SmtpPort { get; set; }
-    public bool UseSsl { get; set; }
-    public string FromAddress { get; set; } = string.Empty;
-    public string FromName { get; set; } = string.Empty;
-    public string ToAddress { get; set; } = string.Empty;
-    public string Username { get; set; } = string.Empty;
-    public string Password { get; set; } = string.Empty;
 }
 
 public class ScheduleConfig
