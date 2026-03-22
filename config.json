@@ -1,0 +1,9 @@
+{
+  "profil_de_risque": "agressif",
+  "watchlist": [],
+  "devise_de_reference": "CHF",
+  "preferences_rapport": {
+    "indicateurs_favoris": ["RSI", "MACD", "BBANDS", "SMA", "EMA"],
+    "horizons_analyse": ["intraday", "daily", "weekly"]
+  }
+}
