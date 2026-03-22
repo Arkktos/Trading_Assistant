@@ -1,0 +1,35 @@
+{
+  "last_updated": "2026-03-22",
+  "currency": "CHF",
+  "cash_balance": 642.35,
+  "positions": [
+    {
+      "ticker_swissquote": "AUCHAH",
+      "ticker_alphavantage": null,
+      "name": "AUCHAH (ETF - SIX Swiss Exchange)",
+      "type": "ETF",
+      "quantity": 20,
+      "average_buy_price": null,
+      "buy_date": null,
+      "current_price": null,
+      "notes": "ETF coté en Suisse. Ticker non disponible sur AlphaVantage."
+    },
+    {
+      "ticker_swissquote": "FIVETQ",
+      "ticker_alphavantage": null,
+      "name": "FIVETQ (Produit structuré Swissquote)",
+      "type": "structured_product",
+      "quantity": 19,
+      "average_buy_price": null,
+      "buy_date": null,
+      "current_price": null,
+      "notes": "Produit structuré Swissquote. Non disponible sur AlphaVantage."
+    }
+  ],
+  "transactions": [],
+  "performance": {
+    "initial_capital": null,
+    "current_value": null,
+    "total_return_pct": null
+  }
+}
