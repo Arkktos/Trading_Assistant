@@ -2,9 +2,12 @@
 
 ## Git workflow
 
-- **Ne jamais créer de nouvelles branches.** Travailler directement sur `main`.
-- Pull, commit et push directement sur `main`.
-- Ne pas créer de PR sauf demande explicite.
+- Travailler sur la branche assignée par le système (ex. `claude/...`).
+- Après chaque rapport généré :
+  1. **Commit** les changements avec un message descriptif.
+  2. **Push** sur la branche courante.
+  3. **Créer un PR** vers `main`.
+  4. **Activer l'auto-merge** du PR avec l'option **rebase** : `gh pr merge --auto --rebase`.
 
 ## Source de données
 
