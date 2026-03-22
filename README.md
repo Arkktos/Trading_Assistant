@@ -1,55 +1,73 @@
-# Trading Assistant - Assistant d'Analyse de Marchés
+# Trading Assistant - Mémoire de portefeuille & Analyse quotidienne
 
-## 📋 Vue d'ensemble
+## Vue d'ensemble
 
-Application C# locale qui analyse automatiquement les marchés financiers et envoie des notifications par email avec des suggestions d'opportunités de trading basées sur l'analyse de Claude AI.
+Ce repository sert de **mémoire persistante** pour Claude Code. Il contient l'état de mon portefeuille de trading (Swissquote), l'historique de mes positions, et les analyses générées quotidiennement.
 
-## 🎯 Objectifs du projet
+**Aucun code applicatif n'est hébergé ici.** Tout repose sur Claude Code, orchestré par une tâche planifiée, avec deux connecteurs MCP :
+- **AlphaVantage** : données de marché en temps réel, indicateurs techniques, fondamentaux, news & sentiment
+- **Gmail** : envoi du rapport quotidien par email
 
-- Automatiser l'analyse quotidienne des marchés financiers
-- Utiliser Claude (forfait Pro) pour générer des analyses intelligentes
-- Recevoir des notifications email avec suggestions d'opportunités
-- Maintenir un contrôle total sur les décisions de trading (l'application suggère, l'utilisateur décide)
+## Workflow quotidien
 
-## 🔧 Stack technique
+```
+Tâche planifiée (cron / Task Scheduler)
+  └─> Claude Code pull ce repo (récupère la mémoire)
+        ├─> Lit portfolio.json (état actuel du portefeuille)
+        ├─> Interroge AlphaVantage (cours, indicateurs, news)
+        ├─> Analyse les positions & détecte des opportunités
+        ├─> Met à jour l'historique dans reports/
+        ├─> Commit & push les changements
+        └─> Envoie le rapport par email via Gmail
+```
 
-- **Langage** : C# (.NET 10.0 ou supérieur)
-- **Services externes** :
-  - Claude Code CLI (local, inclus avec l'abonnement Claude.ai Pro) pour l'analyse
-  - Alpha Vantage pour les données de marché
-  - SMTP pour l'envoi d'emails ou notification windows si application lancée
-- **Type d'application** : Service Windows + Interface graphique en WinUI 3 avec tray icon (IPC)
+## Structure du repository
 
-## 📦 Fonctionnalités principales
+```
+.
+├── README.md                   # Ce fichier
+├── portfolio.json              # État actuel du portefeuille
+├── config.json                 # Configuration (profil de risque, watchlist, préférences)
+└── reports/                    # Historique des rapports quotidiens
+    └── YYYY-MM-DD.md           # Rapport du jour
+```
 
-### Phase 1 - MVP (Minimum Viable Product) (Application console)
-1. **Configuration initiale**
-   - Paramètres de trading (capital disponible, profil de risque)
-   - Liste d'actifs à surveiller (actions, indices, ETFs)
-   - Configuration email (SMTP)
+## portfolio.json
 
-2. **Récupération de données toutes les 4h**
-   - Prix actuels et historiques des actifs surveillés
-   - Volumes de transaction
-   - Variations sur différentes périodes (jour, semaine, mois)
+Contient la situation actuelle du portefeuille :
+- Solde cash disponible (CHF)
+- Positions ouvertes (ticker, quantité, prix d'achat, date d'entrée)
+- Historique des transactions (achats/ventes passés)
+- Performance globale depuis le départ
 
-3. **Analyse via Claude**
-   - Envoi des données de marché à Claude Code
-   - Prompt structuré demandant une analyse factuelle
-   - Détection de patterns et opportunités potentielles
+## config.json
 
-4. **Notification windows ou email**
-   - Si la UI est lancée, créer une notivication Windows
-   - Sinon Email avec résumé du marché
-   - Liste des opportunités détectées avec contexte
-   - Graphiques de prix en format texte/ASCII ou liens
+Paramètres de l'assistant :
+- Profil de risque (conservateur / modéré / agressif)
+- Watchlist : tickers à surveiller au-delà des positions ouvertes
+- Devise de référence (CHF)
+- Préférences de rapport (indicateurs favoris, horizons d'analyse)
 
-### Phase 2 - Améliorations futures
-- Créer l'interface et le service Windows
+## Connecteurs MCP disponibles
 
+### AlphaVantage
+- Séries temporelles (intraday, daily, weekly, monthly)
+- Cotations en temps réel & bulk quotes
+- Indicateurs techniques (SMA, EMA, RSI, MACD, BBANDS, etc.)
+- Fondamentaux (income statement, balance sheet, cash flow, earnings)
+- Profils d'entreprise & ETF
+- News & sentiment de marché
+- Données macro (GDP, CPI, taux, chômage)
+- Commodities (or, pétrole, gaz, métaux)
+- Forex & crypto
 
-## Etat d'avancement
+### Gmail
+- Envoi du rapport quotidien par email
 
-Le MVP a été créé avec succès. Son intégration dans un service Windows et l'interface WinUI on débutés mais sont toujours en cours.
+## Pour démarrer
 
----
+1. Me fournir le solde initial du compte Swissquote
+2. Me fournir les positions actuelles (ticker, quantité, prix d'achat)
+3. Définir le profil de risque et la watchlist souhaitée
+
+Je créerai alors les fichiers `portfolio.json` et `config.json` initiaux.

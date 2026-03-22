@@ -1,27 +1,6 @@
-## .NET
-bin/
-obj/
-*.user
-*.suo
-*.cache
-*.dll
-*.pdb
-*.exe
-*.log
-
-## NuGet
-*.nupkg
-**/[Pp]ackages/*
-!**/[Pp]ackages/build/
-
-## Visual Studio
-.vs/
-*.rsuser
-*.sln.docstates
-
-## Claude
+# Claude
 .claude/
 
-## OS
+# OS
 .DS_Store
 Thumbs.db
