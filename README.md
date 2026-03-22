@@ -4,9 +4,9 @@
 
 Ce repository sert de **mémoire persistante** pour Claude Code. Il contient l'état de mon portefeuille de trading (Swissquote), l'historique de mes positions, et les analyses générées quotidiennement.
 
-**Aucun code applicatif n'est hébergé ici.** Tout repose sur Claude Code, orchestré par une tâche planifiée, avec deux connecteurs MCP :
-- **AlphaVantage** : données de marché en temps réel, indicateurs techniques, fondamentaux, news & sentiment
-- **Gmail** : envoi du rapport quotidien par email
+**Aucun code applicatif n'est hébergé ici.** Tout repose sur Claude Code, orchestré par une tâche planifiée, avec :
+- **AlphaVantage (MCP)** : données de marché en temps réel, indicateurs techniques, fondamentaux, news & sentiment
+- **`send_email.py`** : envoi du rapport quotidien par email via Gmail SMTP
 
 ## Workflow quotidien
 
@@ -26,8 +26,10 @@ Tâche planifiée (cron / Task Scheduler)
 ```
 .
 ├── README.md                   # Ce fichier
+├── CLAUDE.md                   # Instructions pour les agents Claude Code
 ├── portfolio.json              # État actuel du portefeuille
 ├── config.json                 # Configuration (profil de risque, watchlist, préférences)
+├── send_email.py               # Envoi d'email via Gmail SMTP (app password)
 └── reports/                    # Historique des rapports quotidiens
     └── YYYY-MM-DD.md           # Rapport du jour
 ```
@@ -61,5 +63,24 @@ Paramètres de l'assistant :
 - Commodities (or, pétrole, gaz, métaux)
 - Forex & crypto
 
-### Gmail
-- Envoi du rapport quotidien par email
+### Email (send_email.py)
+
+L'envoi d'email utilise **Gmail SMTP** avec un mot de passe d'application (pas de MCP ni d'API Google Cloud).
+
+**Variables d'environnement requises :**
+
+| Variable | Description |
+|---|---|
+| `GMAIL_ADDRESS` | Adresse Gmail de l'expéditeur |
+| `GMAIL_APP_PASSWORD` | Mot de passe d'application Gmail |
+| `GMAIL_RECIPIENT` | Destinataire (optionnel, par défaut = `GMAIL_ADDRESS`) |
+
+**Utilisation :**
+```bash
+# En CLI
+python send_email.py "Rapport Trading 2026-03-22" reports/2026-03-22.md
+
+# En module Python
+from send_email import send_email
+send_email("Sujet", "Corps du message")
+```
