@@ -54,12 +54,11 @@ gh api -X PUT repos/Arkktos/Trading_Assistant/pulls/<number>/merge \
 
 ## Envoi d'email
 
-- L'envoi d'email se fait via **`send_email.py`** (SMTP Gmail avec app password).
+- L'envoi d'email se fait via **`send_email.py`** (API Resend).
 - **Ne pas utiliser de MCP Gmail ni d'API Google Cloud.**
-- Trois variables d'environnement sont requises :
-  - `GMAIL_ADDRESS` : adresse Gmail de l'expéditeur
-  - `GMAIL_APP_PASSWORD` : mot de passe d'application Gmail (pas le mot de passe principal)
-  - `GMAIL_RECIPIENT` : adresse du destinataire (optionnel, par défaut = `GMAIL_ADDRESS`)
+- Variables d'environnement :
+  - `RESEND_API_KEY` : clé API Resend (requis)
+  - `GMAIL_RECIPIENT` : adresse du destinataire (optionnel, fallback sur `GMAIL_ADDRESS`)
 - Utilisation dans un script Python :
   ```python
   from send_email import send_email

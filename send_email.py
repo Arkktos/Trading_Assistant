@@ -1,45 +1,41 @@
 """
-Envoi d'emails via Gmail SMTP avec app password.
+Envoi d'emails via Resend.
 
 Variables d'environnement requises :
-  GMAIL_ADDRESS   - adresse Gmail (ex: user@gmail.com)
-  GMAIL_APP_PASSWORD - mot de passe d'application Gmail
-  GMAIL_RECIPIENT - adresse du destinataire (par défaut = GMAIL_ADDRESS)
+  RESEND_API_KEY  - clé API Resend
+  GMAIL_RECIPIENT - adresse du destinataire
 """
 
 import os
-import smtplib
 import sys
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
 
-SMTP_SERVER = "smtp.gmail.com"
-SMTP_PORT = 587
+import resend
 
 
 def send_email(subject: str, body: str, recipient: str | None = None, html: bool = False) -> None:
-    address = os.environ.get("GMAIL_ADDRESS")
-    password = os.environ.get("GMAIL_APP_PASSWORD")
+    api_key = os.environ.get("RESEND_API_KEY")
+    if not api_key:
+        raise RuntimeError("RESEND_API_KEY doit être défini")
 
-    if not address or not password:
-        raise RuntimeError("GMAIL_ADDRESS et GMAIL_APP_PASSWORD doivent être définis")
+    resend.api_key = api_key
 
-    recipient = recipient or os.environ.get("GMAIL_RECIPIENT", address)
+    recipient = recipient or os.environ.get("GMAIL_RECIPIENT") or os.environ.get("GMAIL_ADDRESS")
+    if not recipient:
+        raise RuntimeError("Un destinataire doit être fourni (argument, GMAIL_RECIPIENT ou GMAIL_ADDRESS)")
 
-    msg = MIMEMultipart("alternative")
-    msg["From"] = address
-    msg["To"] = recipient
-    msg["Subject"] = subject
+    params: resend.Emails.SendParams = {
+        "from": "Trading Assistant <onboarding@resend.dev>",
+        "to": [recipient],
+        "subject": subject,
+    }
 
-    content_type = "html" if html else "plain"
-    msg.attach(MIMEText(body, content_type, "utf-8"))
+    if html:
+        params["html"] = body
+    else:
+        params["text"] = body
 
-    with smtplib.SMTP(SMTP_SERVER, SMTP_PORT) as server:
-        server.starttls()
-        server.login(address, password)
-        server.sendmail(address, recipient, msg.as_string())
-
-    print(f"Email envoyé à {recipient}")
+    email = resend.Emails.send(params)
+    print(f"Email envoyé à {recipient} (id: {email['id']})")
 
 
 if __name__ == "__main__":
