@@ -2,33 +2,63 @@
   "last_updated": "2026-03-22",
   "currency": "CHF",
   "cash_balance": 642.35,
+  "initial_capital": 8836.71,
   "positions": [
     {
       "ticker_swissquote": "AUCHAH",
-      "ticker_alphavantage": null,
-      "name": "AUCHAH (ETF - SIX Swiss Exchange)",
+      "isin": "CH0106027128",
+      "valor": 10602712,
+      "name": "UBS ETF (CH) Gold hedged CHF",
       "type": "ETF",
+      "exchange": "SWX",
       "quantity": 20,
-      "average_buy_price": null,
-      "buy_date": null,
+      "average_buy_price": 165.72,
+      "buy_date": "2026-02-20",
+      "total_cost": 3314.40,
       "current_price": null,
-      "notes": "ETF coté en Suisse. Ticker non disponible sur AlphaVantage."
+      "price_currency": "CHF",
+      "price_source": "https://www.cash.ch/fonds/ubs-etf-ch-ubs-gold-hchf-etf-10602712/swx/chf",
+      "notes": "ETF or couvert CHF. Non disponible sur AlphaVantage/Yahoo Finance."
     },
     {
       "ticker_swissquote": "FIVETQ",
-      "ticker_alphavantage": null,
-      "name": "FIVETQ (Produit structuré Swissquote)",
+      "isin": "CH0467720410",
+      "valor": 46772041,
+      "name": "Swissquote 5G Revolution Index (Leonteq Tracker)",
       "type": "structured_product",
+      "exchange": "QMH",
       "quantity": 19,
-      "average_buy_price": null,
-      "buy_date": null,
+      "average_buy_price": 256.84,
+      "buy_date": "2026-02-18",
+      "total_cost": 4879.96,
       "current_price": null,
-      "notes": "Produit structuré Swissquote. Non disponible sur AlphaVantage."
+      "price_currency": "USD",
+      "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
+      "notes": "Produit structuré Leonteq. Coté en USD. Non disponible sur AlphaVantage/Yahoo Finance."
     }
   ],
-  "transactions": [],
+  "transactions": [
+    {
+      "date": "2026-02-20",
+      "type": "buy",
+      "ticker": "AUCHAH",
+      "quantity": 20,
+      "price": 165.72,
+      "currency": "CHF",
+      "total": 3314.40
+    },
+    {
+      "date": "2026-02-18",
+      "type": "buy",
+      "ticker": "FIVETQ",
+      "quantity": 19,
+      "price": 256.84,
+      "currency": "CHF",
+      "total": 4879.96
+    }
+  ],
   "performance": {
-    "initial_capital": null,
+    "initial_capital": 8836.71,
     "current_value": null,
     "total_return_pct": null
   }
