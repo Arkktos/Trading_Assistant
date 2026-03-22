@@ -63,11 +63,3 @@ Paramètres de l'assistant :
 
 ### Gmail
 - Envoi du rapport quotidien par email
-
-## Pour démarrer
-
-1. Me fournir le solde initial du compte Swissquote
-2. Me fournir les positions actuelles (ticker, quantité, prix d'achat)
-3. Définir le profil de risque et la watchlist souhaitée
-
-Je créerai alors les fichiers `portfolio.json` et `config.json` initiaux.
