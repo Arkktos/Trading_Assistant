@@ -8,6 +8,40 @@ Ce repository sert de **mémoire persistante** pour Claude Code. Il contient l'�
 - **AlphaVantage** : données de marché en temps réel, indicateurs techniques, fondamentaux, news & sentiment
 - **Gmail** : envoi du rapport quotidien par email
 
+## Portefeuille
+
+### Positions ouvertes
+
+| Ticker | Nom | Type | Qté | Prix d'achat (CHF) | Date d'achat | Source de prix |
+|--------|-----|------|-----|---------------------|--------------|----------------|
+| AUCHAH | UBS ETF Gold hedged CHF | ETF | 20 | 165.72 | 20.02.2026 | [cash.ch](https://www.cash.ch/fonds/ubs-etf-ch-ubs-gold-hchf-etf-10602712/swx/chf) |
+| FIVETQ | Swissquote 5G Revolution Index (Leonteq) | Produit structuré | 19 | 256.84 | 18.02.2026 | [cash.ch](https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd) |
+
+**Capital investi** : (20 × 165.72) + (19 × 256.84) = 3'314.40 + 4'879.96 = **8'194.36 CHF**
+**Cash restant** : 642.35 CHF
+**Capital initial** : 8'836.71 CHF
+
+### Détails des instruments
+
+#### AUCHAH — UBS ETF (CH) Gold hedged CHF
+- **ISIN** : CH0106027128
+- **Valor** : 10602712
+- **Bourse** : SIX Swiss Exchange (SWX)
+- **Devise** : CHF
+- **Type** : ETF répliquant le cours de l'or, couvert contre le risque de change CHF/USD
+- **API** : Non disponible sur AlphaVantage ni Yahoo Finance
+- **Suivi des cours** : [cash.ch](https://www.cash.ch/fonds/ubs-etf-ch-ubs-gold-hchf-etf-10602712/swx/chf)
+
+#### FIVETQ — Tracker-Zertifikat sur Swissquote 5G Revolution Index
+- **ISIN** : CH0467720410
+- **Valor** : 46772041
+- **Émetteur** : Leonteq Securities AG
+- **Bourse** : SIX Swiss Exchange (QMH)
+- **Devise** : USD (coté en USD, acheté en CHF via Swissquote)
+- **Type** : Certificat tracker sur un panier d'entreprises mondiales liées à la 5G
+- **API** : Non disponible sur AlphaVantage ni Yahoo Finance
+- **Suivi des cours** : [cash.ch](https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd) | [Leonteq](https://structuredproducts-ch.leonteq.com/isin/CH0467720410)
+
 ## Workflow quotidien
 
 ```
