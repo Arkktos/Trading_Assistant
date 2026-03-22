@@ -15,7 +15,7 @@
       "average_buy_price": 165.72,
       "buy_date": "2026-02-20",
       "total_cost": 3314.40,
-      "current_price": null,
+      "current_price": 151.00,
       "price_currency": "CHF",
       "price_source": "https://www.cash.ch/fonds/ubs-etf-ch-ubs-gold-hchf-etf-10602712/swx/chf",
       "notes": "ETF or couvert CHF. Non disponible sur AlphaVantage/Yahoo Finance."
@@ -31,7 +31,7 @@
       "average_buy_price": 256.84,
       "buy_date": "2026-02-18",
       "total_cost": 4879.96,
-      "current_price": null,
+      "current_price": 247.41,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
       "notes": "Produit structuré Leonteq. Coté en USD. Non disponible sur AlphaVantage/Yahoo Finance."
@@ -59,7 +59,7 @@
   ],
   "performance": {
     "initial_capital": 8836.71,
-    "current_value": null,
-    "total_return_pct": null
+    "current_value": 7365.71,
+    "total_return_pct": -16.64
   }
 }
