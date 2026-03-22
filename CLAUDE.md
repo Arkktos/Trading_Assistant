@@ -7,7 +7,43 @@
   1. **Commit** les changements avec un message descriptif.
   2. **Push** sur la branche courante.
   3. **Créer un PR** vers `main`.
-  4. **Activer l'auto-merge** du PR avec l'option **rebase** : `gh pr merge --auto --rebase`.
+  4. **Merger le PR** avec rebase.
+
+### Problèmes connus et solutions
+
+Le remote git pointe vers un proxy local (`127.0.0.1`), pas directement vers `github.com`. Cela empêche les commandes `gh pr` et `gh pr merge` de fonctionner. Utiliser l'API GitHub (`gh api`) à la place.
+
+**Créer un PR** (au lieu de `gh pr create`) :
+```bash
+gh api repos/Arkktos/Trading_Assistant/pulls \
+  -f title="Titre du PR" \
+  -f head="claude/nom-de-branche" \
+  -f base="main" \
+  -f body="Description du PR"
+```
+> Récupérer le `node_id` et le `number` dans la réponse JSON pour les étapes suivantes.
+
+**Activer l'auto-merge avec rebase** (au lieu de `gh pr merge --auto --rebase`) :
+```bash
+gh api graphql -f query='
+mutation {
+  enablePullRequestAutoMerge(input: {
+    pullRequestId: "<node_id du PR>",
+    mergeMethod: REBASE
+  }) {
+    pullRequest { autoMergeRequest { enabledAt mergeMethod } }
+  }
+}'
+```
+> ⚠️ L'auto-merge nécessite des branch protection rules sur `main`. Si elles ne sont pas configurées, merger directement.
+
+**Merger directement un PR** (fallback si l'auto-merge échoue) :
+```bash
+gh api -X PUT repos/Arkktos/Trading_Assistant/pulls/<number>/merge \
+  -f merge_method=rebase
+```
+
+**Push** : ne pas pusher directement sur `main` (403). Toujours passer par une branche `claude/...` + PR.
 
 ## Source de données
 
