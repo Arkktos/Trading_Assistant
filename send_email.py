@@ -51,4 +51,11 @@ if __name__ == "__main__":
         body = f.read()
 
     is_html = body_path.endswith(".html")
+
+    # Auto-convert .md files to styled HTML for better email readability
+    if body_path.endswith(".md"):
+        from report_to_html import md_to_html
+        body = md_to_html(body)
+        is_html = True
+
     send_email(subject, body, recipient, html=is_html)
