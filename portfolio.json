@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-23",
   "currency": "CHF",
   "cash_balance": 642.35,
   "initial_capital": 8836.71,
@@ -18,7 +18,7 @@
       "current_price": 151.00,
       "price_currency": "CHF",
       "price_source": "https://www.cash.ch/fonds/ubs-etf-ch-ubs-gold-hchf-etf-10602712/swx/chf",
-      "notes": "ETF or couvert CHF. Non disponible sur AlphaVantage/Yahoo Finance."
+      "notes": "ETF or couvert CHF. Dernier cours vendredi 20/03. Or spot en forte baisse à 4235 USD (-5.7%), impact attendu à l'ouverture."
     },
     {
       "ticker_swissquote": "FIVETQ",
@@ -31,10 +31,10 @@
       "average_buy_price": 256.84,
       "buy_date": "2026-02-18",
       "total_cost": 4879.96,
-      "current_price": 249.94,
+      "current_price": 242.50,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structuré Leonteq. Coté en USD. Non disponible sur AlphaVantage/Yahoo Finance."
+      "notes": "Produit structuré Leonteq. Coté en USD. Prix indicatif mid bid/ask (241.29/243.72)."
     }
   ],
   "transactions": [
@@ -59,7 +59,7 @@
   ],
   "performance": {
     "initial_capital": 8836.71,
-    "current_value": 7403.50,
-    "total_return_pct": -16.22
+    "current_value": 7296.13,
+    "total_return_pct": -17.43
   }
 }
