@@ -68,10 +68,15 @@ gh api -X PUT repos/Arkktos/Trading_Assistant/pulls/<number>/merge \
   ```bash
   python send_email.py "Sujet" chemin/vers/fichier.md [destinataire]
   ```
-- Pour envoyer le rapport quotidien après génération :
+- Pour envoyer le rapport quotidien après génération (auto-converti en HTML) :
   ```python
   from send_email import send_email
+  from report_to_html import md_to_html
   with open(f"reports/{date}.md") as f:
-      body = f.read()
-  send_email(f"Rapport Trading {date}", body)
+      body = md_to_html(f.read())
+  send_email(f"Rapport Trading {date}", body, html=True)
+  ```
+- En CLI, les fichiers `.md` sont automatiquement convertis en HTML :
+  ```bash
+  python send_email.py "Rapport Trading 2026-03-23" reports/2026-03-23.md
   ```
