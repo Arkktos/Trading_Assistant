@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28",
+  "last_updated": "2026-03-29",
   "currency": "CHF",
   "cash_balance": 642.35,
   "initial_capital": 8836.71,
@@ -18,7 +18,7 @@
       "current_price": 147.88,
       "price_currency": "CHF",
       "price_source": "https://www.cash.ch/fonds/ubs-etf-ch-ubs-gold-hchf-etf-10602712/swx/chf",
-      "notes": "ETF or couvert CHF. Dernier cours 147.88 CHF (+2.92% vs clôture jeudi). Or spot à 4437 USD (+0.73%). Consolidation en range 4375-4450 USD."
+      "notes": "ETF or couvert CHF. Dernier cours 147.88 CHF (clôture vendredi 27/03). Or spot weekend OTC à 4494 USD (+1.27%), breakout de la zone 4375-4450 USD. Ouverture lundi estimée ~149.80 CHF."
     },
     {
       "ticker_swissquote": "FIVETQ",
@@ -34,7 +34,7 @@
       "current_price": 242.99,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structuré Leonteq. Coté en USD. Bid/ask 241.77/244.20. Mid 242.99. Dernier coté 248.69."
+      "notes": "Produit structuré Leonteq. Coté en USD. Bid/ask 241.77/244.20. Mid 242.99. Dernier coté 244.20. Sentiment tech somewhat-bullish (cycle IA)."
     }
   ],
   "transactions": [
