@@ -3,7 +3,6 @@
   "currency": "CHF",
   "cash_balance": 620.73,
   "deposited_capital": 7500.00,
-  "initial_capital": 8836.71,
   "positions": [
     {
       "ticker_swissquote": "AUCHAH",
@@ -14,8 +13,11 @@
       "exchange": "SWX",
       "quantity": 20,
       "average_buy_price": 165.72,
+      "effective_buy_price": 166.44,
       "buy_date": "2026-02-20",
       "total_cost": 3314.40,
+      "fees": 14.34,
+      "total_cost_with_fees": 3328.74,
       "current_price": 152.44,
       "price_currency": "CHF",
       "price_source": "https://www.cash.ch/fonds/ubs-etf-ch-ubs-gold-hchf-etf-10602712/swx/chf",
@@ -30,8 +32,13 @@
       "exchange": "QMH",
       "quantity": 19,
       "average_buy_price": 256.84,
+      "effective_buy_price": 257.56,
       "buy_date": "2026-02-18",
-      "total_cost": 4879.96,
+      "total_cost_usd": 4879.96,
+      "fees_usd": 13.70,
+      "total_cost_with_fees_usd": 4893.66,
+      "total_cost_chf": 3814.97,
+      "usdchf_at_purchase": 0.7796,
       "current_price": 246.46,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
@@ -46,7 +53,9 @@
       "quantity": 20,
       "price": 165.72,
       "currency": "CHF",
-      "total": 3314.40
+      "fees": 14.34,
+      "total": 3314.40,
+      "total_with_fees": 3328.74
     },
     {
       "date": "2026-02-18",
@@ -54,8 +63,12 @@
       "ticker": "FIVETQ",
       "quantity": 19,
       "price": 256.84,
-      "currency": "CHF",
-      "total": 4879.96
+      "currency": "USD",
+      "fees_usd": 13.70,
+      "total_usd": 4879.96,
+      "total_with_fees_usd": 4893.66,
+      "total_chf": 3814.97,
+      "usdchf_at_purchase": 0.7796
     }
   ],
   "performance": {
