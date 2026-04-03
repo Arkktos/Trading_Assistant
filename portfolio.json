@@ -2,6 +2,7 @@
   "last_updated": "2026-04-03",
   "currency": "CHF",
   "cash_balance": 620.73,
+  "deposited_capital": 7500.00,
   "initial_capital": 8836.71,
   "positions": [
     {
@@ -58,8 +59,8 @@
     }
   ],
   "performance": {
-    "initial_capital": 8836.71,
+    "deposited_capital": 7500.00,
     "current_value": 7407.09,
-    "total_return_pct": -16.18
+    "total_return_pct": -1.24
   }
 }
