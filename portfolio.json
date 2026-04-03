@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-04-03",
   "currency": "CHF",
-  "cash_balance": 642.35,
+  "cash_balance": 620.73,
   "initial_capital": 8836.71,
   "positions": [
     {
@@ -15,10 +15,10 @@
       "average_buy_price": 165.72,
       "buy_date": "2026-02-20",
       "total_cost": 3314.40,
-      "current_price": 153.56,
+      "current_price": 152.44,
       "price_currency": "CHF",
       "price_source": "https://www.cash.ch/fonds/ubs-etf-ch-ubs-gold-hchf-etf-10602712/swx/chf",
-      "notes": "ETF or couvert CHF. Cours 153.56 CHF (cote SIX 02/04, enfin actualise!). Bid/ask 153.00/153.16. Variation -1.75% vs cloture precedente 156.30. Or spot ~4650-4690 USD, pullback -2.8% sur espoirs de-escalation Iran. Rebond +9.8% depuis creux 23/03. YTD +7.73%. Marches fermes Good Friday 03/04, reouverture SIX mardi 07/04."
+      "notes": "ETF or couvert CHF. Cours 152.44 CHF (source Swissquote 03/04 10h15). Variation -0.73% vs cours precedent 153.56."
     },
     {
       "ticker_swissquote": "FIVETQ",
@@ -31,10 +31,10 @@
       "average_buy_price": 256.84,
       "buy_date": "2026-02-18",
       "total_cost": 4879.96,
-      "current_price": 251.25,
+      "current_price": 246.46,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Bid/ask 249.99/252.50. Mid 251.25 (02/04). Variation +1.43%. S&P 500 +0.11%, Nasdaq +0.18%. USD/CHF 0.7988. Perf YTD +5.81%. Perf 52 sem +23.67%. Nouveaux tarifs Trump acier/alu/cuivre 50%, pharma 100%."
+      "notes": "Produit structure Leonteq. Cote en USD. Cours 246.46 USD (source Swissquote 03/04 10h15). Variation -1.91% vs cours precedent 251.25. USD/CHF 0.7982."
     }
   ],
   "transactions": [
@@ -59,7 +59,7 @@
   ],
   "performance": {
     "initial_capital": 8836.71,
-    "current_value": 7526.82,
-    "total_return_pct": -14.82
+    "current_value": 7407.09,
+    "total_return_pct": -16.18
   }
 }
