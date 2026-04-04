@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-03",
+  "last_updated": "2026-04-04",
   "currency": "CHF",
   "cash_balance": 620.73,
   "deposited_capital": 7500.00,
@@ -18,10 +18,10 @@
       "total_cost": 3314.40,
       "fees": 14.34,
       "total_cost_with_fees": 3328.74,
-      "current_price": 152.44,
+      "current_price": 153.56,
       "price_currency": "CHF",
       "price_source": "https://www.cash.ch/fonds/ubs-etf-ch-ubs-gold-hchf-etf-10602712/swx/chf",
-      "notes": "ETF or couvert CHF. Cours 152.44 CHF (source Swissquote 03/04 10h15). Variation -0.73% vs cours precedent 153.56."
+      "notes": "ETF or couvert CHF. Cours 153.56 CHF (cloture SIX 02/04, derniere seance avant Paques). Variation -1.75% vs cloture precedente 156.30."
     },
     {
       "ticker_swissquote": "FIVETQ",
@@ -39,10 +39,10 @@
       "total_cost_with_fees_usd": 4893.66,
       "total_cost_chf": 3814.97,
       "usdchf_at_purchase": 0.7796,
-      "current_price": 246.46,
+      "current_price": 249.99,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Cours 246.46 USD (source Swissquote 03/04 10h15). Variation -1.91% vs cours precedent 251.25. USD/CHF 0.7982."
+      "notes": "Produit structure Leonteq. Cote en USD. Cours 249.99 USD (cloture 02/04). Correction vs rapport 03/04 qui indiquait 246.46 (prix indicatif Swissquote perime). Variation +1.43% vs cloture 01/04 (246.46). USD/CHF 0.8000."
     }
   ],
   "transactions": [
@@ -73,7 +73,7 @@
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "current_value": 7407.09,
-    "total_return_pct": -1.24
+    "current_value": 7491.78,
+    "total_return_pct": -0.11
   }
 }
