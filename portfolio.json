@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-06",
+  "last_updated": "2026-04-08",
   "currency": "CHF",
   "cash_balance": 620.73,
   "deposited_capital": 7500.00,
@@ -18,10 +18,10 @@
       "total_cost": 3314.40,
       "fees": 14.34,
       "total_cost_with_fees": 3328.74,
-      "current_price": 153.56,
+      "current_price": 157.36,
       "price_currency": "CHF",
       "price_source": "https://www.cash.ch/fonds/ubs-etf-ch-ubs-gold-hchf-etf-10602712/swx/chf",
-      "notes": "ETF or couvert CHF. Cours 153.56 CHF (cloture SIX 02/04). SIX fermee 03-06/04 (Paques). Reouverture mardi 07/04. Or spot ~4'676 USD."
+      "notes": "ETF or couvert CHF. Cours 157.36 CHF (SIX 08/04, +3.57%). Cessez-le-feu US-Iran annonce le 07/04. Or spot ~4'650-4'705 USD."
     },
     {
       "ticker_swissquote": "FIVETQ",
@@ -39,10 +39,10 @@
       "total_cost_with_fees_usd": 4893.66,
       "total_cost_chf": 3814.97,
       "usdchf_at_purchase": 0.7796,
-      "current_price": 249.99,
+      "current_price": 259.55,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Cours 249.99 USD (cloture 02/04). Marches US rouverts 06/04. USD/CHF 0.7951."
+      "notes": "Produit structure Leonteq. Cote en USD. Cours 259.55 USD (08/04, +3.53%). Proche du 52 sem. haut (260.69). USD/CHF 0.7889. Cessez-le-feu US-Iran booste la tech."
     }
   ],
   "transactions": [
@@ -73,7 +73,7 @@
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "current_value": 7468.48,
-    "total_return_pct": -0.42
+    "current_value": 7658.35,
+    "total_return_pct": 2.11
   }
 }
