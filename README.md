@@ -74,13 +74,3 @@ L'envoi d'email utilise **Gmail SMTP** avec un mot de passe d'application (pas d
 | `GMAIL_ADDRESS` | Adresse Gmail de l'expéditeur |
 | `GMAIL_APP_PASSWORD` | Mot de passe d'application Gmail |
 | `GMAIL_RECIPIENT` | Destinataire (optionnel, par défaut = `GMAIL_ADDRESS`) |
-
-**Utilisation :**
-```bash
-# En CLI
-python send_email.py "Rapport Trading 2026-03-22" reports/2026-03-22.md
-
-# En module Python
-from send_email import send_email
-send_email("Sujet", "Corps du message")
-```

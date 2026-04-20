@@ -80,3 +80,7 @@ gh api -X PUT repos/Arkktos/Trading_Assistant/pulls/<number>/merge \
   ```bash
   python send_email.py "Rapport Trading 2026-03-23" reports/2026-03-23.md
   ```
+
+## Format du rapprt
+
+- Lire le dernier rapport et formater le nouveau de la même manière (exactement la même structure, les mêmes chapitres!!)
