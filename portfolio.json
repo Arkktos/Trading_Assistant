@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-17",
+  "last_updated": "2026-04-20",
   "currency": "CHF",
   "cash_balance": 620.73,
   "deposited_capital": 7500.00,
@@ -18,10 +18,10 @@
       "total_cost": 3314.40,
       "fees": 14.34,
       "total_cost_with_fees": 3328.74,
-      "current_price": 156.18,
+      "current_price": 158.84,
       "price_currency": "CHF",
       "price_source": "https://www.cash.ch/fonds/ubs-etf-ch-ubs-gold-hchf-etf-10602712/swx/chf",
-      "notes": "ETF or couvert CHF. Cours 156.18 CHF (ouverture 17/04, -0.36%). Rebond depuis 152.44 (10/04). Or spot ~4'790-4'798 USD. Blocus naval US des ports iraniens depuis 13/04. Cessez-le-feu expire le 22/04."
+      "notes": "ETF or couvert CHF. Cloture 17/04 a 158.84 CHF (+1.34%, +2.66 CHF vs ouverture). SIX fermee vendredi 18/04 (Vendredi Saint) et lundi 20/04 (Lundi de Paques). Or spot 19/04 a ~4'831 USD (+0.86% vs 17/04). Week-end d'escalade : US Navy saisit le cargo iranien TOUSKA, Iran referme Ormuz. Cessez-le-feu US-Iran expire mercredi 22/04. Gap haussier probable a la reprise SIX mardi 21/04."
     },
     {
       "ticker_swissquote": "FIVETQ",
@@ -39,10 +39,10 @@
       "total_cost_with_fees_usd": 4893.66,
       "total_cost_chf": 3814.97,
       "usdchf_at_purchase": 0.7796,
-      "current_price": 267.71,
+      "current_price": 270.14,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Cours 267.71 USD (09:00 17/04, +1.74%). NOUVEAU plus haut 52 sem. Nasdaq 12e hausse consecutive. USD/CHF 0.7836. YTD ~+14.5%."
+      "notes": "Produit structure Leonteq. Cote en USD. Cloture 17/04 a 270.14 USD (+0.91% vs 267.71 ouverture). NOUVEAU plus haut 52 sem. S&P 500 cloture 7'126 (+1.20%), Nasdaq 24'468 (+1.52%) sur annonce reouverture Ormuz. IGV meilleure semaine depuis 2000. USD/CHF 0.7834. Mais futures US lundi -0.6% apres refermeture Ormuz. Gap baissier probable a la reprise QMH mardi 21/04."
     }
   ],
   "transactions": [
@@ -73,7 +73,7 @@
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "current_value": 7730.10,
-    "total_return_pct": 3.07
+    "current_value": 7818.28,
+    "total_return_pct": 4.24
   }
 }
