@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-20",
+  "last_updated": "2026-04-21",
   "currency": "CHF",
   "cash_balance": 620.73,
   "deposited_capital": 7500.00,
@@ -21,7 +21,7 @@
       "current_price": 158.84,
       "price_currency": "CHF",
       "price_source": "https://www.cash.ch/fonds/ubs-etf-ch-ubs-gold-hchf-etf-10602712/swx/chf",
-      "notes": "ETF or couvert CHF. Cloture 17/04 a 158.84 CHF (+1.34%, +2.66 CHF vs ouverture). SIX fermee vendredi 18/04 (Vendredi Saint) et lundi 20/04 (Lundi de Paques). Or spot 19/04 a ~4'831 USD (+0.86% vs 17/04). Week-end d'escalade : US Navy saisit le cargo iranien TOUSKA, Iran referme Ormuz. Cessez-le-feu US-Iran expire mercredi 22/04. Gap haussier probable a la reprise SIX mardi 21/04."
+      "notes": "ETF or couvert CHF. Cours delayed 158.84 CHF (cloture 17/04, SIX fermee 18/04 et 20/04). Reprise SIX ce matin 21/04. GLD (ETF or US) a perdu -0.86% lundi 20/04 (445.93->442.09), or spot ~4'747 USD vs 4'831 USD (sommet week-end 19/04). Correction probable a ~156-158 CHF en intraday. Cessez-le-feu US-Iran expire DEMAIN 22/04 -- catalyseur haussier or. Ormuz toujours ferme."
     },
     {
       "ticker_swissquote": "FIVETQ",
@@ -39,10 +39,10 @@
       "total_cost_with_fees_usd": 4893.66,
       "total_cost_chf": 3814.97,
       "usdchf_at_purchase": 0.7796,
-      "current_price": 270.14,
+      "current_price": 273.29,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Cloture 17/04 a 270.14 USD (+0.91% vs 267.71 ouverture). NOUVEAU plus haut 52 sem. S&P 500 cloture 7'126 (+1.20%), Nasdaq 24'468 (+1.52%) sur annonce reouverture Ormuz. IGV meilleure semaine depuis 2000. USD/CHF 0.7834. Mais futures US lundi -0.6% apres refermeture Ormuz. Gap baissier probable a la reprise QMH mardi 21/04."
+      "notes": "Produit structure Leonteq. Cote en USD. Cours 21/04 a 273.29 USD (+0.77%, +2.10 USD). NOUVEAU RECORD 52 SEMAINES (precedent : 270.14 USD le 17/04). SPY cloture 20/04 a 708.72 (-0.20%), QQQ 646.79 (-0.32%). USD/CHF 0.7791. Cessez-le-feu US-Iran expire demain 22/04 -- risque de volatilite. 93 publications Q1 S&P 500 cette semaine (Meta, Alphabet, Microsoft, Apple)."
     }
   ],
   "transactions": [
@@ -73,7 +73,7 @@
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "current_value": 7818.28,
-    "total_return_pct": 4.24
+    "current_value": 7843.17,
+    "total_return_pct": 4.58
   }
 }
