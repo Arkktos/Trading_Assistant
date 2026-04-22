@@ -18,10 +18,10 @@
       "total_cost": 3314.40,
       "fees": 14.34,
       "total_cost_with_fees": 3328.74,
-      "current_price": 158.84,
+      "current_price": 155.12,
       "price_currency": "CHF",
       "price_source": "https://www.cash.ch/fonds/ubs-etf-ch-ubs-gold-hchf-etf-10602712/swx/chf",
-      "notes": "ETF or couvert CHF. Cours 22/04 a 158.84 CHF (+1.34% vs cloture 21/04 ~156.74 CHF). Rally lie a l'expiration du cessez-le-feu US-Iran ce jour. Ormuz ferme depuis 18/04 (4e jour). GLD derniere donnee connue 442.09 USD (20/04)."
+      "notes": "ETF or couvert CHF. Cours 22/04 a 155.12 CHF (+0.23% vs cloture reelle 21/04 de 154.76 CHF). Range intraday 22/04 : 154.94-155.58 CHF. GLD cloture 21/04 US : 429.57 USD (vs 442.09 USD le 20/04, -2.83%). Trump a prolonge le cessez-le-feu US-Iran le 21/04, l'Iran a rejete les negociations de paix. Blocus ports iraniens continue, Ormuz virtuellement ferme depuis 18/04."
     },
     {
       "ticker_swissquote": "FIVETQ",
@@ -42,7 +42,7 @@
       "current_price": 272.90,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Cours 22/04 a 272.90 USD (-0.16%, -0.43 USD vs cloture 21/04 273.33 USD). SPY cloture 21/04 a 704.08 (-0.65%), QQQ 644.33 (-0.38%). USD/CHF 0.7819. Cessez-le-feu US-Iran expire AUJOURD'HUI 22/04. Earnings Meta, Alphabet, Microsoft, Apple cette semaine -- catalyseur FIVETQ."
+      "notes": "Produit structure Leonteq. Cote en USD. Cours 22/04 morning : 272.90 USD (-0.16% vs 273.33 USD 21/04). USD/CHF estime : 0.7820. QQQ a touche un nouveau 52 sem. haut (649.09 USD) le 22/04 avant de reculer. Earnings Meta (28/04) et Alphabet (29/04) la semaine prochaine -- catalyseur majeur."
     }
   ],
   "transactions": [
@@ -73,7 +73,7 @@
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "current_value": 7851.75,
-    "total_return_pct": 4.69
+    "current_value": 7777.88,
+    "total_return_pct": 3.71
   }
 }
