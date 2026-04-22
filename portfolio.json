@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-04-22",
   "currency": "CHF",
   "cash_balance": 620.73,
   "deposited_capital": 7500.00,
@@ -21,7 +21,7 @@
       "current_price": 158.84,
       "price_currency": "CHF",
       "price_source": "https://www.cash.ch/fonds/ubs-etf-ch-ubs-gold-hchf-etf-10602712/swx/chf",
-      "notes": "ETF or couvert CHF. Cours delayed 158.84 CHF (cloture 17/04, SIX fermee 18/04 et 20/04). Reprise SIX ce matin 21/04. GLD (ETF or US) a perdu -0.86% lundi 20/04 (445.93->442.09), or spot ~4'747 USD vs 4'831 USD (sommet week-end 19/04). Correction probable a ~156-158 CHF en intraday. Cessez-le-feu US-Iran expire DEMAIN 22/04 -- catalyseur haussier or. Ormuz toujours ferme."
+      "notes": "ETF or couvert CHF. Cours 22/04 a 158.84 CHF (+1.34% vs cloture 21/04 ~156.74 CHF). Rally lie a l'expiration du cessez-le-feu US-Iran ce jour. Ormuz ferme depuis 18/04 (4e jour). GLD derniere donnee connue 442.09 USD (20/04)."
     },
     {
       "ticker_swissquote": "FIVETQ",
@@ -39,10 +39,10 @@
       "total_cost_with_fees_usd": 4893.66,
       "total_cost_chf": 3814.97,
       "usdchf_at_purchase": 0.7796,
-      "current_price": 273.29,
+      "current_price": 272.90,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Cours 21/04 a 273.29 USD (+0.77%, +2.10 USD). NOUVEAU RECORD 52 SEMAINES (precedent : 270.14 USD le 17/04). SPY cloture 20/04 a 708.72 (-0.20%), QQQ 646.79 (-0.32%). USD/CHF 0.7791. Cessez-le-feu US-Iran expire demain 22/04 -- risque de volatilite. 93 publications Q1 S&P 500 cette semaine (Meta, Alphabet, Microsoft, Apple)."
+      "notes": "Produit structure Leonteq. Cote en USD. Cours 22/04 a 272.90 USD (-0.16%, -0.43 USD vs cloture 21/04 273.33 USD). SPY cloture 21/04 a 704.08 (-0.65%), QQQ 644.33 (-0.38%). USD/CHF 0.7819. Cessez-le-feu US-Iran expire AUJOURD'HUI 22/04. Earnings Meta, Alphabet, Microsoft, Apple cette semaine -- catalyseur FIVETQ."
     }
   ],
   "transactions": [
@@ -73,7 +73,7 @@
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "current_value": 7843.17,
-    "total_return_pct": 4.58
+    "current_value": 7851.75,
+    "total_return_pct": 4.69
   }
 }
