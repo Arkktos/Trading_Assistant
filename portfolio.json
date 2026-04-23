@@ -1,7 +1,8 @@
 {
   "last_updated": "2026-04-23",
   "currency": "CHF",
-  "cash_balance": 620.73,
+  "cash_chf": 145.83,
+  "cash_usd": 1352.96,
   "deposited_capital": 7500.00,
   "positions": [
     {
@@ -11,17 +12,18 @@
       "name": "UBS ETF (CH) Gold hedged CHF",
       "type": "ETF",
       "exchange": "SWX",
-      "quantity": 20,
-      "average_buy_price": 165.72,
-      "effective_buy_price": 166.44,
+      "quantity": 23,
+      "average_buy_price": 164.48,
+      "effective_buy_price": 165.38,
       "buy_date": "2026-02-20",
-      "total_cost": 3314.40,
-      "fees": 14.34,
-      "total_cost_with_fees": 3328.74,
-      "current_price": 158.84,
+      "last_buy_date": "2026-04-21",
+      "total_cost": 3783.12,
+      "fees": 20.52,
+      "total_cost_with_fees": 3803.64,
+      "current_price": 153.06,
       "price_currency": "CHF",
       "price_source": "https://www.cash.ch/fonds/ubs-etf-ch-ubs-gold-hchf-etf-10602712/swx/chf",
-      "notes": "ETF or couvert CHF. Cours 23/04 morning : 158.84 CHF (+1.34% vs cloture 22/04 ~156.74 CHF). GLD cloture 22/04 US (AlphaVantage confirme) : 435.26 USD (+1.32% vs 429.57 USD du 21/04), range 433.78-437.17 USD. Correction rapport 22/04 : les marches US ont cloture en forte hausse le 22/04 (GLD +1.32%, QQQ +1.67%, SPY +1.01%) -- les estimations intraday du rapport precedent etaient incorrectes. Blocus US ports iraniens + Ormuz virtuellement ferme (depuis 18/04) maintiennent le soutien structurel a l'or."
+      "notes": "ETF or couvert CHF. Renforce de 3 parts le 21/04/2026 a 156.24 CHF (total 474.90 CHF frais inclus). Position totale : 23 parts, prix moyen 164.48 CHF."
     },
     {
       "ticker_swissquote": "FIVETQ",
@@ -30,33 +32,22 @@
       "name": "Swissquote 5G Revolution Index (Leonteq Tracker)",
       "type": "structured_product",
       "exchange": "QMH",
-      "quantity": 19,
+      "quantity": 14,
       "average_buy_price": 256.84,
       "effective_buy_price": 257.56,
       "buy_date": "2026-02-18",
-      "total_cost_usd": 4879.96,
-      "fees_usd": 13.70,
-      "total_cost_with_fees_usd": 4893.66,
-      "total_cost_chf": 3814.97,
+      "total_cost_usd": 3595.76,
+      "fees_usd": 10.11,
+      "total_cost_with_fees_usd": 3605.85,
+      "total_cost_chf": 2811.03,
       "usdchf_at_purchase": 0.7796,
-      "current_price": 270.85,
+      "current_price": 272.00,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Cours 23/04 morning : 270.85 USD (-0.06% vs cloture QMH 22/04 ~271.00 USD). USD/CHF actuel : 0.7846 (AlphaVantage 07:20 UTC). QQQ cloture 22/04 US (confirme) : 655.11 USD (+1.67%, nouveau 52 sem. haut a 655.33 USD). SPY 22/04 : 711.21 USD (+1.01%). Earnings Meta (28/04) et Alphabet (29/04) la semaine prochaine -- catalyseur majeur pour FIVETQ."
+      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (produit net 1352.96 USD). Position restante : 14 certificats, prix moyen d'achat 256.84 USD."
     }
   ],
   "transactions": [
-    {
-      "date": "2026-02-20",
-      "type": "buy",
-      "ticker": "AUCHAH",
-      "quantity": 20,
-      "price": 165.72,
-      "currency": "CHF",
-      "fees": 14.34,
-      "total": 3314.40,
-      "total_with_fees": 3328.74
-    },
     {
       "date": "2026-02-18",
       "type": "buy",
@@ -69,11 +60,51 @@
       "total_with_fees_usd": 4893.66,
       "total_chf": 3814.97,
       "usdchf_at_purchase": 0.7796
+    },
+    {
+      "date": "2026-02-20",
+      "type": "buy",
+      "ticker": "AUCHAH",
+      "quantity": 20,
+      "price": 165.72,
+      "currency": "CHF",
+      "fees": 14.34,
+      "total": 3314.40,
+      "total_with_fees": 3328.74
+    },
+    {
+      "date": "2026-04-21",
+      "type": "sell",
+      "ticker": "FIVETQ",
+      "quantity": 5,
+      "price": 273.33,
+      "currency": "USD",
+      "fees_usd": 13.69,
+      "total_usd": 1366.65,
+      "net_proceeds_usd": 1352.96
+    },
+    {
+      "date": "2026-04-21",
+      "type": "buy",
+      "ticker": "AUCHAH",
+      "quantity": 3,
+      "price": 156.24,
+      "currency": "CHF",
+      "fees": 6.18,
+      "total": 468.72,
+      "total_with_fees": 474.90
     }
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "current_value": 7835.21,
-    "total_return_pct": 4.47
+    "usdchf": 0.7847,
+    "auchah_value_chf": 3520.38,
+    "fivetq_value_usd": 3808.00,
+    "fivetq_value_chf": 2988.18,
+    "cash_chf": 145.83,
+    "cash_usd_in_chf": 1062.04,
+    "current_value": 7716.43,
+    "total_return_chf": 216.43,
+    "total_return_pct": 2.89
   }
 }
