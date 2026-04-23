@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-22",
+  "last_updated": "2026-04-23",
   "currency": "CHF",
   "cash_balance": 620.73,
   "deposited_capital": 7500.00,
@@ -18,10 +18,10 @@
       "total_cost": 3314.40,
       "fees": 14.34,
       "total_cost_with_fees": 3328.74,
-      "current_price": 155.12,
+      "current_price": 158.84,
       "price_currency": "CHF",
       "price_source": "https://www.cash.ch/fonds/ubs-etf-ch-ubs-gold-hchf-etf-10602712/swx/chf",
-      "notes": "ETF or couvert CHF. Cours 22/04 a 155.12 CHF (+0.23% vs cloture reelle 21/04 de 154.76 CHF). Range intraday 22/04 : 154.94-155.58 CHF. GLD cloture 21/04 US : 429.57 USD (vs 442.09 USD le 20/04, -2.83%). Trump a prolonge le cessez-le-feu US-Iran le 21/04, l'Iran a rejete les negociations de paix. Blocus ports iraniens continue, Ormuz virtuellement ferme depuis 18/04."
+      "notes": "ETF or couvert CHF. Cours 23/04 morning : 158.84 CHF (+1.34% vs cloture 22/04 ~156.74 CHF). GLD cloture 22/04 US (AlphaVantage confirme) : 435.26 USD (+1.32% vs 429.57 USD du 21/04), range 433.78-437.17 USD. Correction rapport 22/04 : les marches US ont cloture en forte hausse le 22/04 (GLD +1.32%, QQQ +1.67%, SPY +1.01%) -- les estimations intraday du rapport precedent etaient incorrectes. Blocus US ports iraniens + Ormuz virtuellement ferme (depuis 18/04) maintiennent le soutien structurel a l'or."
     },
     {
       "ticker_swissquote": "FIVETQ",
@@ -39,10 +39,10 @@
       "total_cost_with_fees_usd": 4893.66,
       "total_cost_chf": 3814.97,
       "usdchf_at_purchase": 0.7796,
-      "current_price": 272.90,
+      "current_price": 270.85,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Cours 22/04 morning : 272.90 USD (-0.16% vs 273.33 USD 21/04). USD/CHF estime : 0.7820. QQQ a touche un nouveau 52 sem. haut (649.09 USD) le 22/04 avant de reculer. Earnings Meta (28/04) et Alphabet (29/04) la semaine prochaine -- catalyseur majeur."
+      "notes": "Produit structure Leonteq. Cote en USD. Cours 23/04 morning : 270.85 USD (-0.06% vs cloture QMH 22/04 ~271.00 USD). USD/CHF actuel : 0.7846 (AlphaVantage 07:20 UTC). QQQ cloture 22/04 US (confirme) : 655.11 USD (+1.67%, nouveau 52 sem. haut a 655.33 USD). SPY 22/04 : 711.21 USD (+1.01%). Earnings Meta (28/04) et Alphabet (29/04) la semaine prochaine -- catalyseur majeur pour FIVETQ."
     }
   ],
   "transactions": [
@@ -73,7 +73,7 @@
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "current_value": 7777.88,
-    "total_return_pct": 3.71
+    "current_value": 7835.21,
+    "total_return_pct": 4.47
   }
 }
