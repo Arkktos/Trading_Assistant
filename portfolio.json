@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-23",
+  "last_updated": "2026-04-25",
   "currency": "CHF",
   "cash_chf": 145.83,
   "cash_usd": 1352.96,
@@ -20,10 +20,10 @@
       "total_cost": 3783.12,
       "fees": 20.52,
       "total_cost_with_fees": 3803.64,
-      "current_price": 153.06,
+      "current_price": 158.84,
       "price_currency": "CHF",
       "price_source": "https://www.cash.ch/fonds/ubs-etf-ch-ubs-gold-hchf-etf-10602712/swx/chf",
-      "notes": "ETF or couvert CHF. Renforce de 3 parts le 21/04/2026 a 156.24 CHF (total 474.90 CHF frais inclus). Position totale : 23 parts, prix moyen 164.48 CHF."
+      "notes": "ETF or couvert CHF. Renforce de 3 parts le 21/04/2026 a 156.24 CHF (total 474.90 CHF frais inclus). Position totale : 23 parts, prix moyen 164.48 CHF. Cloture 24/04/2026 : 158.84 CHF (+1.34%)."
     },
     {
       "ticker_swissquote": "FIVETQ",
@@ -41,10 +41,10 @@
       "total_cost_with_fees_usd": 3605.85,
       "total_cost_chf": 2811.03,
       "usdchf_at_purchase": 0.7796,
-      "current_price": 272.00,
+      "current_price": 275.94,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (produit net 1352.96 USD). Position restante : 14 certificats, prix moyen d'achat 256.84 USD."
+      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (produit net 1352.96 USD). Position restante : 14 certificats, prix moyen d'achat 256.84 USD. Cloture 24/04/2026 : 275.94 USD (+0.31%), nouveau record 52 semaines."
     }
   ],
   "transactions": [
@@ -97,14 +97,14 @@
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "usdchf": 0.7847,
-    "auchah_value_chf": 3520.38,
-    "fivetq_value_usd": 3808.00,
-    "fivetq_value_chf": 2988.18,
+    "usdchf": 0.7844,
+    "auchah_value_chf": 3653.32,
+    "fivetq_value_usd": 3863.16,
+    "fivetq_value_chf": 3031.24,
     "cash_chf": 145.83,
-    "cash_usd_in_chf": 1062.04,
-    "current_value": 7716.43,
-    "total_return_chf": 216.43,
-    "total_return_pct": 2.89
+    "cash_usd_in_chf": 1061.38,
+    "current_value": 7891.77,
+    "total_return_chf": 391.77,
+    "total_return_pct": 5.22
   }
 }
