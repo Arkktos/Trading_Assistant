@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-28",
+  "last_updated": "2026-04-29",
   "currency": "CHF",
   "cash_chf": 145.83,
   "cash_usd": 1352.96,
@@ -23,7 +23,7 @@
       "current_price": 152.44,
       "price_currency": "CHF",
       "price_source": "https://www.cash.ch/fonds/ubs-etf-ch-ubs-gold-hchf-etf-10602712/swx/chf",
-      "notes": "ETF or couvert CHF. Renforce de 3 parts le 21/04/2026 a 156.24 CHF (total 474.90 CHF frais inclus). Position totale : 23 parts, prix moyen 164.48 CHF. Session matinale 28/04/2026 : 152.44 CHF (-4.03% vs 158.84 CHF lundi). Stop-loss mental a 145 CHF (marge -4.87%)."
+      "notes": "ETF or couvert CHF. Renforce de 3 parts le 21/04/2026 a 156.24 CHF (total 474.90 CHF frais inclus). Position totale : 23 parts, prix moyen 164.48 CHF. Cours 29/04/2026 : 152.44 CHF (stable vs rapport 28/04). P&L : -297.52 CHF (-7.82%). L'or (XAU/USD) a chute de 4'717 (27/04) a 4'596 USD (29/04 matin). Stop-loss mental a 145 CHF (marge -4.88%)."
     },
     {
       "ticker_swissquote": "FIVETQ",
@@ -41,10 +41,10 @@
       "total_cost_with_fees_usd": 3605.85,
       "total_cost_chf": 2811.03,
       "usdchf_at_purchase": 0.7796,
-      "current_price": 272.82,
+      "current_price": 274.70,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (produit net 1352.96 USD). Position restante : 14 certificats, prix moyen d'achat 256.84 USD. Record 52 semaines : 277.37 USD (27/04/2026). Session matinale 28/04/2026 : 272.82 USD (-0.60% / -1.64% vs record). Stop-loss mental a 268 USD (marge -1.77%)."
+      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (produit net 1352.96 USD). Position restante : 14 certificats, prix moyen d'achat 256.84 USD. Cours 29/04/2026 : 274.70 USD (-0.07%). Rebond de +0.69% vs rapport 28/04 (272.82 USD). Record historique 52 sem. : 277.37 USD (27/04/2026). A 2.67 USD du record (-0.96%). P&L : +239.95 USD (+6.65%) / +223.65 CHF (+7.95%). Earnings Meta + Alphabet ce soir 29/04 apres cloture US - catalyseur majeur."
     }
   ],
   "transactions": [
@@ -97,14 +97,14 @@
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "usdchf": 0.7893,
+    "usdchf": 0.7891,
     "auchah_value_chf": 3506.12,
-    "fivetq_value_usd": 3819.48,
-    "fivetq_value_chf": 3014.72,
+    "fivetq_value_usd": 3845.80,
+    "fivetq_value_chf": 3034.68,
     "cash_chf": 145.83,
-    "cash_usd_in_chf": 1067.89,
-    "current_value": 7734.56,
-    "total_return_chf": 234.56,
-    "total_return_pct": 3.13
+    "cash_usd_in_chf": 1067.61,
+    "current_value": 7754.24,
+    "total_return_chf": 254.24,
+    "total_return_pct": 3.39
   }
 }
