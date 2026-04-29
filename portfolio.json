@@ -1,30 +1,10 @@
 {
   "last_updated": "2026-04-29",
   "currency": "CHF",
-  "cash_chf": 145.83,
+  "cash_chf": 3606.20,
   "cash_usd": 1352.96,
   "deposited_capital": 7500.00,
   "positions": [
-    {
-      "ticker_swissquote": "AUCHAH",
-      "isin": "CH0106027128",
-      "valor": 10602712,
-      "name": "UBS ETF (CH) Gold hedged CHF",
-      "type": "ETF",
-      "exchange": "SWX",
-      "quantity": 23,
-      "average_buy_price": 164.48,
-      "effective_buy_price": 165.38,
-      "buy_date": "2026-02-20",
-      "last_buy_date": "2026-04-21",
-      "total_cost": 3783.12,
-      "fees": 20.52,
-      "total_cost_with_fees": 3803.64,
-      "current_price": 152.44,
-      "price_currency": "CHF",
-      "price_source": "https://www.cash.ch/fonds/ubs-etf-ch-ubs-gold-hchf-etf-10602712/swx/chf",
-      "notes": "ETF or couvert CHF. Renforce de 3 parts le 21/04/2026 a 156.24 CHF (total 474.90 CHF frais inclus). Position totale : 23 parts, prix moyen 164.48 CHF. Cours 29/04/2026 : 152.44 CHF (stable vs rapport 28/04). P&L : -297.52 CHF (-7.82%). L'or (XAU/USD) a chute de 4'717 (27/04) a 4'596 USD (29/04 matin). Stop-loss mental a 145 CHF (marge -4.88%)."
-    },
     {
       "ticker_swissquote": "FIVETQ",
       "isin": "CH0467720410",
@@ -41,10 +21,32 @@
       "total_cost_with_fees_usd": 3605.85,
       "total_cost_chf": 2811.03,
       "usdchf_at_purchase": 0.7796,
-      "current_price": 274.70,
+      "current_price": 274.58,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (produit net 1352.96 USD). Position restante : 14 certificats, prix moyen d'achat 256.84 USD. Cours 29/04/2026 : 274.70 USD (-0.07%). Rebond de +0.69% vs rapport 28/04 (272.82 USD). Record historique 52 sem. : 277.37 USD (27/04/2026). A 2.67 USD du record (-0.96%). P&L : +239.95 USD (+6.65%) / +223.65 CHF (+7.95%). Earnings Meta + Alphabet ce soir 29/04 apres cloture US - catalyseur majeur."
+      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (produit net 1352.96 USD). Position restante : 14 certificats, prix moyen d'achat 256.84 USD. Cours 29/04/2026 : 274.58 USD (-0.11%). P&L USD : +238.27 USD (+6.61%). P&L CHF : +222.01 CHF (+7.90%)."
+    }
+  ],
+  "closed_positions": [
+    {
+      "ticker_swissquote": "AUCHAH",
+      "isin": "CH0106027128",
+      "valor": 10602712,
+      "name": "UBS ETF (CH) Gold hedged CHF",
+      "type": "ETF",
+      "exchange": "SWX",
+      "quantity": 0,
+      "buy_date": "2026-02-20",
+      "last_buy_date": "2026-04-21",
+      "sell_date": "2026-04-28",
+      "total_cost_chf": 3803.64,
+      "sale_price_per_unit": 151.08,
+      "gross_proceeds_chf": 3474.84,
+      "fees_sale_chf": 14.47,
+      "net_proceeds_chf": 3460.37,
+      "realized_pnl_chf": -343.27,
+      "realized_pnl_pct": -9.03,
+      "notes": "Position fermee le 28/04/2026 a 151.08 CHF/part (23 parts). Produit net : 3460.37 CHF. P&L realise : -343.27 CHF (-9.03%). Contexte : XAU/USD en correction (4596 USD), decision de cloturer apres chute depuis 165.72 CHF (achat initial) et passage en dessous du support 152 CHF."
     }
   ],
   "transactions": [
@@ -93,18 +95,30 @@
       "fees": 6.18,
       "total": 468.72,
       "total_with_fees": 474.90
+    },
+    {
+      "date": "2026-04-28",
+      "type": "sell",
+      "ticker": "AUCHAH",
+      "quantity": 23,
+      "price": 151.08,
+      "currency": "CHF",
+      "fees": 14.47,
+      "total": 3474.84,
+      "net_proceeds": 3460.37,
+      "realized_pnl": -343.27,
+      "realized_pnl_pct": -9.03
     }
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "usdchf": 0.7891,
-    "auchah_value_chf": 3506.12,
-    "fivetq_value_usd": 3845.80,
-    "fivetq_value_chf": 3034.68,
-    "cash_chf": 145.83,
-    "cash_usd_in_chf": 1067.61,
-    "current_value": 7754.24,
-    "total_return_chf": 254.24,
-    "total_return_pct": 3.39
+    "usdchf": 0.7889,
+    "fivetq_value_usd": 3844.12,
+    "fivetq_value_chf": 3033.04,
+    "cash_chf": 3606.20,
+    "cash_usd_in_chf": 1067.71,
+    "current_value": 7706.95,
+    "total_return_chf": 206.95,
+    "total_return_pct": 2.76
   }
 }
