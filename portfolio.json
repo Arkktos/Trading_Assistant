@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-04-29",
+  "last_updated": "2026-04-30",
   "currency": "CHF",
-  "cash_chf": 3606.20,
-  "cash_usd": 1352.96,
+  "cash_chf": 1326.05,
+  "cash_usd": 0.00,
   "deposited_capital": 7500.00,
   "positions": [
     {
@@ -17,14 +17,35 @@
       "effective_buy_price": 257.56,
       "buy_date": "2026-02-18",
       "total_cost_usd": 3595.76,
-      "fees_usd": 10.11,
+      "fees_usd": 10.09,
       "total_cost_with_fees_usd": 3605.85,
       "total_cost_chf": 2811.03,
       "usdchf_at_purchase": 0.7796,
-      "current_price": 274.58,
+      "current_price": 275.59,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (produit net 1352.96 USD). Position restante : 14 certificats, prix moyen d'achat 256.84 USD. Cours 29/04/2026 : 274.58 USD (-0.11%). P&L USD : +238.27 USD (+6.61%). P&L CHF : +222.01 CHF (+7.90%)."
+      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (produit net 1352.96 USD). Position restante : 14 certificats, prix moyen d'achat 256.84 USD. Cours 30/04/2026 : 275.59 USD (+0.02%). P&L USD : +252.41 USD (+6.99%). P&L CHF : +241.29 CHF (+8.58%)."
+    },
+    {
+      "ticker_swissquote": "GOOGL",
+      "name": "Alphabet Inc. Class A",
+      "type": "equity",
+      "exchange": "NASDAQ",
+      "quantity": 12,
+      "average_buy_price": 347.25,
+      "effective_buy_price": 350.34,
+      "buy_date": "2026-04-29",
+      "total_cost_usd": 4167.00,
+      "fees_usd": 37.10,
+      "total_cost_with_fees_usd": 4204.10,
+      "total_cost_chf": 3347.64,
+      "usdchf_at_purchase": 0.7997,
+      "fx_transaction_chf_debit": 2280.15,
+      "fx_transaction_usd_credit": 2851.14,
+      "current_price": 349.94,
+      "current_price_afterhours": 375.18,
+      "price_currency": "USD",
+      "notes": "Achat le 29/04/2026 a 347.25 USD/action (12 actions). FX : 2280.15 CHF debites, 2851.14 USD credites (taux 0.7997 CHF/USD). USD utilises : 1352.96 (existants) + 2851.14 (FX) = 4204.10 USD total. Earnings GOOGL Q1 2026 (29/04 apres cloture US) : revenue $109.9B (+22% YoY), Google Cloud $20B+ (+63% YoY) — blowout beat. Action +7.21% after-hours a $375.18. Cours cloture 29/04 : 349.94 USD (+0.05%). P&L apres heures : +335.16 USD / +265.24 CHF."
     }
   ],
   "closed_positions": [
@@ -46,7 +67,7 @@
       "net_proceeds_chf": 3460.37,
       "realized_pnl_chf": -343.27,
       "realized_pnl_pct": -9.03,
-      "notes": "Position fermee le 28/04/2026 a 151.08 CHF/part (23 parts). Produit net : 3460.37 CHF. P&L realise : -343.27 CHF (-9.03%). Contexte : XAU/USD en correction (4596 USD), decision de cloturer apres chute depuis 165.72 CHF (achat initial) et passage en dessous du support 152 CHF."
+      "notes": "Position fermee le 28/04/2026 a 151.08 CHF/part (23 parts). Produit net : 3460.37 CHF. P&L realise : -343.27 CHF (-9.03%)."
     }
   ],
   "transactions": [
@@ -108,17 +129,46 @@
       "net_proceeds": 3460.37,
       "realized_pnl": -343.27,
       "realized_pnl_pct": -9.03
+    },
+    {
+      "date": "2026-04-29",
+      "type": "fx_conversion",
+      "description": "Conversion CHF -> USD pour achat GOOGL",
+      "chf_debit": 2280.15,
+      "usd_credit": 2851.14,
+      "fx_rate_chf_per_usd": 0.7997
+    },
+    {
+      "date": "2026-04-29",
+      "type": "buy",
+      "ticker": "GOOGL",
+      "quantity": 12,
+      "price": 347.25,
+      "currency": "USD",
+      "fees_usd": 37.10,
+      "total_usd": 4167.00,
+      "total_with_fees_usd": 4204.10,
+      "total_chf": 3347.64,
+      "usdchf_at_purchase": 0.7997
     }
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "usdchf": 0.7889,
-    "fivetq_value_usd": 3844.12,
-    "fivetq_value_chf": 3033.04,
-    "cash_chf": 3606.20,
-    "cash_usd_in_chf": 1067.71,
-    "current_value": 7706.95,
-    "total_return_chf": 206.95,
-    "total_return_pct": 2.76
+    "usdchf": 0.7914,
+    "fivetq_value_usd": 3858.26,
+    "fivetq_value_chf": 3053.51,
+    "googl_value_usd_close": 4199.28,
+    "googl_value_usd_afterhours": 4502.16,
+    "googl_value_chf_close": 3323.93,
+    "googl_value_chf_afterhours": 3562.81,
+    "cash_chf": 1326.05,
+    "cash_usd_in_chf": 0.00,
+    "current_value_at_close": 7703.49,
+    "current_value_afterhours": 7942.37,
+    "total_return_chf_at_close": 203.49,
+    "total_return_pct_at_close": 2.71,
+    "total_return_chf_afterhours": 442.37,
+    "total_return_pct_afterhours": 5.90,
+    "realized_pnl_auchah_chf": -343.27
   }
 }
