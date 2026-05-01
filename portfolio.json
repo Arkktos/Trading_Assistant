@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-30",
+  "last_updated": "2026-05-01",
   "currency": "CHF",
   "cash_chf": 1326.05,
   "cash_usd": 0.00,
@@ -21,10 +21,10 @@
       "total_cost_with_fees_usd": 3605.85,
       "total_cost_chf": 2811.03,
       "usdchf_at_purchase": 0.7796,
-      "current_price": 275.59,
+      "current_price": 281.12,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (produit net 1352.96 USD). Position restante : 14 certificats, prix moyen d'achat 256.84 USD. Cours 30/04/2026 : 275.59 USD (+0.02%). P&L USD : +252.41 USD (+6.99%). P&L CHF : +241.29 CHF (+8.58%)."
+      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (produit net 1352.96 USD). Position restante : 14 certificats, prix moyen d'achat 256.84 USD. Cours 30/04/2026 : 281.12 USD (+2.03%) — NOUVEAU RECORD 52 SEM (precedent : 277.37 USD le 27/04/2026). QMH ferme le 01/05/2026 (Fete du Travail suisse). P&L USD : +329.83 USD (+9.15%). P&L CHF : +263.52 CHF (+9.37%)."
     },
     {
       "ticker_swissquote": "GOOGL",
@@ -42,10 +42,10 @@
       "usdchf_at_purchase": 0.7997,
       "fx_transaction_chf_debit": 2280.15,
       "fx_transaction_usd_credit": 2851.14,
-      "current_price": 349.94,
-      "current_price_afterhours": 375.18,
+      "current_price": 384.80,
+      "current_price_afterhours": 385.25,
       "price_currency": "USD",
-      "notes": "Achat le 29/04/2026 a 347.25 USD/action (12 actions). FX : 2280.15 CHF debites, 2851.14 USD credites (taux 0.7997 CHF/USD). USD utilises : 1352.96 (existants) + 2851.14 (FX) = 4204.10 USD total. Earnings GOOGL Q1 2026 (29/04 apres cloture US) : revenue $109.9B (+22% YoY), Google Cloud $20B+ (+63% YoY) — blowout beat. Action +7.21% after-hours a $375.18. Cours cloture 29/04 : 349.94 USD (+0.05%). P&L apres heures : +335.16 USD / +265.24 CHF."
+      "notes": "Achat le 29/04/2026 a 347.25 USD/action (12 actions). FX : 2280.15 CHF debites, 2851.14 USD credites (taux 0.7997 CHF/USD). USD utilises : 1352.96 (existants) + 2851.14 (FX) = 4204.10 USD total. Earnings GOOGL Q1 2026 (29/04 apres cloture US) : revenue $109.9B (+22% YoY), Google Cloud $20B+ (+63% YoY) — blowout beat. Cloture 30/04 : 384.80 USD (+9.96% — gap post-earnings confirme, open 374.07, haut 385.84, vol 72M). After-hours 30/04 : 385.25 USD (+0.12%). P&L : +413.50 USD (+9.83%) / +259.63 CHF (+7.75%)."
     }
   ],
   "closed_positions": [
@@ -154,21 +154,21 @@
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "usdchf": 0.7914,
-    "fivetq_value_usd": 3858.26,
-    "fivetq_value_chf": 3053.51,
-    "googl_value_usd_close": 4199.28,
-    "googl_value_usd_afterhours": 4502.16,
-    "googl_value_chf_close": 3323.93,
-    "googl_value_chf_afterhours": 3562.81,
+    "usdchf": 0.7812,
+    "fivetq_value_usd": 3935.68,
+    "fivetq_value_chf": 3074.55,
+    "googl_value_usd_close": 4617.60,
+    "googl_value_usd_afterhours": 4623.00,
+    "googl_value_chf_close": 3607.27,
+    "googl_value_chf_afterhours": 3611.49,
     "cash_chf": 1326.05,
     "cash_usd_in_chf": 0.00,
-    "current_value_at_close": 7703.49,
-    "current_value_afterhours": 7942.37,
-    "total_return_chf_at_close": 203.49,
-    "total_return_pct_at_close": 2.71,
-    "total_return_chf_afterhours": 442.37,
-    "total_return_pct_afterhours": 5.90,
+    "current_value_at_close": 8007.87,
+    "current_value_afterhours": 8012.09,
+    "total_return_chf_at_close": 507.87,
+    "total_return_pct_at_close": 6.77,
+    "total_return_chf_afterhours": 512.09,
+    "total_return_pct_afterhours": 6.83,
     "realized_pnl_auchah_chf": -343.27
   }
 }
