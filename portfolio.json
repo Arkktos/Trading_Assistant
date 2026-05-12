@@ -2,7 +2,7 @@
   "last_updated": "2026-05-12",
   "currency": "CHF",
   "cash_chf": 1326.05,
-  "cash_usd": 842.46,
+  "cash_usd": 2379.73,
   "deposited_capital": 7500.00,
   "positions": [
     {
@@ -31,20 +31,20 @@
       "name": "Alphabet Inc. Class A",
       "type": "equity",
       "exchange": "NASDAQ",
-      "quantity": 12,
+      "quantity": 8,
       "average_buy_price": 347.25,
       "effective_buy_price": 350.34,
       "buy_date": "2026-04-29",
-      "total_cost_usd": 4167.00,
-      "fees_usd": 37.10,
-      "total_cost_with_fees_usd": 4204.10,
-      "total_cost_chf": 3347.64,
+      "total_cost_usd": 2778.00,
+      "fees_usd": 24.73,
+      "total_cost_with_fees_usd": 2802.73,
+      "total_cost_chf": 2231.74,
       "usdchf_at_purchase": 0.7997,
       "fx_transaction_chf_debit": 2280.15,
       "fx_transaction_usd_credit": 2851.14,
-      "current_price": 388.64,
+      "current_price": 386.32,
       "price_currency": "USD",
-      "notes": "Achat le 29/04/2026 a 347.25 USD/action (12 actions). FX : 2280.15 CHF debites, 2851.14 USD credites (taux 0.7997 CHF/USD). Earnings GOOGL Q1 2026 (29/04 apres cloture US) : revenue $109.9B (+22% YoY), Google Cloud $20B+ (+63% YoY). Cloture 08/05 : 400.80 USD (premiere cloture historique > 400 USD). Record intraday absolu : 402.00 USD (08/05/2026). Cloture 11/05 : 388.64 USD (-12.16 USD, -3.03%) — correction post-surachat RSI. 52-week range : 147.84-402.00 USD. RSI(14) 11/05 : 71.60 (vs 84.03 le 08/05). P&L : +496.68 USD (+11.92%) / +291.05 CHF (+8.70%) au 12/05/2026 avant ouverture US."
+      "notes": "Achat le 29/04/2026 a 347.25 USD/action (12 actions). FX : 2280.15 CHF debites, 2851.14 USD credites (taux 0.7997 CHF/USD). Earnings GOOGL Q1 2026 (29/04 apres cloture US) : revenue $109.9B (+22% YoY), Google Cloud $20B+ (+63% YoY). Cloture 08/05 : 400.80 USD (premiere cloture historique > 400 USD). Record intraday absolu : 402.00 USD (08/05/2026). Cloture 11/05 : 388.64 USD (-12.16 USD, -3.03%) — correction post-surachat RSI. 52-week range : 147.84-402.00 USD. Vente partielle de 4 actions le 12/05/2026 a 387.62 USD (produit net 1537.27 USD, frais 13.21 USD). P&L realise sur 4 actions : +135.91 USD (+9.70%). Position restante : 8 actions, prix moyen d'achat 347.25 USD. Cours 12/05 : 386.32 USD. P&L latent : +287.84 USD (+10.27%) / +224.63 CHF (+10.07%)."
     }
   ],
   "closed_positions": [
@@ -163,22 +163,36 @@
       "order_id": 292367055,
       "realized_pnl_usd": 85.62,
       "realized_pnl_pct": 11.11
+    },
+    {
+      "date": "2026-05-12",
+      "type": "sell",
+      "ticker": "GOOGL",
+      "quantity": 4,
+      "price": 387.62,
+      "currency": "USD",
+      "fees_usd": 13.21,
+      "total_usd": 1550.48,
+      "net_proceeds_usd": 1537.27,
+      "realized_pnl_usd": 135.91,
+      "realized_pnl_pct": 9.70
     }
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "usdchf": 0.7802,
-    "fivetq_value_usd": 3255.67,
-    "fivetq_value_chf": 2540.14,
-    "googl_value_usd_close": 4663.68,
-    "googl_value_chf_close": 3638.69,
+    "usdchf": 0.7807,
+    "fivetq_value_usd": 3252.04,
+    "fivetq_value_chf": 2539.32,
+    "googl_value_usd": 3090.56,
+    "googl_value_chf": 2411.46,
     "cash_chf": 1326.05,
-    "cash_usd": 842.46,
-    "cash_usd_in_chf": 657.30,
-    "current_value_at_close": 8162.18,
-    "total_return_chf_at_close": 662.18,
-    "total_return_pct_at_close": 8.83,
+    "cash_usd": 2379.73,
+    "cash_usd_in_chf": 1857.57,
+    "current_value_at_close": 8134.40,
+    "total_return_chf_at_close": 634.40,
+    "total_return_pct_at_close": 8.46,
     "realized_pnl_auchah_chf": -343.27,
-    "realized_pnl_fivetq_usd": 256.20
+    "realized_pnl_fivetq_usd": 256.20,
+    "realized_pnl_googl_usd": 135.91
   }
 }
