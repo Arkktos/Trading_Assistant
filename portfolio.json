@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-14",
+  "last_updated": "2026-05-15",
   "currency": "CHF",
   "cash_chf": 1326.05,
   "cash_usd": 2379.73,
@@ -21,10 +21,10 @@
       "total_cost_with_fees_usd": 2833.16,
       "total_cost_chf": 2208.67,
       "usdchf_at_purchase": 0.7796,
-      "current_price": 300.37,
+      "current_price": 290.90,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (produit net 1352.96 USD). Vente partielle de 3 certificats le 04/05/2026 a 285.38 USD (produit net 842.46 USD, ordre #292367055). Position restante : 11 certificats, prix moyen d'achat 256.84 USD. Cours 14/05/2026 : 300.37 USD — percee au-dessus de 300 USD, nouveau record 52 sem. (+4.73 USD, +1.60% journalier 13/05). P&L USD : +478.83 USD (+16.95%). P&L CHF : +372.47 CHF (+16.86%)."
+      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (produit net 1352.96 USD). Vente partielle de 3 certificats le 04/05/2026 a 285.38 USD (produit net 842.46 USD, ordre #292367055). Position restante : 11 certificats, prix moyen d'achat 256.84 USD. Cours 15/05/2026 : 290.90 USD — repli sous 300 USD (-9.47 USD, -3.15% vs 300.37 USD du 14/05). P&L USD : +374.66 USD (+13.26%). P&L CHF : +305.49 CHF (+13.83%)."
     },
     {
       "ticker_swissquote": "GOOGL",
@@ -42,9 +42,9 @@
       "usdchf_at_purchase": 0.7997,
       "fx_transaction_chf_debit": 2280.15,
       "fx_transaction_usd_credit": 2851.14,
-      "current_price": 402.62,
+      "current_price": 401.07,
       "price_currency": "USD",
-      "notes": "Achat le 29/04/2026 a 347.25 USD/action (12 actions). FX : 2280.15 CHF debites, 2851.14 USD credites (taux 0.7997 CHF/USD). Earnings GOOGL Q1 2026 (29/04 apres cloture US) : revenue $109.9B (+22% YoY), Google Cloud $20B+ (+63% YoY). Cloture 08/05 : 400.80 USD (premiere cloture historique > 400 USD). Record intraday 08/05 : 402.00 USD. Cloture 11/05 : 388.64 USD (-3.03%) — correction post-surachat RSI. Vente partielle de 4 actions le 12/05/2026 a 387.62 USD (produit net 1537.27 USD, frais 13.21 USD). P&L realise sur 4 actions : +135.91 USD (+9.70%). Position restante : 8 actions, prix moyen d'achat 347.25 USD. Cloture 13/05/2026 : 402.62 USD (+15.27 USD, +3.94%) — nouveau record historique de cloture. Record intraday absolu : 403.70 USD (13/05/2026). 52-week range : 156.16-403.70 USD. RSI(14) : 75.58. P&L latent : +442.96 USD (+15.95%) / +284.47 CHF (+12.75%)."
+      "notes": "Achat le 29/04/2026 a 347.25 USD/action (12 actions). FX : 2280.15 CHF debites, 2851.14 USD credites (taux 0.7997 CHF/USD). Earnings GOOGL Q1 2026 (29/04 apres cloture US) : revenue $109.9B (+22% YoY), Google Cloud $20B+ (+63% YoY). Cloture 08/05 : 400.80 USD (premiere cloture historique > 400 USD). Record intraday 08/05 : 402.00 USD. Cloture 11/05 : 388.64 USD (-3.03%) — correction post-surachat RSI. Vente partielle de 4 actions le 12/05/2026 a 387.62 USD (produit net 1537.27 USD, frais 13.21 USD). P&L realise sur 4 actions : +135.91 USD (+9.70%). Position restante : 8 actions, prix moyen d'achat 347.25 USD. Cloture 13/05/2026 : 402.62 USD (+15.27 USD, +3.94%) — nouveau record historique de cloture. Record intraday absolu : 403.70 USD (13/05/2026). 52-week range : 156.16-403.70 USD. Cloture 14/05/2026 : 401.07 USD (-1.55 USD, -0.39%) — consolidation, RSI(14) 74.16. P&L latent : +430.56 USD (+15.50%) / +289.23 CHF (+12.96%)."
     }
   ],
   "closed_positions": [
@@ -180,17 +180,17 @@
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "usdchf": 0.7812,
-    "fivetq_value_usd": 3304.07,
-    "fivetq_value_chf": 2581.14,
-    "googl_value_usd": 3220.96,
-    "googl_value_chf": 2516.21,
+    "usdchf": 0.7857,
+    "fivetq_value_usd": 3199.90,
+    "fivetq_value_chf": 2514.16,
+    "googl_value_usd": 3208.56,
+    "googl_value_chf": 2520.97,
     "cash_chf": 1326.05,
     "cash_usd": 2379.73,
-    "cash_usd_in_chf": 1859.05,
-    "current_value_at_close": 8282.45,
-    "total_return_chf_at_close": 782.45,
-    "total_return_pct_at_close": 10.43,
+    "cash_usd_in_chf": 1869.75,
+    "current_value_at_close": 8230.93,
+    "total_return_chf_at_close": 730.93,
+    "total_return_pct_at_close": 9.75,
     "realized_pnl_auchah_chf": -343.27,
     "realized_pnl_fivetq_usd": 256.20,
     "realized_pnl_googl_usd": 135.91
