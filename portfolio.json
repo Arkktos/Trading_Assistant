@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-05-16",
+  "last_updated": "2026-05-19",
   "currency": "CHF",
   "cash_chf": 1090.23,
-  "cash_usd": 0.00,
+  "cash_usd": 1143.57,
   "deposited_capital": 7500.00,
   "positions": [
     {
@@ -12,19 +12,19 @@
       "name": "Swissquote 5G Revolution Index (Leonteq Tracker)",
       "type": "structured_product",
       "exchange": "QMH",
-      "quantity": 11,
+      "quantity": 7,
       "average_buy_price": 256.84,
       "effective_buy_price": 257.56,
       "buy_date": "2026-02-18",
-      "total_cost_usd": 2825.24,
-      "fees_usd": 7.92,
-      "total_cost_with_fees_usd": 2833.16,
-      "total_cost_chf": 2208.67,
+      "total_cost_usd": 1797.88,
+      "fees_usd": 5.05,
+      "total_cost_with_fees_usd": 1802.93,
+      "total_cost_chf": 1405.52,
       "usdchf_at_purchase": 0.7796,
-      "current_price": 292.73,
+      "current_price": 290.90,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (produit net 1352.96 USD). Vente partielle de 3 certificats le 04/05/2026 a 285.38 USD (produit net 842.46 USD, ordre #292367055). Position restante : 11 certificats, prix moyen d'achat 256.84 USD. Cloture 15/05/2026 : 292.73 USD (-7.64 USD, -2.54% vs 14/05). La recuperation intraday a 300.37 USD (18h09 CEST) n'a pas tenu en cloture. FIVETQ a cloture legerement sous le stop mental de 293 USD (ecart -0.27 USD). P&L USD : +394.79 USD (+13.97%). P&L CHF : +323.56 CHF (+14.65%)."
+      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (net 1352.96 USD). Vente partielle de 3 certificats le 04/05/2026 a 285.38 USD (net 842.46 USD). Vente partielle de 4 certificats le 18/05/2026 a 289.31 USD (net 1143.57 USD) — stop mental 293 USD declenche. Position restante : 7 certificats. Cours 19/05/2026 09h41 CEST : 290.90 USD. P&L latent USD : +238.42 USD (+13.26%). P&L latent CHF : +194.00 CHF (+13.80%)."
     },
     {
       "ticker_swissquote": "GOOGL",
@@ -42,9 +42,9 @@
       "usdchf_at_purchase": 0.7997,
       "fx_transaction_chf_debit": 2280.15,
       "fx_transaction_usd_credit": 2851.14,
-      "current_price": 396.78,
+      "current_price": 396.94,
       "price_currency": "USD",
-      "notes": "Achat le 29/04/2026 a 347.25 USD/action (12 actions). FX : 2280.15 CHF debites, 2851.14 USD credites (taux 0.7997 CHF/USD). Earnings GOOGL Q1 2026 (29/04 apres cloture US) : revenue $109.9B (+22% YoY), Google Cloud $20B+ (+63% YoY). Record intraday absolu : 403.70 USD (13/05/2026). Vente partielle de 4 actions le 12/05/2026 a 387.62 USD (produit net 1537.27 USD, frais 13.21 USD). P&L realise sur 4 actions : +135.91 USD (+9.70%). Position restante : 8 actions, prix moyen d'achat 347.25 USD. Cloture 15/05/2026 : 396.78 USD (-4.29 USD, -1.07% vs 14/05 401.07 USD). Intraday 15/05 : H 399.54 / L 393.18 USD. RSI 70.24, SMA50 332.74, SMA200 291.06. P&L latent : +396.24 USD (+14.26%) / +264.49 CHF (+11.85%)."
+      "notes": "Achat le 29/04/2026 a 347.25 USD/action (12 actions). Vente partielle de 4 actions le 12/05/2026 a 387.62 USD (net 1537.27 USD). P&L realise : +135.91 USD. Position restante : 8 actions. Record intraday absolu : 408.61 USD (18/05/2026). Cloture 18/05 : 396.94 USD. RSI 70.24 (15/05), SMA50 334.71, SMA200 ~291.5. Google I/O 20/05. Cours 19/05 09h41 CEST : 396.94 USD. P&L latent : +397.52 USD (+14.31%) / +261.63 CHF (+11.72%)."
     },
     {
       "ticker_swissquote": "CHIPLK",
@@ -58,9 +58,9 @@
       "total_cost_chf": 2066.73,
       "fees_chf": 12.87,
       "total_cost_with_fees_chf": 2079.60,
-      "current_price": 67.41,
+      "current_price": 65.387,
       "price_currency": "CHF",
-      "notes": "Achat le 15/05/2026 a 68.891 CHF/certificat (30 certificats, 09:16:46). Frais: 12.87 CHF. Total debite: 2079.60 CHF. Derniere cotation disponible (cloture europeenne 15/05/2026) : 67.41 CHF. P&L latent CHF : -44.43 CHF (-2.15% vs cout sans frais). Secteur semiconducteurs (5G/IA)."
+      "notes": "Achat le 15/05/2026 a 68.891 CHF/certificat (30 certificats, 09:16:46). Frais: 12.87 CHF. Cours 19/05/2026 09h41 CEST : 65.387 CHF. P&L latent CHF : -105.12 CHF (-5.09%)."
     }
   ],
   "closed_positions": [
@@ -82,154 +82,39 @@
       "net_proceeds_chf": 3460.37,
       "realized_pnl_chf": -343.27,
       "realized_pnl_pct": -9.03,
-      "notes": "Position fermee le 28/04/2026 a 151.08 CHF/part (23 parts). Produit net : 3460.37 CHF. P&L realise : -343.27 CHF (-9.03%)."
+      "notes": "Position fermee le 28/04/2026 a 151.08 CHF/part (23 parts). P&L realise : -343.27 CHF (-9.03%)."
     }
   ],
   "transactions": [
-    {
-      "date": "2026-02-18",
-      "type": "buy",
-      "ticker": "FIVETQ",
-      "quantity": 19,
-      "price": 256.84,
-      "currency": "USD",
-      "fees_usd": 13.70,
-      "total_usd": 4879.96,
-      "total_with_fees_usd": 4893.66,
-      "total_chf": 3814.97,
-      "usdchf_at_purchase": 0.7796
-    },
-    {
-      "date": "2026-02-20",
-      "type": "buy",
-      "ticker": "AUCHAH",
-      "quantity": 20,
-      "price": 165.72,
-      "currency": "CHF",
-      "fees": 14.34,
-      "total": 3314.40,
-      "total_with_fees": 3328.74
-    },
-    {
-      "date": "2026-04-21",
-      "type": "sell",
-      "ticker": "FIVETQ",
-      "quantity": 5,
-      "price": 273.33,
-      "currency": "USD",
-      "fees_usd": 13.69,
-      "total_usd": 1366.65,
-      "net_proceeds_usd": 1352.96
-    },
-    {
-      "date": "2026-04-21",
-      "type": "buy",
-      "ticker": "AUCHAH",
-      "quantity": 3,
-      "price": 156.24,
-      "currency": "CHF",
-      "fees": 6.18,
-      "total": 468.72,
-      "total_with_fees": 474.90
-    },
-    {
-      "date": "2026-04-28",
-      "type": "sell",
-      "ticker": "AUCHAH",
-      "quantity": 23,
-      "price": 151.08,
-      "currency": "CHF",
-      "fees": 14.47,
-      "total": 3474.84,
-      "net_proceeds": 3460.37,
-      "realized_pnl": -343.27,
-      "realized_pnl_pct": -9.03
-    },
-    {
-      "date": "2026-04-29",
-      "type": "fx_conversion",
-      "description": "Conversion CHF -> USD pour achat GOOGL",
-      "chf_debit": 2280.15,
-      "usd_credit": 2851.14,
-      "fx_rate_chf_per_usd": 0.7997
-    },
-    {
-      "date": "2026-04-29",
-      "type": "buy",
-      "ticker": "GOOGL",
-      "quantity": 12,
-      "price": 347.25,
-      "currency": "USD",
-      "fees_usd": 37.10,
-      "total_usd": 4167.00,
-      "total_with_fees_usd": 4204.10,
-      "total_chf": 3347.64,
-      "usdchf_at_purchase": 0.7997
-    },
-    {
-      "date": "2026-05-04",
-      "type": "sell",
-      "ticker": "FIVETQ",
-      "quantity": 3,
-      "price": 285.38,
-      "currency": "USD",
-      "fees_usd": 13.68,
-      "total_usd": 856.14,
-      "net_proceeds_usd": 842.46,
-      "order_id": 292367055,
-      "realized_pnl_usd": 85.62,
-      "realized_pnl_pct": 11.11
-    },
-    {
-      "date": "2026-05-12",
-      "type": "sell",
-      "ticker": "GOOGL",
-      "quantity": 4,
-      "price": 387.62,
-      "currency": "USD",
-      "fees_usd": 13.21,
-      "total_usd": 1550.48,
-      "net_proceeds_usd": 1537.27,
-      "realized_pnl_usd": 135.91,
-      "realized_pnl_pct": 9.70
-    },
-    {
-      "date": "2026-05-14",
-      "type": "fx_conversion",
-      "description": "Conversion USD -> CHF (liquidation cash USD)",
-      "usd_debit": 2379.73,
-      "chf_credit": 1843.78,
-      "fx_rate_chf_per_usd": 0.7748
-    },
-    {
-      "date": "2026-05-15",
-      "type": "buy",
-      "ticker": "CHIPLK",
-      "quantity": 30,
-      "price": 68.891,
-      "currency": "CHF",
-      "fees_chf": 12.87,
-      "total_chf": 2066.73,
-      "total_with_fees_chf": 2079.60,
-      "time": "09:16:46"
-    }
+    {"date":"2026-02-18","type":"buy","ticker":"FIVETQ","quantity":19,"price":256.84,"currency":"USD","fees_usd":13.70,"total_usd":4879.96,"total_with_fees_usd":4893.66,"total_chf":3814.97,"usdchf_at_purchase":0.7796},
+    {"date":"2026-02-20","type":"buy","ticker":"AUCHAH","quantity":20,"price":165.72,"currency":"CHF","fees":14.34,"total":3314.40,"total_with_fees":3328.74},
+    {"date":"2026-04-21","type":"sell","ticker":"FIVETQ","quantity":5,"price":273.33,"currency":"USD","fees_usd":13.69,"total_usd":1366.65,"net_proceeds_usd":1352.96,"realized_pnl_usd":68.76},
+    {"date":"2026-04-21","type":"buy","ticker":"AUCHAH","quantity":3,"price":156.24,"currency":"CHF","fees":6.18,"total":468.72,"total_with_fees":474.90},
+    {"date":"2026-04-28","type":"sell","ticker":"AUCHAH","quantity":23,"price":151.08,"currency":"CHF","fees":14.47,"total":3474.84,"net_proceeds":3460.37,"realized_pnl":-343.27},
+    {"date":"2026-04-29","type":"fx_conversion","description":"Conversion CHF -> USD pour achat GOOGL","chf_debit":2280.15,"usd_credit":2851.14,"fx_rate_chf_per_usd":0.7997},
+    {"date":"2026-04-29","type":"buy","ticker":"GOOGL","quantity":12,"price":347.25,"currency":"USD","fees_usd":37.10,"total_usd":4167.00,"total_with_fees_usd":4204.10,"total_chf":3347.64,"usdchf_at_purchase":0.7997},
+    {"date":"2026-05-04","type":"sell","ticker":"FIVETQ","quantity":3,"price":285.38,"currency":"USD","fees_usd":13.68,"total_usd":856.14,"net_proceeds_usd":842.46,"order_id":292367055,"realized_pnl_usd":71.94},
+    {"date":"2026-05-12","type":"sell","ticker":"GOOGL","quantity":4,"price":387.62,"currency":"USD","fees_usd":13.21,"total_usd":1550.48,"net_proceeds_usd":1537.27,"realized_pnl_usd":135.91},
+    {"date":"2026-05-14","type":"fx_conversion","description":"Conversion USD -> CHF","usd_debit":2379.73,"chf_credit":1843.78,"fx_rate_chf_per_usd":0.7748},
+    {"date":"2026-05-15","type":"buy","ticker":"CHIPLK","quantity":30,"price":68.891,"currency":"CHF","fees_chf":12.87,"total_chf":2066.73,"total_with_fees_chf":2079.60,"time":"09:16:46"},
+    {"date":"2026-05-18","type":"sell","ticker":"FIVETQ","quantity":4,"price":289.31,"currency":"USD","fees_usd":13.67,"total_usd":1157.24,"net_proceeds_usd":1143.57,"realized_pnl_usd":116.21,"realized_pnl_pct":11.31,"notes":"Stop mental 293 USD declenche"}
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "usdchf": 0.7864,
-    "fivetq_value_usd": 3220.03,
-    "fivetq_value_chf": 2532.23,
-    "googl_value_usd": 3174.24,
-    "googl_value_chf": 2496.23,
-    "chiplk_value_chf": 2022.30,
+    "usdchf": 0.7855,
+    "fivetq_value_usd": 2036.30,
+    "fivetq_value_chf": 1599.52,
+    "googl_value_usd": 3175.52,
+    "googl_value_chf": 2493.37,
+    "chiplk_value_chf": 1961.61,
     "cash_chf": 1090.23,
-    "cash_usd": 0.00,
-    "cash_usd_in_chf": 0.00,
-    "current_value_at_close": 8140.99,
-    "total_return_chf_at_close": 640.99,
-    "total_return_pct_at_close": 8.55,
+    "cash_usd": 1143.57,
+    "cash_usd_in_chf": 898.27,
+    "current_value_at_close": 8044.00,
+    "total_return_chf_at_close": 544.00,
+    "total_return_pct_at_close": 7.25,
     "realized_pnl_auchah_chf": -343.27,
-    "realized_pnl_fivetq_usd": 256.20,
+    "realized_pnl_fivetq_usd": 256.91,
     "realized_pnl_googl_usd": 135.91
   }
 }
