@@ -1,8 +1,8 @@
-# Instructions pour les agents Claude Code
+# Instructions pour l'Agent IA
 
 ## Git workflow
 
-- Travailler sur la branche assignée par le système (ex. `claude/...`).
+- Travailler sur la branche assignée par le système (ex. `agent/...`).
 - Après chaque rapport généré :
   1. **Commit** les changements avec un message descriptif.
   2. **Push** sur la branche courante.
@@ -43,12 +43,11 @@ gh api -X PUT repos/Arkktos/Trading_Assistant/pulls/<number>/merge \
   -f merge_method=rebase
 ```
 
-**Push** : ne pas pusher directement sur `main` (403). Toujours passer par une branche `claude/...` + PR.
+**Push** : ne pas pusher directement sur `main` (403). Toujours passer par une branche `agent/...` + PR.
 
 ## Source de données
 
-- Les cours de AUCHAH et FIVETQ ne sont pas disponibles via API (AlphaVantage, Yahoo Finance).
-- Utiliser **cash.ch** comme source de prix pour les deux instruments.
+- Utiliser le **Web** (cash.ch, leonteq, swissquote, Yahoo Finance, etc.) comme source de prix et d'analyse pour tous les instruments.
   - AUCHAH : https://www.cash.ch/fonds/ubs-etf-ch-ubs-gold-hchf-etf-10602712/swx/chf
   - FIVETQ : https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd
 

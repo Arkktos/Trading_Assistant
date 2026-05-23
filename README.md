@@ -2,19 +2,19 @@
 
 ## Vue d'ensemble
 
-Ce repository sert de **mémoire persistante** pour Claude Code. Il contient l'état de mon portefeuille de trading (Swissquote), l'historique de mes positions, et les analyses générées quotidiennement.
+Ce repository sert de **mémoire persistante** pour l'Agent IA. Il contient l'état de mon portefeuille de trading (Swissquote), l'historique de mes positions, et les analyses générées quotidiennement.
 
-**Aucun code applicatif n'est hébergé ici.** Tout repose sur Claude Code, orchestré par une tâche planifiée, avec :
-- **AlphaVantage (MCP)** : données de marché en temps réel, indicateurs techniques, fondamentaux, news & sentiment
+**Aucun code applicatif n'est hébergé ici.** Tout repose sur l'Agent IA, orchestré par une tâche planifiée, avec :
+- **Recherche Web** : données de marché en temps réel, indicateurs techniques, fondamentaux, news & sentiment (cash.ch, leonteq, swissquote, Yahoo Finance, etc.)
 - **`send_email.py`** : envoi du rapport quotidien par email via Gmail SMTP
 
 ## Workflow quotidien
 
 ```
 Tâche planifiée (cron / Task Scheduler)
-  └─> Claude Code pull ce repo (récupère la mémoire)
+  └─> Agent IA pull ce repo (récupère la mémoire)
         ├─> Lit portfolio.json (état actuel du portefeuille)
-        ├─> Interroge AlphaVantage (cours, indicateurs, news)
+        ├─> Interroge le Web (cours, indicateurs, news)
         ├─> Analyse les positions & détecte des opportunités
         ├─> Met à jour l'historique dans reports/
         ├─> Commit & push les changements
@@ -26,7 +26,7 @@ Tâche planifiée (cron / Task Scheduler)
 ```
 .
 ├── README.md                   # Ce fichier
-├── CLAUDE.md                   # Instructions pour les agents Claude Code
+├── MEMORY.md                   # Instructions pour l'Agent IA
 ├── portfolio.json              # État actuel du portefeuille
 ├── config.json                 # Configuration (profil de risque, watchlist, préférences)
 ├── send_email.py               # Envoi d'email via Gmail SMTP (app password)
