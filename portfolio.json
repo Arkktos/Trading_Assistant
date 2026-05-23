@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-05-19",
+  "last_updated": "2026-05-23",
   "currency": "CHF",
   "cash_chf": 1090.23,
-  "cash_usd": 1143.57,
+  "cash_usd": 3437.81,
   "deposited_capital": 7500.00,
   "positions": [
     {
@@ -21,30 +21,30 @@
       "total_cost_with_fees_usd": 1802.93,
       "total_cost_chf": 1405.52,
       "usdchf_at_purchase": 0.7796,
-      "current_price": 290.90,
+      "current_price": 302.89,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (net 1352.96 USD). Vente partielle de 3 certificats le 04/05/2026 a 285.38 USD (net 842.46 USD). Vente partielle de 4 certificats le 18/05/2026 a 289.31 USD (net 1143.57 USD) — stop mental 293 USD declenche. Position restante : 7 certificats. Cours 19/05/2026 09h41 CEST : 290.90 USD. P&L latent USD : +238.42 USD (+13.26%). P&L latent CHF : +194.00 CHF (+13.80%)."
+      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (net 1352.96 USD). Vente partielle de 3 certificats le 04/05/2026 a 285.38 USD (net 842.46 USD). Vente partielle de 4 certificats le 18/05/2026 a 289.31 USD (net 1143.57 USD) — stop mental 293 USD declenche. Position restante : 7 certificats."
     },
     {
       "ticker_swissquote": "GOOGL",
       "name": "Alphabet Inc. Class A",
       "type": "equity",
       "exchange": "NASDAQ",
-      "quantity": 8,
+      "quantity": 2,
       "average_buy_price": 347.25,
       "effective_buy_price": 350.34,
       "buy_date": "2026-04-29",
-      "total_cost_usd": 2778.00,
-      "fees_usd": 24.73,
-      "total_cost_with_fees_usd": 2802.73,
-      "total_cost_chf": 2231.74,
+      "total_cost_usd": 694.50,
+      "fees_usd": 6.22,
+      "total_cost_with_fees_usd": 700.72,
+      "total_cost_chf": 558.69,
       "usdchf_at_purchase": 0.7997,
       "fx_transaction_chf_debit": 2280.15,
       "fx_transaction_usd_credit": 2851.14,
-      "current_price": 396.94,
+      "current_price": 382.97,
       "price_currency": "USD",
-      "notes": "Achat le 29/04/2026 a 347.25 USD/action (12 actions). Vente partielle de 4 actions le 12/05/2026 a 387.62 USD (net 1537.27 USD). P&L realise : +135.91 USD. Position restante : 8 actions. Record intraday absolu : 408.61 USD (18/05/2026). Cloture 18/05 : 396.94 USD. RSI 70.24 (15/05), SMA50 334.71, SMA200 ~291.5. Google I/O 20/05. Cours 19/05 09h41 CEST : 396.94 USD. P&L latent : +397.52 USD (+14.31%) / +261.63 CHF (+11.72%)."
+      "notes": "Achat le 29/04/2026 a 347.25 USD/action (12 actions). Vente partielle de 4 actions le 12/05/2026 a 387.62 USD (net 1537.27 USD). Vente partielle le 22/05/2026 : 6 actions vendues (3x2 et 1x2) a 385.00 USD et 387.23 USD. Position restante : 2 actions. Record intraday absolu : 408.61 USD (18/05/2026)."
     },
     {
       "ticker_swissquote": "CHIPLK",
@@ -58,9 +58,9 @@
       "total_cost_chf": 2066.73,
       "fees_chf": 12.87,
       "total_cost_with_fees_chf": 2079.60,
-      "current_price": 65.387,
+      "current_price": 70.898,
       "price_currency": "CHF",
-      "notes": "Achat le 15/05/2026 a 68.891 CHF/certificat (30 certificats, 09:16:46). Frais: 12.87 CHF. Cours 19/05/2026 09h41 CEST : 65.387 CHF. P&L latent CHF : -105.12 CHF (-5.09%)."
+      "notes": "Achat le 15/05/2026 a 68.891 CHF/certificat (30 certificats, 09:16:46). Frais: 12.87 CHF."
     }
   ],
   "closed_positions": [
@@ -97,24 +97,27 @@
     {"date":"2026-05-12","type":"sell","ticker":"GOOGL","quantity":4,"price":387.62,"currency":"USD","fees_usd":13.21,"total_usd":1550.48,"net_proceeds_usd":1537.27,"realized_pnl_usd":135.91},
     {"date":"2026-05-14","type":"fx_conversion","description":"Conversion USD -> CHF","usd_debit":2379.73,"chf_credit":1843.78,"fx_rate_chf_per_usd":0.7748},
     {"date":"2026-05-15","type":"buy","ticker":"CHIPLK","quantity":30,"price":68.891,"currency":"CHF","fees_chf":12.87,"total_chf":2066.73,"total_with_fees_chf":2079.60,"time":"09:16:46"},
-    {"date":"2026-05-18","type":"sell","ticker":"FIVETQ","quantity":4,"price":289.31,"currency":"USD","fees_usd":13.67,"total_usd":1157.24,"net_proceeds_usd":1143.57,"realized_pnl_usd":116.21,"realized_pnl_pct":11.31,"notes":"Stop mental 293 USD declenche"}
+    {"date":"2026-05-18","type":"sell","ticker":"FIVETQ","quantity":4,"price":289.31,"currency":"USD","fees_usd":13.67,"total_usd":1157.24,"net_proceeds_usd":1143.57,"realized_pnl_usd":116.21,"realized_pnl_pct":11.31,"notes":"Stop mental 293 USD declenche"},
+    {"date":"2026-05-22","type":"sell","ticker":"GOOGL","quantity":2,"price":385.00,"currency":"USD","fees_usd":0.59,"total_usd":770.00,"net_proceeds_usd":769.41,"realized_pnl_usd":75.50},
+    {"date":"2026-05-22","type":"sell","ticker":"GOOGL","quantity":3,"price":385.00,"currency":"USD","fees_usd":12.61,"total_usd":1155.00,"net_proceeds_usd":1142.39,"realized_pnl_usd":113.25},
+    {"date":"2026-05-22","type":"sell","ticker":"GOOGL","quantity":1,"price":387.23,"currency":"USD","fees_usd":7.03,"total_usd":387.23,"net_proceeds_usd":380.20,"realized_pnl_usd":39.98}
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "usdchf": 0.7855,
-    "fivetq_value_usd": 2036.30,
-    "fivetq_value_chf": 1599.52,
-    "googl_value_usd": 3175.52,
-    "googl_value_chf": 2493.37,
-    "chiplk_value_chf": 1961.61,
+    "usdchf": 0.7852,
+    "fivetq_value_usd": 2120.23,
+    "fivetq_value_chf": 1664.66,
+    "googl_value_usd": 765.94,
+    "googl_value_chf": 601.39,
+    "chiplk_value_chf": 2126.94,
     "cash_chf": 1090.23,
-    "cash_usd": 1143.57,
-    "cash_usd_in_chf": 898.27,
-    "current_value_at_close": 8044.00,
-    "total_return_chf_at_close": 544.00,
-    "total_return_pct_at_close": 7.25,
+    "cash_usd": 3437.81,
+    "cash_usd_in_chf": 2698.50,
+    "current_value_at_close": 8185.72,
+    "total_return_chf_at_close": 685.72,
+    "total_return_pct_at_close": 9.14,
     "realized_pnl_auchah_chf": -343.27,
     "realized_pnl_fivetq_usd": 256.91,
-    "realized_pnl_googl_usd": 135.91
+    "realized_pnl_googl_usd": 364.64
   }
 }
