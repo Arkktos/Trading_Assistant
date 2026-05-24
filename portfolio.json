@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-23",
+  "last_updated": "2026-05-24",
   "currency": "CHF",
   "cash_chf": 1090.23,
   "cash_usd": 3437.81,
@@ -21,10 +21,10 @@
       "total_cost_with_fees_usd": 1802.93,
       "total_cost_chf": 1405.52,
       "usdchf_at_purchase": 0.7796,
-      "current_price": 302.89,
+      "current_price": 308.82,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (net 1352.96 USD). Vente partielle de 3 certificats le 04/05/2026 a 285.38 USD (net 842.46 USD). Vente partielle de 4 certificats le 18/05/2026 a 289.31 USD (net 1143.57 USD) — stop mental 293 USD declenche. Position restante : 7 certificats."
+      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (net 1352.96 USD). Vente partielle de 3 certificats le 04/05/2026 a 285.38 USD (net 842.46 USD). Vente partielle de 4 certificats le 18/05/2026 a 289.31 USD (net 1143.57 USD) — stop mental 293 USD declenche. Position restante : 7 certificats. Stop mental releve a 295 USD (24/05/2026)."
     },
     {
       "ticker_swissquote": "GOOGL",
@@ -58,9 +58,9 @@
       "total_cost_chf": 2066.73,
       "fees_chf": 12.87,
       "total_cost_with_fees_chf": 2079.60,
-      "current_price": 70.898,
+      "current_price": 70.72,
       "price_currency": "CHF",
-      "notes": "Achat le 15/05/2026 a 68.891 CHF/certificat (30 certificats, 09:16:46). Frais: 12.87 CHF."
+      "notes": "Achat le 15/05/2026 a 68.891 CHF/certificat (30 certificats, 09:16:46). Frais: 12.87 CHF. Prix cloture 22/05/2026 : 70.72 CHF (bid, 16:38 CET), haut intraday 70.898 CHF."
     }
   ],
   "closed_positions": [
@@ -104,18 +104,18 @@
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "usdchf": 0.7852,
-    "fivetq_value_usd": 2120.23,
-    "fivetq_value_chf": 1664.66,
+    "usdchf": 0.7847,
+    "fivetq_value_usd": 2161.74,
+    "fivetq_value_chf": 1696.32,
     "googl_value_usd": 765.94,
-    "googl_value_chf": 601.39,
-    "chiplk_value_chf": 2126.94,
+    "googl_value_chf": 601.04,
+    "chiplk_value_chf": 2121.60,
     "cash_chf": 1090.23,
     "cash_usd": 3437.81,
-    "cash_usd_in_chf": 2698.50,
-    "current_value_at_close": 8185.72,
-    "total_return_chf_at_close": 685.72,
-    "total_return_pct_at_close": 9.14,
+    "cash_usd_in_chf": 2697.65,
+    "current_value_at_close": 8206.84,
+    "total_return_chf_at_close": 706.84,
+    "total_return_pct_at_close": 9.42,
     "realized_pnl_auchah_chf": -343.27,
     "realized_pnl_fivetq_usd": 256.91,
     "realized_pnl_googl_usd": 364.64
