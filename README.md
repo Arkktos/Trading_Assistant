@@ -6,7 +6,7 @@ Ce repository sert de **mémoire persistante** pour l'Agent IA. Il contient l'é
 
 **Aucun code applicatif n'est hébergé ici.** Tout repose sur l'Agent IA, orchestré par une tâche planifiée, avec :
 - **Recherche Web** : données de marché en temps réel, indicateurs techniques, fondamentaux, news & sentiment (cash.ch, leonteq, swissquote, Yahoo Finance, etc.)
-- **`send_email.py`** : envoi du rapport quotidien par email via Gmail SMTP
+- **`send_email.py`** : envoi du rapport quotidien par email via Resend
 
 ## Workflow quotidien
 
@@ -17,9 +17,10 @@ Tâche planifiée (cron / Task Scheduler)
         ├─> Lit portfolio.json (état actuel du portefeuille)
         ├─> Interroge le Web (cours, indicateurs, news)
         ├─> Analyse les positions & détecte des opportunités
-        ├─> Met à jour l'historique dans reports/
+        ├─> Génère le rapport du jour sur la base du dernier (reports/)
+        ├─> Met à jour portfolio.json
         ├─> Commit & push les changements
-        └─> Envoie le rapport (en html) par email via Gmail
+        └─> Envoie le rapport (en html) par email via Resend
 ```
 
 ## Structure du repository
@@ -31,7 +32,7 @@ Tâche planifiée (cron / Task Scheduler)
 ├── portfolio.json              # État actuel du portefeuille
 ├── config.json                 # Configuration (profil de risque, watchlist, préférences)
 ├── report_to_html.py           # Convertit un rapport en .md vers du .html
-├── send_email.py               # Envoi d'email via Gmail SMTP (app password)
+├── send_email.py               # Envoi d'email via Resend
 └── reports/                    # Historique des rapports quotidiens
     └── YYYY-MM-DD.md           # Rapport du jour
 ```
@@ -54,7 +55,7 @@ Paramètres de l'assistant :
 
 ### Email (send_email.py)
 
-L'envoi d'email utilise **Gmail SMTP** avec un mot de passe d'application (pas de MCP ni d'API Google Cloud).
+L'envoi d'email utilise Resend avec une clé API.
 
 **Variables d'environnement requises :**
 

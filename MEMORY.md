@@ -6,13 +6,12 @@
 - Après chaque rapport généré :
   1. **Commit** les changements avec un message descriptif.
   2. **Push** directement sur `main`.
-- Utiliser `gh` avec le token contenu dans `GITHUB_PAT`.
+- Utiliser le token Github contenu dans `GITHUB_PAT`.
 - Pour éviter les erreurs d'authentification lors du push, utiliser l'URL du remote incluant le token : `https://x-access-token:<TOKEN>@github.com/user/repo.git` ou s'assurer que la CLI `gh` est authentifiée avec le PAT.
 
 ## Source de données
 
 - Utiliser le **Web** (cash.ch, leonteq, swissquote, Yahoo Finance, etc.) comme source de prix et d'analyse pour tous les instruments.
-
 
 ## Envoi d'email
 
