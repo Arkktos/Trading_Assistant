@@ -2,7 +2,7 @@
   "last_updated": "2026-05-26",
   "currency": "CHF",
   "cash_chf": 1090.23,
-  "cash_usd": 3437.81,
+  "cash_usd": 4807.34,
   "deposited_capital": 7500.00,
   "positions": [
     {
@@ -12,7 +12,7 @@
       "name": "Swissquote 5G Revolution Index (Leonteq Tracker)",
       "type": "structured_product",
       "exchange": "QMH",
-      "quantity": 7,
+      "quantity": 5,
       "average_buy_price": 256.84,
       "effective_buy_price": 257.56,
       "buy_date": "2026-02-18",
@@ -21,30 +21,10 @@
       "total_cost_with_fees_usd": 1802.93,
       "total_cost_chf": 1405.52,
       "usdchf_at_purchase": 0.7796,
-      "current_price": 309.93,
+      "current_price": 313.72,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (net 1352.96 USD). Vente partielle de 3 certificats le 04/05/2026 a 285.38 USD (net 842.46 USD). Vente partielle de 4 certificats le 18/05/2026 a 289.31 USD (net 1143.57 USD) — stop mental 293 USD declenche. Position restante : 7 certificats. Cours 26/05/2026 ~10h30 CEST : 309.93 USD. Stop mental releve a 295 USD. Action recommandee : vente 2 certs (objectif 307-310 USD atteint)."
-    },
-    {
-      "ticker_swissquote": "GOOGL",
-      "name": "Alphabet Inc. Class A",
-      "type": "equity",
-      "exchange": "NASDAQ",
-      "quantity": 2,
-      "average_buy_price": 347.25,
-      "effective_buy_price": 350.34,
-      "buy_date": "2026-04-29",
-      "total_cost_usd": 694.50,
-      "fees_usd": 6.22,
-      "total_cost_with_fees_usd": 700.72,
-      "total_cost_chf": 558.69,
-      "usdchf_at_purchase": 0.7997,
-      "fx_transaction_chf_debit": 2280.15,
-      "fx_transaction_usd_credit": 2851.14,
-      "current_price": 382.97,
-      "price_currency": "USD",
-      "notes": "Achat le 29/04/2026 a 347.25 USD/action (12 actions). Vente partielle de 4 actions le 12/05/2026 a 387.62 USD (net 1537.27 USD). Vente partielle le 22/05/2026 : 6 actions vendues a 385.00 et 387.23 USD (stop 390 USD declenche). Position restante : 2 actions. Record intraday absolu : 408.61 USD (18/05/2026). Cours 26/05/2026 : 382.97 USD (derniere cloture 22/05). P&L latent USD : +65.22 USD (+9.31%). P&L latent CHF : +42.09 CHF (+7.53%)."
+      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (net 1352.96 USD). Vente partielle de 3 certificats le 04/05/2026 a 285.38 USD (net 842.46 USD). Vente partielle de 4 certificats le 18/05/2026 a 289.31 USD (net 1143.57 USD). Vente partielle de 2 certificats le 26/05/2026 a 313.72 USD (net 613.76 USD, ordre 295879616, 12:57:51). Position restante : 5 certificats. Cours 26/05/2026 intraday : 313.72 USD. G&P total position : +225.30 CHF (+22.36%). Stop mental releve a 300 USD."
     },
     {
       "ticker_swissquote": "CHIPLK",
@@ -52,15 +32,15 @@
       "type": "structured_product",
       "exchange": "SWX",
       "quantity": 30,
-      "average_buy_price": 68.891,
+      "average_buy_price": 68.89167,
       "effective_buy_price": 69.32,
       "buy_date": "2026-05-15",
       "total_cost_chf": 2066.73,
       "fees_chf": 12.87,
       "total_cost_with_fees_chf": 2079.60,
-      "current_price": 70.72,
+      "current_price": 74.572,
       "price_currency": "CHF",
-      "notes": "Achat le 15/05/2026 a 68.891 CHF/certificat (30 certificats, 09:16:46). Frais: 12.87 CHF. Prix cloture 22/05/2026 : 70.72 CHF. Cours 26/05/2026 : estime (prix non disponible, derniere cote 22/05 70.72 CHF). P&L latent CHF estime : +42.00 CHF (+2.02%). Stop mental : 65.00 CHF."
+      "notes": "Achat le 15/05/2026 a 68.891 CHF/certificat (30 certificats, 09:16:46). Frais: 12.87 CHF. Cours 26/05/2026 intraday : 74.572 CHF. P&L latent CHF : +170.41 CHF (+8.25%). Stop mental : 65.00 CHF."
     }
   ],
   "closed_positions": [
@@ -83,6 +63,34 @@
       "realized_pnl_chf": -343.27,
       "realized_pnl_pct": -9.03,
       "notes": "Position fermee le 28/04/2026 a 151.08 CHF/part (23 parts). P&L realise : -343.27 CHF (-9.03%)."
+    },
+    {
+      "ticker_swissquote": "GOOGL",
+      "name": "Alphabet Inc. Class A",
+      "type": "equity",
+      "exchange": "NASDAQ",
+      "quantity": 0,
+      "average_buy_price": 347.25,
+      "effective_buy_price": 350.34,
+      "buy_date": "2026-04-29",
+      "sell_date": "2026-05-26",
+      "total_shares_bought": 12,
+      "total_cost_usd": 4167.00,
+      "fees_buy_usd": 37.10,
+      "total_cost_with_fees_usd": 4204.10,
+      "total_cost_chf": 3347.64,
+      "usdchf_at_purchase": 0.7997,
+      "sales": [
+        {"date": "2026-05-12", "quantity": 4, "price": 387.62, "fees_usd": 13.21, "net_proceeds_usd": 1537.27, "realized_pnl_usd": 135.91},
+        {"date": "2026-05-22", "quantity": 2, "price": 385.00, "fees_usd": 0.59, "net_proceeds_usd": 769.41, "realized_pnl_usd": 75.50},
+        {"date": "2026-05-22", "quantity": 3, "price": 385.00, "fees_usd": 12.61, "net_proceeds_usd": 1142.39, "realized_pnl_usd": 113.25},
+        {"date": "2026-05-22", "quantity": 1, "price": 387.23, "fees_usd": 7.03, "net_proceeds_usd": 380.20, "realized_pnl_usd": 39.98},
+        {"date": "2026-05-26", "quantity": 2, "price": 386.09, "fees_usd": 16.41, "net_proceeds_usd": 755.77, "realized_pnl_usd": 61.27, "order_id": 295879887, "time": "13:03:59"}
+      ],
+      "total_net_proceeds_usd": 4585.04,
+      "realized_pnl_usd": 380.94,
+      "realized_pnl_pct": 9.06,
+      "notes": "Position entierement soldee le 26/05/2026. Achat 12 actions le 29/04/2026 a 347.25 USD. Ventes echelonnees : 4 actions (12/05), 6 actions (22/05), 2 actions (26/05). P&L realise total : +380.94 USD sur 4204.10 USD investi (+9.06%)."
     }
   ],
   "transactions": [
@@ -100,25 +108,25 @@
     {"date":"2026-05-18","type":"sell","ticker":"FIVETQ","quantity":4,"price":289.31,"currency":"USD","fees_usd":13.67,"total_usd":1157.24,"net_proceeds_usd":1143.57,"realized_pnl_usd":116.21,"realized_pnl_pct":11.31,"notes":"Stop mental 293 USD declenche"},
     {"date":"2026-05-22","type":"sell","ticker":"GOOGL","quantity":2,"price":385.00,"currency":"USD","fees_usd":0.59,"total_usd":770.00,"net_proceeds_usd":769.41,"realized_pnl_usd":75.50},
     {"date":"2026-05-22","type":"sell","ticker":"GOOGL","quantity":3,"price":385.00,"currency":"USD","fees_usd":12.61,"total_usd":1155.00,"net_proceeds_usd":1142.39,"realized_pnl_usd":113.25},
-    {"date":"2026-05-22","type":"sell","ticker":"GOOGL","quantity":1,"price":387.23,"currency":"USD","fees_usd":7.03,"total_usd":387.23,"net_proceeds_usd":380.20,"realized_pnl_usd":39.98}
+    {"date":"2026-05-22","type":"sell","ticker":"GOOGL","quantity":1,"price":387.23,"currency":"USD","fees_usd":7.03,"total_usd":387.23,"net_proceeds_usd":380.20,"realized_pnl_usd":39.98},
+    {"date":"2026-05-26","type":"sell","ticker":"FIVETQ","quantity":2,"price":313.72,"currency":"USD","fees_usd":13.68,"total_usd":627.44,"net_proceeds_usd":613.76,"order_id":295879616,"time":"12:57:51","realized_pnl_usd":100.08,"notes":"Objectif 307-310 USD atteint. Position restante : 5 certs."},
+    {"date":"2026-05-26","type":"sell","ticker":"GOOGL","quantity":2,"price":386.09,"currency":"USD","fees_usd":16.41,"total_usd":772.18,"net_proceeds_usd":755.77,"order_id":295879887,"time":"13:03:59","realized_pnl_usd":61.27,"notes":"Cloture complete de la position GOOGL."}
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "usdchf": 0.7844,
-    "fivetq_value_usd": 2169.51,
-    "fivetq_value_chf": 1702.00,
-    "googl_value_usd": 765.94,
-    "googl_value_chf": 600.81,
-    "chiplk_value_chf": 2121.60,
+    "usdchf": 0.7860,
+    "fivetq_value_usd": 1568.60,
+    "fivetq_value_chf": 1232.84,
+    "chiplk_value_chf": 2237.16,
     "cash_chf": 1090.23,
-    "cash_usd": 3437.81,
-    "cash_usd_in_chf": 2696.62,
-    "current_value_at_close": 8211.26,
-    "total_return_chf_at_close": 711.26,
-    "total_return_pct_at_close": 9.48,
+    "cash_usd": 4807.34,
+    "cash_usd_in_chf": 3778.57,
+    "total_value_chf": 8339.07,
+    "total_return_chf": 839.07,
+    "total_return_pct": 11.19,
     "realized_pnl_auchah_chf": -343.27,
-    "realized_pnl_fivetq_usd": 256.91,
-    "realized_pnl_googl_usd": 364.64,
-    "note": "CHIPLK estime sur derniere cote connue 22/05 (70.72 CHF). FIVETQ cours 26/05 cash.ch."
+    "realized_pnl_fivetq_usd": 356.99,
+    "realized_pnl_googl_usd": 425.91,
+    "note": "GOOGL position entierement soldee le 26/05/2026. FIVETQ reduit a 5 certs (313.72 USD). CHIPLK 30 certs a 74.572 CHF. USD/CHF 0.7860 (intraday 26/05). Valeur totale confirmee par Swissquote : 8'339.07 CHF."
   }
 }
