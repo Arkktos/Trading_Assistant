@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-24",
+  "last_updated": "2026-05-26",
   "currency": "CHF",
   "cash_chf": 1090.23,
   "cash_usd": 3437.81,
@@ -21,10 +21,10 @@
       "total_cost_with_fees_usd": 1802.93,
       "total_cost_chf": 1405.52,
       "usdchf_at_purchase": 0.7796,
-      "current_price": 308.82,
+      "current_price": 309.93,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (net 1352.96 USD). Vente partielle de 3 certificats le 04/05/2026 a 285.38 USD (net 842.46 USD). Vente partielle de 4 certificats le 18/05/2026 a 289.31 USD (net 1143.57 USD) — stop mental 293 USD declenche. Position restante : 7 certificats. Stop mental releve a 295 USD (24/05/2026)."
+      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (net 1352.96 USD). Vente partielle de 3 certificats le 04/05/2026 a 285.38 USD (net 842.46 USD). Vente partielle de 4 certificats le 18/05/2026 a 289.31 USD (net 1143.57 USD) — stop mental 293 USD declenche. Position restante : 7 certificats. Cours 26/05/2026 ~10h30 CEST : 309.93 USD. Stop mental releve a 295 USD. Action recommandee : vente 2 certs (objectif 307-310 USD atteint)."
     },
     {
       "ticker_swissquote": "GOOGL",
@@ -44,7 +44,7 @@
       "fx_transaction_usd_credit": 2851.14,
       "current_price": 382.97,
       "price_currency": "USD",
-      "notes": "Achat le 29/04/2026 a 347.25 USD/action (12 actions). Vente partielle de 4 actions le 12/05/2026 a 387.62 USD (net 1537.27 USD). Vente partielle le 22/05/2026 : 6 actions vendues (3x2 et 1x2) a 385.00 USD et 387.23 USD. Position restante : 2 actions. Record intraday absolu : 408.61 USD (18/05/2026)."
+      "notes": "Achat le 29/04/2026 a 347.25 USD/action (12 actions). Vente partielle de 4 actions le 12/05/2026 a 387.62 USD (net 1537.27 USD). Vente partielle le 22/05/2026 : 6 actions vendues a 385.00 et 387.23 USD (stop 390 USD declenche). Position restante : 2 actions. Record intraday absolu : 408.61 USD (18/05/2026). Cours 26/05/2026 : 382.97 USD (derniere cloture 22/05). P&L latent USD : +65.22 USD (+9.31%). P&L latent CHF : +42.09 CHF (+7.53%)."
     },
     {
       "ticker_swissquote": "CHIPLK",
@@ -60,7 +60,7 @@
       "total_cost_with_fees_chf": 2079.60,
       "current_price": 70.72,
       "price_currency": "CHF",
-      "notes": "Achat le 15/05/2026 a 68.891 CHF/certificat (30 certificats, 09:16:46). Frais: 12.87 CHF. Prix cloture 22/05/2026 : 70.72 CHF (bid, 16:38 CET), haut intraday 70.898 CHF."
+      "notes": "Achat le 15/05/2026 a 68.891 CHF/certificat (30 certificats, 09:16:46). Frais: 12.87 CHF. Prix cloture 22/05/2026 : 70.72 CHF. Cours 26/05/2026 : estime (prix non disponible, derniere cote 22/05 70.72 CHF). P&L latent CHF estime : +42.00 CHF (+2.02%). Stop mental : 65.00 CHF."
     }
   ],
   "closed_positions": [
@@ -104,20 +104,21 @@
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "usdchf": 0.7847,
-    "fivetq_value_usd": 2161.74,
-    "fivetq_value_chf": 1696.32,
+    "usdchf": 0.7844,
+    "fivetq_value_usd": 2169.51,
+    "fivetq_value_chf": 1702.00,
     "googl_value_usd": 765.94,
-    "googl_value_chf": 601.04,
+    "googl_value_chf": 600.81,
     "chiplk_value_chf": 2121.60,
     "cash_chf": 1090.23,
     "cash_usd": 3437.81,
-    "cash_usd_in_chf": 2697.65,
-    "current_value_at_close": 8206.84,
-    "total_return_chf_at_close": 706.84,
-    "total_return_pct_at_close": 9.42,
+    "cash_usd_in_chf": 2696.62,
+    "current_value_at_close": 8211.26,
+    "total_return_chf_at_close": 711.26,
+    "total_return_pct_at_close": 9.48,
     "realized_pnl_auchah_chf": -343.27,
     "realized_pnl_fivetq_usd": 256.91,
-    "realized_pnl_googl_usd": 364.64
+    "realized_pnl_googl_usd": 364.64,
+    "note": "CHIPLK estime sur derniere cote connue 22/05 (70.72 CHF). FIVETQ cours 26/05 cash.ch."
   }
 }
