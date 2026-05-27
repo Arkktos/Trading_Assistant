@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-26",
+  "last_updated": "2026-05-27",
   "currency": "CHF",
   "cash_chf": 1090.23,
   "cash_usd": 4807.34,
@@ -21,10 +21,10 @@
       "total_cost_with_fees_usd": 1802.93,
       "total_cost_chf": 1405.52,
       "usdchf_at_purchase": 0.7796,
-      "current_price": 313.72,
+      "current_price": 313.50,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (net 1352.96 USD). Vente partielle de 3 certificats le 04/05/2026 a 285.38 USD (net 842.46 USD). Vente partielle de 4 certificats le 18/05/2026 a 289.31 USD (net 1143.57 USD). Vente partielle de 2 certificats le 26/05/2026 a 313.72 USD (net 613.76 USD, ordre 295879616, 12:57:51). Position restante : 5 certificats. Cours 26/05/2026 intraday : 313.72 USD. G&P total position : +225.30 CHF (+22.36%). Stop mental releve a 300 USD."
+      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (net 1352.96 USD). Vente partielle de 3 certificats le 04/05/2026 a 285.38 USD (net 842.46 USD). Vente partielle de 4 certificats le 18/05/2026 a 289.31 USD (net 1143.57 USD). Vente partielle de 2 certificats le 26/05/2026 a 313.72 USD (net 613.76 USD, ordre 295879616, 12:57:51). Position restante : 5 certificats. Cours 27/05/2026 (cash.ch) : 313.50 USD (-0.07%). G&P total position : ~+226 CHF (+22.4%). Stop mental releve a 300 USD."
     },
     {
       "ticker_swissquote": "CHIPLK",
@@ -38,9 +38,9 @@
       "total_cost_chf": 2066.73,
       "fees_chf": 12.87,
       "total_cost_with_fees_chf": 2079.60,
-      "current_price": 74.572,
+      "current_price": 75.20,
       "price_currency": "CHF",
-      "notes": "Achat le 15/05/2026 a 68.891 CHF/certificat (30 certificats, 09:16:46). Frais: 12.87 CHF. Cours 26/05/2026 intraday : 74.572 CHF. P&L latent CHF : +170.41 CHF (+8.25%). Stop mental : 65.00 CHF."
+      "notes": "Achat le 15/05/2026 a 68.891 CHF/certificat (30 certificats, 09:16:46). Frais: 12.87 CHF. Cours 26/05/2026 : 74.572 CHF. Cours 27/05/2026 pre-ouverture SIX (08:35 CET) : ~75.20 CHF (bid 75.00 / ask 75.40). P&L latent CHF estimatif : ~+176 CHF (+8.48%). Stop mental : 65.00 CHF. Contexte semi tres haussier (SOX +5.53% cloture US 26/05, AMD +7.78%)."
     }
   ],
   "closed_positions": [
@@ -114,19 +114,19 @@
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "usdchf": 0.7860,
-    "fivetq_value_usd": 1568.60,
-    "fivetq_value_chf": 1232.84,
-    "chiplk_value_chf": 2237.16,
+    "usdchf": 0.7872,
+    "fivetq_value_usd": 1567.50,
+    "fivetq_value_chf": 1233.69,
+    "chiplk_value_chf": 2256.00,
     "cash_chf": 1090.23,
     "cash_usd": 4807.34,
-    "cash_usd_in_chf": 3778.57,
-    "total_value_chf": 8339.07,
-    "total_return_chf": 839.07,
-    "total_return_pct": 11.19,
+    "cash_usd_in_chf": 3783.76,
+    "total_value_chf": 8363.68,
+    "total_return_chf": 863.68,
+    "total_return_pct": 11.52,
     "realized_pnl_auchah_chf": -343.27,
     "realized_pnl_fivetq_usd": 356.99,
     "realized_pnl_googl_usd": 425.91,
-    "note": "GOOGL position entierement soldee le 26/05/2026. FIVETQ reduit a 5 certs (313.72 USD). CHIPLK 30 certs a 74.572 CHF. USD/CHF 0.7860 (intraday 26/05). Valeur totale confirmee par Swissquote : 8'339.07 CHF."
+    "note": "Aucune transaction le 27/05/2026. FIVETQ 5 certs a 313.50 USD (-0.07%). CHIPLK 30 certs pre-ouverture SIX ~75.20 CHF (bid 75.00/ask 75.40). USD/CHF 0.7872. SOX +5.53% cloture US 26/05 a 12876.91, AMD +7.78% a 503.89 USD. Valeur totale estimee pre-marche : 8363.68 CHF (+11.52%)."
   }
 }
