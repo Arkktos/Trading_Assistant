@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-27",
+  "last_updated": "2026-05-28",
   "currency": "CHF",
   "cash_chf": 1090.23,
   "cash_usd": 4807.34,
@@ -21,10 +21,10 @@
       "total_cost_with_fees_usd": 1802.93,
       "total_cost_chf": 1405.52,
       "usdchf_at_purchase": 0.7796,
-      "current_price": 313.50,
+      "current_price": 308.17,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (net 1352.96 USD). Vente partielle de 3 certificats le 04/05/2026 a 285.38 USD (net 842.46 USD). Vente partielle de 4 certificats le 18/05/2026 a 289.31 USD (net 1143.57 USD). Vente partielle de 2 certificats le 26/05/2026 a 313.72 USD (net 613.76 USD, ordre 295879616, 12:57:51). Position restante : 5 certificats. Cours 27/05/2026 (cash.ch) : 313.50 USD (-0.07%). G&P total position : ~+226 CHF (+22.4%). Stop mental releve a 300 USD."
+      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (net 1352.96 USD). Vente partielle de 3 certificats le 04/05/2026 a 285.38 USD (net 842.46 USD). Vente partielle de 4 certificats le 18/05/2026 a 289.31 USD (net 1143.57 USD). Vente partielle de 2 certificats le 26/05/2026 a 313.72 USD (net 613.76 USD, ordre 295879616, 12:57:51). Position restante : 5 certificats. Cours 27/05/2026 (cash.ch) : ~312.96 USD (cloture). Cours 28/05/2026 (cash.ch) : 308.17 USD (-4.79 USD, -1.53%). G&P latent : ~+202 CHF (+20.2%). Stop mental 300 USD (marge ~2.65%). Consolidation sectorielle post-pic du 26/05."
     },
     {
       "ticker_swissquote": "CHIPLK",
@@ -38,9 +38,9 @@
       "total_cost_chf": 2066.73,
       "fees_chf": 12.87,
       "total_cost_with_fees_chf": 2079.60,
-      "current_price": 75.20,
+      "current_price": 74.59,
       "price_currency": "CHF",
-      "notes": "Achat le 15/05/2026 a 68.891 CHF/certificat (30 certificats, 09:16:46). Frais: 12.87 CHF. Cours 26/05/2026 : 74.572 CHF. Cours 27/05/2026 pre-ouverture SIX (08:35 CET) : ~75.20 CHF (bid 75.00 / ask 75.40). P&L latent CHF estimatif : ~+176 CHF (+8.48%). Stop mental : 65.00 CHF. Contexte semi tres haussier (SOX +5.53% cloture US 26/05, AMD +7.78%)."
+      "notes": "Achat le 15/05/2026 a 68.891 CHF/certificat (30 certificats, 09:16:46). Frais: 12.87 CHF. Cours 26/05/2026 : 74.572 CHF. Cours 27/05/2026 cloture SIX : ~73.54 CHF (-1.03 CHF, -1.37%). Cours 28/05/2026 SIX (09:15 CET) : 74.59 CHF (+1.05 CHF, +1.42%). P&L latent CHF : ~+171 CHF (+8.22%). Stop mental : 65.00 CHF. ISIN : CH1181303780, Valor : 118130378 (LUKB Tracker). Consolidation sectorielle : SOX -1.36% le 27/05, rebond partiel SIX le 28/05."
     }
   ],
   "closed_positions": [
@@ -114,19 +114,19 @@
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "usdchf": 0.7872,
-    "fivetq_value_usd": 1567.50,
-    "fivetq_value_chf": 1233.69,
-    "chiplk_value_chf": 2256.00,
+    "usdchf": 0.7876,
+    "fivetq_value_usd": 1540.85,
+    "fivetq_value_chf": 1213.01,
+    "chiplk_value_chf": 2237.70,
     "cash_chf": 1090.23,
     "cash_usd": 4807.34,
-    "cash_usd_in_chf": 3783.76,
-    "total_value_chf": 8363.68,
-    "total_return_chf": 863.68,
-    "total_return_pct": 11.52,
+    "cash_usd_in_chf": 3784.58,
+    "total_value_chf": 8325.52,
+    "total_return_chf": 825.52,
+    "total_return_pct": 11.01,
     "realized_pnl_auchah_chf": -343.27,
     "realized_pnl_fivetq_usd": 356.99,
-    "realized_pnl_googl_usd": 425.91,
-    "note": "Aucune transaction le 27/05/2026. FIVETQ 5 certs a 313.50 USD (-0.07%). CHIPLK 30 certs pre-ouverture SIX ~75.20 CHF (bid 75.00/ask 75.40). USD/CHF 0.7872. SOX +5.53% cloture US 26/05 a 12876.91, AMD +7.78% a 503.89 USD. Valeur totale estimee pre-marche : 8363.68 CHF (+11.52%)."
+    "realized_pnl_googl_usd": 380.94,
+    "note": "Aucune transaction le 28/05/2026. FIVETQ 5 certs a 308.17 USD (-1.53%, cash.ch). CHIPLK 30 certs 74.59 CHF (+1.42%, SIX 09:15 CET, ISIN CH1181303780). USD/CHF 0.7876. SOX -1.36% cloture US 27/05 a 12702.19 / -2.36% intraday US 28/05 a 12572. AMD 495.54 USD (-1.66%), NVDA 212.60 USD (-1.05%). Nasdaq 26674.73 (+0.07%), S&P500 7520.36 (+0.02%), Dow record a 50644 (+0.36%). Valeur totale estimee : 8325.52 CHF (+11.01%)."
   }
 }
