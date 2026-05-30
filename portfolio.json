@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-29",
+  "last_updated": "2026-05-30",
   "currency": "CHF",
   "cash_chf": 1090.23,
   "cash_usd": 1561.67,
@@ -24,7 +24,7 @@
       "current_price": 310.00,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (net 1352.96 USD). Vente partielle de 3 certificats le 04/05/2026 a 285.38 USD (net 842.46 USD). Vente partielle de 4 certificats le 18/05/2026 a 289.31 USD (net 1143.57 USD). Vente partielle de 2 certificats le 26/05/2026 a 313.72 USD (net 613.76 USD, ordre 295879616, 12:57:51). Position restante : 5 certificats. Cours 28/05/2026 (cash.ch) : cloture ~312.08 USD (rebond, SOX +1.00% a 12829). Cours 29/05/2026 (cash.ch) : 310.00 USD (-2.08 USD, -0.67%). G&P latent : ~+208 CHF (+20.8%). Stop mental 300 USD (marge ~3.23%). AMD +4.55% a 518.09 USD le 28/05. Objectif 320-325 USD."
+      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (net 1352.96 USD). Vente partielle de 3 certificats le 04/05/2026 a 285.38 USD (net 842.46 USD). Vente partielle de 4 certificats le 18/05/2026 a 289.31 USD (net 1143.57 USD). Vente partielle de 2 certificats le 26/05/2026 a 313.72 USD (net 613.76 USD, ordre 295879616, 12:57:51). Position restante : 5 certificats. Cours 28/05/2026 (cash.ch) : cloture ~312.08 USD (rebond, SOX +1.00% a 12829). Cours 29/05/2026 (cash.ch, session EUR) : 310.00 USD (-2.08 USD, -0.67%). G&P latent : ~+207 CHF (+20.6%). Stop mental 300 USD (marge ~3.23%). SOX cloture US 29/05 : +1.79% a 13059 — estimation ouverture lundi ~315-316 USD. AMD -0.38% a 516.10 USD le 29/05. Objectif 320-325 USD."
     },
     {
       "ticker_swissquote": "CHIPLK",
@@ -40,7 +40,7 @@
       "total_cost_with_fees_chf": 2079.60,
       "current_price": 74.954,
       "price_currency": "CHF",
-      "notes": "Achat le 15/05/2026 a 68.891 CHF/certificat (30 certificats, 09:16:46). Frais: 12.87 CHF. Cours 26/05/2026 : 74.572 CHF. Cours 27/05/2026 cloture SIX : ~73.54 CHF (-1.37%). Cours 28/05/2026 cloture SIX (17:10 CET) : 75.074 CHF (+2.08% vs 27/05). Cours 29/05/2026 SIX (ouverture) : 78.00 CHF. Cours 29/05/2026 SIX (cloture) : 74.954 CHF (-0.16% vs cloture 28/05). Repli depuis l'ouverture en raison d'un SOX flat en journee europeenne. P&L latent CHF : +169.02 CHF (+8.13% sur cout total avec frais). Stop mental : 65.00 CHF. ISIN : CH1181303780, Valor : 118130378 (LUKB Tracker). Objectif prise benefices partielle : 80 CHF (+6.73% du cours actuel). SOX +1.00% le 28/05 a 12829, AMD +4.55%."
+      "notes": "Achat le 15/05/2026 a 68.891 CHF/certificat (30 certificats, 09:16:46). Frais: 12.87 CHF. Cours 26/05/2026 : 74.572 CHF. Cours 27/05/2026 cloture SIX : ~73.54 CHF (-1.37%). Cours 28/05/2026 cloture SIX (17:10 CET) : 75.074 CHF (+2.08% vs 27/05). Cours 29/05/2026 SIX (ouverture) : 78.00 CHF. Cours 29/05/2026 SIX (cloture) : 74.954 CHF (-0.16% vs cloture 28/05). P&L latent CHF : +169.02 CHF (+8.13% sur cout total avec frais). Stop mental : 65.00 CHF. ISIN : CH1181303780, Valor : 118130378 (LUKB Tracker). Objectif prise benefices partielle : 80 CHF (+6.73% du cours actuel). SOX cloture US 29/05 : +1.79% a 13059 — catalyseur positif pour ouverture lundi ~76.3 CHF. AMD -0.38% a 516.10 USD le 29/05."
     },
     {
       "ticker_swissquote": "NVDA",
@@ -57,10 +57,10 @@
       "total_cost_with_fees_usd": 3245.67,
       "total_cost_chf": 2556.26,
       "usdchf_at_purchase": 0.7876,
-      "current_price": 215.95,
+      "current_price": 211.14,
       "price_currency": "USD",
       "price_source": "https://finance.yahoo.com/quote/NVDA",
-      "notes": "Achat 15 actions le 27/05/2026 a 214.00 USD (NASDAQ). Frais: 35.67 USD. Total investi: 3245.67 USD (2556.26 CHF a 0.7876). Cours 28/05/2026 cloture : 214.25 USD (+0.78%). Cours 29/05/2026 12:27 PM EDT (intraday) : 215.95 USD (+0.79% journalier). P&L latent : +29.25 USD (+0.91% depuis achat). Stop mental : 200 USD."
+      "notes": "Achat 15 actions le 27/05/2026 a 214.00 USD (NASDAQ). Frais: 35.67 USD. Total investi: 3245.67 USD (2556.26 CHF a 0.7876). Cours 28/05/2026 cloture : 214.25 USD (+0.78%). Cours 29/05/2026 intraday 12:27 EDT : 215.95 USD (+0.79%). Cours 29/05/2026 cloture US : 211.14 USD (-1.45%, -3.11 USD). After-hours 29/05 : 212.48 USD (+0.63%). P&L latent : -42.90 USD (-1.34% depuis achat). Stop mental : 200 USD (marge ~5.3%). SOX cloture US 29/05 : +1.79% a 13059. Dell +33% le 29/05 (resultats IA). Dow >51000 pour la 1ere fois. S&P500 9eme semaine consecutive."
     }
   ],
   "closed_positions": [
@@ -135,21 +135,21 @@
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "usdchf": 0.7815,
+    "usdchf": 0.7810,
     "fivetq_value_usd": 1550.00,
-    "fivetq_value_chf": 1211.33,
+    "fivetq_value_chf": 1210.55,
     "chiplk_value_chf": 2248.62,
-    "nvda_value_usd": 3239.25,
-    "nvda_value_chf": 2531.48,
+    "nvda_value_usd": 3167.10,
+    "nvda_value_chf": 2473.51,
     "cash_chf": 1090.23,
     "cash_usd": 1561.67,
-    "cash_usd_in_chf": 1220.44,
-    "total_value_chf": 8302.10,
-    "total_return_chf": 802.10,
-    "total_return_pct": 10.69,
+    "cash_usd_in_chf": 1219.66,
+    "total_value_chf": 8242.57,
+    "total_return_chf": 742.57,
+    "total_return_pct": 9.90,
     "realized_pnl_auchah_chf": -343.27,
     "realized_pnl_fivetq_usd": 356.99,
     "realized_pnl_googl_usd": 380.94,
-    "note": "NVDA integre : achat 15 actions le 27/05/2026 a 214.00 USD (frais 35.67 USD). FIVETQ 5 certs 310.00 USD (-0.67%, cash.ch 29/05). CHIPLK 30 certs 74.954 CHF (cloture SIX 29/05, repli depuis ouverture 78.00). NVDA 15 actions 215.95 USD (+0.79%, intraday 29/05 12:27 EDT). USD/CHF 0.7815 (xe.com 29/05 16:45 UTC). SOX +1.00% cloture US 28/05 a 12829. AMD 518.09 USD (+4.55% le 28/05). Nasdaq record 26917.47, S&P500 record 7563.63, PCE 3.8%. Valeur totale estimee : 8302.10 CHF (+10.69%)."
+    "note": "MAJ 30/05/2026 (samedi). NVDA cloture US 29/05 : 211.14 USD (-1.45%), after-hours 212.48 USD. P&L latent NVDA : -42.90 USD. FIVETQ 5 certs 310.00 USD (session EUR 29/05, inchange). CHIPLK 30 certs 74.954 CHF (cloture SIX 29/05, inchange). USD/CHF 0.7810 (xe.com 30/05 matin). SOX cloture US 29/05 : +1.79% a 13059.14. AMD 516.10 USD (-0.38% le 29/05). Dow >51000 premiere fois (+0.72%). S&P500 7580.08 (+0.22%, 9eme semaine consecutive). Nasdaq 26972 (+0.26%, record, +8% en mai). Dell +33% le 29/05 (resultats IA). Valeur totale estimee : 8242.57 CHF (+9.90%)."
   }
 }
