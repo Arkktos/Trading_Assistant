@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-30",
+  "last_updated": "2026-05-31",
   "currency": "CHF",
   "cash_chf": 1090.23,
   "cash_usd": 1561.67,
@@ -150,6 +150,6 @@
     "realized_pnl_auchah_chf": -343.27,
     "realized_pnl_fivetq_usd": 356.99,
     "realized_pnl_googl_usd": 380.94,
-    "note": "MAJ 30/05/2026 (samedi). NVDA cloture US 29/05 : 211.14 USD (-1.45%), after-hours 212.48 USD. P&L latent NVDA : -42.90 USD. FIVETQ 5 certs 310.00 USD (session EUR 29/05, inchange). CHIPLK 30 certs 74.954 CHF (cloture SIX 29/05, inchange). USD/CHF 0.7810 (xe.com 30/05 matin). SOX cloture US 29/05 : +1.79% a 13059.14. AMD 516.10 USD (-0.38% le 29/05). Dow >51000 premiere fois (+0.72%). S&P500 7580.08 (+0.22%, 9eme semaine consecutive). Nasdaq 26972 (+0.26%, record, +8% en mai). Dell +33% le 29/05 (resultats IA). Valeur totale estimee : 8242.57 CHF (+9.90%)."
+    "note": "MAJ 31/05/2026 (dimanche). Prix inchanges (marches fermes). NVDA cloture US 29/05 : 211.14 USD (-1.45%), after-hours 212.48 USD, premarket lundi estime ~213.35 USD. FIVETQ 5 certs 310.00 USD (session EUR 29/05). CHIPLK 30 certs 74.954 CHF (cloture SIX 29/05), bid/ask weekend market maker : 73.50/78.00 CHF. USD/CHF 0.7810 (xe.com 31/05 09h10 CET). SOX cloture US 29/05 : +1.79% a 13059.14. S&P500 futures : 7595.75 (+0.20%). EVENEMENT MAJEUR : Jensen Huang keynote Computex 2026 ce soir 23h EDT (N1X reveal, Grace Blackwell, Vera Rubin). Ex-dividende NVDA jeudi 4 juin 2026 ($0.25/action). Iran-US accord de cessez-le-feu 60j en attente approbation Trump. Valeur totale estimee : 8242.57 CHF (+9.90%)."
   }
 }
