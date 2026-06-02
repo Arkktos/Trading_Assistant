@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-01",
+  "last_updated": "2026-06-02",
   "currency": "CHF",
   "cash_chf": 1090.23,
   "cash_usd": 1561.67,
@@ -24,7 +24,7 @@
       "current_price": 310.07,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (net 1352.96 USD). Vente partielle de 3 certificats le 04/05/2026 a 285.38 USD (net 842.46 USD). Vente partielle de 4 certificats le 18/05/2026 a 289.31 USD (net 1143.57 USD). Vente partielle de 2 certificats le 26/05/2026 a 313.72 USD (net 613.76 USD, ordre 295879616, 12:57:51). Position restante : 5 certificats. Cours 29/05/2026 (cash.ch, session EUR) : 310.00 USD. Cours 01/06/2026 (cash.ch, session EUR) : 310.07 USD (+0.02%). Keynote Computex 2026 Jensen Huang : RTX Spark (N1X) officiellement lance, Vera CPU en production. NVDA ouverture 01/06 : $214.58 (+1.63%), haut $217.86. SOX ouverture 01/06 : ~12973 (+1.12%), mi-session repli vers ~12829. Stop mental 300 USD (marge ~3.25%). Objectif 320-325 USD."
+      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (net 1352.96 USD). Vente partielle de 3 certificats le 04/05/2026 a 285.38 USD (net 842.46 USD). Vente partielle de 4 certificats le 18/05/2026 a 289.31 USD (net 1143.57 USD). Vente partielle de 2 certificats le 26/05/2026 a 313.72 USD (net 613.76 USD, ordre 295879616, 12:57:51). Position restante : 5 certificats. Cours 29/05/2026 (cash.ch, session EUR) : 310.00 USD. Cours 01/06/2026 (cash.ch, session EUR) : 310.07 USD (+0.02%). Estimation 02/06 : ~315-320 USD (reflète NVDA cloture 01/06 +6.26%, sources cash.ch indisponibles lors de la redaction). NVDA cloture 01/06 : $224.36 (+6.26%), SOXX cloture 01/06 : $571.93 (+0.50%). Stop mental 300 USD. Objectif 325 USD."
     },
     {
       "ticker_swissquote": "CHIPLK",
@@ -40,7 +40,7 @@
       "total_cost_with_fees_chf": 2079.60,
       "current_price": 74.954,
       "price_currency": "CHF",
-      "notes": "Achat le 15/05/2026 a 68.891 CHF/certificat (30 certificats, 09:16:46). Frais: 12.87 CHF. Cours 29/05/2026 SIX (cloture) : 74.954 CHF. Cours 01/06/2026 SIX : non confirme (donnees retardees), estime ~76.5-78.0 CHF d'apres ask weekend market maker 78.00 CHF. P&L latent (base 74.954) : +169.02 CHF (+8.13%). P&L latent estime (base 77.00) : ~+230 CHF (+11.1%). Stop mental : 65.00 CHF. ISIN : CH1181303780, Valor : 118130378 (LUKB Tracker). Objectif prise benefices partielle : 80 CHF. Broadcom (AVGO) resultats mardi 03/06 — catalyseur semi-conducteurs pour la semaine."
+      "notes": "Achat le 15/05/2026 a 68.891 CHF/certificat (30 certificats, 09:16:46). Frais: 12.87 CHF. Cours 29/05/2026 SIX (cloture) : 74.954 CHF. Cours SIX 01-02/06 : non confirme (sources indisponibles). Estimation 02/06 : ~77-79 CHF (base SOXX +0.50%, AVGO +2.95% session US 01/06). AVGO cloture 01/06 : $459.97 (+2.95%) — resultats mercredi 03/06 apres cloture US — catalyseur majeur. P&L latent confirme (74.954) : +169.02 CHF (+8.13%). P&L latent estime (78 CHF) : ~+260 CHF (+12.5%). Stop mental : 65.00 CHF (a relever a 68 CHF si SIX confirme >77 CHF). ISIN : CH1181303780, Valor : 118130378 (LUKB Tracker). Objectif prise benefices partielle : 80 CHF (ordre limite a placer)."
     },
     {
       "ticker_swissquote": "NVDA",
@@ -57,10 +57,10 @@
       "total_cost_with_fees_usd": 3245.67,
       "total_cost_chf": 2556.26,
       "usdchf_at_purchase": 0.7876,
-      "current_price": 214.58,
+      "current_price": 224.36,
       "price_currency": "USD",
       "price_source": "https://finance.yahoo.com/quote/NVDA",
-      "notes": "Achat 15 actions le 27/05/2026 a 214.00 USD (NASDAQ). Frais: 35.67 USD. Total investi: 3245.67 USD (2556.26 CHF a 0.7876). Cours 29/05/2026 cloture US : 211.14 USD (-1.45%). After-hours 29/05 : 212.48 USD (+0.63%). Cours 01/06/2026 ouverture NASDAQ : 214.58 USD (+1.63%). Haut intraday 01/06 : 217.86 USD (+3.18%). Mi-session 01/06 : ~212-213 USD (repli sell-the-news post-keynote Computex). Keynote Computex 01/06 : RTX Spark (N1X) lance, Vera CPU production. Ex-dividende jeudi 04/06/2026 : $0.25/action ($3.75 bruts sur 15 actions). P&L latent vs prix achat $214 : +$8.70 USD (+0.27%). Stop mental : 200 USD. Broadcom (AVGO) resultats mardi 03/06."
+      "notes": "Achat 15 actions le 27/05/2026 a 214.00 USD (NASDAQ). Frais: 35.67 USD. Total investi: 3245.67 USD (2556.26 CHF a 0.7876). Cours 29/05/2026 cloture US : 211.14 USD (-1.45%). After-hours 29/05 : 212.48 USD (+0.63%). Cours 01/06/2026 ouverture NASDAQ : 215.73 USD (+2.18%), haut intraday 224.87 USD (+6.50%), CLOTURE 224.36 USD (+6.26%) — volume 212.85M (exceptionnel). Keynote Computex 01/06 : RTX Spark (N1X) lance, Vera CPU production. NVDA se repositionne en 'infrastructure company'. Ex-dividende jeudi 04/06/2026 : $0.25/action ($3.75 bruts sur 15 actions). P&L latent vs prix achat $214 : +$155.40 USD (+4.84%). Stop mental releve : 210 USD. Broadcom (AVGO) resultats mercredi 03/06 apres cloture US — catalyseur majeur."
     }
   ],
   "closed_positions": [
@@ -135,21 +135,25 @@
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "usdchf": 0.7827,
+    "usdchf": 0.7865,
     "fivetq_value_usd": 1550.35,
-    "fivetq_value_chf": 1213.46,
+    "fivetq_value_chf": 1219.35,
+    "fivetq_value_usd_estimated": 1585.00,
+    "fivetq_value_chf_estimated": 1246.60,
     "chiplk_value_chf": 2248.62,
-    "nvda_value_usd": 3218.70,
-    "nvda_value_chf": 2519.28,
+    "chiplk_value_chf_estimated": 2340.00,
+    "nvda_value_usd": 3365.40,
+    "nvda_value_chf": 2647.00,
     "cash_chf": 1090.23,
     "cash_usd": 1561.67,
-    "cash_usd_in_chf": 1222.31,
-    "total_value_chf": 8293.90,
-    "total_return_chf": 793.90,
-    "total_return_pct": 10.59,
+    "cash_usd_in_chf": 1228.25,
+    "total_value_chf_confirmed": 8433.25,
+    "total_value_chf": 8552.00,
+    "total_return_chf": 1052.00,
+    "total_return_pct": 14.03,
     "realized_pnl_auchah_chf": -343.27,
     "realized_pnl_fivetq_usd": 356.99,
     "realized_pnl_googl_usd": 380.94,
-    "note": "MAJ 01/06/2026 (lundi, marches ouverts). NVDA ouverture NASDAQ 01/06 : 214.58 USD (+1.63%), haut intraday 217.86 USD, mi-session ~212-213 USD (repli). FIVETQ 5 certs 310.07 USD (session EUR 01/06, +0.02%). CHIPLK 30 certs : derniere cloture confirmee 74.954 CHF (SIX 29/05), donnees SIX 01/06 en attente (estime ~76.5-78 CHF d'apres ask weekend 78 CHF). USD/CHF 0.7827 (+0.22%). Valeur totale base confirmee : 8293.90 CHF (+10.59%). Valeur estimee CHIPLK a 77 CHF : ~8355 CHF (+11.4%). Keynote Computex : RTX Spark (N1X) lance, Vera CPU production. Ex-dividende NVDA jeudi 04/06 ($0.25). Broadcom resultats mardi 03/06."
+    "note": "MAJ 02/06/2026 (mardi, marches ouverts). NVDA CLOTURE NASDAQ 01/06 : 224.36 USD (+6.26% vs 211.14 cloture 29/05), haut 224.87 USD, ouverture 215.73 USD, volume 212.85M — forte conviction institutionnelle. AVGO cloture 01/06 : 459.97 USD (+2.95%) — resultats mercredi 03/06 apres cloture US. SOXX cloture 01/06 : 571.93 USD (+0.50%). USD/CHF cloture 01/06 : 0.7865 (+0.70% vs 29/05 0.7810). FIVETQ 5 certs : derniere session EUR 310.07 USD (01/06) — estimation 02/06 ~315-320 USD. CHIPLK 30 certs : derniere cloture confirmee 74.954 CHF (SIX 29/05) — estimation 02/06 ~77-79 CHF. Valeur totale base confirmee (NVDA confirm, FIVETQ/CHIPLK au cours 29/05) : 8433 CHF (+12.44%). Valeur estimee (FIVETQ ~317, CHIPLK ~78) : 8552 CHF (+14.0%). Ex-dividende NVDA jeudi 04/06 ($0.25/action, $3.75 bruts sur 15 actions). Broadcom resultats mercredi 03/06."
   }
 }
