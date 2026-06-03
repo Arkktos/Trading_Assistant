@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-06-03",
   "currency": "CHF",
-  "cash_chf": 1090.23,
+  "cash_chf": 2278.88,
   "cash_usd": 1561.67,
   "deposited_capital": 7500.00,
   "positions": [
@@ -21,26 +21,26 @@
       "total_cost_with_fees_usd": 1802.93,
       "total_cost_chf": 1405.52,
       "usdchf_at_purchase": 0.7796,
-      "current_price": 317.25,
+      "current_price": 317.22,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (net 1352.96 USD). Vente partielle de 3 certificats le 04/05/2026 a 285.38 USD (net 842.46 USD). Vente partielle de 4 certificats le 18/05/2026 a 289.31 USD (net 1143.57 USD). Vente partielle de 2 certificats le 26/05/2026 a 313.72 USD (net 613.76 USD, ordre 295879616, 12:57:51). Position restante : 5 certificats. Cours 01/06/2026 (cash.ch, session EUR) : 310.07 USD (+0.02%). Cours confirme 03/06/2026 (cash.ch, session EUR) : 317.25 USD (+0.47% / +1.49 USD, reflète NVDA cloture 02/06 $222.82 / AVGO +4.70% / SOXX +4.43%). NVDA cloture 02/06 : $222.82 (-0.69%), AVGO cloture 02/06 : $481.57 (+4.70%), SOXX cloture 02/06 : $597.28 (+4.43%). Stop mental 300 USD. Objectif 325 USD. AVGO resultats ce soir (03/06, 22h CET) — catalyseur direct."
+      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (net 1352.96 USD). Vente partielle de 3 certificats le 04/05/2026 a 285.38 USD (net 842.46 USD). Vente partielle de 4 certificats le 18/05/2026 a 289.31 USD (net 1143.57 USD). Vente partielle de 2 certificats le 26/05/2026 a 313.72 USD (net 613.76 USD, ordre 295879616, 12:57:51). Position restante : 5 certificats. Cours session EUR 03/06/2026 : 317.22 USD. Stop mental 300 USD. Objectif 325 USD. AVGO resultats ce soir (03/06, 22h CET) — catalyseur direct."
     },
     {
       "ticker_swissquote": "CHIPLK",
       "name": "Theme Trading Semiconducteurs (Leonteq Tracker)",
       "type": "structured_product",
       "exchange": "SWX",
-      "quantity": 30,
+      "quantity": 15,
       "average_buy_price": 68.89167,
       "effective_buy_price": 69.32,
       "buy_date": "2026-05-15",
-      "total_cost_chf": 2066.73,
-      "fees_chf": 12.87,
-      "total_cost_with_fees_chf": 2079.60,
-      "current_price": 75.828,
+      "total_cost_chf": 1033.37,
+      "fees_chf": 6.44,
+      "total_cost_with_fees_chf": 1039.81,
+      "current_price": 80.00,
       "price_currency": "CHF",
-      "notes": "Achat le 15/05/2026 a 68.891 CHF/certificat (30 certificats, 09:16:46). Frais: 12.87 CHF. Cours 29/05/2026 SIX (cloture) : 74.954 CHF. Cours SIX 02/06/2026 confirme : 75.828 CHF (+1.828 CHF / +2.47%, timestamp 15:04:05 CET). Cours SIX 03/06 a confirmer (~78-80 CHF attendus, reflète AVGO +4.70% / SOXX +4.43% du 02/06). P&L latent confirme (75.828) : +208.11 CHF (+10.07%). Stop mental : 65.00 CHF (a relever a 68 CHF si SIX confirme >77 CHF). ISIN : CH1181303780, Valor : 118130378 (LUKB Tracker). Objectif prise benefices partielle : 80 CHF (ordre limite a placer). AVGO resultats ce soir (03/06, 22h CET) — catalyseur direct pour CHIPLK."
+      "notes": "Achat le 15/05/2026 a 68.891 CHF/certificat (30 certificats, 09:16:46). Frais totaux achat: 12.87 CHF. Vente partielle de 15 certificats le 03/06/2026 a 80.00 CHF (objectif atteint) : 2 certs a 08:26:19 + 13 certs a 08:29:50. Brut 1'200 CHF, frais ~11.35 CHF, net 1'188.65 CHF. P&L realise net : +148.85 CHF (+14.32%). Position restante : 15 certificats a 80.00 CHF. Cout restant (15 certs, proportionnel) : 1'039.81 CHF (15 x 68.891 + frais proportionnels). P&L latent restant : +160.19 CHF (+15.41%). Stop mental releve a 72 CHF. Prochain objectif : 85-90 CHF post-AVGO resultats. ISIN : CH1181303780, Valor : 118130378 (LUKB Tracker)."
     },
     {
       "ticker_swissquote": "NVDA",
@@ -131,28 +131,30 @@
     {"date":"2026-05-22","type":"sell","ticker":"GOOGL","quantity":1,"price":387.23,"currency":"USD","fees_usd":7.03,"total_usd":387.23,"net_proceeds_usd":380.20,"realized_pnl_usd":39.98},
     {"date":"2026-05-26","type":"sell","ticker":"FIVETQ","quantity":2,"price":313.72,"currency":"USD","fees_usd":13.68,"total_usd":627.44,"net_proceeds_usd":613.76,"order_id":295879616,"time":"12:57:51","realized_pnl_usd":100.08,"notes":"Objectif 307-310 USD atteint. Position restante : 5 certs."},
     {"date":"2026-05-26","type":"sell","ticker":"GOOGL","quantity":2,"price":386.09,"currency":"USD","fees_usd":16.41,"total_usd":772.18,"net_proceeds_usd":755.77,"order_id":295879887,"time":"13:03:59","realized_pnl_usd":61.27,"notes":"Cloture complete de la position GOOGL."},
-    {"date":"2026-05-27","type":"buy","ticker":"NVDA","quantity":15,"price":214.00,"currency":"USD","fees_usd":35.67,"total_usd":3210.00,"total_with_fees_usd":3245.67,"total_chf":2556.26,"usdchf_at_purchase":0.7876}
+    {"date":"2026-05-27","type":"buy","ticker":"NVDA","quantity":15,"price":214.00,"currency":"USD","fees_usd":35.67,"total_usd":3210.00,"total_with_fees_usd":3245.67,"total_chf":2556.26,"usdchf_at_purchase":0.7876},
+    {"date":"2026-06-03","type":"sell","ticker":"CHIPLK","quantity":15,"price":80.00,"currency":"CHF","total_chf":1200.00,"fees_chf":11.35,"net_proceeds_chf":1188.65,"fills":[{"time":"08:26:19","quantity":2},{"time":"08:29:50","quantity":13}],"realized_pnl_chf":148.85,"realized_pnl_pct":14.32,"notes":"Prise de benefices partielle — objectif 80 CHF atteint. Ordre execute en 2 fills (2 certs 08:26:19 + 13 certs 08:29:50). Position restante : 15 certs."}
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "usdchf": 0.7875,
-    "fivetq_value_usd": 1586.25,
-    "fivetq_value_chf": 1249.17,
-    "chiplk_value_chf": 2274.84,
+    "usdchf": 0.7892,
+    "fivetq_value_usd": 1586.10,
+    "fivetq_value_chf": 1251.73,
+    "chiplk_value_chf": 1200.00,
     "nvda_value_usd": 3342.30,
-    "nvda_value_chf": 2631.56,
-    "cash_chf": 1090.23,
+    "nvda_value_chf": 2637.81,
+    "cash_chf": 2278.88,
     "cash_usd": 1561.67,
-    "cash_usd_in_chf": 1229.31,
-    "total_value_chf": 8475.11,
-    "total_return_chf": 975.11,
-    "total_return_pct": 13.00,
+    "cash_usd_in_chf": 1232.37,
+    "total_value_chf": 8600.79,
+    "total_return_chf": 1100.79,
+    "total_return_pct": 14.68,
     "realized_pnl_auchah_chf": -343.27,
     "realized_pnl_fivetq_usd": 356.99,
     "realized_pnl_googl_usd": 380.94,
+    "realized_pnl_chiplk_chf": 148.85,
     "realized_pnl_total_usd": 737.93,
-    "realized_pnl_net_chf": 237.85,
-    "latent_pnl_chf": 737.26,
-    "note": "MAJ 03/06/2026 (mercredi, marches ouverts). NVDA CLOTURE NASDAQ 02/06 : 222.82 USD (-0.69% vs 224.36 cloture 01/06), AH 02/06 : 221.80 USD, pre-marche 03/06 : ~229.72 USD (+3.10%). AVGO cloture 02/06 : 481.57 USD (+4.70%), AH 02/06 8PM : 495 USD (+7.72% total vs cloture 01/06) — resultats CE SOIR 03/06 (22h CET). SOXX cloture 02/06 : 597.28 USD (+4.43%). USD/CHF cloture 02/06 : 0.7875 (+0.13% vs 01/06 0.7865). FIVETQ 5 certs : cours confirme cash.ch session EUR 03/06 : 317.25 USD (+0.47%). CHIPLK 30 certs : cours confirme SIX 02/06 a 15:04 : 75.828 CHF (+2.47%). Valeur totale base confirmee (tous cours confirmes) : 8475.11 CHF (+13.00%). Ex-dividende NVDA DEMAIN jeudi 04/06 ($0.25/action, $3.75 bruts sur 15 actions). Google annonce $80B AI investissement — Broadcom TPU supply through 2031."
+    "realized_pnl_net_chf": 387.95,
+    "latent_pnl_chf": 474.73,
+    "note": "MAJ 03/06/2026 (mercredi, apres transactions). CHIPLK 15 certs vendus a 80 CHF : 2 fills (08:26:19 + 08:29:50) — objectif atteint. Brut 1'200 CHF, net 1'188.65 CHF, P&L realise +148.85 CHF (+14.32%). Cash CHF : 2'278.88 CHF (etait 1'090.23 CHF). Position CHIPLK restante : 15 certs a 80 CHF = 1'200 CHF. USD/CHF : 0.7892 (implicite positions Swissquote 08:30 CET). NVDA 15 actions x $222.82 (cloture NASDAQ 02/06, pre-marche 03/06 ~$229.72). FIVETQ 5 certs x $317.22 (session EUR 03/06). Total portefeuille : 8'600.79 CHF (+14.68% vs 7'500 CHF deposes). AVGO resultats ce soir 03/06 (22h CET). Ex-dividende NVDA DEMAIN 04/06 ($0.25/action, $3.75 bruts)."
   }
 }
