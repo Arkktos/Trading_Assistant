@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-05",
+  "last_updated": "2026-06-06",
   "currency": "CHF",
   "cash_chf": 1090.23,
   "cash_usd": 1561.67,
@@ -21,10 +21,10 @@
       "total_cost_with_fees_usd": 1802.93,
       "total_cost_chf": 1405.52,
       "usdchf_at_purchase": 0.7796,
-      "current_price": 307.49,
+      "current_price": 303.45,
       "price_currency": "USD",
       "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (net 1352.96 USD). Vente partielle de 3 certificats le 04/05/2026 a 285.38 USD (net 842.46 USD). Vente partielle de 4 certificats le 18/05/2026 a 289.31 USD (net 1143.57 USD). Vente partielle de 2 certificats le 26/05/2026 a 313.72 USD (net 613.76 USD, ordre 295879616, 12:57:51). Position restante : 5 certificats. Cours confirme EUR session 03/06/2026 : 317.25 USD (+0.47%). Cours confirme EUR session 04/06/2026 : 310.98 USD (-2.19%). AVGO clôture 04/06 : 418.91 USD (-12.59% full session). Cours EUR session 05/06/2026 (cash.ch) : 307.49 USD (-1.79%). Stop mental 300 USD. Objectif 315-320 USD. NFP mai 2026 : +85K (MISS vs 115K) -> dovish -> soutien attendu."
+      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (net 1352.96 USD). Vente partielle de 3 certificats le 04/05/2026 a 285.38 USD (net 842.46 USD). Vente partielle de 4 certificats le 18/05/2026 a 289.31 USD (net 1143.57 USD). Vente partielle de 2 certificats le 26/05/2026 a 313.72 USD (net 613.76 USD, ordre 295879616, 12:57:51). Position restante : 5 certificats. Cours confirme EUR session 03/06/2026 : 317.25 USD (+0.47%). Cours confirme EUR session 04/06/2026 : 310.98 USD (-2.19%). AVGO clôture 04/06 : 418.91 USD (-12.59% full session). Cours EUR session 05/06/2026 (cash.ch, mi-session) : 307.49 USD (-1.79%). Cours EUR session 05/06/2026 FINAL (cash.ch) : 303.45 USD (-3.08%). Stop mental 300 USD (ALERTE : a 1.1% du stop). Objectif 308-312 USD (rebond). SOXX cloture 05/06 : 539.77 USD (-10.44%). AVGO cloture 05/06 : 385.73 USD (-7.92%). Deuxieme vague correction semis apres AVGO guidance decevante ($16B Q3 vs $17.2B consensus)."
     },
     {
       "ticker_swissquote": "CHIPLK",
@@ -40,9 +40,9 @@
       "total_cost_chf": 2066.73,
       "fees_chf": 12.87,
       "total_cost_with_fees_chf": 2079.60,
-      "current_price": 78.010,
+      "current_price": 75.599,
       "price_currency": "CHF",
-      "notes": "Achat le 15/05/2026 a 68.891 CHF/certificat (30 certificats, 09:16:46). Frais: 12.87 CHF. Cours SIX 03/06/2026 clôture (16:56) : 80.495 CHF (+6.15%) — OBJECTIF 80 CHF ATTEINT ET DEPASSE. Cours SIX 04/06/2026 clôture (16:58:41) : 78.010 CHF (-3.09% / -2.485 CHF) — retrait post AVGO -12.59%. Session SIX 05/06 en cours. Stop mental 72 CHF (releve depuis 65/68 CHF). Objectif 80 CHF a retenter, puis 85 CHF. Plus-haut 52 sem : 80.645 CHF. NFP mai 2026 : +85K MISS -> dovish -> soutien semi-conducteurs 05/06."
+      "notes": "Achat le 15/05/2026 a 68.891 CHF/certificat (30 certificats, 09:16:46). Frais: 12.87 CHF. Cours SIX 03/06/2026 clôture (16:56) : 80.495 CHF (+6.15%) — OBJECTIF 80 CHF ATTEINT ET DEPASSE. Cours SIX 04/06/2026 clôture (16:58:41) : 78.010 CHF (-3.09% / -2.485 CHF) — retrait post AVGO -12.59%. Cours SIX 05/06/2026 clôture CONFIRME : 75.599 CHF (-3.09% / -2.411 CHF) — deuxieme vague correction semis, SOXX -10.44%. Stop mental releve a 73 CHF (depuis 72 CHF). Objectif 78-80 CHF (rebond sectoriel). Plus-haut 52 sem : 80.645 CHF. Distance stop : 4.7%."
     },
     {
       "ticker_swissquote": "NVDA",
@@ -59,10 +59,10 @@
       "total_cost_with_fees_usd": 3245.67,
       "total_cost_chf": 2556.26,
       "usdchf_at_purchase": 0.7876,
-      "current_price": 218.66,
+      "current_price": 205.10,
       "price_currency": "USD",
       "price_source": "https://finance.yahoo.com/quote/NVDA",
-      "notes": "Achat 15 actions le 27/05/2026 a 214.00 USD (NASDAQ). Frais: 35.67 USD. Cours 01/06 : 224.36 USD. Cours 02/06 : 222.82 USD. Cours 03/06 cloture NASDAQ : 214.75 USD (high intraday 222.82, low 214.51). Cours 04/06 cloture NASDAQ (ex-dividend) : 218.66 USD (+1.82%) — range intraday $210.97-$221.60 — low quasi-stop $210! Stop tenu. Ex-div 04/06 : $0.25/action x15 = $3.75 bruts recus. After-hours 04/06 : 216.31 USD (-1.07%). Session NASDAQ 05/06 en cours. NFP mai 2026 : +85K MISS -> dovish -> soutien NVDA. Stop mental : 210 USD. Objectif : 225-230 USD."
+      "notes": "Achat 15 actions le 27/05/2026 a 214.00 USD (NASDAQ). Frais: 35.67 USD. Cours 01/06 : 224.36 USD. Cours 02/06 : 222.82 USD. Cours 03/06 cloture NASDAQ : 214.75 USD (high intraday 222.82, low 214.51). Cours 04/06 cloture NASDAQ (ex-dividend) : 218.66 USD (+1.82%) — range intraday $210.97-$221.60 — low quasi-stop $210! Ex-div 04/06 : $0.25/action x15 = $3.75 bruts recus. Cours 05/06 cloture NASDAQ CONFIRME : 205.10 USD (-6.20%) — range $204.33-$214.87 — STOP MENTAL $210 ENFONCE (low 204.33). SOXX -10.44% (539.77). Deuxieme vague correction semis post-AVGO guidance. DECISION REQUISE lundi 08/06 : vendre si ouverture < 202 USD ou tenir avec stop abaisse a 200 USD. Analysts consensus : Strong Buy, target $298 (+45%). P&L latent : -$133.50 USD (-4.16%)."
     }
   ],
   "closed_positions": [
@@ -138,24 +138,27 @@
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "usdchf": 0.7878,
-    "fivetq_value_usd": 1537.45,
-    "fivetq_value_chf": 1210.98,
-    "chiplk_value_chf": 2340.30,
-    "nvda_value_usd": 3279.90,
-    "nvda_value_chf": 2582.29,
+    "usdchf": 0.7927,
+    "fivetq_value_usd": 1517.25,
+    "fivetq_value_chf": 1202.83,
+    "chiplk_value_chf": 2267.97,
+    "nvda_value_usd": 3076.50,
+    "nvda_value_chf": 2438.35,
     "cash_chf": 1090.23,
     "cash_usd": 1561.67,
-    "cash_usd_in_chf": 1230.29,
-    "total_value_chf": 8454.09,
-    "total_return_chf": 954.09,
-    "total_return_pct": 12.72,
+    "cash_usd_in_chf": 1238.28,
+    "total_value_chf": 8237.66,
+    "total_return_chf": 737.66,
+    "total_return_pct": 9.84,
     "realized_pnl_auchah_chf": -343.27,
     "realized_pnl_fivetq_usd": 356.99,
     "realized_pnl_googl_usd": 380.94,
     "realized_pnl_total_usd": 737.93,
-    "realized_pnl_net_chf": 237.73,
-    "latent_pnl_chf": 716.36,
-    "note": "MAJ 05/06/2026 (vendredi, NFP jour). Corrections apportees sur donnees 04/06 : NVDA cloture NASDAQ 04/06 confirmee 218.66 USD (+1.82%, range 210.97-221.60, low quasi-stop 210 tenu); SOXX cloture 04/06 602.72 USD (-2.10%, range 577.54-611.26); AVGO cloture 04/06 418.91 USD (-12.59%, pire que AH -5/-8%); CHIPLK cloture SIX 04/06 78.010 CHF (-3.09%). NFP mai 2026 publie 05/06 : +85K (miss vs 115K consensus) -> signal DOVISH. FIVETQ EUR session 05/06 confirme : 307.49 USD (-1.79%). USD/CHF 05/06 : 0.7878 (affaibli apres NFP miss). Dividende NVDA 3.75 USD bruts recus 04/06 (a crediter sur compte)."
+    "realized_pnl_net_chf": 241.52,
+    "latent_pnl_fivetq_chf": 184.72,
+    "latent_pnl_chiplk_chf": 201.24,
+    "latent_pnl_nvda_chf": -105.80,
+    "latent_pnl_chf": 280.16,
+    "note": "MAJ 06/06/2026 (samedi, bilan cloture J5). NVDA cloture NASDAQ 05/06 : 205.10 USD (-6.20%, range 204.33-214.87) — STOP MENTAL 210 ENFONCE. AVGO cloture 05/06 : 385.73 USD (-7.92%). SOXX cloture 05/06 : 539.77 USD (-10.44%, deuxieme vague correction). CHIPLK cloture SIX 05/06 : 75.599 CHF (-3.09%). FIVETQ EUR session 05/06 final : 303.45 USD (-3.08%, stop 300 a 1.1%). USD/CHF 05/06 : 0.7927 (+0.62%). DECISION CRITIQUE lundi 08/06 sur NVDA (stop enfonce) et surveillance FIVETQ (stop 300 a 1.1%)."
   }
 }
