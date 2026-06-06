@@ -20,6 +20,7 @@ Tâche planifiée (cron / Task Scheduler)
         ├─> Génère le rapport du jour sur la base du dernier (reports/)
         ├─> Met à jour portfolio.json
         ├─> Commit & push les changements
+        ├─> S'assurer que tout est sur la branche main du remote (PR + merge si nécessaire)
         └─> Envoie le rapport (en html) par email via Resend
 ```
 
@@ -53,14 +54,33 @@ Paramètres de l'assistant :
 - Devise de référence (CHF)
 - Préférences de rapport (indicateurs favoris, horizons d'analyse)
 
-### Email (send_email.py)
+## Instructions pour l'Agent IA
 
-L'envoi d'email utilise Resend avec une clé API.
+### Git workflow
 
-**Variables d'environnement requises :**
+- Travailler directement sur la branche `main`.
+- Après chaque rapport généré :
+  1. **Commit** les changements avec un message descriptif.
+  2. **Push** directement sur `main`.
+- Utiliser le token Github contenu dans `GITHUB_PAT`.
+- Pour éviter les erreurs d'authentification lors du push, utiliser l'URL du remote incluant le token : `https://x-access-token:<TOKEN>@github.com/user/repo.git` ou s'assurer que la CLI `gh` est authentifiée avec le PAT.
 
-| Variable | Description |
-|---|---|
-| `GMAIL_ADDRESS` | Adresse Gmail de l'expéditeur |
-| `RESEND_API_KEY` | Clé API Resend
-| `GMAIL_RECIPIENT` | Destinataire (optionnel, par défaut = `GMAIL_ADDRESS`) |
+### Source de données
+
+- Utiliser le **Web** (cash.ch, leonteq, swissquote, Yahoo Finance, etc.) comme source de prix et d'analyse pour tous les instruments.
+
+### Envoi d'email
+
+- L'envoi d'email se fait via **`send_email.py`** (API Resend).
+- Variables d'environnement :
+  - `RESEND_API_KEY` : clé API Resend (requis)
+  - `GMAIL_RECIPIENT` : adresse du destinataire (optionnel, fallback sur `GMAIL_ADDRESS`)
+- L'installation de resend est requise en amont.
+
+### Format du rapprt
+
+- Lire le dernier rapport et formater le nouveau de la même manière (exactement la même structure, les mêmes chapitres!!)
+
+### Cleanup
+
+- Après chaque commit (donc chaque nouveau rapport, normalement): TOUT DOIT ETRE SUR LA BRANCHE MAIN DU REMOTE. A l'agent de se débrouiller pour pousser sur le remote, créer et merger un PR si besoin. 

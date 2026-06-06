@@ -3,7 +3,7 @@ Envoi d'emails via Resend.
 
 Variables d'environnement requises :
   RESEND_API_KEY  - clé API Resend
-  GMAIL_RECIPIENT - adresse du destinataire
+  GMAIL_ADDRESS - adresse du destinataire
 """
 
 import os
@@ -19,9 +19,9 @@ def send_email(subject: str, body: str, recipient: str | None = None, html: bool
 
     resend.api_key = api_key
 
-    recipient = recipient or os.environ.get("GMAIL_RECIPIENT") or os.environ.get("GMAIL_ADDRESS")
+    recipient = recipient or os.environ.get("GMAIL_ADDRESS")
     if not recipient:
-        raise RuntimeError("Un destinataire doit être fourni (argument, GMAIL_RECIPIENT ou GMAIL_ADDRESS)")
+        raise RuntimeError("Un destinataire doit être fourni (argument, GMAIL_ADDRESS)")
 
     params: resend.Emails.SendParams = {
         "from": "Trading Assistant <onboarding@resend.dev>",

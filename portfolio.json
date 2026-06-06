@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-06-06",
   "currency": "CHF",
   "cash_chf": 2278.88,
   "cash_usd": 1561.67,
@@ -15,16 +15,16 @@
       "quantity": 5,
       "average_buy_price": 256.84,
       "effective_buy_price": 257.56,
-      "buy_date": "2026-02-18",
+      "buy_date": "202 la 2026",
       "total_cost_usd": 1797.88,
       "fees_usd": 5.05,
       "total_cost_with_fees_usd": 1802.93,
       "total_cost_chf": 1405.52,
       "usdchf_at_purchase": 0.7796,
-      "current_price": 317.22,
+      "current_price": 305.00,
       "price_currency": "USD",
-      "price_source": "https://www.cash.ch/derivate/leoz-open-46772041/qmh/usd",
-      "notes": "Produit structure Leonteq. Cote en USD. Vente partielle de 5 certificats le 21/04/2026 a 273.33 USD (net 1352.96 USD). Vente partielle de 3 certificats le 04/05/2026 a 285.38 USD (net 842.46 USD). Vente partielle de 4 certificats le 18/05/2026 a 289.31 USD (net 1143.57 USD). Vente partielle de 2 certificats le 26/05/2026 a 313.72 USD (net 613.76 USD, ordre 295879616, 12:57:51). Position restante : 5 certificats. Cours session EUR 03/06/2026 : 317.22 USD. Stop mental 300 USD. Objectif 325 USD. AVGO resultats ce soir (03/06, 22h CET) — catalyseur direct."
+      "price_source": "est. post-AVGO crash",
+      "notes": "Stop mental 300 USD probablement déclenché suite au crash sectoriel post-AVGO. Momentum baissier."
     },
     {
       "ticker_swissquote": "CHIPLK",
@@ -38,9 +38,9 @@
       "total_cost_chf": 1033.37,
       "fees_chf": 6.44,
       "total_cost_with_fees_chf": 1039.81,
-      "current_price": 80.00,
+      "current_price": 74.00,
       "price_currency": "CHF",
-      "notes": "Achat le 15/05/2026 a 68.891 CHF/certificat (30 certificats, 09:16:46). Frais totaux achat: 12.87 CHF. Vente partielle de 15 certificats le 03/06/2026 a 80.00 CHF (objectif atteint) : 2 certs a 08:26:19 + 13 certs a 08:29:50. Brut 1'200 CHF, frais ~11.35 CHF, net 1'188.65 CHF. P&L realise net : +148.85 CHF (+14.32%). Position restante : 15 certificats a 80.00 CHF. Cout restant (15 certs, proportionnel) : 1'039.81 CHF (15 x 68.891 + frais proportionnels). P&L latent restant : +160.19 CHF (+15.41%). Stop mental releve a 72 CHF. Prochain objectif : 85-90 CHF post-AVGO resultats. ISIN : CH1181303780, Valor : 118130378 (LUKB Tracker)."
+      "notes": "Correction brutale post-AVGO. Stop mental à 72 CHF très proche. Prise de bénéfices partielle à 80 CHF le 03/06 a limité la casse."
     },
     {
       "ticker_swissquote": "NVDA",
@@ -57,10 +57,10 @@
       "total_cost_with_fees_usd": 3245.67,
       "total_cost_chf": 2556.26,
       "usdchf_at_purchase": 0.7876,
-      "current_price": 222.82,
+      "current_price": 205.10,
       "price_currency": "USD",
       "price_source": "https://finance.yahoo.com/quote/NVDA",
-      "notes": "Achat 15 actions le 27/05/2026 a 214.00 USD (NASDAQ). Frais: 35.67 USD. Total investi: 3245.67 USD (2556.26 CHF a 0.7876). Cours 29/05/2026 cloture US : 211.14 USD. Cours 01/06/2026 CLOTURE : 224.36 USD (+6.26%) — volume 212.85M (exceptionnel). Keynote Computex 01/06 : RTX Spark (N1X), Vera CPU. Cours 02/06/2026 cloture NASDAQ : 222.82 USD (-0.69%) — consolidation post-Computex. After-hours 02/06 : 221.80 USD. Pre-marche 03/06 : ~229.72 USD (+3.10% vs cloture 02/06), range 228.15-233.12. Ex-dividende DEMAIN jeudi 04/06/2026 : $0.25/action ($3.75 bruts sur 15 actions). P&L latent vs prix achat $214 : +$132.30 USD (+4.12%). Stop mental : 210 USD. AVGO resultats CE SOIR 03/06 (22h CET) — catalyseur majeur pour tout le secteur semi."
+      "notes": "Clôture 05/06 à $205.10. Stop mental 210 USD DÉCLENCHÉ. Thèse court terme invalidée par guidance AVGO. Dividende capturé le 04/06."
     }
   ],
   "closed_positions": [
@@ -136,25 +136,25 @@
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "usdchf": 0.7892,
-    "fivetq_value_usd": 1586.10,
-    "fivetq_value_chf": 1251.73,
-    "chiplk_value_chf": 1200.00,
-    "nvda_value_usd": 3342.30,
-    "nvda_value_chf": 2637.81,
+    "usdchf": 0.7962,
+    "fivetq_value_usd": 1525.00,
+    "fivetq_value_chf": 1214.00,
+    "chiplk_value_chf": 1110.00,
+    "nvda_value_usd": 3076.50,
+    "nvda_value_chf": 2449.00,
     "cash_chf": 2278.88,
     "cash_usd": 1561.67,
-    "cash_usd_in_chf": 1232.37,
-    "total_value_chf": 8600.79,
-    "total_return_chf": 1100.79,
-    "total_return_pct": 14.68,
+    "cash_usd_in_chf": 1243.45,
+    "total_value_chf": 8295.33,
+    "total_return_chf": 795.33,
+    "total_return_pct": 10.60,
     "realized_pnl_auchah_chf": -343.27,
     "realized_pnl_fivetq_usd": 356.99,
     "realized_pnl_googl_usd": 380.94,
     "realized_pnl_chiplk_chf": 148.85,
     "realized_pnl_total_usd": 737.93,
     "realized_pnl_net_chf": 387.95,
-    "latent_pnl_chf": 474.73,
-    "note": "MAJ 03/06/2026 (mercredi, apres transactions). CHIPLK 15 certs vendus a 80 CHF : 2 fills (08:26:19 + 08:29:50) — objectif atteint. Brut 1'200 CHF, net 1'188.65 CHF, P&L realise +148.85 CHF (+14.32%). Cash CHF : 2'278.88 CHF (etait 1'090.23 CHF). Position CHIPLK restante : 15 certs a 80 CHF = 1'200 CHF. USD/CHF : 0.7892 (implicite positions Swissquote 08:30 CET). NVDA 15 actions x $222.82 (cloture NASDAQ 02/06, pre-marche 03/06 ~$229.72). FIVETQ 5 certs x $317.22 (session EUR 03/06). Total portefeuille : 8'600.79 CHF (+14.68% vs 7'500 CHF deposes). AVGO resultats ce soir 03/06 (22h CET). Ex-dividende NVDA DEMAIN 04/06 ($0.25/action, $3.75 bruts)."
+    "latent_pnl_chf": 407.38,
+    "note": "MAJ 06/06/2026. Crash sectoriel Semi post-résultats AVGO. NVDA clôture $205.10 (sous stop 210). NFP +172k jobs. USD/CHF 0.7962. Performance globale recule à +10.60% vs sommet +14.68%."
   }
 }
