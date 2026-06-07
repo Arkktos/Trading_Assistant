@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-06",
+  "last_updated": "2026-06-07",
   "currency": "CHF",
   "cash_chf": 2278.88,
   "cash_usd": 1561.67,
@@ -21,10 +21,10 @@
       "total_cost_with_fees_usd": 1802.93,
       "total_cost_chf": 1405.52,
       "usdchf_at_purchase": 0.7796,
-      "current_price": 305.00,
+      "current_price": 303.45,
       "price_currency": "USD",
-      "price_source": "est. post-AVGO crash",
-      "notes": "Stop mental 300 USD probablement déclenché suite au crash sectoriel post-AVGO. Momentum baissier."
+      "price_source": "cash.ch (clôture confirmée 05/06, données différées)",
+      "notes": "Clôture 05/06 confirmée à $303.45 (-3.08%). Stop mental 300 USD à seulement $3.45 (1.1%). SOXX AH $535.59 → pression vendeuse persistante. Vente recommandée si ouverture lundi <$303 ou franchissement $300."
     },
     {
       "ticker_swissquote": "CHIPLK",
@@ -38,9 +38,11 @@
       "total_cost_chf": 1033.37,
       "fees_chf": 6.44,
       "total_cost_with_fees_chf": 1039.81,
-      "current_price": 74.00,
+      "current_price": 75.60,
       "price_currency": "CHF",
-      "notes": "Correction brutale post-AVGO. Stop mental à 72 CHF très proche. Prise de bénéfices partielle à 80 CHF le 03/06 a limité la casse."
+      "bid_price": 74.94,
+      "ask_price": 75.51,
+      "notes": "Clôture 05/06 confirmée à 75.60 CHF (-3.09%), bid 74.94 CHF. Mieux qu'estimé (74 CHF). Stop mental à 72 CHF offre 4.9% de marge. Surveiller si SOXX poursuit la correction lundi."
     },
     {
       "ticker_swissquote": "NVDA",
@@ -136,25 +138,25 @@
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "usdchf": 0.7962,
-    "fivetq_value_usd": 1525.00,
-    "fivetq_value_chf": 1214.00,
-    "chiplk_value_chf": 1110.00,
+    "usdchf": 0.7963,
+    "fivetq_value_usd": 1517.25,
+    "fivetq_value_chf": 1208.00,
+    "chiplk_value_chf": 1134.00,
     "nvda_value_usd": 3076.50,
     "nvda_value_chf": 2449.00,
     "cash_chf": 2278.88,
     "cash_usd": 1561.67,
-    "cash_usd_in_chf": 1243.45,
-    "total_value_chf": 8295.33,
-    "total_return_chf": 795.33,
-    "total_return_pct": 10.60,
+    "cash_usd_in_chf": 1243.56,
+    "total_value_chf": 8313.44,
+    "total_return_chf": 813.44,
+    "total_return_pct": 10.85,
     "realized_pnl_auchah_chf": -343.27,
     "realized_pnl_fivetq_usd": 356.99,
     "realized_pnl_googl_usd": 380.94,
     "realized_pnl_chiplk_chf": 148.85,
     "realized_pnl_total_usd": 737.93,
     "realized_pnl_net_chf": 387.95,
-    "latent_pnl_chf": 407.38,
-    "note": "MAJ 06/06/2026. Crash sectoriel Semi post-résultats AVGO. NVDA clôture $205.10 (sous stop 210). NFP +172k jobs. USD/CHF 0.7962. Performance globale recule à +10.60% vs sommet +14.68%."
+    "latent_pnl_chf": 426.00,
+    "note": "MAJ 07/06/2026 (dimanche). Prix confirmés clôture 05/06. FIVETQ $303.45 (stop $300 à 1.1%). CHIPLK 75.60 CHF (mieux qu'estimé 74 CHF, stop 72 CHF à 4.9%). NVDA $205.10 (stop $210 déclenché). USD/CHF 0.7963. SOXX -10.44% à $539.77. +$1T effacé secteur semi. FOMC 17 juin (Warsh). Performance +10.85%."
   }
 }
