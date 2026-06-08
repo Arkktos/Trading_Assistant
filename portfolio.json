@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-07",
+  "last_updated": "2026-06-08",
   "currency": "CHF",
   "cash_chf": 2278.88,
   "cash_usd": 1561.67,
@@ -21,10 +21,10 @@
       "total_cost_with_fees_usd": 1802.93,
       "total_cost_chf": 1405.52,
       "usdchf_at_purchase": 0.7796,
-      "current_price": 303.45,
+      "current_price": 297.40,
       "price_currency": "USD",
-      "price_source": "cash.ch (clôture confirmée 05/06, données différées)",
-      "notes": "Clôture 05/06 confirmée à $303.45 (-3.08%). Stop mental 300 USD à seulement $3.45 (1.1%). SOXX AH $535.59 → pression vendeuse persistante. Vente recommandée si ouverture lundi <$303 ou franchissement $300."
+      "price_source": "cash.ch (données différées 08/06)",
+      "notes": "Données 08/06 intraday : $297.40 (-1.99% vs $303.45). Stop mental $300 FRANCHISÉ 🔴. Vente totale (5 certs) recommandée — sécuriser +$202.80 USD (+15.8%). P&L réalisé total FIVETQ si clôture : +$559.79 USD."
     },
     {
       "ticker_swissquote": "CHIPLK",
@@ -59,10 +59,10 @@
       "total_cost_with_fees_usd": 3245.67,
       "total_cost_chf": 2556.26,
       "usdchf_at_purchase": 0.7876,
-      "current_price": 205.10,
+      "current_price": 208.00,
       "price_currency": "USD",
-      "price_source": "https://finance.yahoo.com/quote/NVDA",
-      "notes": "Clôture 05/06 à $205.10. Stop mental 210 USD DÉCLENCHÉ. Thèse court terme invalidée par guidance AVGO. Dividende capturé le 04/06."
+      "price_source": "Yahoo Finance / StockInvest (intraday 08/06)",
+      "notes": "Intraday 08/06 : ouverture $214.53 (+4.6% gap up vs $205.10), high $214.87, low $204.33. Cours estimé ~$208. Stop mental $210 déclenché vendredi mais dépassé à l'ouverture lundi. Si clôture > $212 → tenir 15 actions, stop relevé à $200. Si clôture < $210 → vendre 5 actions. Dividende $3.75 capturé 04/06."
     }
   ],
   "closed_positions": [
@@ -138,25 +138,25 @@
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "usdchf": 0.7963,
-    "fivetq_value_usd": 1517.25,
-    "fivetq_value_chf": 1208.00,
+    "usdchf": 0.7958,
+    "fivetq_value_usd": 1487.00,
+    "fivetq_value_chf": 1183.18,
     "chiplk_value_chf": 1134.00,
-    "nvda_value_usd": 3076.50,
-    "nvda_value_chf": 2449.00,
+    "nvda_value_usd": 3120.00,
+    "nvda_value_chf": 2483.00,
     "cash_chf": 2278.88,
     "cash_usd": 1561.67,
-    "cash_usd_in_chf": 1243.56,
-    "total_value_chf": 8313.44,
-    "total_return_chf": 813.44,
-    "total_return_pct": 10.85,
+    "cash_usd_in_chf": 1242.94,
+    "total_value_chf": 8322.00,
+    "total_return_chf": 822.00,
+    "total_return_pct": 10.96,
     "realized_pnl_auchah_chf": -343.27,
     "realized_pnl_fivetq_usd": 356.99,
     "realized_pnl_googl_usd": 380.94,
     "realized_pnl_chiplk_chf": 148.85,
     "realized_pnl_total_usd": 737.93,
     "realized_pnl_net_chf": 387.95,
-    "latent_pnl_chf": 426.00,
-    "note": "MAJ 07/06/2026 (dimanche). Prix confirmés clôture 05/06. FIVETQ $303.45 (stop $300 à 1.1%). CHIPLK 75.60 CHF (mieux qu'estimé 74 CHF, stop 72 CHF à 4.9%). NVDA $205.10 (stop $210 déclenché). USD/CHF 0.7963. SOXX -10.44% à $539.77. +$1T effacé secteur semi. FOMC 17 juin (Warsh). Performance +10.85%."
+    "latent_pnl_chf": 434.00,
+    "note": "MAJ 08/06/2026 (lundi, intraday). FIVETQ $297.40 (stop $300 FRANCHISÉ 🔴 → vente totale recommandée, P&L +202.80 USD). NVDA ouverture $214.53 (+4.6% gap up), high $214.87, low $204.33, estimé ~$208. CHIPLK 75.60 CHF (clôture 05/06, pas de données fraîches). USD/CHF 0.7958. SOXX $539.77 (clôture 05/06). Performance +10.96% (+9 CHF vs dimanche)."
   }
 }
