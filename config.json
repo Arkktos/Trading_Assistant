@@ -1,6 +1,63 @@
 {
   "profil_de_risque": "agressif",
-  "watchlist": [],
+  "watchlist": [
+    {
+      "ticker": "AUCHAH",
+      "name": "UBS ETF Gold (CHF Hedged)",
+      "type": "ETF",
+      "target_zone": "Current / -2%",
+      "allocation_target": "1500 CHF"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc.",
+      "type": "Equity",
+      "target_zone": "Support Retracement",
+      "allocation_target": "1200 CHF"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corp.",
+      "type": "Equity",
+      "target_zone": "420-440 USD",
+      "allocation_target": "1000 CHF"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "type": "Equity",
+      "target_zone": "Technical Pullback",
+      "allocation_target": "410 CHF"
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks",
+      "type": "Equity",
+      "target_zone": "Technical Pullback",
+      "allocation_target": "410 CHF"
+    },
+    {
+      "ticker": "BTC",
+      "name": "Bitcoin",
+      "type": "Crypto",
+      "target_zone": "DCA Weekly",
+      "allocation_target": "1300 CHF"
+    },
+    {
+      "ticker": "SOL",
+      "name": "Solana",
+      "type": "Crypto",
+      "target_zone": "Support Zone",
+      "allocation_target": "300 CHF"
+    },
+    {
+      "ticker": "ETH",
+      "name": "Ethereum",
+      "type": "Crypto",
+      "target_zone": "Support Zone",
+      "allocation_target": "300 CHF"
+    }
+  ],
   "devise_de_reference": "CHF",
   "preferences_rapport": {
     "indicateurs_favoris": ["RSI", "MACD", "BBANDS", "SMA", "EMA"],
