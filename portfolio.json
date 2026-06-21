@@ -115,16 +115,21 @@
     {"date":"2026-06-08","type":"sell","ticker":"FIVETQ","quantity": 5,"price": 298.42,"currency":"USD","net_proceeds_usd": 1492.10,"realized_pnl_usd": 207.80,"notes": "Clôture totale."},
     {"date":"2026-06-08","type":"sell","ticker":"CHIPLK","quantity": 15,"price": 72.876,"currency":"CHF","net_proceeds_chf": 1093.14,"realized_pnl_chf": 59.28,"notes": "Clôture totale."}
   ],
+  "pending_orders": [
+    {"date": "2026-06-23", "type": "buy", "ticker": "ZGLD", "amount_chf": 375, "order_type": "market", "notes": "Rattrapage S1 Or. Remplacement AUCHAH."},
+    {"date": "2026-06-23", "type": "buy", "ticker": "GOOGL", "amount_chf": 1200, "order_type": "market", "notes": "S2 Tech."},
+    {"date": "2026-06-23", "type": "buy", "ticker": "MSFT", "amount_chf": 1000, "order_type": "market", "notes": "S2 Tech. Entry ~$379."}
+  ],
   "performance": {
     "deposited_capital": 7500.00,
     "cash_chf": 2659.19,
     "cash_usd": 5735.41,
-    "cash_usd_in_chf": 4568.24,
-    "total_value_chf": 7227.43,
-    "total_return_chf": -272.57,
-    "total_return_pct": -3.63,
+    "cash_usd_in_chf": 4617.01,
+    "total_value_chf": 7572.24,
+    "total_return_chf": 72.24,
+    "total_return_pct": 0.96,
     "realized_pnl_net_chf": 703.32,
-    "latent_pnl_chf": 10.40,
-    "note": "MAJ 13/06/2026. Premier achat BTC (S1). Attente lundi pour AUCHAH."
+    "latent_pnl_chf": -7.11,
+    "note": "MAJ 21/06/2026. AUCHAH remplace par ZGLD. 3 ordres market programmes lundi 23/06. S2+rattrapage S1 = 2575 CHF."
   }
 }
