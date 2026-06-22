@@ -6,7 +6,7 @@ Ce repository sert de **mémoire persistante** pour l'Agent IA. Il contient l'é
 
 **Aucun code applicatif n'est hébergé ici.** Tout repose sur l'Agent IA, orchestré par une tâche planifiée, avec :
 - **Recherche Web** : données de marché en temps réel, indicateurs techniques, fondamentaux, news & sentiment (cash.ch, leonteq, swissquote, Yahoo Finance, etc.)
-- **`send_email.py`** : envoi du rapport quotidien par email via Resend
+- **`send_email_node.js`** : envoi du rapport quotidien par email via Gmail (SMTP)
 
 ## Workflow quotidien
 
@@ -21,7 +21,7 @@ Tâche planifiée (cron / Task Scheduler)
         ├─> Met à jour portfolio.json
         ├─> Commit & push les changements
         ├─> S'assurer que tout est sur la branche main du remote (PR + merge si nécessaire)
-        └─> Envoie le rapport (en html) par email via Resend
+        └─> Envoie le rapport (en html) par email via Gmail
 ```
 
 ## Structure du repository
@@ -71,11 +71,11 @@ Paramètres de l'assistant :
 
 ### Envoi d'email
 
-- L'envoi d'email se fait via **`send_email.py`** (API Resend).
+- L'envoi d'email se fait via **`send_email_node.js`** (Gmail SMTP avec App Password).
 - Variables d'environnement :
-  - `RESEND_API_KEY` : clé API Resend (requis)
-  - `GMAIL_RECIPIENT` : adresse du destinataire (optionnel, fallback sur `GMAIL_ADDRESS`)
-- L'installation de resend est requise en amont.
+  - `GMAIL_ADDRESS` : adresse Gmail de l'expéditeur (requis)
+  - `GMAIL_APP_PASSWORD` : mot de passe d'application Gmail (requis)
+- L'installation de la dépendance `nodemailer` est requise via `npm install`.
 
 ### Format du rapprt
 

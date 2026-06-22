@@ -1,0 +1,9 @@
+{
+  "name": "trading-assistant",
+  "version": "1.0.0",
+  "description": "Trading Assistant automation scripts",
+  "main": "index.js",
+  "dependencies": {
+    "nodemailer": "^6.10.1"
+  }
+}
