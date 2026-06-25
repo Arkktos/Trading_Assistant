@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-22",
+  "last_updated": "2026-06-25",
   "currency": "CHF",
   "cash_chf": 2280.09,
   "cash_usd": 2988.75,
@@ -127,12 +127,14 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2280.09,
     "cash_usd": 2988.75,
-    "cash_usd_in_chf": 2417.88,
-    "total_value_chf": 7573.00,
-    "total_return_chf": 73.00,
-    "total_return_pct": 0.97,
+    "cash_usd_in_chf": 2418.64,
+    "positions_value_chf": 2705.17,
+    "total_value_chf": 7403.90,
+    "total_return_chf": -96.10,
+    "total_return_pct": -1.28,
     "realized_pnl_net_chf": 703.32,
-    "latent_pnl_chf": -670.32,
-    "note": "MAJ 22/06/2026. Exécution complète S2 + rattrapage S1 (ZGLD, GOOGL, MSFT)."
+    "latent_pnl_chf": -799.42,
+    "usdchf_rate": 0.8095,
+    "note": "MAJ 25/06/2026. Pas de transactions. Correction Mag7 (AAPL/MSFT prix), BTC sous 60k."
   }
 }
