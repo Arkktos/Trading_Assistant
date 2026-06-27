@@ -6,22 +6,21 @@ Ce repository sert de **mémoire persistante** pour l'Agent IA. Il contient l'é
 
 **Aucun code applicatif n'est hébergé ici.** Tout repose sur l'Agent IA, orchestré par une tâche planifiée, avec :
 - **Recherche Web** : données de marché en temps réel, indicateurs techniques, fondamentaux, news & sentiment (cash.ch, leonteq, swissquote, Yahoo Finance, etc.)
-- **`send_email_node.js`** : envoi du rapport quotidien par email via Gmail (SMTP)
+- **`send_email_node.js`** : envoi du rapport quotidien par email via nodemailer
 
 ## Workflow quotidien
 
 ```
 Tâche planifiée (cron / Task Scheduler)
   └─> Agent IA pull ce repo
-        ├─> Lit MEMORY.md (récupère la mémoire)
-        ├─> Lit portfolio.json (état actuel du portefeuille)
-        ├─> Interroge le Web (cours, indicateurs, news)
+        ├─> Lit tous les fichiers à la racine et le dernier rapport dans reports/
+        ├─> Interroge le Web (cours, indicateurs, news, etc.)
         ├─> Analyse les positions & détecte des opportunités
-        ├─> Génère le rapport du jour sur la base du dernier (reports/)
-        ├─> Met à jour portfolio.json
+        ├─> Génère le rapport du jour sur la base du dernier (même format)
+        ├─> Met à jour portfolio.json et éventuellement config.json
         ├─> Commit & push les changements
         ├─> S'assurer que tout est sur la branche main du remote (PR + merge si nécessaire)
-        └─> Envoie le rapport (en html) par email via Gmail
+        └─> Envoie le rapport (en html) par email
 ```
 
 ## Structure du repository
@@ -29,11 +28,10 @@ Tâche planifiée (cron / Task Scheduler)
 ```
 .
 ├── README.md                   # Ce fichier
-├── MEMORY.md                   # Instructions pour l'Agent IA
 ├── portfolio.json              # État actuel du portefeuille
 ├── config.json                 # Configuration (profil de risque, watchlist, préférences)
-├── report_to_html.py           # Convertit un rapport en .md vers du .html
-├── send_email.py               # Envoi d'email via Resend
+├── report_to_html_node.js      # Convertit un rapport en .md vers du .html
+├── send_email_node.js          # Envoi d'email via nodemailer
 └── reports/                    # Historique des rapports quotidiens
     └── YYYY-MM-DD.md           # Rapport du jour
 ```
@@ -62,12 +60,8 @@ Paramètres de l'assistant :
 - Après chaque rapport généré :
   1. **Commit** les changements avec un message descriptif.
   2. **Push** directement sur `main`.
-- Utiliser le token Github contenu dans `GITHUB_PAT`.
+- Utiliser le token Github contenu dans `GH_TOKEN` si nécessaire.
 - Pour éviter les erreurs d'authentification lors du push, utiliser l'URL du remote incluant le token : `https://x-access-token:<TOKEN>@github.com/user/repo.git` ou s'assurer que la CLI `gh` est authentifiée avec le PAT.
-
-### Source de données
-
-- Utiliser le **Web** (cash.ch, leonteq, swissquote, Yahoo Finance, etc.) comme source de prix et d'analyse pour tous les instruments.
 
 ### Envoi d'email
 
@@ -80,7 +74,3 @@ Paramètres de l'assistant :
 ### Format du rapprt
 
 - Lire le dernier rapport et formater le nouveau de la même manière (exactement la même structure, les mêmes chapitres!!)
-
-### Cleanup
-
-- Après chaque commit (donc chaque nouveau rapport, normalement): TOUT DOIT ETRE SUR LA BRANCHE MAIN DU REMOTE. A l'agent de se débrouiller pour pousser sur le remote, créer et merger un PR si besoin. 

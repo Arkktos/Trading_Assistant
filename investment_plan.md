@@ -72,4 +72,4 @@ MSFT a $379 — bien sous la zone cible originale (420-440). Opportunite.
 
 ## Changelog
 - 2026-06-13 : Plan initial cree. S1 BTC execute.
-- 2026-06-21 : AUCHAH → ZGLD. Rattrapage S1 or + S2 consolides pour lundi. MSFT a $379 (sous zone cible 420-440).
+- 2026-06-21 : AUCHAH → ZGLD. Rattrapage S1 or + S2 consolides pour lundi 22. MSFT a $379 (sous zone cible 420-440).
