@@ -243,6 +243,10 @@ function mdToHtml(md) {
             para.push(lines[i]);
             i++;
         }
+        if (para.length === 0) {
+            i++;
+            continue;
+        }
         const text = inline(para.join(" "));
         if (text.includes("⚠️")) {
             bodyParts.push(`<div class="warning"><p>${text}</p></div>`);
