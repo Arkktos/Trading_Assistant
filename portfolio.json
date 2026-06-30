@@ -1,18 +1,23 @@
 {
   "last_updated": "2026-06-30",
   "currency": "CHF",
-  "cash_chf": 2280.09,
-  "cash_usd": 2988.75,
+  "cash_chf": 2258.47,
+  "cash_usd": 2616.26,
   "deposited_capital": 7500.00,
   "positions": [
     {
       "ticker": "BTC",
-      "quantity": 0.00584695,
-      "average_buy_price": 64136.00,
+      "quantity": 0.01199,
+      "average_buy_price": 62235.22,
       "currency": "USD",
       "buy_date": "2026-06-13",
-      "total_cost_usd": 375.05,
-      "notes": "Première tranche S1 du plan de réinvestissement."
+      "last_buy_date": "2026-06-29",
+      "total_cost_usd": 750.17,
+      "tranches": [
+        {"date": "2026-06-13", "quantity": 0.00584695, "price": 64136.00, "cost_usd": 375.05, "label": "S1"},
+        {"date": "2026-06-29", "quantity": 0.00614627, "price": 60427.00, "fees_usd": 3.72, "cost_usd": 375.12, "order_id": 299902592, "label": "S3 DCA"}
+      ],
+      "notes": "S1 + S3 DCA. Tranche 1: 0.00584695 BTC à $64'136 (13/06). Tranche 2: 0.00614627 BTC à $60'427 (29/06). F&G 15 au moment de l'achat S3."
     },
     {
       "ticker": "ZGLD",
@@ -34,12 +39,12 @@
     },
     {
       "ticker": "MSFT",
-      "quantity": 3.0602,
+      "quantity": 3.3062,
       "average_buy_price": 374.18,
       "currency": "USD",
       "buy_date": "2026-06-22",
       "total_cost_usd": 1250.00,
-      "notes": "S2 — Infra/B2B. Entrée très attractive sous zone cible."
+      "notes": "S2 — Infra/B2B. Qty corrigée vs Swissquote (était 3.0602)."
     }
   ],
   "closed_positions": [
@@ -125,14 +130,15 @@
   "pending_orders": [],
   "performance": {
     "deposited_capital": 7500.00,
-    "cash_chf": 2280.09,
-    "cash_usd": 2988.75,
-    "cash_usd_in_chf": 2413.12,
-    "positions_value_chf": 2749.14,
-    "total_value_chf": 7442.35,
-    "total_return_chf": -57.65,
-    "total_return_pct": -0.77,
-    "realized_pnl_net_chf": 703.32,
-    "latent_pnl_chf": -760.97,
-    "usdchf_rate": 0.8074,
-    "note": "MAJ 30/06/2026. Fin Q2. Pas de transactions. BTC $59.1k, F&G 15 plancher cycle. GOOGL consolide $352.50. MSFT -17% en juin. Or volatile low $3943. CRWD split J-2."
+    "cash_chf": 2258.47,
+    "cash_usd": 2616.26,
+    "cash_usd_in_chf": 2114.26,
+    "positions_value_chf": 3129.96,
+    "total_value_chf": 7502.77,
+    "total_return_chf": 2.77,
+    "total_return_pct": 0.04,
+    "realized_pnl_net_chf": 681.70,
+    "latent_pnl_chf": -678.93,
+    "usdchf_rate": 0.8082,
+    "custody_fees_chf": -21.62,
+    "note": "MAJ 30/06/2026. Données Swissquote live. BTC DCA S3 exécuté 29/06 ($60'427). Droits de garde -21.62 CHF. MSFT qty corrigée 3.3062. Total Swissquote: 7'502.77 CHF."
