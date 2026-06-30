@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-29",
+  "last_updated": "2026-06-30",
   "currency": "CHF",
   "cash_chf": 2280.09,
   "cash_usd": 2988.75,
@@ -127,12 +127,12 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2280.09,
     "cash_usd": 2988.75,
-    "cash_usd_in_chf": 2416.11,
-    "positions_value_chf": 2750.47,
-    "total_value_chf": 7446.67,
-    "total_return_chf": -53.33,
-    "total_return_pct": -0.71,
+    "cash_usd_in_chf": 2413.12,
+    "positions_value_chf": 2749.14,
+    "total_value_chf": 7442.35,
+    "total_return_chf": -57.65,
+    "total_return_pct": -0.77,
     "realized_pnl_net_chf": 703.32,
-    "latent_pnl_chf": -756.65,
-    "usdchf_rate": 0.8084,
-    "note": "MAJ 29/06/2026. Pas de transactions. GOOGL +4% Dow debut. Supreme Court protège Fed. US-Iran cessez-le-feu. BTC $59.8k, F&G 17. Or recule $4040."
+    "latent_pnl_chf": -760.97,
+    "usdchf_rate": 0.8074,
+    "note": "MAJ 30/06/2026. Fin Q2. Pas de transactions. BTC $59.1k, F&G 15 plancher cycle. GOOGL consolide $352.50. MSFT -17% en juin. Or volatile low $3943. CRWD split J-2."
