@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-30",
+  "last_updated": "2026-07-01",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2616.26,
@@ -132,13 +132,13 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2616.26,
-    "cash_usd_in_chf": 2114.26,
-    "positions_value_chf": 3129.96,
-    "total_value_chf": 7502.77,
-    "total_return_chf": 2.77,
-    "total_return_pct": 0.04,
+    "cash_usd_in_chf": 2114.00,
+    "positions_value_chf": 3153.00,
+    "total_value_chf": 7525.00,
+    "total_return_chf": 25.00,
+    "total_return_pct": 0.34,
     "realized_pnl_net_chf": 681.70,
-    "latent_pnl_chf": -678.93,
-    "usdchf_rate": 0.8082,
+    "latent_pnl_chf": -656.70,
+    "usdchf_rate": 0.8080,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 30/06/2026. Données Swissquote live. BTC DCA S3 exécuté 29/06 ($60'427). Droits de garde -21.62 CHF. MSFT qty corrigée 3.3062. Total Swissquote: 7'502.77 CHF."
+    "note": "MAJ 01/07/2026. Données intraday (marchés US encore ouverts). BTC rebond $60'139 (+2.7%). F&G 11 plancher cycle. CRWD split 4:1 effectif ce soir. NFP demain."
