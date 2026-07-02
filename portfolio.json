@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01",
+  "last_updated": "2026-07-02",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2616.26,
@@ -132,13 +132,13 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2616.26,
-    "cash_usd_in_chf": 2114.00,
-    "positions_value_chf": 3153.00,
-    "total_value_chf": 7525.00,
-    "total_return_chf": 25.00,
-    "total_return_pct": 0.34,
+    "cash_usd_in_chf": 2116.00,
+    "positions_value_chf": 3207.00,
+    "total_value_chf": 7581.00,
+    "total_return_chf": 81.00,
+    "total_return_pct": 1.08,
     "realized_pnl_net_chf": 681.70,
-    "latent_pnl_chf": -656.70,
-    "usdchf_rate": 0.8080,
+    "latent_pnl_chf": -600.70,
+    "usdchf_rate": 0.8087,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 01/07/2026. Données intraday (marchés US encore ouverts). BTC rebond $60'139 (+2.7%). F&G 11 plancher cycle. CRWD split 4:1 effectif ce soir. NFP demain."
+    "note": "MAJ 02/07/2026. Données intraday. NFP +57k choc (vs 110k att.). MSFT rebond +4% à $386. BTC $61'598 (+2.4%). Or repasse $4'000. CRWD post-split J1 $193. Marchés fermés demain."
