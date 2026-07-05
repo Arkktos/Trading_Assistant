@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-02",
+  "last_updated": "2026-07-05",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2616.26,
@@ -132,13 +132,13 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2616.26,
-    "cash_usd_in_chf": 2116.00,
-    "positions_value_chf": 3207.00,
-    "total_value_chf": 7581.00,
-    "total_return_chf": 81.00,
-    "total_return_pct": 1.08,
+    "cash_usd_in_chf": 2098.00,
+    "positions_value_chf": 3222.00,
+    "total_value_chf": 7580.00,
+    "total_return_chf": 80.00,
+    "total_return_pct": 1.07,
     "realized_pnl_net_chf": 681.70,
-    "latent_pnl_chf": -600.70,
-    "usdchf_rate": 0.8087,
+    "latent_pnl_chf": -601.70,
+    "usdchf_rate": 0.8022,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 02/07/2026. Données intraday. NFP +57k choc (vs 110k att.). MSFT rebond +4% à $386. BTC $61'598 (+2.4%). Or repasse $4'000. CRWD post-split J1 $193. Marchés fermés demain."
+    "note": "MAJ 05/07/2026. Weekend update. BTC $63k (+2.3%, retour en profit). MSFT clôture $390.49 (+4.4%). GOOGL $359.91 (+3.0%). Or $4'170. Dow record 52'900. USD/CHF 0.8022 (CHF fort neutralise gains USD). F&G crypto 23."
