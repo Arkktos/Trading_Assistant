@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-06",
+  "last_updated": "2026-07-08",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2616.26,
@@ -132,13 +132,13 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2616.26,
-    "cash_usd_in_chf": 2108.00,
-    "positions_value_chf": 3246.00,
-    "total_value_chf": 7612.00,
-    "total_return_chf": 112.00,
-    "total_return_pct": 1.49,
+    "cash_usd_in_chf": 2119.00,
+    "positions_value_chf": 3222.00,
+    "total_value_chf": 7599.00,
+    "total_return_chf": 99.00,
+    "total_return_pct": 1.32,
     "realized_pnl_net_chf": 681.70,
-    "latent_pnl_chf": -569.70,
-    "usdchf_rate": 0.8053,
+    "latent_pnl_chf": -582.70,
+    "usdchf_rate": 0.8098,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 06/07/2026 19h CET (mid-session). Dow record 53'000. Nasdaq +1.5%. ISM Services PMI 54.0% (vs 53.7 consensus). BTC $63'643 (+2.3%). MSFT $385.01 (-1.4% session, +2.9% vs coût). GOOGL $364.03 (+4.2%). ZGLD 991.50 CHF (-1.1%). CRWD $201.28 breakout. Or $4'169. USD/CHF 0.8053. F&G crypto 27. FOMC Minutes mercredi."
+    "note": "MAJ 08/07/2026 18h30 CET (mid-session). Trump déclare cessez-le-feu Iran 'terminé'. Brent +8% $80. Dow -1.26% à 52'257 (perd 53k). S&P -0.54%. BTC $61'864 (-3.3%, sous coût -0.6%). MSFT $382.41 (-1.7%). GOOGL $361.37 (-1.5%, +3.4% vs coût). ZGLD 977 CHF (-2.6%). CRWD pullback $188.79 (-6.2% depuis lundi). Or $4'051 (-2.5%). USD/CHF 0.8098. F&G crypto ~20-27 (Fear). FOMC Minutes 14h ET (pas encore publiées)."
