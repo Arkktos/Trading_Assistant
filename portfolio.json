@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-08",
+  "last_updated": "2026-07-10",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2616.26,
@@ -132,13 +132,13 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2616.26,
-    "cash_usd_in_chf": 2119.00,
-    "positions_value_chf": 3222.00,
-    "total_value_chf": 7599.00,
-    "total_return_chf": 99.00,
-    "total_return_pct": 1.32,
+    "cash_usd_in_chf": 2114.00,
+    "positions_value_chf": 3220.00,
+    "total_value_chf": 7592.00,
+    "total_return_chf": 92.00,
+    "total_return_pct": 1.23,
     "realized_pnl_net_chf": 681.70,
-    "latent_pnl_chf": -582.70,
-    "usdchf_rate": 0.8098,
+    "latent_pnl_chf": -589.70,
+    "usdchf_rate": 0.8080,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 08/07/2026 18h30 CET (mid-session). Trump déclare cessez-le-feu Iran 'terminé'. Brent +8% $80. Dow -1.26% à 52'257 (perd 53k). S&P -0.54%. BTC $61'864 (-3.3%, sous coût -0.6%). MSFT $382.41 (-1.7%). GOOGL $361.37 (-1.5%, +3.4% vs coût). ZGLD 977 CHF (-2.6%). CRWD pullback $188.79 (-6.2% depuis lundi). Or $4'051 (-2.5%). USD/CHF 0.8098. F&G crypto ~20-27 (Fear). FOMC Minutes 14h ET (pas encore publiées)."
+    "note": "MAJ 10/07/2026. Données clôture 09/07 + mid-session ~12h ET. SK Hynix mega-IPO $26.5Mds Nasdaq. Jobless claims 215k (solides). PepsiCo EPS miss. Iran talks via Qatar, Brent retombe $76. BTC $63'924 (+2.71%, repasse au-dessus du coût). MSFT $382.82 (~flat). GOOGL $355.98 (-0.8%, +1.88% vs coût). ZGLD 980.60 CHF (+1.4% vs creux). CRWD ~$196. Or $4'110 (+2% rebond). USD/CHF 0.8080. F&G crypto 28-30 (Fear, amélioration)."
