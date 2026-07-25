@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-18",
+  "last_updated": "2026-07-25",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2616.26,
@@ -132,13 +132,13 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2616.26,
-    "cash_usd_in_chf": 2113.00,
-    "positions_value_chf": 3195.00,
-    "total_value_chf": 7565.00,
-    "total_return_chf": 65.00,
-    "total_return_pct": 0.87,
+    "cash_usd_in_chf": 2136.00,
+    "positions_value_chf": 3126.00,
+    "total_value_chf": 7520.00,
+    "total_return_chf": 20.00,
+    "total_return_pct": 0.26,
     "realized_pnl_net_chf": 681.70,
-    "latent_pnl_chf": -616.70,
-    "usdchf_rate": 0.8075,
+    "latent_pnl_chf": -661.70,
+    "usdchf_rate": 0.8165,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 18/07/2026. Données clôture vendredi 17/07. Gemini 3.5 Pro delay (Bloomberg) → GOOGL -6.5% en 2j ($370.92→$346.77). Kimi K3 (Moonshot, 2.8T params) choc DeepSeek-bis → PHLX semi bear market (-20%). NFLX -7.26% Q2 miss. Iran 7e nuit frappes, Brent $85.95. VIX 18.77 (+12%). BTC ~$62'800 (+0.91% vs coût). MSFT $393.82 (+5.25%). GOOGL $346.77 (-0.76%, dans le rouge). ZGLD ~955 CHF (-4.77%). USD/CHF 0.8075. F&G crypto 27 (Fear). Earnings GOOGL 22/07, MSFT 29/07, FOMC 29-30/07."
+    "note": "MAJ 25/07/2026. Données clôture vendredi 24/07. GOOGL Q2 record ($119.8B rev, Cloud +82%) MAIS capex $205B → -7%, position -8.50% ($319.74 vs $349.42). TSLA -14.5% EPS miss. Houthi attaque tankers saoudiens → Brent $100+. Iran 13e nuit frappes, Trump menace 'massive attack'. Nasdaq -2.1% hebdo. BTC ~$64'000 (+2.84%). MSFT $381.70 (+2.01%, contagion capex). ZGLD 985.30 CHF (-1.75%). USD/CHF 0.8165. VIX 18.70. F&G crypto 27 (Fear). FOMC 28-29/07, MSFT earnings 29/07."
