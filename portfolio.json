@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-25",
+  "last_updated": "2026-07-27",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2616.26,
@@ -132,13 +132,13 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2616.26,
-    "cash_usd_in_chf": 2136.00,
-    "positions_value_chf": 3126.00,
-    "total_value_chf": 7520.00,
-    "total_return_chf": 20.00,
-    "total_return_pct": 0.26,
+    "cash_usd_in_chf": 2139.00,
+    "positions_value_chf": 3141.00,
+    "total_value_chf": 7538.00,
+    "total_return_chf": 38.00,
+    "total_return_pct": 0.51,
     "realized_pnl_net_chf": 681.70,
-    "latent_pnl_chf": -661.70,
-    "usdchf_rate": 0.8165,
+    "latent_pnl_chf": -643.70,
+    "usdchf_rate": 0.8175,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 25/07/2026. Données clôture vendredi 24/07. GOOGL Q2 record ($119.8B rev, Cloud +82%) MAIS capex $205B → -7%, position -8.50% ($319.74 vs $349.42). TSLA -14.5% EPS miss. Houthi attaque tankers saoudiens → Brent $100+. Iran 13e nuit frappes, Trump menace 'massive attack'. Nasdaq -2.1% hebdo. BTC ~$64'000 (+2.84%). MSFT $381.70 (+2.01%, contagion capex). ZGLD 985.30 CHF (-1.75%). USD/CHF 0.8165. VIX 18.70. F&G crypto 27 (Fear). FOMC 28-29/07, MSFT earnings 29/07."
+    "note": "MAJ 27/07/2026. Cessez-le-feu de facto US-Iran (3e jour sans frappes). Brent crash -9% à $87-91. Futures Nasdaq +1.4%. Kimi K3 2.8T poids publiés HuggingFace. BTC ~$65'350 (+4.97% vs coût, +2.1% weekend). GOOGL $319.74 inchangé (-8.50%). MSFT $381.70 inchangé (+2.01%). ZGLD 985.30 CHF (-1.75%). Or $4'082. USD/CHF 0.8175. VIX 18.70. F&G crypto 30 (Fear). FOMC 28-29/07, MSFT earnings 29/07, Meta 30/07, Apple 31/07."
