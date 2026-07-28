@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-27",
+  "last_updated": "2026-07-28",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2616.26,
@@ -132,13 +132,13 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2616.26,
-    "cash_usd_in_chf": 2139.00,
-    "positions_value_chf": 3141.00,
-    "total_value_chf": 7538.00,
-    "total_return_chf": 38.00,
-    "total_return_pct": 0.51,
+    "cash_usd_in_chf": 2144.00,
+    "positions_value_chf": 3216.00,
+    "total_value_chf": 7618.00,
+    "total_return_chf": 118.00,
+    "total_return_pct": 1.57,
     "realized_pnl_net_chf": 681.70,
-    "latent_pnl_chf": -643.70,
-    "usdchf_rate": 0.8175,
+    "latent_pnl_chf": -563.70,
+    "usdchf_rate": 0.8196,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 27/07/2026. Cessez-le-feu de facto US-Iran (3e jour sans frappes). Brent crash -9% à $87-91. Futures Nasdaq +1.4%. Kimi K3 2.8T poids publiés HuggingFace. BTC ~$65'350 (+4.97% vs coût, +2.1% weekend). GOOGL $319.74 inchangé (-8.50%). MSFT $381.70 inchangé (+2.01%). ZGLD 985.30 CHF (-1.75%). Or $4'082. USD/CHF 0.8175. VIX 18.70. F&G crypto 30 (Fear). FOMC 28-29/07, MSFT earnings 29/07, Meta 30/07, Apple 31/07."
+    "note": "MAJ 28/07/2026. FOMC Jour 1, hold attendu ~70%. Dow +601 (+1.15%), S&P +0.35%, Nasdaq -0.03%. Chip selloff jour 4 (NVDA -5% lundi circular financing, China DUV ASML -8%). GOOGL ~$335 (+4.8% en 2j, -4.13% vs coût). MSFT ~$396 (+3.8% en 2j, +5.83% vs coût, earnings demain). BTC ~$63'300 (-3.1% pré-Fed, +1.71% vs coût). ZGLD 975 CHF (-2.77%). Brent $84.09 (-13% depuis vendredi). Or $4'030. USD/CHF 0.8196. F&G crypto ~28 (Fear). MSFT earnings + FOMC décision mercredi 29/07. Apple earnings jeudi 30/07."
