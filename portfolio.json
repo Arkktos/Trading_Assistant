@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-07-29",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2616.26,
@@ -132,13 +132,13 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2616.26,
-    "cash_usd_in_chf": 2144.00,
-    "positions_value_chf": 3216.00,
-    "total_value_chf": 7618.00,
-    "total_return_chf": 118.00,
-    "total_return_pct": 1.57,
+    "cash_usd_in_chf": 2143.00,
+    "positions_value_chf": 3229.00,
+    "total_value_chf": 7630.00,
+    "total_return_chf": 130.00,
+    "total_return_pct": 1.73,
     "realized_pnl_net_chf": 681.70,
-    "latent_pnl_chf": -563.70,
-    "usdchf_rate": 0.8196,
+    "latent_pnl_chf": -551.70,
+    "usdchf_rate": 0.8190,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 28/07/2026. FOMC Jour 1, hold attendu ~70%. Dow +601 (+1.15%), S&P +0.35%, Nasdaq -0.03%. Chip selloff jour 4 (NVDA -5% lundi circular financing, China DUV ASML -8%). GOOGL ~$335 (+4.8% en 2j, -4.13% vs coût). MSFT ~$396 (+3.8% en 2j, +5.83% vs coût, earnings demain). BTC ~$63'300 (-3.1% pré-Fed, +1.71% vs coût). ZGLD 975 CHF (-2.77%). Brent $84.09 (-13% depuis vendredi). Or $4'030. USD/CHF 0.8196. F&G crypto ~28 (Fear). MSFT earnings + FOMC décision mercredi 29/07. Apple earnings jeudi 30/07."
+    "note": "MAJ 29/07/2026. FOMC hold 3.50-3.75% (5e consécutif, dovish). Iran surprise attack IRGC missiles sur US Jordanie — cessez-le-feu brisé. Brent +7% à $90+. Dow ~-1.4% (-790pts), S&P ~-0.5%, Nasdaq ~-0.7%. VIX ~20 (+9%). NVDA $192 (-2.3%) selloff jour 5. GOOGL ~$336 (+0.7%, -3.84% vs coût). MSFT ~$395 (+0.4%, +5.56% vs coût, earnings ce soir). BTC ~$64'500 (+1.9%, +3.64% vs coût, best performer). ZGLD ~980 CHF (-2.27%). Or ~$4'050. USD/CHF 0.8190. Sept hike priced 77%. MSFT/Meta earnings après clôture. Apple earnings jeudi 30/07."
