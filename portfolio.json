@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29",
+  "last_updated": "2026-07-31",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2616.26,
@@ -132,13 +132,13 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2616.26,
-    "cash_usd_in_chf": 2143.00,
-    "positions_value_chf": 3229.00,
-    "total_value_chf": 7630.00,
-    "total_return_chf": 130.00,
-    "total_return_pct": 1.73,
+    "cash_usd_in_chf": 2112.00,
+    "positions_value_chf": 3384.00,
+    "total_value_chf": 7755.00,
+    "total_return_chf": 255.00,
+    "total_return_pct": 3.40,
     "realized_pnl_net_chf": 681.70,
-    "latent_pnl_chf": -551.70,
-    "usdchf_rate": 0.8190,
+    "latent_pnl_chf": -405.08,
+    "usdchf_rate": 0.8073,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 29/07/2026. FOMC hold 3.50-3.75% (5e consécutif, dovish). Iran surprise attack IRGC missiles sur US Jordanie — cessez-le-feu brisé. Brent +7% à $90+. Dow ~-1.4% (-790pts), S&P ~-0.5%, Nasdaq ~-0.7%. VIX ~20 (+9%). NVDA $192 (-2.3%) selloff jour 5. GOOGL ~$336 (+0.7%, -3.84% vs coût). MSFT ~$395 (+0.4%, +5.56% vs coût, earnings ce soir). BTC ~$64'500 (+1.9%, +3.64% vs coût, best performer). ZGLD ~980 CHF (-2.27%). Or ~$4'050. USD/CHF 0.8190. Sept hike priced 77%. MSFT/Meta earnings après clôture. Apple earnings jeudi 30/07."
+    "note": "MAJ 31/07/2026. Semaine earnings historique. MSFT blowout: $90B rev, $4.74 EPS, Azure +43%, stock +15.5% (+$450B record single-day). Meta -8%: EPS miss 14%, FCF $784M, capex $31B. AAPL -9.2%: beat mais guidance faible, Tim Cook last call. AMZN +13%: $200.6B rev, EPS $5.75 (3x est), AWS +37%. GOOGL $348.34 (+4.4%, -0.31% vs coût — quasi break-even). MSFT $455.98 (+21.86% vs coût, star). BTC ~$63'875 (+2.63%). ZGLD ~976 CHF (-2.67%). Or ~$4'080. Brent $86 (repli de $90+). VIX 17.09 (risk-on). USD/CHF 0.8073 (-1.4%). Iran frappes puis pause, négociations. MoU expire 16/08. Portefeuille nouveau sommet +3.40%. Hyperscalers capex combiné $720-745B."
