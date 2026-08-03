@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-03",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2616.26,
@@ -132,13 +132,13 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2616.26,
-    "cash_usd_in_chf": 2112.00,
-    "positions_value_chf": 3384.00,
-    "total_value_chf": 7755.00,
-    "total_return_chf": 255.00,
-    "total_return_pct": 3.40,
+    "cash_usd_in_chf": 2113.00,
+    "positions_value_chf": 3547.00,
+    "total_value_chf": 7918.00,
+    "total_return_chf": 418.00,
+    "total_return_pct": 5.57,
     "realized_pnl_net_chf": 681.70,
-    "latent_pnl_chf": -405.08,
-    "usdchf_rate": 0.8073,
+    "latent_pnl_chf": -242.08,
+    "usdchf_rate": 0.8075,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 31/07/2026. Semaine earnings historique. MSFT blowout: $90B rev, $4.74 EPS, Azure +43%, stock +15.5% (+$450B record single-day). Meta -8%: EPS miss 14%, FCF $784M, capex $31B. AAPL -9.2%: beat mais guidance faible, Tim Cook last call. AMZN +13%: $200.6B rev, EPS $5.75 (3x est), AWS +37%. GOOGL $348.34 (+4.4%, -0.31% vs coût — quasi break-even). MSFT $455.98 (+21.86% vs coût, star). BTC ~$63'875 (+2.63%). ZGLD ~976 CHF (-2.67%). Or ~$4'080. Brent $86 (repli de $90+). VIX 17.09 (risk-on). USD/CHF 0.8073 (-1.4%). Iran frappes puis pause, négociations. MoU expire 16/08. Portefeuille nouveau sommet +3.40%. Hyperscalers capex combiné $720-745B."
+    "note": "MAJ 03/08/2026. Dow record 53'166 +681pts. Oil crash Brent -7% à $83 — Trump annule attaque Iran, clame deal 'imminent'. MSFT $488.25 (+5.06%, +30.49% vs coût — rally continu post-earnings). GOOGL $374.62 (+5.19%, +7.21% vs coût — FRANCHIT BREAK-EVEN pour première fois). BTC ~$62'700 (+0.75% vs coût, recul malgré risk-on). ZGLD ~969 CHF (-3.37% vs coût, or $4'050). ISM Manufacturing 55.6 (7e expansion, plus haut depuis mai 2022). VIX ~16. USD/CHF 0.8075 (stable). NVDA $209 (+3.88% recovery). CRWD $202 (+6%), PANW $346 (+4.3%). Portefeuille nouveau sommet +5.57% (7'918 CHF). Semaine: PLTR ce soir, AMD mardi, NFP vendredi, CPI 12/08."
