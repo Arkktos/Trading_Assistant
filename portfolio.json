@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-04",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2616.26,
@@ -132,13 +132,13 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2616.26,
-    "cash_usd_in_chf": 2113.00,
-    "positions_value_chf": 3547.00,
-    "total_value_chf": 7918.00,
-    "total_return_chf": 418.00,
-    "total_return_pct": 5.57,
+    "cash_usd_in_chf": 2116.00,
+    "positions_value_chf": 3537.00,
+    "total_value_chf": 7911.00,
+    "total_return_chf": 411.00,
+    "total_return_pct": 5.48,
     "realized_pnl_net_chf": 681.70,
-    "latent_pnl_chf": -242.08,
-    "usdchf_rate": 0.8075,
+    "latent_pnl_chf": -249.08,
+    "usdchf_rate": 0.8086,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 03/08/2026. Dow record 53'166 +681pts. Oil crash Brent -7% à $83 — Trump annule attaque Iran, clame deal 'imminent'. MSFT $488.25 (+5.06%, +30.49% vs coût — rally continu post-earnings). GOOGL $374.62 (+5.19%, +7.21% vs coût — FRANCHIT BREAK-EVEN pour première fois). BTC ~$62'700 (+0.75% vs coût, recul malgré risk-on). ZGLD ~969 CHF (-3.37% vs coût, or $4'050). ISM Manufacturing 55.6 (7e expansion, plus haut depuis mai 2022). VIX ~16. USD/CHF 0.8075 (stable). NVDA $209 (+3.88% recovery). CRWD $202 (+6%), PANW $346 (+4.3%). Portefeuille nouveau sommet +5.57% (7'918 CHF). Semaine: PLTR ce soir, AMD mardi, NFP vendredi, CPI 12/08."
+    "note": "MAJ 04/08/2026. S&P 500 RECORD HISTORIQUE >7'700 — premier ATH depuis 2 juin. Oil crash jour 2: Brent -4.7% à $80 (WTI $76), Bessent 'deal today or tomorrow'. PLTR +26% blowout ($0.41 EPS, +93% YoY, US commercial +149%). Semis PHLX +5.7% (INTC +10%, AMD +8%, AVGO +6%). MSFT $479.20 (-1.85%, +28.06% vs coût — consolidation post-ATH $492 intraday). GOOGL $373.51 (flat, +6.89% vs coût — tient break-even, range volatile $361-$377). BTC ~$63'900 (+1.9%, +2.68% vs coût — rebond risk-on). ZGLD ~975 CHF (-2.77% vs coût, or $4'080). JOLTS 7.4M stable. VIX ~16.5. USD/CHF 0.8086. NVDA $213 (+2.9%). CRWD $203 (flat), PANW $360 (+3.6%). AMD earnings ce soir. NFP vendredi, CPI 12/08."
