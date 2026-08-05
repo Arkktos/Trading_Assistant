@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-04",
+  "last_updated": "2026-08-05",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2616.26,
@@ -132,13 +132,13 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2616.26,
-    "cash_usd_in_chf": 2116.00,
-    "positions_value_chf": 3537.00,
-    "total_value_chf": 7911.00,
-    "total_return_chf": 411.00,
-    "total_return_pct": 5.48,
+    "cash_usd_in_chf": 2117.00,
+    "positions_value_chf": 3548.00,
+    "total_value_chf": 7923.00,
+    "total_return_chf": 423.00,
+    "total_return_pct": 5.64,
     "realized_pnl_net_chf": 681.70,
-    "latent_pnl_chf": -249.08,
-    "usdchf_rate": 0.8086,
+    "latent_pnl_chf": -236.08,
+    "usdchf_rate": 0.8090,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 04/08/2026. S&P 500 RECORD HISTORIQUE >7'700 — premier ATH depuis 2 juin. Oil crash jour 2: Brent -4.7% à $80 (WTI $76), Bessent 'deal today or tomorrow'. PLTR +26% blowout ($0.41 EPS, +93% YoY, US commercial +149%). Semis PHLX +5.7% (INTC +10%, AMD +8%, AVGO +6%). MSFT $479.20 (-1.85%, +28.06% vs coût — consolidation post-ATH $492 intraday). GOOGL $373.51 (flat, +6.89% vs coût — tient break-even, range volatile $361-$377). BTC ~$63'900 (+1.9%, +2.68% vs coût — rebond risk-on). ZGLD ~975 CHF (-2.77% vs coût, or $4'080). JOLTS 7.4M stable. VIX ~16.5. USD/CHF 0.8086. NVDA $213 (+2.9%). CRWD $203 (flat), PANW $360 (+3.6%). AMD earnings ce soir. NFP vendredi, CPI 12/08."
+    "note": "MAJ 05/08/2026. GOOGL -3.6% SELLOFF — Jeff Dean quitte Google après 27 ans, Hassabis step-back DeepMind CEO → chair, brain drain 4 cadres AI clés vers Discovery Loop. GOOGL $364.07 (range $357-$384, +4.19% vs coût — recule de +6.89%). MSFT $492.81 (+1.06%, touch $499 intraday, +31.69% vs coût — star du portefeuille, proche $500). AMD -6% malgré Q2 beat ($1.66 EPS, $11.5B rev +50%, DC $6.7B +107%). Oil crash jour 3: Brent $78 (WTI $75), deal 60 jours Hormuz imminent (Axios). Dow record 54'522 (+0.81%), S&P flat 7'737, Nasdaq -0.41%. ADP 44K (chute vs 98K juin). ISM Services 54.1 (miss). Shopify +25% blowout. Disney beat $2.06 EPS. SpaceX -8% capex shock. BTC ~$64'258 (+0.6%, +3.25% vs coût). ZGLD ~980 CHF (-2.27% vs coût). VIX ~16.5. USD/CHF 0.8090. NFP vendredi, CPI 12/08."
