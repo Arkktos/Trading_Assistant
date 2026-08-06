@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05",
+  "last_updated": "2026-08-06",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2616.26,
@@ -132,13 +132,13 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2616.26,
-    "cash_usd_in_chf": 2117.00,
-    "positions_value_chf": 3548.00,
-    "total_value_chf": 7923.00,
-    "total_return_chf": 423.00,
-    "total_return_pct": 5.64,
+    "cash_usd_in_chf": 2119.00,
+    "positions_value_chf": 3544.00,
+    "total_value_chf": 7922.00,
+    "total_return_chf": 422.00,
+    "total_return_pct": 5.63,
     "realized_pnl_net_chf": 681.70,
-    "latent_pnl_chf": -236.08,
-    "usdchf_rate": 0.8090,
+    "latent_pnl_chf": -237.08,
+    "usdchf_rate": 0.8100,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 05/08/2026. GOOGL -3.6% SELLOFF — Jeff Dean quitte Google après 27 ans, Hassabis step-back DeepMind CEO → chair, brain drain 4 cadres AI clés vers Discovery Loop. GOOGL $364.07 (range $357-$384, +4.19% vs coût — recule de +6.89%). MSFT $492.81 (+1.06%, touch $499 intraday, +31.69% vs coût — star du portefeuille, proche $500). AMD -6% malgré Q2 beat ($1.66 EPS, $11.5B rev +50%, DC $6.7B +107%). Oil crash jour 3: Brent $78 (WTI $75), deal 60 jours Hormuz imminent (Axios). Dow record 54'522 (+0.81%), S&P flat 7'737, Nasdaq -0.41%. ADP 44K (chute vs 98K juin). ISM Services 54.1 (miss). Shopify +25% blowout. Disney beat $2.06 EPS. SpaceX -8% capex shock. BTC ~$64'258 (+0.6%, +3.25% vs coût). ZGLD ~980 CHF (-2.27% vs coût). VIX ~16.5. USD/CHF 0.8090. NFP vendredi, CPI 12/08."
+    "note": "MAJ 06/08/2026. MSFT $497 frôle $500 (high $498.97) +32.83% vs coût — star absolue, 2e test $500 cette semaine. GOOGL $357.25 (-1.43%) jour 2 brain drain Dean/Hassabis, teste support $355-357 (low $356.88), +2.24% vs coût — marge très mince. Dow casse streak 4 records 53'930 (-0.77%). Nasdaq -0.83% 26'363. S&P -0.1%. Jobless claims 199K — 3e semaine <200K, longest since 1969, contredit ADP 44K. Eli Lilly blowout $8.38 vs $6.01 EPS, Mounjaro $9.9B. ConocoPhillips beat $3.23 EPS. Iran-Oman Hormuz deal 'agreed in principle' mais conditions (lever blocus ports). Oil bounce WTI $77.75 (+3.37%) après crash 3j. 10Y yield 4.61%. BTC ~$64'700 (+3.96% vs coût). ZGLD ~980 CHF (-2.27% vs coût). VIX 15.48. USD/CHF 0.8100. NFP demain vendredi — consensus 80-88K, le test décisif."
