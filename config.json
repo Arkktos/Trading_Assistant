@@ -2,38 +2,33 @@
   "profil_de_risque": "agressif",
   "watchlist": [
     {
-      "ticker": "AUCHAH",
-      "name": "UBS ETF Gold (CHF Hedged)",
-      "type": "ETF",
-      "target_zone": "Current / -2%",
-      "allocation_target": "1500 CHF"
-    },
-    {
       "ticker": "GOOGL",
       "name": "Alphabet Inc.",
       "type": "Equity",
-      "target_zone": "Support Retracement",
-      "allocation_target": "1200 CHF"
+      "target_zone": "Re-entry $330-340 USD",
+      "allocation_target": "1200 CHF",
+      "status": "Vendu 07/08 ~$355. Surveiller pour re-entry si brain drain stabilise."
     },
     {
       "ticker": "MSFT",
       "name": "Microsoft Corp.",
       "type": "Equity",
-      "target_zone": "420-440 USD",
-      "allocation_target": "1000 CHF"
+      "target_zone": "Re-entry $470-480 USD",
+      "allocation_target": "1000 CHF",
+      "status": "Vendu 07/08 à $501 (+30.9%). Surveiller pullback post-ATH."
     },
     {
       "ticker": "CRWD",
       "name": "CrowdStrike",
       "type": "Equity",
-      "target_zone": "Technical Pullback",
+      "target_zone": "Technical Pullback $170-175",
       "allocation_target": "410 CHF"
     },
     {
       "ticker": "PANW",
       "name": "Palo Alto Networks",
       "type": "Equity",
-      "target_zone": "Technical Pullback",
+      "target_zone": "Technical Pullback $310-315",
       "allocation_target": "410 CHF"
     },
     {
@@ -47,14 +42,7 @@
       "ticker": "SOL",
       "name": "Solana",
       "type": "Crypto",
-      "target_zone": "Support Zone",
-      "allocation_target": "300 CHF"
-    },
-    {
-      "ticker": "ETH",
-      "name": "Ethereum",
-      "type": "Crypto",
-      "target_zone": "Support Zone",
+      "target_zone": "Support Zone $65-70",
       "allocation_target": "300 CHF"
     }
   ],

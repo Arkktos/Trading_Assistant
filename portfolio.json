@@ -2,7 +2,7 @@
   "last_updated": "2026-08-07",
   "currency": "CHF",
   "cash_chf": 2258.47,
-  "cash_usd": 2616.26,
+  "cash_usd": 2998.50,
   "deposited_capital": 7500.00,
   "positions": [
     {
@@ -29,22 +29,24 @@
       "notes": "Rattrapage S1 Or. Remplacement de AUCHAH."
     },
     {
-      "ticker": "GOOGL",
-      "quantity": 4.2106,
-      "average_buy_price": 349.42,
+      "ticker": "NVDA",
+      "quantity": 10,
+      "average_buy_price": 222.03,
       "currency": "USD",
-      "buy_date": "2026-06-22",
-      "total_cost_usd": 1500.00,
-      "notes": "S2 — Tech/Cloud."
+      "buy_date": "2026-08-07",
+      "total_cost_usd": 2220.30,
+      "order_id": 303755274,
+      "notes": "Pre-earnings play (Q2 FY2027 le 26/08). AI/semis conviction post-NFP dovish. 10 shares à $222.03."
     },
     {
-      "ticker": "MSFT",
-      "quantity": 3.3062,
-      "average_buy_price": 374.18,
+      "ticker": "ETH",
+      "quantity": 0.25,
+      "average_buy_price": 1912.70,
       "currency": "USD",
-      "buy_date": "2026-06-22",
-      "total_cost_usd": 1250.00,
-      "notes": "S2 — Infra/B2B. Qty corrigée vs Swissquote (était 3.0602)."
+      "buy_date": "2026-08-07",
+      "total_cost_usd": 478.18,
+      "order_id": 41384708,
+      "notes": "Macro play dovish Fed + DeFi. 0.25 ETH à $1'912.70. Target $2'200-2'500."
     }
   ],
   "closed_positions": [
@@ -70,7 +72,7 @@
     },
     {
       "ticker_swissquote": "GOOGL",
-      "name": "Alphabet Inc. Class A",
+      "name": "Alphabet Inc. Class A (S1)",
       "type": "equity",
       "exchange": "NASDAQ",
       "quantity": 0,
@@ -94,7 +96,7 @@
       "total_net_proceeds_usd": 4585.04,
       "realized_pnl_usd": 380.94,
       "realized_pnl_pct": 9.06,
-      "notes": "Position entierement soldee le 26/05/2026."
+      "notes": "Position S1 entierement soldee le 26/05/2026."
     },
     {
       "ticker_swissquote": "FIVETQ",
@@ -108,13 +110,13 @@
     },
     {
       "ticker_swissquote": "NVDA",
-      "name": "NVIDIA Corporation",
+      "name": "NVIDIA Corporation (S1)",
       "quantity": 0,
       "sell_date": "2026-06-08",
       "sale_price": 210.00,
       "net_proceeds_usd": 3150.00,
       "realized_pnl_usd": -60.00,
-      "notes": "Clôture totale le 08/06."
+      "notes": "Clôture totale le 08/06. Position S1."
     },
     {
       "ticker_swissquote": "CHIPLK",
@@ -125,20 +127,64 @@
       "net_proceeds_chf": 1093.14,
       "realized_pnl_chf": 59.28,
       "notes": "Clôture totale le 08/06."
+    },
+    {
+      "ticker_swissquote": "MSFT",
+      "name": "Microsoft Corporation (S2)",
+      "type": "equity",
+      "exchange": "NASDAQ",
+      "quantity": 0,
+      "average_buy_price": 374.18,
+      "buy_date": "2026-06-22",
+      "sell_date": "2026-08-07",
+      "total_shares": 3.3062,
+      "total_cost_usd": 1250.00,
+      "sale_price_per_unit": 501.00,
+      "order_type": "limit",
+      "gross_proceeds_usd": 1656.41,
+      "fees_sale_usd": 20.00,
+      "net_proceeds_usd": 1636.41,
+      "realized_pnl_usd": 386.41,
+      "realized_pnl_pct": 30.91,
+      "order_id": 303651975,
+      "notes": "Position S2 soldée le 07/08/2026 via limit sell à $501. ATH $505.18 touché intraday. Best performer du portefeuille (+30.9%). Détenue 46 jours."
+    },
+    {
+      "ticker_swissquote": "GOOGL",
+      "name": "Alphabet Inc. Class A (S2)",
+      "type": "equity",
+      "exchange": "NASDAQ",
+      "quantity": 0,
+      "average_buy_price": 349.42,
+      "buy_date": "2026-06-22",
+      "sell_date": "2026-08-07",
+      "total_shares": 4.2106,
+      "total_cost_usd": 1500.00,
+      "sale_price_per_unit": 355.00,
+      "order_type": "market",
+      "gross_proceeds_usd": 1494.76,
+      "fees_sale_usd": 20.00,
+      "net_proceeds_usd": 1474.76,
+      "realized_pnl_usd": -25.24,
+      "realized_pnl_pct": -1.68,
+      "order_id": 303651965,
+      "notes": "Position S2 soldée le 07/08/2026 via market sell. Brain drain (Jeff Dean, Ghemawat, Vinyals, Le) + support $355 cassé. Sortie quasi-flat, perte minime. Détenue 46 jours."
     }
   ],
   "pending_orders": [],
   "performance": {
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
-    "cash_usd": 2616.26,
-    "cash_usd_in_chf": 2119.00,
-    "positions_value_chf": 3556.00,
-    "total_value_chf": 7933.00,
-    "total_return_chf": 433.00,
-    "total_return_pct": 5.78,
-    "realized_pnl_net_chf": 681.70,
-    "latent_pnl_chf": -226.08,
-    "usdchf_rate": 0.8100,
+    "cash_usd": 2998.50,
+    "cash_usd_in_chf": 2422.00,
+    "positions_value_chf": 3197.00,
+    "total_value_chf": 7877.00,
+    "total_return_chf": 377.00,
+    "total_return_pct": 5.03,
+    "realized_pnl_net_chf": 973.00,
+    "latent_pnl_chf": 39.00,
+    "usdchf_rate": 0.8077,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 07/08/2026. NFP CHOC -23K jobs (vs +80K consensus) — première perte d'emplois en mois, révisions -103K sur mai-juin. Chômage 4.1% (paradoxal, participation 61.4% en chute). Salaires 3.2% YoY plus bas depuis mai 2021. Hike septembre odds 57%→44%. MSFT $499.84 ATH $505.18 franchit $500 intraday +33.58% vs coût — milestone historique. GOOGL $354.80 (-0.82%) jour 3 brain drain, low $353.78 casse support $355, +1.54% vs coût — critique. Or explose $4'350 +2.6% meilleure semaine depuis janvier +7%. ZGLD ~1'005 CHF repasse positif +0.22% vs coût. BTC ~$65'000 +4.44% vs coût rebond dovish. Nasdaq +0.86% 26'590. S&P +0.33% 7'751. Dow +0.09% 53'979. 10Y yield 4.65% (baisse post-NFP). VIX 15.15. WTI $78, Brent $82. Iran Hormuz 'moving along' pas finalisé. CPI mardi 12/08 = prochain catalyseur décisif. Portefeuille 7'933 CHF +5.78% +11 CHF vs hier."
+    "note": "MAJ 07/08/2026 post-trades. 4 ordres exécutés: MSFT SELL $501 limit (+30.9%, +$386), GOOGL SELL market ~$355 (-1.7%, -$25), NVDA BUY 10×$222.03, ETH BUY 0.25×$1'912.70. Portefeuille restructuré: MSFT/GOOGL liquidés, NVDA+ETH entrés. Positions: NVDA 10 shares (1'794 CHF, 56%), ZGLD 0.374 (389 CHF, 12%), BTC 0.01199 (628 CHF, 20%), ETH 0.25 (386 CHF, 12%). Cash: 2'258 CHF + $2'999 USD = 4'680 CHF (59%). Total 7'877 CHF (+5.03%). Fees ~$80 sur 4 trades. NVDA earnings 26/08 = prochain catalyseur. CPI 12/08 = macro catalyst."
+  }
+}
