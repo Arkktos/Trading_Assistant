@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-07",
+  "last_updated": "2026-08-11",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2998.50,
@@ -176,15 +176,15 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2998.50,
-    "cash_usd_in_chf": 2422.00,
-    "positions_value_chf": 3197.00,
-    "total_value_chf": 7877.00,
-    "total_return_chf": 377.00,
-    "total_return_pct": 5.03,
+    "cash_usd_in_chf": 2432.00,
+    "positions_value_chf": 3167.00,
+    "total_value_chf": 7857.00,
+    "total_return_chf": 357.00,
+    "total_return_pct": 4.76,
     "realized_pnl_net_chf": 973.00,
-    "latent_pnl_chf": 39.00,
-    "usdchf_rate": 0.8077,
+    "latent_pnl_chf": -19.00,
+    "usdchf_rate": 0.811,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 07/08/2026 post-trades. 4 ordres exécutés: MSFT SELL $501 limit (+30.9%, +$386), GOOGL SELL market ~$355 (-1.7%, -$25), NVDA BUY 10×$222.03, ETH BUY 0.25×$1'912.70. Portefeuille restructuré: MSFT/GOOGL liquidés, NVDA+ETH entrés. Positions: NVDA 10 shares (1'794 CHF, 56%), ZGLD 0.374 (389 CHF, 12%), BTC 0.01199 (628 CHF, 20%), ETH 0.25 (386 CHF, 12%). Cash: 2'258 CHF + $2'999 USD = 4'680 CHF (59%). Total 7'877 CHF (+5.03%). Fees ~$80 sur 4 trades. NVDA earnings 26/08 = prochain catalyseur. CPI 12/08 = macro catalyst."
+    "note": "MAJ 11/08/2026. Pas de trades. NVDA pullback ~$218 (-1.90% vs coût) oil spike+pre-CPI. Or $4'396 rallye, ZGLD ~1'055 CHF (+5.21% meilleur performer). BTC ~$64'200 (+3.16%), Strategy vend 1'690 BTC. ETH ~$1'882 sous $1'900 (-1.60%). Iran impasse oil +5% WTI $82 Brent $88. CPI demain 12/08 = catalyseur décisif. CoreWeave+SMCI earnings ce soir. Total 7'857 CHF (+4.76%), -20 CHF vs vendredi."
   }
 }
