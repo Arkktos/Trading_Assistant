@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-13",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2998.50,
@@ -176,15 +176,15 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2998.50,
-    "cash_usd_in_chf": 2432.00,
-    "positions_value_chf": 3167.00,
-    "total_value_chf": 7857.00,
-    "total_return_chf": 357.00,
-    "total_return_pct": 4.76,
+    "cash_usd_in_chf": 2438.00,
+    "positions_value_chf": 3228.00,
+    "total_value_chf": 7924.00,
+    "total_return_chf": 424.00,
+    "total_return_pct": 5.65,
     "realized_pnl_net_chf": 973.00,
-    "latent_pnl_chf": -19.00,
-    "usdchf_rate": 0.811,
+    "latent_pnl_chf": 38.00,
+    "usdchf_rate": 0.813,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 11/08/2026. Pas de trades. NVDA pullback ~$218 (-1.90% vs coût) oil spike+pre-CPI. Or $4'396 rallye, ZGLD ~1'055 CHF (+5.21% meilleur performer). BTC ~$64'200 (+3.16%), Strategy vend 1'690 BTC. ETH ~$1'882 sous $1'900 (-1.60%). Iran impasse oil +5% WTI $82 Brent $88. CPI demain 12/08 = catalyseur décisif. CoreWeave+SMCI earnings ce soir. Total 7'857 CHF (+4.76%), -20 CHF vs vendredi."
+    "note": "MAJ 13/08/2026. Pas de trades. CPI juillet 3.4% YoY in line + PPI flat 0.0% = double signal dovish. S&P 500 record 7'816 franchit 7'800. CoreWeave +19% backlog $104Mds + SMCI +10.7% EPS doublé = AI hardware validé. NVDA recovery ~$225 (+1.45% vs coût). ZGLD ~1'060 CHF (+5.70%). BTC ~$63'500 trends négatifs (+2.03%). ETH ~$1'878 (-1.81%). Oil recule WTI $82 Brent $88 inventories +17.4M. Hike odds 42%. Total 7'924 CHF (+5.65%), +67 CHF vs lundi."
   }
 }
