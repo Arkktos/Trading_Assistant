@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-13",
+  "last_updated": "2026-08-14",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2998.50,
@@ -176,15 +176,15 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2998.50,
-    "cash_usd_in_chf": 2438.00,
-    "positions_value_chf": 3228.00,
-    "total_value_chf": 7924.00,
-    "total_return_chf": 424.00,
-    "total_return_pct": 5.65,
+    "cash_usd_in_chf": 2423.00,
+    "positions_value_chf": 3202.00,
+    "total_value_chf": 7883.00,
+    "total_return_chf": 383.00,
+    "total_return_pct": 5.11,
     "realized_pnl_net_chf": 973.00,
-    "latent_pnl_chf": 38.00,
-    "usdchf_rate": 0.813,
+    "latent_pnl_chf": -2.00,
+    "usdchf_rate": 0.808,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 13/08/2026. Pas de trades. CPI juillet 3.4% YoY in line + PPI flat 0.0% = double signal dovish. S&P 500 record 7'816 franchit 7'800. CoreWeave +19% backlog $104Mds + SMCI +10.7% EPS doublé = AI hardware validé. NVDA recovery ~$225 (+1.45% vs coût). ZGLD ~1'060 CHF (+5.70%). BTC ~$63'500 trends négatifs (+2.03%). ETH ~$1'878 (-1.81%). Oil recule WTI $82 Brent $88 inventories +17.4M. Hike odds 42%. Total 7'924 CHF (+5.65%), +67 CHF vs lundi."
+    "note": "MAJ 14/08/2026. Pas de trades. Consumer sentiment UMich prelim août effondrement 51.0 vs 54.5 attendu. Retail sales juillet -0.6% MoM première baisse 9 mois. S&P 500 -0.2% depuis record, Nasdaq -0.4%. Reddit +14% entre au S&P 500. NVDA flat ~$225.22 (+1.44% vs coût) consolidation avant earnings 26/08. ZGLD 1'055 CHF (+5.23%). BTC glisse sous $63K ~$62'800 ETF outflows $192M (+0.91%). ETH ~$1'875 (-1.97%). Oil stable WTI $81 Brent $87. USD/CHF 0.808 (vs 0.813) dollar faiblit = impact -41 CHF. Hike odds ~40%. Total 7'883 CHF (+5.11%), -41 CHF vs jeudi, effet change dominant."
   }
 }
