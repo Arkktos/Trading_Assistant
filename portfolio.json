@@ -176,15 +176,15 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2998.50,
-    "cash_usd_in_chf": 2423.00,
-    "positions_value_chf": 3168.00,
-    "total_value_chf": 7849.00,
-    "total_return_chf": 349.00,
-    "total_return_pct": 4.65,
+    "cash_usd_in_chf": 2420.00,
+    "positions_value_chf": 3176.00,
+    "total_value_chf": 7854.00,
+    "total_return_chf": 354.00,
+    "total_return_pct": 4.72,
     "realized_pnl_net_chf": 973.00,
-    "latent_pnl_chf": -19.00,
-    "usdchf_rate": 0.808,
+    "latent_pnl_chf": -14.00,
+    "usdchf_rate": 0.807,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 19/08/2026. Pas de trades. Treasury double buybacks long-dated → yields chutent (30Y 5.327→5.196%, 10Y 4.647%). Trump pause 50% tarifs Canada 3j. Moderna +100% vaccin mélanome Phase 3 historique. Chip selloff lundi semis -5% → NVDA pullback $219.74 -2.43% depuis vendredi, passe sous coût (-1.03%). S&P +0.43% mardi rebond. BTC ~$63'300 recovery (+1.71%). ETH ~$1'918 repasse au-dessus du coût (+0.27%). ZGLD ~1'047 CHF (+4.41%) or $4'365 pullback. Oil Brent $91.52 Iran impasse. Hike odds ~30%. MSFT ~$479 dans zone re-entry $470-480. NVDA earnings 26/08, Jackson Hole 27-29/08. Total 7'849 CHF (+4.65%), -34 CHF vs vendredi, NVDA pullback facteur dominant."
+    "note": "MAJ 19/08/2026 (soir). Pas de trades. Treasury double buybacks long-dated → yields chutent (30Y 5.327→5.196%, 10Y 4.647%). Trump pause 50% tarifs Canada 3j. SEC propose Regulation Crypto Assets — première réglementation formelle crypto, exemptions startup $5M + offres $75M, sortie classification securities pour projets matures (BTC, ETH). Moderna +100% vaccin mélanome Phase 3 historique. Chip selloff mardi semis -5% → NVDA $219.74 -1.03% sous coût. BTC rally $64'500 (+3.64% vs coût) SEC catalyst. ETH ~$1'917 (+0.22%). ZGLD ~1'047 CHF (+4.41%). Oil Brent $91.52 Iran impasse. USD/CHF 0.807 dollar affaibli. Hike odds ~30%. SK Hynix buyback $28.6Mds. NVDA earnings 26/08, Jackson Hole 27-29/08. Total 7'854 CHF (+4.72%), +5 CHF vs rapport précédent, BTC compense USD/CHF."
   }
 }
