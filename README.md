@@ -71,6 +71,11 @@ Paramètres de l'assistant :
   - `GMAIL_APP_PASSWORD` : mot de passe d'application Gmail (requis)
 - L'installation de la dépendance `nodemailer` est requise via `npm install`.
 
-### Format du rapprt
+### Format du rapport
 
-- Lire le dernier rapport et formater le nouveau de la même manière (exactement la même structure, les mêmes chapitres!!)
+- Rapport **concis**. Suivre exactement ce squelette (4 chapitres, rien d'autre) :
+  1. **Résumé du jour** — l'essentiel en quelques paragraphes/points, pas d'analyse exhaustive point par point.
+  2. **Positions ouvertes** — tableau (instrument, quantité, prix d'achat moyen, cours actuel, P&L latent, poids, note courte).
+  3. **Synthèse portefeuille** — tableau (cash CHF/USD, valeur des positions, total, performance).
+  4. **Recommandations** — actions/points de vigilance, en liste courte.
+- Pas de chapitre "P&L réalisé cumulé" ni de section "Contexte macro & stratégie" séparée dans le rapport — le détail macro va dans le Résumé du jour si pertinent, en restant bref. Le P&L réalisé et les retraits de capital restent suivis dans `portfolio.json` (champs `closed_positions` / `withdrawals`), pas affichés dans le rapport.

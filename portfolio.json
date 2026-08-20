@@ -172,19 +172,28 @@
     }
   ],
   "pending_orders": [],
+  "withdrawals": [
+    {
+      "date": "2026-06-09",
+      "amount_chf": 700.00,
+      "type": "profit_withdrawal",
+      "notes": "Retrait de 700 CHF de bénéfice réalisé. Visible dans cash_chf : 3'359.19 CHF (09/06) → 2'659.19 CHF (13/06, note \"Post-retrait\" dans le rapport). Absent des calculs de performance jusqu'ici (total_return ne compensait pas le capital sorti du compte)."
+    }
+  ],
   "performance": {
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2998.50,
-    "cash_usd_in_chf": 2420.00,
-    "positions_value_chf": 3176.00,
-    "total_value_chf": 7854.00,
-    "total_return_chf": 354.00,
-    "total_return_pct": 4.72,
+    "cash_usd_in_chf": 2385.88,
+    "positions_value_chf": 3265.08,
+    "total_value_chf": 7909.43,
+    "total_withdrawn_chf": 700.00,
+    "total_return_chf": 1109.43,
+    "total_return_pct": 14.79,
     "realized_pnl_net_chf": 973.00,
-    "latent_pnl_chf": -14.00,
-    "usdchf_rate": 0.807,
+    "latent_pnl_chf": 111.54,
+    "usdchf_rate": 0.7957,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 19/08/2026 (soir). Pas de trades. Treasury double buybacks long-dated → yields chutent (30Y 5.327→5.196%, 10Y 4.647%). Trump pause 50% tarifs Canada 3j. SEC propose Regulation Crypto Assets — première réglementation formelle crypto, exemptions startup $5M + offres $75M, sortie classification securities pour projets matures (BTC, ETH). Moderna +100% vaccin mélanome Phase 3 historique. Chip selloff mardi semis -5% → NVDA $219.74 -1.03% sous coût. BTC rally $64'500 (+3.64% vs coût) SEC catalyst. ETH ~$1'917 (+0.22%). ZGLD ~1'047 CHF (+4.41%). Oil Brent $91.52 Iran impasse. USD/CHF 0.807 dollar affaibli. Hike odds ~30%. SK Hynix buyback $28.6Mds. NVDA earnings 26/08, Jackson Hole 27-29/08. Total 7'854 CHF (+4.72%), +5 CHF vs rapport précédent, BTC compense USD/CHF."
+    "note": "MAJ 20/08/2026 — snapshot en direct depuis l'interface Swissquote (capture d'écran fournie par l'utilisateur), remplace les estimations web précédentes. Positions (Valeur totale CHF / G&P CHF) : NVDA 1'731.10 CHF (-62.34, -3.48%, prix $217.56) ; ZGLD 395.47 CHF (+20.50, +5.47%, prix 1'057.40 CHF) ; BTC 684.83 CHF (+85.94, +14.35%, prix $71'763.00 — forte hausse vs $64'500 du 19/08) ; ETH 453.68 CHF (+67.45, +17.46%, prix $2'280.70 — forte hausse vs $1'917 du 19/08). Total positions 3'265.08 CHF, cash total 4'644.35 CHF (2'258.47 CHF + 2'998.50 USD @0.7957), total compte 7'909.43 CHF. total_return corrigé pour inclure le retrait de 700 CHF du 09/06 (voir withdrawals) : total_return_chf = total_value_chf + total_withdrawn_chf - deposited_capital = 7'909.43 + 700 - 7'500 = 1'109.43 CHF (+14.79%)."
   }
 }
