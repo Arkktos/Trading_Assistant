@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20",
+  "last_updated": "2026-08-21",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2998.50,
@@ -184,16 +184,16 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2998.50,
-    "cash_usd_in_chf": 2385.88,
-    "positions_value_chf": 3265.08,
-    "total_value_chf": 7909.43,
+    "cash_usd_in_chf": 2390.00,
+    "positions_value_chf": 3342.00,
+    "total_value_chf": 7990.00,
     "total_withdrawn_chf": 700.00,
-    "total_return_chf": 1109.43,
-    "total_return_pct": 14.79,
+    "total_return_chf": 1190.00,
+    "total_return_pct": 15.87,
     "realized_pnl_net_chf": 973.00,
-    "latent_pnl_chf": 111.54,
-    "usdchf_rate": 0.7957,
+    "latent_pnl_chf": 218.00,
+    "usdchf_rate": 0.797,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 20/08/2026 — snapshot en direct depuis l'interface Swissquote (capture d'écran fournie par l'utilisateur), remplace les estimations web précédentes. Positions (Valeur totale CHF / G&P CHF) : NVDA 1'731.10 CHF (-62.34, -3.48%, prix $217.56) ; ZGLD 395.47 CHF (+20.50, +5.47%, prix 1'057.40 CHF) ; BTC 684.83 CHF (+85.94, +14.35%, prix $71'763.00 — forte hausse vs $64'500 du 19/08) ; ETH 453.68 CHF (+67.45, +17.46%, prix $2'280.70 — forte hausse vs $1'917 du 19/08). Total positions 3'265.08 CHF, cash total 4'644.35 CHF (2'258.47 CHF + 2'998.50 USD @0.7957), total compte 7'909.43 CHF. total_return corrigé pour inclure le retrait de 700 CHF du 09/06 (voir withdrawals) : total_return_chf = total_value_chf + total_withdrawn_chf - deposited_capital = 7'909.43 + 700 - 7'500 = 1'109.43 CHF (+14.79%)."
+    "note": "MAJ 21/08/2026 — estimations web (Fortune, Yahoo Finance, CNBC, Bloomberg, TradingEconomics). Marchés US encore ouverts au moment du calcul (~14h ET). Positions estimées : NVDA ~1'729 CHF (-2.3% USD, ~$217, flat vs veille) ; ZGLD ~405 CHF (+8.1%, ~1'084 CHF, or $4'587 record) ; BTC ~736 CHF (+23.7%, ~$77'000, best week since 2024) ; ETH ~472 CHF (+24.0%, ~$2'371, rally continue). Total positions ~3'342 CHF (+77 vs veille), cash total ~4'648 CHF (2'258.47 CHF + 2'998.50 USD @0.797), total compte ~7'990 CHF. total_return_chf = 7'990 + 700 - 7'500 = 1'190 CHF (+15.87%). Hausse portée par crypto (+$5K BTC, +$90 ETH) et or (+$106). Kevin Warsh = Fed Chair depuis 22/05/2026 (corrige ref. Powell dans rapports précédents)."
   }
 }
