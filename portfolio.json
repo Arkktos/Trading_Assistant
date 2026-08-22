@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21",
+  "last_updated": "2026-08-22",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2998.50,
@@ -184,16 +184,16 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2998.50,
-    "cash_usd_in_chf": 2390.00,
-    "positions_value_chf": 3342.00,
-    "total_value_chf": 7990.00,
+    "cash_usd_in_chf": 2402.00,
+    "positions_value_chf": 3373.00,
+    "total_value_chf": 8033.00,
     "total_withdrawn_chf": 700.00,
-    "total_return_chf": 1190.00,
-    "total_return_pct": 15.87,
+    "total_return_chf": 1233.00,
+    "total_return_pct": 16.44,
     "realized_pnl_net_chf": 973.00,
-    "latent_pnl_chf": 218.00,
-    "usdchf_rate": 0.797,
+    "latent_pnl_chf": 261.00,
+    "usdchf_rate": 0.801,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 21/08/2026 — estimations web (Fortune, Yahoo Finance, CNBC, Bloomberg, TradingEconomics). Marchés US encore ouverts au moment du calcul (~14h ET). Positions estimées : NVDA ~1'729 CHF (-2.3% USD, ~$217, flat vs veille) ; ZGLD ~405 CHF (+8.1%, ~1'084 CHF, or $4'587 record) ; BTC ~736 CHF (+23.7%, ~$77'000, best week since 2024) ; ETH ~472 CHF (+24.0%, ~$2'371, rally continue). Total positions ~3'342 CHF (+77 vs veille), cash total ~4'648 CHF (2'258.47 CHF + 2'998.50 USD @0.797), total compte ~7'990 CHF. total_return_chf = 7'990 + 700 - 7'500 = 1'190 CHF (+15.87%). Hausse portée par crypto (+$5K BTC, +$90 ETH) et or (+$106). Kevin Warsh = Fed Chair depuis 22/05/2026 (corrige ref. Powell dans rapports précédents)."
+    "note": "MAJ 22/08/2026 — closes vendredi 21/08 + crypto weekend (Xe, Yahoo Finance, CNBC, StockAnalysis, Kitco, CoinDesk, Fortune). Positions : NVDA 1'720 CHF (-3.3% USD, $214.72 close vendredi) ; ZGLD 409 CHF (+9.1%, 1'094 CHF close, or $4'610+ record samedi) ; BTC 749 CHF (+25.3%, ~$78'000 weekend, close vendredi $78'335 best week since 2024 +23%) ; ETH 495 CHF (+29.1%, ~$2'470 weekend, close vendredi $2'515 +8%). Total positions ~3'373 CHF (+31 vs veille), cash total ~4'660 CHF (2'258.47 CHF + 2'998.50 USD @0.801), total compte ~8'033 CHF. total_return_chf = 8'033 + 700 - 7'500 = 1'233 CHF (+16.44%). Monster week ahead: NVDA + CRWD earnings 26/08, Jackson Hole 27-29/08, Warsh speech 28/08."
   }
 }
