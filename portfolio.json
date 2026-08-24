@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-22",
+  "last_updated": "2026-08-24",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2998.50,
@@ -184,16 +184,16 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2998.50,
-    "cash_usd_in_chf": 2402.00,
-    "positions_value_chf": 3373.00,
-    "total_value_chf": 8033.00,
+    "cash_usd_in_chf": 2405.00,
+    "positions_value_chf": 3352.00,
+    "total_value_chf": 8015.00,
     "total_withdrawn_chf": 700.00,
-    "total_return_chf": 1233.00,
-    "total_return_pct": 16.44,
+    "total_return_chf": 1215.00,
+    "total_return_pct": 16.20,
     "realized_pnl_net_chf": 973.00,
-    "latent_pnl_chf": 261.00,
-    "usdchf_rate": 0.801,
+    "latent_pnl_chf": 242.00,
+    "usdchf_rate": 0.802,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 22/08/2026 — closes vendredi 21/08 + crypto weekend (Xe, Yahoo Finance, CNBC, StockAnalysis, Kitco, CoinDesk, Fortune). Positions : NVDA 1'720 CHF (-3.3% USD, $214.72 close vendredi) ; ZGLD 409 CHF (+9.1%, 1'094 CHF close, or $4'610+ record samedi) ; BTC 749 CHF (+25.3%, ~$78'000 weekend, close vendredi $78'335 best week since 2024 +23%) ; ETH 495 CHF (+29.1%, ~$2'470 weekend, close vendredi $2'515 +8%). Total positions ~3'373 CHF (+31 vs veille), cash total ~4'660 CHF (2'258.47 CHF + 2'998.50 USD @0.801), total compte ~8'033 CHF. total_return_chf = 8'033 + 700 - 7'500 = 1'233 CHF (+16.44%). Monster week ahead: NVDA + CRWD earnings 26/08, Jackson Hole 27-29/08, Warsh speech 28/08."
+    "note": "MAJ 24/08/2026 — mi-séance lundi ~10h ET (Yahoo Finance, CNBC, Xe, Investing.com, CoinDesk, Fortune, Kitco). Positions : NVDA 1'683 CHF (-5.5% USD, $209.85 mi-séance, selloff -2.3% J-2 earnings) ; ZGLD 416 CHF (+10.8%, 1'111.20 CHF close session européenne, or $4'709 record) ; BTC 758 CHF (+26.7%, ~$78'860 +2.2%) ; ETH 495 CHF (+29.1%, ~$2'470 consolidation). Total positions ~3'352 CHF (-21 vs samedi), cash total ~4'663 CHF (2'258.47 CHF + 2'998.50 USD @0.802), total compte ~8'015 CHF. total_return_chf = 8'015 + 700 - 7'500 = 1'215 CHF (+16.20%). NVDA pèse (-37 CHF), or compense (+7 CHF). Monster week: NVDA+CRWD earnings mercredi 26/08, Jackson Hole jeudi 27/08, Warsh keynote vendredi 28/08. Trump 50% tarifs Canada autos, Bessent Iran sanctions today."
   }
 }
