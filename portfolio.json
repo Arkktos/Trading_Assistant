@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-24",
+  "last_updated": "2026-08-25",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2998.50,
@@ -184,16 +184,16 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2998.50,
-    "cash_usd_in_chf": 2405.00,
-    "positions_value_chf": 3352.00,
-    "total_value_chf": 8015.00,
+    "cash_usd_in_chf": 2408.00,
+    "positions_value_chf": 3379.00,
+    "total_value_chf": 8045.00,
     "total_withdrawn_chf": 700.00,
-    "total_return_chf": 1215.00,
-    "total_return_pct": 16.20,
+    "total_return_chf": 1245.00,
+    "total_return_pct": 16.60,
     "realized_pnl_net_chf": 973.00,
-    "latent_pnl_chf": 242.00,
-    "usdchf_rate": 0.802,
+    "latent_pnl_chf": 272.00,
+    "usdchf_rate": 0.803,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 24/08/2026 — mi-séance lundi ~10h ET (Yahoo Finance, CNBC, Xe, Investing.com, CoinDesk, Fortune, Kitco). Positions : NVDA 1'683 CHF (-5.5% USD, $209.85 mi-séance, selloff -2.3% J-2 earnings) ; ZGLD 416 CHF (+10.8%, 1'111.20 CHF close session européenne, or $4'709 record) ; BTC 758 CHF (+26.7%, ~$78'860 +2.2%) ; ETH 495 CHF (+29.1%, ~$2'470 consolidation). Total positions ~3'352 CHF (-21 vs samedi), cash total ~4'663 CHF (2'258.47 CHF + 2'998.50 USD @0.802), total compte ~8'015 CHF. total_return_chf = 8'015 + 700 - 7'500 = 1'215 CHF (+16.20%). NVDA pèse (-37 CHF), or compense (+7 CHF). Monster week: NVDA+CRWD earnings mercredi 26/08, Jackson Hole jeudi 27/08, Warsh keynote vendredi 28/08. Trump 50% tarifs Canada autos, Bessent Iran sanctions today."
+    "note": "MAJ 25/08/2026 — clôture mardi (Yahoo Finance, CNBC, Xe, Investing.com, CoinDesk, Fortune, Kitco). Positions : NVDA 1'705 CHF (-4.4% USD, $212.29 rebond +1.2% J-1 earnings) ; ZGLD 414 CHF (+10.4%, 1'107.40 CHF clôture SWX, or repli -1.5% de record) ; BTC 762 CHF (+27.1%, ~$79'100 test $80K) ; ETH 498 CHF (+29.8%, ~$2'483 stable). Total positions ~3'379 CHF (+27 vs lundi), cash total ~4'666 CHF (2'258.47 CHF + 2'998.50 USD @0.803), total compte ~8'045 CHF. total_return_chf = 8'045 + 700 - 7'500 = 1'245 CHF (+16.60%). NVDA tire le rebond (+22 CHF). D-Day demain: NVDA+CRWD earnings mercredi 26/08, Jackson Hole jeudi 27/08, Warsh keynote vendredi 28/08. Canada tarifs rétaliations C$27.6Mds, Bessent Operation Economic Outcast Iran."
   }
 }
