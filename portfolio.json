@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-26",
+  "last_updated": "2026-08-27",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2998.50,
@@ -184,16 +184,16 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2998.50,
-    "cash_usd_in_chf": 2409.00,
-    "positions_value_chf": 3374.00,
-    "total_value_chf": 8041.00,
+    "cash_usd_in_chf": 2411.00,
+    "positions_value_chf": 3534.00,
+    "total_value_chf": 8203.00,
     "total_withdrawn_chf": 700.00,
-    "total_return_chf": 1241.00,
-    "total_return_pct": 16.55,
+    "total_return_chf": 1403.00,
+    "total_return_pct": 18.71,
     "realized_pnl_net_chf": 973.00,
-    "latent_pnl_chf": 268.00,
+    "latent_pnl_chf": 430.00,
     "usdchf_rate": 0.804,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 26/08/2026 — clôture mercredi (Yahoo Finance, CNBC, Xe, Investing.com, CoinDesk, Fortune, Kitco). Positions : NVDA 1'709 CHF (-4.3% USD, $212.51 flat J-0 earnings ce soir) ; ZGLD 410 CHF (+9.4%, 1'097.20 CHF clôture SWX, or repli -0.9%) ; BTC 759 CHF (+26.5%, ~$78'746, a cassé $80K mardi $81'235 puis repli) ; ETH 496 CHF (+28.9%, ~$2'466 léger pullback). Total positions ~3'374 CHF (-5 vs mardi), cash total ~4'668 CHF (2'258.47 CHF + 2'998.50 USD @0.804), total compte ~8'041 CHF. total_return_chf = 8'041 + 700 - 7'500 = 1'241 CHF (+16.55%). BTC et ZGLD tirent vers le bas. D-Day CE SOIR: NVDA+CRWD earnings after close, Jackson Hole demain 27-29/08, Warsh keynote vendredi 28/08. Brent plonge $86.38 deal Iran/Oman Hormuz."
+    "note": "MAJ 27/08/2026 — clôture jeudi (Yahoo Finance, CNBC, Xe, Investing.com, CoinDesk, StockAnalysis). Positions : NVDA 1'847 CHF (+3.5% USD, $229.74 +9.6% EARNINGS BEAT MONSTER revenue $96.2Mds EPS $2.22 FY28 +70%) ; ZGLD 410 CHF (+9.3%, ~1'096 CHF delayed SWX, flat) ; BTC 774 CHF (+29.1%, ~$80'327 retour au-dessus $80K risk-on) ; ETH 503 CHF (+31.0%, ~$2'505 best performer). Total positions ~3'534 CHF (+160 vs mercredi), cash total ~4'669 CHF (2'258.47 CHF + 2'998.50 USD @0.804), total compte ~8'203 CHF. total_return_chf = 8'203 + 700 - 7'500 = 1'403 CHF (+18.71%). NVDA tire le portefeuille, toutes positions vertes. CRWD +18.5% $224 record ARR. CRM +21%. Jackson Hole J1 aujourd'hui, Warsh keynote demain vendredi 28/08 8h ET."
   }
 }
