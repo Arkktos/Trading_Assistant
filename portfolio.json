@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-27",
+  "last_updated": "2026-08-28",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2998.50,
@@ -184,16 +184,16 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2998.50,
-    "cash_usd_in_chf": 2411.00,
-    "positions_value_chf": 3534.00,
-    "total_value_chf": 8203.00,
+    "cash_usd_in_chf": 2427.00,
+    "positions_value_chf": 3412.00,
+    "total_value_chf": 8097.00,
     "total_withdrawn_chf": 700.00,
-    "total_return_chf": 1403.00,
-    "total_return_pct": 18.71,
+    "total_return_chf": 1297.00,
+    "total_return_pct": 17.29,
     "realized_pnl_net_chf": 973.00,
-    "latent_pnl_chf": 430.00,
-    "usdchf_rate": 0.804,
+    "latent_pnl_chf": 324.00,
+    "usdchf_rate": 0.8093,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 27/08/2026 — clôture jeudi (Yahoo Finance, CNBC, Xe, Investing.com, CoinDesk, StockAnalysis). Positions : NVDA 1'847 CHF (+3.5% USD, $229.74 +9.6% EARNINGS BEAT MONSTER revenue $96.2Mds EPS $2.22 FY28 +70%) ; ZGLD 410 CHF (+9.3%, ~1'096 CHF delayed SWX, flat) ; BTC 774 CHF (+29.1%, ~$80'327 retour au-dessus $80K risk-on) ; ETH 503 CHF (+31.0%, ~$2'505 best performer). Total positions ~3'534 CHF (+160 vs mercredi), cash total ~4'669 CHF (2'258.47 CHF + 2'998.50 USD @0.804), total compte ~8'203 CHF. total_return_chf = 8'203 + 700 - 7'500 = 1'403 CHF (+18.71%). NVDA tire le portefeuille, toutes positions vertes. CRWD +18.5% $224 record ARR. CRM +21%. Jackson Hole J1 aujourd'hui, Warsh keynote demain vendredi 28/08 8h ET."
+    "note": "MAJ 28/08/2026 — clôture vendredi (Yahoo Finance, TradingEconomics, CoinGecko, StockAnalysis). WARSH HAWKISH Jackson Hole — hike odds doublent ~50%. Positions : NVDA 1'760 CHF (-2.0% USD, $217.52 -4.6% profit-taking + antitrust revenue-sharing WSJ) ; ZGLD 409 CHF (+9.1%, 1'094 CHF flat) ; BTC 751 CHF (+24.4%, $77'440 -3.5% rechute sous $80K post-Warsh) ; ETH 492 CHF (+27.0%, ~$2'430 -3%). Total positions ~3'412 CHF (-122 vs jeudi), cash total ~4'685 CHF (2'258.47 CHF + 2'998.50 USD @0.8093), total compte ~8'097 CHF. total_return_chf = 8'097 + 700 - 7'500 = 1'297 CHF (+17.29%). NVDA retour dans le rouge, correction post-Warsh généralisée. GOOGL $340.65 approche zone d'entrée $330-340. NFP 05/09, CPI 10/09, FOMC 15-16/09 — 3 semaines critiques."
   }
 }
