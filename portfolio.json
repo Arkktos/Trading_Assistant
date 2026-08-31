@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-28",
+  "last_updated": "2026-08-31",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2998.50,
@@ -184,16 +184,16 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2998.50,
-    "cash_usd_in_chf": 2427.00,
-    "positions_value_chf": 3412.00,
-    "total_value_chf": 8097.00,
+    "cash_usd_in_chf": 2424.00,
+    "positions_value_chf": 3435.00,
+    "total_value_chf": 8117.00,
     "total_withdrawn_chf": 700.00,
-    "total_return_chf": 1297.00,
-    "total_return_pct": 17.29,
+    "total_return_chf": 1317.00,
+    "total_return_pct": 17.56,
     "realized_pnl_net_chf": 973.00,
-    "latent_pnl_chf": 324.00,
-    "usdchf_rate": 0.8093,
+    "latent_pnl_chf": 344.00,
+    "usdchf_rate": 0.8083,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 28/08/2026 — clôture vendredi (Yahoo Finance, TradingEconomics, CoinGecko, StockAnalysis). WARSH HAWKISH Jackson Hole — hike odds doublent ~50%. Positions : NVDA 1'760 CHF (-2.0% USD, $217.52 -4.6% profit-taking + antitrust revenue-sharing WSJ) ; ZGLD 409 CHF (+9.1%, 1'094 CHF flat) ; BTC 751 CHF (+24.4%, $77'440 -3.5% rechute sous $80K post-Warsh) ; ETH 492 CHF (+27.0%, ~$2'430 -3%). Total positions ~3'412 CHF (-122 vs jeudi), cash total ~4'685 CHF (2'258.47 CHF + 2'998.50 USD @0.8093), total compte ~8'097 CHF. total_return_chf = 8'097 + 700 - 7'500 = 1'297 CHF (+17.29%). NVDA retour dans le rouge, correction post-Warsh généralisée. GOOGL $340.65 approche zone d'entrée $330-340. NFP 05/09, CPI 10/09, FOMC 15-16/09 — 3 semaines critiques."
+    "note": "MAJ 31/08/2026 — clôture lundi (Yahoo Finance, StockAnalysis, Investing.com, CoinDesk). US FRAPPE IRAN Larak Island — première strike en un mois, Brent $91 +3.2%. Chicago PMI s'effondre 47.1 (vs 57.6 juillet) signal stagflation. Positions : NVDA 1'779 CHF (-0.9% USD, $220.02 +1.1% rebond + MediaTek $3.5B NVLink Fusion) ; ZGLD 397 CHF (+5.7%, 1'060 CHF -2.8% or plonge encore) ; BTC 763 CHF (+26.5%, $78'697 +1.6% résilient) ; ETH 496 CHF (+28.2%, ~$2'453 +0.9%). Total positions ~3'435 CHF (+23 vs vendredi), cash total ~4'682 CHF (2'258.47 CHF + 2'998.50 USD @0.8083), total compte ~8'117 CHF. total_return_chf = 8'117 + 700 - 7'500 = 1'317 CHF (+17.56%). GOOGL $338.45 DANS zone d'entrée $330-340 — attendre NFP 05/09. CME hike odds ~56%. Labor Day = 07/09 (pas 01/09). ISM mardi, ADP mercredi, NFP vendredi."
   }
 }
