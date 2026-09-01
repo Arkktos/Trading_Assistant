@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31",
+  "last_updated": "2026-09-01",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2998.50,
@@ -184,16 +184,16 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2998.50,
-    "cash_usd_in_chf": 2424.00,
-    "positions_value_chf": 3435.00,
-    "total_value_chf": 8117.00,
+    "cash_usd_in_chf": 2426.00,
+    "positions_value_chf": 3393.00,
+    "total_value_chf": 8079.00,
     "total_withdrawn_chf": 700.00,
-    "total_return_chf": 1317.00,
-    "total_return_pct": 17.56,
+    "total_return_chf": 1279.00,
+    "total_return_pct": 17.05,
     "realized_pnl_net_chf": 973.00,
-    "latent_pnl_chf": 344.00,
-    "usdchf_rate": 0.8083,
+    "latent_pnl_chf": 306.00,
+    "usdchf_rate": 0.8091,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 31/08/2026 — clôture lundi (Yahoo Finance, StockAnalysis, Investing.com, CoinDesk). US FRAPPE IRAN Larak Island — première strike en un mois, Brent $91 +3.2%. Chicago PMI s'effondre 47.1 (vs 57.6 juillet) signal stagflation. Positions : NVDA 1'779 CHF (-0.9% USD, $220.02 +1.1% rebond + MediaTek $3.5B NVLink Fusion) ; ZGLD 397 CHF (+5.7%, 1'060 CHF -2.8% or plonge encore) ; BTC 763 CHF (+26.5%, $78'697 +1.6% résilient) ; ETH 496 CHF (+28.2%, ~$2'453 +0.9%). Total positions ~3'435 CHF (+23 vs vendredi), cash total ~4'682 CHF (2'258.47 CHF + 2'998.50 USD @0.8083), total compte ~8'117 CHF. total_return_chf = 8'117 + 700 - 7'500 = 1'317 CHF (+17.56%). GOOGL $338.45 DANS zone d'entrée $330-340 — attendre NFP 05/09. CME hike odds ~56%. Labor Day = 07/09 (pas 01/09). ISM mardi, ADP mercredi, NFP vendredi."
+    "note": "MAJ 01/09/2026 — clôture mardi (Yahoo Finance, StockAnalysis, Investing.com, CoinDesk). US FRAPPENT 90 CIBLES IRGC EN IRAN — Bandar Abbas, Chabahar, Konarak, Qeshm, Sirik. Bond selloff mondial 10Y 4.78% (plus haut Jan 2025), 30Y 5.26%. WTI $89.93 +4.9%. ISM Manufacturing 54.6 (expansion 8e mois) mais Prices 71.1 sticky inflation. CME hike odds ~66% (vs 56% lundi). VIX 16.00 +7.2%. Positions : NVDA 1'764 CHF (-1.8% USD, $218.07 -1.1% support $215 testé) ; ZGLD 392 CHF (+4.5%, 1'047.60 CHF -1.2%) ; BTC 750 CHF (+24.3%, $77'343 -2.0% risk-off) ; ETH 487 CHF (+26.0%, ~$2'410 -1.8%). Total positions ~3'393 CHF (-42 vs lundi), cash total ~4'684 CHF (2'258.47 CHF + 2'998.50 USD @0.8091), total compte ~8'079 CHF. total_return_chf = 8'079 + 700 - 7'500 = 1'279 CHF (+17.05%). GOOGL $335 creuse zone d'entrée (low $333). CRWD reversal $231→$214 malgré Fal.Con. NFP vendredi 05/09 décisif."
   }
 }
