@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-03",
+  "last_updated": "2026-09-04",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2998.50,
@@ -184,16 +184,16 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2998.50,
-    "cash_usd_in_chf": 2437.00,
-    "positions_value_chf": 3452.00,
-    "total_value_chf": 8150.00,
+    "cash_usd_in_chf": 2413.00,
+    "positions_value_chf": 3515.00,
+    "total_value_chf": 8190.00,
     "total_withdrawn_chf": 700.00,
-    "total_return_chf": 1350.00,
-    "total_return_pct": 18.00,
+    "total_return_chf": 1390.00,
+    "total_return_pct": 18.50,
     "realized_pnl_net_chf": 973.00,
-    "latent_pnl_chf": 377.00,
-    "usdchf_rate": 0.8129,
+    "latent_pnl_chf": 417.00,
+    "usdchf_rate": 0.8046,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 03/09/2026 — clôture mercredi 02/09 (Yahoo Finance, StockAnalysis, CoinGecko). ADP 38K plus bas depuis janvier, hike odds chutent ~66%→57%. Iran riposte 25 missiles balistiques Jordan Camp Titin Kuwait Bahrain. DELL earnings monster $47Mds +58% YoY AI server $16.4Mds backlog $95Mds. Google Gemini 3.8 Flash + Cyber. Positions : NVDA 1'824 CHF (+1.1% USD, $224.41 +2.9% repasse au vert) ; ZGLD 393 CHF (+4.8%, 1'051.20 CHF +0.3%) ; BTC 753 CHF (+24.2%, $77'300 flat) ; ETH 482 CHF (+24.1%, ~$2'374 -1.5%). Total positions ~3'452 CHF (+59 vs mardi), cash total ~4'696 CHF (2'258.47 CHF + 2'998.50 USD @0.8129), total compte ~8'150 CHF. total_return_chf = 8'150 + 700 - 7'500 = 1'350 CHF (+18.00%). NVDA driver principal du rebond. CRWD $203 -5.2% post-Fal.Con. GOOGL $338 dans zone d'entrée. NFP vendredi 05/09 décisif. ISM Services PMI attendu 56.8 jeudi."
+    "note": "MAJ 04/09/2026 — clôture mercredi 03/09 (Yahoo Finance, StockAnalysis, CNBC, CoinDesk, Fortune). Waller signal hold → hike odds chutent ~57%→~50%, CPI 10/09 décisif. ISM Services 55.4 beat mais Prices 72.6% plus haut depuis août 2022. S&P +1.1% Nasdaq +1.4% Dow +1.2% broad rally. Positions : NVDA 1'837 CHF (+2.9% USD, $228.45 +1.8%) ; ZGLD ~396 CHF (+5.7%, ~1'060 CHF est.) ; BTC ~781 CHF (+30.2%, ~$81'000 +4.8% repasse $80K) ; ETH ~501 CHF (+30.2%, ~$2'490 +4.9%). Total positions ~3'515 CHF (+63 vs mardi), cash total ~4'671 CHF (2'258.47 CHF + 2'998.50 USD @0.8046), total compte ~8'190 CHF. total_return_chf = 8'190 + 700 - 7'500 = 1'390 CHF (+18.50%). USD/CHF 0.8046 (-1.0%) FX drag -25 CHF sur cash USD. BTC et ETH drivers principaux. CRWD rebondit $215 +5.7%. GOOGL ~$343 sort du haut de la zone d'entrée. NFP demain 05/09 consensus 56K. CPI août 10/09 = pivot FOMC."
   }
 }
