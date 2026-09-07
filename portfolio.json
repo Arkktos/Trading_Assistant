@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04",
+  "last_updated": "2026-09-07",
   "currency": "CHF",
   "cash_chf": 2258.47,
   "cash_usd": 2998.50,
@@ -184,16 +184,16 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2258.47,
     "cash_usd": 2998.50,
-    "cash_usd_in_chf": 2413.00,
-    "positions_value_chf": 3515.00,
-    "total_value_chf": 8190.00,
+    "cash_usd_in_chf": 2429.00,
+    "positions_value_chf": 3546.00,
+    "total_value_chf": 8233.00,
     "total_withdrawn_chf": 700.00,
-    "total_return_chf": 1390.00,
-    "total_return_pct": 18.50,
+    "total_return_chf": 1433.00,
+    "total_return_pct": 19.10,
     "realized_pnl_net_chf": 973.00,
-    "latent_pnl_chf": 417.00,
-    "usdchf_rate": 0.8046,
+    "latent_pnl_chf": 460.00,
+    "usdchf_rate": 0.8100,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 04/09/2026 — clôture mercredi 03/09 (Yahoo Finance, StockAnalysis, CNBC, CoinDesk, Fortune). Waller signal hold → hike odds chutent ~57%→~50%, CPI 10/09 décisif. ISM Services 55.4 beat mais Prices 72.6% plus haut depuis août 2022. S&P +1.1% Nasdaq +1.4% Dow +1.2% broad rally. Positions : NVDA 1'837 CHF (+2.9% USD, $228.45 +1.8%) ; ZGLD ~396 CHF (+5.7%, ~1'060 CHF est.) ; BTC ~781 CHF (+30.2%, ~$81'000 +4.8% repasse $80K) ; ETH ~501 CHF (+30.2%, ~$2'490 +4.9%). Total positions ~3'515 CHF (+63 vs mardi), cash total ~4'671 CHF (2'258.47 CHF + 2'998.50 USD @0.8046), total compte ~8'190 CHF. total_return_chf = 8'190 + 700 - 7'500 = 1'390 CHF (+18.50%). USD/CHF 0.8046 (-1.0%) FX drag -25 CHF sur cash USD. BTC et ETH drivers principaux. CRWD rebondit $215 +5.7%. GOOGL ~$343 sort du haut de la zone d'entrée. NFP demain 05/09 consensus 56K. CPI août 10/09 = pivot FOMC."
+    "note": "MAJ 07/09/2026 — clôture vendredi 04/09 (StockAnalysis, Yahoo Finance, CNBC, CoinDesk, TradingEconomics). NFP 162K vs 56K attendu → hike odds bondissent ~50%→58%, S&P -0.38% Dow -0.51% Nasdaq -0.29%. NVDA $230.36 +0.84% buck le selloff → +3.75% vs coût, approche ATH $235.74. US frappent 3 pétroliers iraniens Sept 5 → Brent $97.36. BTC ~$80K weekend (-1.2%), ETH ~$2'490 flat. Or $4'477 flat, ZGLD ~1'067 CHF est. MSFT $499.70 -2.04% repasse sous $500. GOOGL $338.46 retourne dans zone d'entrée $330-340. CRWD $213.10 Scotiabank PT $265. USD/CHF 0.81 dollar renforce sur NFP hawkish (+0.67%). Positions ~3'546 CHF : NVDA ~1'866 (+3.75%), ZGLD ~399 (+6.4%), BTC ~777 (+28.5%), ETH ~504 (+30.2%). Cash ~4'687 CHF (2'258 CHF + 2'999 USD @0.81). Total ~8'233 CHF. total_return = 8'233 + 700 - 7'500 = 1'433 CHF (+19.1%). CPI août vendredi 11/09 = verdict final, FOMC 15-16/09."
   }
 }
