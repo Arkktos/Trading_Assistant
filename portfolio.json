@@ -1,54 +1,10 @@
 {
-  "last_updated": "2026-09-07",
+  "last_updated": "2026-09-08",
   "currency": "CHF",
-  "cash_chf": 2258.47,
-  "cash_usd": 2998.50,
+  "cash_chf": 2049.71,
+  "cash_usd": 6839.13,
   "deposited_capital": 7500.00,
-  "positions": [
-    {
-      "ticker": "BTC",
-      "quantity": 0.01199,
-      "average_buy_price": 62235.22,
-      "currency": "USD",
-      "buy_date": "2026-06-13",
-      "last_buy_date": "2026-06-29",
-      "total_cost_usd": 750.17,
-      "tranches": [
-        {"date": "2026-06-13", "quantity": 0.00584695, "price": 64136.00, "cost_usd": 375.05, "label": "S1"},
-        {"date": "2026-06-29", "quantity": 0.00614627, "price": 60427.00, "fees_usd": 3.72, "cost_usd": 375.12, "order_id": 299902592, "label": "S3 DCA"}
-      ],
-      "notes": "S1 + S3 DCA. Tranche 1: 0.00584695 BTC à $64'136 (13/06). Tranche 2: 0.00614627 BTC à $60'427 (29/06). F&G 15 au moment de l'achat S3."
-    },
-    {
-      "ticker": "ZGLD",
-      "quantity": 0.374,
-      "average_buy_price": 1002.80,
-      "currency": "CHF",
-      "buy_date": "2026-06-22",
-      "total_cost_chf": 375.00,
-      "notes": "Rattrapage S1 Or. Remplacement de AUCHAH."
-    },
-    {
-      "ticker": "NVDA",
-      "quantity": 10,
-      "average_buy_price": 222.03,
-      "currency": "USD",
-      "buy_date": "2026-08-07",
-      "total_cost_usd": 2220.30,
-      "order_id": 303755274,
-      "notes": "Pre-earnings play (Q2 FY2027 le 26/08). AI/semis conviction post-NFP dovish. 10 shares à $222.03."
-    },
-    {
-      "ticker": "ETH",
-      "quantity": 0.25,
-      "average_buy_price": 1912.70,
-      "currency": "USD",
-      "buy_date": "2026-08-07",
-      "total_cost_usd": 478.18,
-      "order_id": 41384708,
-      "notes": "Macro play dovish Fed + DeFi. 0.25 ETH à $1'912.70. Target $2'200-2'500."
-    }
-  ],
+  "positions": [],
   "closed_positions": [
     {
       "ticker_swissquote": "AUCHAH",
@@ -169,6 +125,98 @@
       "realized_pnl_pct": -1.68,
       "order_id": 303651965,
       "notes": "Position S2 soldée le 07/08/2026 via market sell. Brain drain (Jeff Dean, Ghemawat, Vinyals, Le) + support $355 cassé. Sortie quasi-flat, perte minime. Détenue 46 jours."
+    },
+    {
+      "ticker_swissquote": "NVDA",
+      "name": "NVIDIA Corporation (S2 — pre-earnings play)",
+      "type": "equity",
+      "exchange": "NASDAQ",
+      "quantity": 0,
+      "average_buy_price": 222.03,
+      "buy_date": "2026-08-07",
+      "sell_date": "2026-09-03",
+      "total_shares": 10,
+      "total_cost_usd": 2220.30,
+      "buy_order_id": 303755274,
+      "sales": [
+        {"date": "2026-09-03", "time": "20:58:56", "quantity": 7, "price": 229.40, "fees_usd": 32.19, "net_proceeds_usd": 1573.61, "order_id": 306335790},
+        {"date": "2026-09-03", "time": "20:58:56", "quantity": 3, "price": 229.40, "fees_usd": 8.10, "net_proceeds_usd": 680.10, "order_id": 306335790}
+      ],
+      "sale_price_per_unit": 229.40,
+      "gross_proceeds_usd": 2294.00,
+      "fees_sale_usd": 40.29,
+      "net_proceeds_usd": 2253.71,
+      "realized_pnl_usd": 33.41,
+      "realized_pnl_pct": 1.50,
+      "notes": "Position S2 pre-earnings play (Q2 FY2027 le 26/08). Soldée le 03/09/2026 à $229.40 (10 parts). Détenue 27 jours. P&L réalisé : +$33.41 (+1.5%). Earnings jouées sans gain notable — sortie avant le CPI/FOMC de septembre."
+    },
+    {
+      "ticker": "BTC",
+      "name": "Bitcoin",
+      "type": "crypto",
+      "quantity": 0,
+      "average_buy_price": 62235.22,
+      "buy_date": "2026-06-13",
+      "last_buy_date": "2026-06-29",
+      "sell_date": "2026-09-03",
+      "total_cost_usd": 750.17,
+      "tranches": [
+        {"date": "2026-06-13", "quantity": 0.00584695, "price": 64136.00, "cost_usd": 375.05, "label": "S1"},
+        {"date": "2026-06-29", "quantity": 0.00614627, "price": 60427.00, "fees_usd": 3.72, "cost_usd": 375.12, "order_id": 299902592, "label": "S3 DCA"}
+      ],
+      "sales": [
+        {"date": "2026-09-03", "time": "20:58:52", "quantity": 0.01, "price": 81266.00, "fees_usd": 8.13, "net_proceeds_usd": 804.53, "order_id": 306335598},
+        {"date": "2026-09-03", "time": "20:58:56", "quantity": 0.00199322, "price": 81266.00, "fees_usd": 1.62, "net_proceeds_usd": 160.36, "order_id": 306335598}
+      ],
+      "sale_price_per_unit": 81266.00,
+      "gross_proceeds_usd": 974.66,
+      "fees_sale_usd": 9.75,
+      "net_proceeds_usd": 964.89,
+      "realized_pnl_usd": 214.72,
+      "realized_pnl_pct": 28.62,
+      "notes": "S1 + S3 DCA (0.01199322 BTC). Soldé le 03/09/2026 à $81'266. P&L réalisé : +$214.72 (+28.6%). Meilleur performer relatif du batch de liquidation."
+    },
+    {
+      "ticker": "ETH",
+      "name": "Ethereum",
+      "type": "crypto",
+      "quantity": 0,
+      "average_buy_price": 1912.70,
+      "buy_date": "2026-08-07",
+      "sell_date": "2026-09-03",
+      "total_cost_usd": 478.18,
+      "buy_order_id": 41384708,
+      "sales": [
+        {"date": "2026-09-03", "time": "20:59:16", "quantity": 0.25, "price": 2513.30, "fees_usd": 6.29, "net_proceeds_usd": 622.03, "order_id": 306335616}
+      ],
+      "sale_price_per_unit": 2513.30,
+      "gross_proceeds_usd": 628.33,
+      "fees_sale_usd": 6.29,
+      "net_proceeds_usd": 622.03,
+      "realized_pnl_usd": 143.85,
+      "realized_pnl_pct": 30.08,
+      "notes": "Macro play dovish Fed + DeFi. 0.25 ETH à $1'912.70. Soldé le 03/09/2026 à $2'513.30. P&L réalisé : +$143.85 (+30.1%)."
+    },
+    {
+      "ticker": "ZGLD",
+      "name": "Swisscanto (CH) Precious Metal Fund Gold ETF",
+      "type": "ETF",
+      "currency": "CHF",
+      "quantity": 0,
+      "average_buy_price": 1002.80,
+      "buy_date": "2026-06-22",
+      "sell_date": "2026-09-08",
+      "total_cost_chf": 375.00,
+      "sales": [
+        {"date": "2026-09-08", "time": "09:10:33", "quantity": 0.374, "price": 1057.20, "fees_chf": 4.15, "net_proceeds_chf": 391.24, "order_id": 306605580}
+      ],
+      "sale_price_per_unit": 1057.20,
+      "gross_proceeds_chf": 395.39,
+      "fees_sale_chf": 4.15,
+      "net_proceeds_chf": 391.24,
+      "realized_pnl_chf": 16.24,
+      "realized_pnl_pct": 4.33,
+      "notes": "Rattrapage S1 Or, remplacement de AUCHAH. Soldé le 08/09/2026 à 1'057.20 CHF/part. P&L réalisé : +16.24 CHF (+4.3%). Dernière position liquidée — portefeuille 100% cash."
     }
   ],
   "pending_orders": [],
@@ -177,23 +225,29 @@
       "date": "2026-06-09",
       "amount_chf": 700.00,
       "type": "profit_withdrawal",
-      "notes": "Retrait de 700 CHF de bénéfice réalisé. Visible dans cash_chf : 3'359.19 CHF (09/06) → 2'659.19 CHF (13/06, note \"Post-retrait\" dans le rapport). Absent des calculs de performance jusqu'ici (total_return ne compensait pas le capital sorti du compte)."
+      "notes": "Retrait de 700 CHF de bénéfice réalisé. Visible dans cash_chf : 3'359.19 CHF (09/06) → 2'659.19 CHF (13/06, note \"Post-retrait\" dans le rapport)."
+    },
+    {
+      "date": "2026-09-08",
+      "amount_chf": 600.00,
+      "type": "profit_withdrawal",
+      "notes": "Retrait de 600 CHF de bénéfice réalisé après liquidation totale du portefeuille. Débit visible le 08/09 05:11:37, cash_chf 2'258.47 → 1'658.47 CHF."
     }
   ],
   "performance": {
     "deposited_capital": 7500.00,
-    "cash_chf": 2258.47,
-    "cash_usd": 2998.50,
-    "cash_usd_in_chf": 2429.00,
-    "positions_value_chf": 3546.00,
-    "total_value_chf": 8233.00,
-    "total_withdrawn_chf": 700.00,
-    "total_return_chf": 1433.00,
-    "total_return_pct": 19.10,
-    "realized_pnl_net_chf": 973.00,
-    "latent_pnl_chf": 460.00,
-    "usdchf_rate": 0.8100,
+    "cash_chf": 2049.71,
+    "cash_usd": 6839.13,
+    "cash_usd_in_chf": 5537.05,
+    "positions_value_chf": 0.00,
+    "total_value_chf": 7586.74,
+    "total_withdrawn_chf": 1300.00,
+    "total_return_chf": 1386.74,
+    "total_return_pct": 18.49,
+    "realized_pnl_net_chf": 1306.59,
+    "latent_pnl_chf": 0.00,
+    "usdchf_rate": 0.8096,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 07/09/2026 — clôture vendredi 04/09 (StockAnalysis, Yahoo Finance, CNBC, CoinDesk, TradingEconomics). NFP 162K vs 56K attendu → hike odds bondissent ~50%→58%, S&P -0.38% Dow -0.51% Nasdaq -0.29%. NVDA $230.36 +0.84% buck le selloff → +3.75% vs coût, approche ATH $235.74. US frappent 3 pétroliers iraniens Sept 5 → Brent $97.36. BTC ~$80K weekend (-1.2%), ETH ~$2'490 flat. Or $4'477 flat, ZGLD ~1'067 CHF est. MSFT $499.70 -2.04% repasse sous $500. GOOGL $338.46 retourne dans zone d'entrée $330-340. CRWD $213.10 Scotiabank PT $265. USD/CHF 0.81 dollar renforce sur NFP hawkish (+0.67%). Positions ~3'546 CHF : NVDA ~1'866 (+3.75%), ZGLD ~399 (+6.4%), BTC ~777 (+28.5%), ETH ~504 (+30.2%). Cash ~4'687 CHF (2'258 CHF + 2'999 USD @0.81). Total ~8'233 CHF. total_return = 8'233 + 700 - 7'500 = 1'433 CHF (+19.1%). CPI août vendredi 11/09 = verdict final, FOMC 15-16/09."
+    "note": "MAJ 08/09/2026 — LIQUIDATION TOTALE. Portefeuille 100% cash. Positions soldées : NVDA 10 @ $229.40 le 03/09 (+$33.41 / +1.5%), BTC 0.01199322 @ $81'266 le 03/09 (+$214.72 / +28.6%), ETH 0.25 @ $2'513.30 le 03/09 (+$143.85 / +30.1%), ZGLD 0.374 @ 1'057.20 CHF le 08/09 (+16.24 CHF / +4.3%). Note : les rapports du 04/09 et 07/09 traitaient encore ces positions comme ouvertes (portfolio.json pas synchronisé avec Swissquote après les ventes du 03/09). Retrait bénéfice 600 CHF le 08/09 (total retraits 1'300 CHF). Cash : 2'049.71 CHF + 6'839.13 USD @ 0.8096 = 5'537.05 CHF → total 7'586.74 CHF. total_return = 7'586.74 + 1'300 - 7'500 = 1'386.74 CHF (+18.49%). Contexte de sortie : CPI août 11/09 + FOMC 15-16/09 avec hike odds ~60-65%, escalade US-Iran (Brent ~$100), BTC retombe sous $79K. Prochaine ré-allocation : voir ACTION_PLAN.md."
   }
 }
