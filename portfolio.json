@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-11",
   "currency": "CHF",
   "cash_chf": 2049.71,
   "cash_usd": 6839.13,
@@ -238,16 +238,16 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2049.71,
     "cash_usd": 6839.13,
-    "cash_usd_in_chf": 5530.12,
+    "cash_usd_in_chf": 5542.14,
     "positions_value_chf": 0.00,
-    "total_value_chf": 7579.83,
+    "total_value_chf": 7591.85,
     "total_withdrawn_chf": 1300.00,
-    "total_return_chf": 1379.83,
-    "total_return_pct": 18.40,
+    "total_return_chf": 1391.85,
+    "total_return_pct": 18.56,
     "realized_pnl_net_chf": 1306.59,
     "latent_pnl_chf": 0.00,
-    "usdchf_rate": 0.8086,
+    "usdchf_rate": 0.8104,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 10/09/2026 — Portefeuille 100% cash. Variation uniquement FX : USD/CHF 0.8091 → 0.8086 (-0.06%). Cash USD en CHF : 6'839.13 × 0.8086 = 5'530.12 CHF. Total = 2'049.71 + 5'530.12 = 7'579.83 CHF. Return = 7'579.83 + 1'300 - 7'500 = 1'379.83 CHF (+18.40%). PPI août +5.4% YoY hot, WTI $101.66 Brent $105.71, 10Y 4.85%. CPI août demain 11/09, FOMC 15-16/09. Hike odds ~60%. NVDA $218.77 dans zone re-entry $215-225. GOOGL $331.79 bas de zone $330-340. Plan d'action inchangé (voir ACTION_PLAN.md)."
+    "note": "MAJ 11/09/2026 — Portefeuille 100% cash. CPI août publié : headline +0.4% MoM / +3.4% YoY (in line), core +0.3% MoM (beat +0.2%) / +2.4% YoY (in line). Hike odds bondissent ~60% → ~90%. FOMC 15-16/09, hike 25 bps quasi-acté. UMich sentiment crash 47.8 (vs 51.0), inflation expectations 1Y 4.6%. USD/CHF 0.8086 → 0.8104 (+0.22%), dollar renforce post-CPI. Cash USD en CHF : 6'839.13 × 0.8104 = 5'542.14 CHF. Total = 2'049.71 + 5'542.14 = 7'591.85 CHF. Return = 7'591.85 + 1'300 - 7'500 = 1'391.85 CHF (+18.56%). S&P +0.96% rally soulagement. WTI $99.56 repasse sous $100. 10Y ~4.92% spike vers 5%. NVDA $218.36 dans zone re-entry. GOOGL $332.60 dans zone $330-340. NE PAS ENTRER AVANT FOMC MARDI 16/09. Voir ACTION_PLAN.md."
   }
 }
