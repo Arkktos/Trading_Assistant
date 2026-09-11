@@ -2,9 +2,42 @@
   "last_updated": "2026-09-11",
   "currency": "CHF",
   "cash_chf": 2049.71,
-  "cash_usd": 6839.13,
+  "cash_usd": 4982.47,
   "deposited_capital": 7500.00,
-  "positions": [],
+  "positions": [
+    {
+      "ticker_swissquote": "NVDA",
+      "name": "NVIDIA Corporation (S3 — CPI re-entry)",
+      "type": "equity",
+      "exchange": "NASDAQ",
+      "quantity": 4.2,
+      "average_buy_price": 219.18,
+      "effective_buy_price": 219.18095,
+      "buy_date": "2026-09-11",
+      "total_cost_usd": 920.56,
+      "fees_buy_usd": 8.36,
+      "total_cost_with_fees_usd": 928.92,
+      "order_id": 307043909,
+      "order_type": "limit",
+      "notes": "Re-entry S3 zone $215-225. Limit $219.18, exécuté le 11/09/2026 18:30 CET. Jour du CPI août."
+    },
+    {
+      "ticker_swissquote": "GOOGL",
+      "name": "Alphabet Inc. Class A (S3)",
+      "type": "equity",
+      "exchange": "NASDAQ",
+      "quantity": 2.7,
+      "average_buy_price": 340.51,
+      "effective_buy_price": 340.51111,
+      "buy_date": "2026-09-11",
+      "total_cost_usd": 919.38,
+      "fees_buy_usd": 8.36,
+      "total_cost_with_fees_usd": 927.74,
+      "order_id": 307043843,
+      "order_type": "limit",
+      "notes": "Re-entry S3. Limit $340.51, exécuté le 11/09/2026 18:28 CET. Jour du CPI août. Haut de zone $330-340."
+    }
+  ],
   "closed_positions": [
     {
       "ticker_swissquote": "AUCHAH",
@@ -238,16 +271,18 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2049.71,
     "cash_usd": 6839.13,
-    "cash_usd_in_chf": 5542.14,
-    "positions_value_chf": 0.00,
-    "total_value_chf": 7591.85,
+    "cash_usd": 4982.47,
+    "cash_usd_in_chf": 4064.20,
+    "positions_value_usd": 1843.40,
+    "positions_value_chf": 1503.74,
+    "total_value_chf": 7617.85,
     "total_withdrawn_chf": 1300.00,
-    "total_return_chf": 1391.85,
-    "total_return_pct": 18.56,
+    "total_return_chf": 1417.85,
+    "total_return_pct": 18.90,
     "realized_pnl_net_chf": 1306.59,
-    "latent_pnl_chf": 0.00,
-    "usdchf_rate": 0.8104,
+    "latent_pnl_chf": 3.19,
+    "usdchf_rate": 0.8157,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 11/09/2026 — Portefeuille 100% cash. CPI août publié : headline +0.4% MoM / +3.4% YoY (in line), core +0.3% MoM (beat +0.2%) / +2.4% YoY (in line). Hike odds bondissent ~60% → ~90%. FOMC 15-16/09, hike 25 bps quasi-acté. UMich sentiment crash 47.8 (vs 51.0), inflation expectations 1Y 4.6%. USD/CHF 0.8086 → 0.8104 (+0.22%), dollar renforce post-CPI. Cash USD en CHF : 6'839.13 × 0.8104 = 5'542.14 CHF. Total = 2'049.71 + 5'542.14 = 7'591.85 CHF. Return = 7'591.85 + 1'300 - 7'500 = 1'391.85 CHF (+18.56%). S&P +0.96% rally soulagement. WTI $99.56 repasse sous $100. 10Y ~4.92% spike vers 5%. NVDA $218.36 dans zone re-entry. GOOGL $332.60 dans zone $330-340. NE PAS ENTRER AVANT FOMC MARDI 16/09. Voir ACTION_PLAN.md."
+    "note": "MAJ 11/09/2026 — POSITIONS OUVERTES : NVDA 4.2 @ $219.18 (S3, order 307043909, 18:30 CET) + GOOGL 2.7 @ $340.51 (S3, order 307043843, 18:28 CET). Cash USD : 6'839.13 → 4'982.47 (-1'856.66 dont $1'839.94 coût + ~$16.72 frais). CPI août : headline +0.4%/+3.4% in line, core +0.3% MoM beat (+0.2% consensus), +2.4% YoY in line. Hike odds ~90%. FOMC 15-16/09. UMich 47.8 crash, inflation expect 1Y 4.6%. GOOGL a rallié à $341.36 (+2.64%) sur le CPI — acheté au haut de zone $330-340. NVDA $219.46 (+0.51%) — dans zone $215-225. USD/CHF 0.8157 (+0.88% vs 0.8086). Swissquote total : 7'617.85 CHF. Return = 7'617.85 + 1'300 - 7'500 = 1'417.85 CHF (+18.90%)."
   }
 }
