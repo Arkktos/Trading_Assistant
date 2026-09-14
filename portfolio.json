@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11",
+  "last_updated": "2026-09-14",
   "currency": "CHF",
   "cash_chf": 2049.71,
   "cash_usd": 4982.47,
@@ -270,19 +270,18 @@
   "performance": {
     "deposited_capital": 7500.00,
     "cash_chf": 2049.71,
-    "cash_usd": 6839.13,
     "cash_usd": 4982.47,
-    "cash_usd_in_chf": 4064.20,
-    "positions_value_usd": 1843.40,
-    "positions_value_chf": 1503.74,
-    "total_value_chf": 7617.85,
+    "cash_usd_in_chf": 4076.00,
+    "positions_value_usd": 1800.15,
+    "positions_value_chf": 1473.00,
+    "total_value_chf": 7599.00,
     "total_withdrawn_chf": 1300.00,
-    "total_return_chf": 1417.85,
-    "total_return_pct": 18.90,
+    "total_return_chf": 1399.00,
+    "total_return_pct": 18.65,
     "realized_pnl_net_chf": 1306.59,
-    "latent_pnl_chf": 3.19,
-    "usdchf_rate": 0.8157,
+    "latent_pnl_chf": -32.55,
+    "usdchf_rate": 0.8182,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 11/09/2026 — POSITIONS OUVERTES : NVDA 4.2 @ $219.18 (S3, order 307043909, 18:30 CET) + GOOGL 2.7 @ $340.51 (S3, order 307043843, 18:28 CET). Cash USD : 6'839.13 → 4'982.47 (-1'856.66 dont $1'839.94 coût + ~$16.72 frais). CPI août : headline +0.4%/+3.4% in line, core +0.3% MoM beat (+0.2% consensus), +2.4% YoY in line. Hike odds ~90%. FOMC 15-16/09. UMich 47.8 crash, inflation expect 1Y 4.6%. GOOGL a rallié à $341.36 (+2.64%) sur le CPI — acheté au haut de zone $330-340. NVDA $219.46 (+0.51%) — dans zone $215-225. USD/CHF 0.8157 (+0.88% vs 0.8086). Swissquote total : 7'617.85 CHF. Return = 7'617.85 + 1'300 - 7'500 = 1'417.85 CHF (+18.90%)."
+    "note": "MAJ 14/09/2026 mid-session — NVDA ~$213.25 (-2.83% vs $219.46 vendredi, AI slowdown Anthropic/OpenAI), GOOGL ~$335 (-1% estimé vs $338.50 close vendredi). Pipeline saoudien East-West fermé drones Irak → WTI $104 Brent $109. Hormuz talks reportés sine die. 10Y touche 5.014%. Hike odds ~91.5%. FOMC mardi-mercredi 15-16/09. USD/CHF 0.8182 (+0.31%). S&P 7'615 (-0.54%), Nasdaq 26'112 (-0.83%). Latent P&L : NVDA -$24.91 + GOOGL -$14.88 = -$39.79. Portefeuille estimé ~7'599 CHF (+18.65%)."
   }
 }
