@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-09-16",
   "currency": "CHF",
   "cash_chf": 2049.71,
   "cash_usd": 4982.47,
@@ -271,17 +271,17 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2049.71,
     "cash_usd": 4982.47,
-    "cash_usd_in_chf": 4068.00,
-    "positions_value_usd": 1818.82,
-    "positions_value_chf": 1485.00,
-    "total_value_chf": 7603.00,
+    "cash_usd_in_chf": 4081.44,
+    "positions_value_usd": 1836.46,
+    "positions_value_chf": 1504.43,
+    "total_value_chf": 7635.58,
     "total_withdrawn_chf": 1300.00,
-    "total_return_chf": 1403.00,
-    "total_return_pct": 18.71,
+    "total_return_chf": 1435.58,
+    "total_return_pct": 19.14,
     "realized_pnl_net_chf": 1306.59,
-    "latent_pnl_chf": -17.23,
-    "usdchf_rate": 0.8165,
+    "latent_pnl_chf": -2.84,
+    "usdchf_rate": 0.8192,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 15/09/2026 mid-session — FOMC jour 1. NVDA ~$212.00 (+0.49% vs close lundi $210.96). GOOGL ~$343.86 (-1.58% vs close lundi $349.39, rallye surprise lundi +4.3% AI moat thesis). NB: close lundi significativement différent des estimations mid-session du 14/09 — GOOGL $349.39 vs ~$335 estimé, NVDA $210.96 vs ~$213.25 estimé. Rotation massive cybersécurité CRWD +15% PANW +12% en 2 jours. 10Y atteint 5.04% plus haut depuis 2007. MSFT $505 +2% approche ATH. WTI $103 Brent $107 (léger repli). Empire Mfg +7.6 prix payés 63.1 (record 4 ans). Hike odds 91%. FOMC décision demain 16/09. USD/CHF 0.8165 (-0.21%). S&P 7'585 (-0.46%), Nasdaq 25'993 (-0.74%). Latent P&L : NVDA -$30.16 + GOOGL +$9.05 = -$21.11. Portefeuille estimé ~7'603 CHF (+18.71%)."
+    "note": "MAJ 16/09/2026 mid-session, PRÉ-DÉCISION FOMC (rapport rédigé ~13h ET, décision à 14h ET / 20h CET). JOUR FOMC. NVDA ~$215.77 (+1.7% intraday vs close 15/09 $212.17), rebond sur vague semi Intel/SK Hynix, quasi à l'entrée -1.56%. GOOGL ~$344.53 (stable, +1.18% vs entrée), thèse moat Search intacte. Retail Sales août +1.2% MoM HOT (beat 0.8%, control group +1.4%) — signal inflationniste absorbé par le marché. S&P +0.3% Nasdaq +0.7% en vert malgré donnée chaude. 10Y ~5.01% après pic 5.04% mardi. Brent >$108 WTI >$100 pétrole tendu. Hike odds 85-91%, hike 25 bps à 3.75-4.00% quasi-acté, Warsh 1ère décision + dot plot + SEP ce soir. USD/CHF 0.8192 (+0.33%). Latent P&L : NVDA -$14.32 + GOOGL +$10.85 = -$3.47 (~-3 CHF). Portefeuille estimé ~7'636 CHF (+19.14%). Volatilité post-FOMC peut modifier ces niveaux."
   }
 }
