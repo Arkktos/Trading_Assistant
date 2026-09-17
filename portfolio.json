@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-16",
+  "last_updated": "2026-09-17",
   "currency": "CHF",
   "cash_chf": 2049.71,
   "cash_usd": 4982.47,
@@ -271,17 +271,17 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2049.71,
     "cash_usd": 4982.47,
-    "cash_usd_in_chf": 4081.44,
-    "positions_value_usd": 1836.46,
-    "positions_value_chf": 1504.43,
-    "total_value_chf": 7635.58,
+    "cash_usd_in_chf": 4112.13,
+    "positions_value_usd": 1847.35,
+    "positions_value_chf": 1524.62,
+    "total_value_chf": 7686.46,
     "total_withdrawn_chf": 1300.00,
-    "total_return_chf": 1435.58,
-    "total_return_pct": 19.14,
+    "total_return_chf": 1486.46,
+    "total_return_pct": 19.82,
     "realized_pnl_net_chf": 1306.59,
-    "latent_pnl_chf": -2.84,
-    "usdchf_rate": 0.8192,
+    "latent_pnl_chf": 6.12,
+    "usdchf_rate": 0.8253,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 16/09/2026 mid-session, PRÉ-DÉCISION FOMC (rapport rédigé ~13h ET, décision à 14h ET / 20h CET). JOUR FOMC. NVDA ~$215.77 (+1.7% intraday vs close 15/09 $212.17), rebond sur vague semi Intel/SK Hynix, quasi à l'entrée -1.56%. GOOGL ~$344.53 (stable, +1.18% vs entrée), thèse moat Search intacte. Retail Sales août +1.2% MoM HOT (beat 0.8%, control group +1.4%) — signal inflationniste absorbé par le marché. S&P +0.3% Nasdaq +0.7% en vert malgré donnée chaude. 10Y ~5.01% après pic 5.04% mardi. Brent >$108 WTI >$100 pétrole tendu. Hike odds 85-91%, hike 25 bps à 3.75-4.00% quasi-acté, Warsh 1ère décision + dot plot + SEP ce soir. USD/CHF 0.8192 (+0.33%). Latent P&L : NVDA -$14.32 + GOOGL +$10.85 = -$3.47 (~-3 CHF). Portefeuille estimé ~7'636 CHF (+19.14%). Volatilité post-FOMC peut modifier ces niveaux."
+    "note": "MAJ 17/09/2026 mid-session, DIGESTION FOMC (lendemain de la décision). Le FOMC a hiké 25 bps à 3.75-4.00% mercredi 16/09 (vote 12-0, premier hike depuis juillet 2023). Dot plot HAWKISH : 16/18 voient un autre hike, 4 en voient deux, projections fin 2026 4.1-4.4% ; Warsh ne soumet pas de dot. Warsh : « inflation toujours trop haute », « retour plus rapide vers 2% ». Réaction : mercredi vente initiale (Dow -1.2% S&P -0.4% Nasdaq flat, 10Y >5%) puis rebond ; jeudi 17/09 rebond de soulagement Dow +0.7% S&P +1.1% Nasdaq +1.6%. NVDA ~$218.06 (+2% intraday, close 16/09 $213.90), quasi à l'entrée -0.5%. GOOGL ~$345 repasse en vert +1.3% (close 16/09 $342.87). 10Y reflue après retouche 5% (fin de 8 séances de hausse). USD/CHF 0.8253 (+0.75%) dollar plus fort. Latent P&L : NVDA -$4.70 + GOOGL +$12.12 = +$7.42 (~+6 CHF), repasse positif. Portefeuille estimé ~7'686 CHF (+19.82%). VIGILANCE : quad witching vendredi 18/09. Cours mid-session non définitifs."
   }
 }
