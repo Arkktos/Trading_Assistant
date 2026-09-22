@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21",
+  "last_updated": "2026-09-22",
   "currency": "CHF",
   "cash_chf": 2049.71,
   "cash_usd": 4982.47,
@@ -271,17 +271,17 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2049.71,
     "cash_usd": 4982.47,
-    "cash_usd_in_chf": 4112.13,
-    "positions_value_usd": 1877.29,
-    "positions_value_chf": 1542.52,
-    "total_value_chf": 7686.10,
+    "cash_usd_in_chf": 4068.19,
+    "positions_value_usd": 1913.42,
+    "positions_value_chf": 1562.31,
+    "total_value_chf": 7680.21,
     "total_withdrawn_chf": 1300.00,
-    "total_return_chf": 1486.10,
-    "total_return_pct": 19.81,
+    "total_return_chf": 1480.21,
+    "total_return_pct": 19.74,
     "realized_pnl_net_chf": 1306.59,
-    "latent_pnl_chf": 30.70,
-    "usdchf_rate": 0.82166,
+    "latent_pnl_chf": 59.99,
+    "usdchf_rate": 0.8165,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 21/09/2026 mid-session (lundi, rebond post-quad-witching). Semaine FOMC clôturée par le quad witching vendredi 18/09 (~7'000 Mds$ ; S&P 7'650 +0.17%, Nasdaq 26'522 +0.39%, Dow léger rouge). Lundi 21/09 : Nasdaq mène la hausse, rallye semi (NVDA/AMD/Intel), BTC +6% >$85K, oil en baisse, VIX -4%, mais 10Y retouche 5.00%. NVDA ~$222.27 (+2% vs entrée, casse $220, range 218.03-222.73, cap 5.37 T$) porté par Jensen « 2× de puces l'an prochain » + init. AI Energy Management Google/NVIDIA. GOOGL ~$349.54 (+2.7% vs entrée, plus haut de zone, consensus Strong Buy cible ~$428). Latent P&L : NVDA +$12.98 + GOOGL +$24.38 = +$37.36 (~+31 CHF), les deux en vert. USD/CHF 0.82166 (-0.4%) franc plus fort — gain equity quasi intégralement compensé par le change. Portefeuille estimé ~7'686 CHF (+19.81%), quasi stable vs jeudi. BOJ +25 bps à 1.25% vendredi. À venir : PCE août, discours Fed post-blackout. Cours mid-session non définitifs. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
+    "note": "MAJ 22/09/2026 mid-session (mardi, 2e jour de hausse tech). L'AI trade recharge : Nasdaq vise un 2e record de clôture d'affilée (+0.3%), AMD rejoint le club des 1'000 Mds$, puces asiatiques en hausse ; Dow -0.4%, S&P quasi inchangé (marché à deux vitesses). Grand catalyseur : le pétrole s'effondre (WTI -4.5% ~$95.78, <$100) après que Trump, à l'AG de l'ONU, a signalé une ouverture à un accord US-Iran « après les midterms de novembre ». NVDA ~$227.38 (+3.7% vs entrée, casse $225, range 221.56-228.50, cap 5.59 T$, à ~4% du plus haut 52s). GOOGL ~$354.97 (+4.2% vs entrée, plus haut de zone, Strong Buy cible ~$428). Latent P&L : NVDA +$34.44 + GOOGL +$39.04 = +$73.48 (~+60 CHF), les deux en forte hausse. 10Y glisse sous 5% à 4.951% (-1bp) — reflux tactique aidé par la baisse du pétrole, dot plot toujours hawkish (16/18 un hike de plus). USD/CHF 0.8165 (-0.6%) franc encore plus fort — gain equity largement compensé par le change. Portefeuille estimé ~7'680 CHF (+19.74%), quasi stable vs lundi. À venir : discours Fed post-blackout, PCE août. Cours mid-session non définitifs. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
   }
 }
