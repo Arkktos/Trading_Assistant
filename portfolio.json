@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-23",
+  "last_updated": "2026-09-24",
   "currency": "CHF",
   "cash_chf": 2049.71,
   "cash_usd": 4982.47,
@@ -271,17 +271,17 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2049.71,
     "cash_usd": 4982.47,
-    "cash_usd_in_chf": 4115.22,
-    "positions_value_usd": 1909.39,
-    "positions_value_chf": 1577.04,
-    "total_value_chf": 7741.97,
+    "cash_usd_in_chf": 4101.38,
+    "positions_value_usd": 1859.28,
+    "positions_value_chf": 1530.75,
+    "total_value_chf": 7681.84,
     "total_withdrawn_chf": 1300.00,
-    "total_return_chf": 1541.97,
-    "total_return_pct": 20.56,
+    "total_return_chf": 1481.84,
+    "total_return_pct": 19.76,
     "realized_pnl_net_chf": 1306.59,
-    "latent_pnl_chf": 57.36,
-    "usdchf_rate": 0.82594,
+    "latent_pnl_chf": 15.93,
+    "usdchf_rate": 0.8232,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 23/09/2026 mid-session (mercredi, choc de taux). Le 10Y bondit +12 bps à 5.087%, plus haut depuis juillet 2007 (19 ans), sur PMI services/manufacturier au plus rapide depuis 2021 → crainte de nouveaux hikes Fed. Pétrole remonte (~$90-95 WTI) après le décrochage de mardi, pression inflationniste. Marché en repli (Nasdaq/Russell 2000 >-1% en séance) puis rebond partiel (Dow reprend la main). NVDA ~$228.87 (+4.4% vs entrée, résiste au choc de taux, à ~3% du plus haut 52s $236.54, clôture 22/09 +0.66%). GOOGL ~$351.16 (+3.1% vs entrée, reflue sur les taux -1.07% le 22/09 ; Cloud +82%, Gemini ~950M MAU, Strong Buy cible ~$429). Latent P&L : NVDA +$40.70 + GOOGL +$28.76 = +$69.45 (~+57 CHF), les deux en vert. USD/CHF 0.8259 (+1.2%) — le franc se détend enfin après 3 jours de force, ce rebond du dollar porte le portefeuille à un nouveau plus haut malgré la légère faiblesse equity. Visite d'État Xi aux US 23-25/09 (commerce, tarifs, sécurité IA). Portefeuille estimé ~7'742 CHF (+20.56%). À venir : discours Fed post-blackout, PCE août. Cours mid-session non définitifs. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
+    "note": "MAJ 24/09/2026 mid-session (jeudi, choc de taux prolongé). Le 10Y reste bloqué à 5.10% (plus haut depuis 2007) et le 30Y grimpe à 5.43% (plus haut depuis 2004) — bond sell-off le long de la courbe sur PMI chauds, pétrole en hausse (tensions Moyen-Orient) et craintes de hikes Fed. Marché rouge : Russell 2000 -1.77% (plus touché), Nasdaq -0.78%, S&P -0.51%, Dow -0.32%. NVDA ~$225.51 (+2.9% vs entrée, tient dans le choc, reflue de $228.87, à ~5% du plus haut 52s $236.54, range jour 224.02-228.95). GOOGL ~$337.83 (-0.8% vs entrée, CASSE SOUS l'entrée $340.51 sur les taux, repasse ROUGE, -3.8% en 2 jours ; Cloud +82%, Gemini ~950M MAU, Strong Buy cible ~$429, repli purement macro). Latent P&L : NVDA +$26.59 + GOOGL -$7.24 = +$19.35 (~+16 CHF), NVDA compense GOOGL. USD/CHF 0.8232 (-0.3%) — le rebond du dollar de mercredi ne tient pas, le franc se re-raffermit, double vent contraire actions + change. Xi Jinping atterrit aux US (sommet 23-25/09). Portefeuille estimé ~7'682 CHF (+19.76%), en repli vs le plus haut de mercredi. À venir : discours Fed post-blackout, PCE août, dernier jour sommet Xi 25/09. Cours mid-session non définitifs. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
   }
 }
