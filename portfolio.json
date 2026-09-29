@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-09-29",
   "currency": "CHF",
   "cash_chf": 2049.71,
   "cash_usd": 4982.47,
@@ -271,17 +271,17 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2049.71,
     "cash_usd": 4982.47,
-    "cash_usd_in_chf": 4127.00,
-    "positions_value_usd": 1886.70,
-    "positions_value_chf": 1562.96,
-    "total_value_chf": 7739.67,
+    "cash_usd_in_chf": 4154.98,
+    "positions_value_usd": 1893.45,
+    "positions_value_chf": 1579.14,
+    "total_value_chf": 7783.83,
     "total_withdrawn_chf": 1300.00,
-    "total_return_chf": 1539.67,
-    "total_return_pct": 20.53,
+    "total_return_chf": 1583.83,
+    "total_return_pct": 21.12,
     "realized_pnl_net_chf": 1306.59,
-    "latent_pnl_chf": 38.74,
-    "usdchf_rate": 0.8283,
+    "latent_pnl_chf": 44.62,
+    "usdchf_rate": 0.8339,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 28/09/2026 en séance US (lundi, RISK-OFF macro). Retour des tensions US-Iran → pétrole remonte (Brent ~$99) → bond sell-off relancé : 10Y +9.5bp à 5.25% (plus haut depuis 2007), 30Y +8bp à 5.57% (plus haut depuis 2004), 2Y +8bp à 4.93%. Indices rouges : Dow -0.7%, S&P -0.8%, Nasdaq -0.9%, ouverture de semaine chargée en data. MAIS NVDA ~$230.00 (+2.2% jour, +4.9% vs entrée $219.18) DÉFIE le marché sur catalyseur propre : buyback élargi de +$150 Mds (autorisation totale $235 Mds) + lancement Open Agent Safety Platform ; à ~3% du plus haut 52s $236.54. GOOGL ~$341.00 (+0.1% vs entrée, tient au-dessus de l'entrée $340.51 malgré le risk-off, range jour 337.91-343.60 ; Cloud +82%, Gemini ~950M MAU, Strong Buy cible ~$429). Latent P&L : NVDA +$45.44 + GOOGL +$1.32 = +$46.76 (~+39 CHF), les deux en vert, NVDA porte le portefeuille. USD/CHF ~0.8283 (stable vs vendredi) — change neutre, moteur du jour 100% côté actions. Portefeuille estimé ~7'740 CHF (+20.53%), en légère hausse vs vendredi. À venir : PCE + data macro, suivi pétrole/Iran (facteur n°1 court terme). ATTENTION : le rebond pétrole de vendredi s'inverse, taux encore plus hauts — la force d'NVDA tient à un catalyseur spécifique, pas à une détente macro. Cours en séance non définitifs. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
+    "note": "MAJ 29/09/2026 en séance US (mardi). Le trade IA sous scrutin : prospectus d'IPO d'Anthropic fuité (perte $42 Mds en 2025, $518 Mds de cloud/infra engagés, avertissements « risque existentiel »/« résistance à l'arrêt ») + OpenAI abandonne un modèle frontière sur craintes de sûreté → doutes sur la soutenabilité du récit IA. Indices en léger repli : Dow -0.4%, S&P -0.2%, Nasdaq -0.2%. Détente marginale des taux : 10Y ~5.24% (-1bp), toujours près des plus hauts de ~20 ans ; pétrole encore élevé (Brent ~$105) sur géopolitique. NVDA ~$230.72 (+0.8% jour, +5.3% vs entrée $219.18) TIENT malgré le doute IA — les $518 Mds de cloud d'Anthropic valident la demande hardware ; à ~2.5% du plus haut 52s $236.54. GOOGL ~$342.75 (+0.7% vs entrée, repasse nettement au-dessus de l'entrée $340.51, range jour 339.56-343.59 ; Cloud +82%, Gemini ~950M MAU, Strong Buy cible ~$429). Latent P&L : NVDA +$47.46 + GOOGL +$6.05 = +$53.51 (~+45 CHF), les deux en vert. USD/CHF 0.8339 (+0.7% le dollar rebondit) — PRINCIPAL moteur du gain du jour (change favorable + actions vertes). Portefeuille estimé ~7'784 CHF (+21.12%), nouveau plus haut de la reprise vs lundi (~7'740). À venir : PCE + data macro, suivi saga IA (sentiment, pas fondamentaux hardware) + taux/pétrole. Cours en séance non définitifs. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
   }
 }
