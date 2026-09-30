@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "currency": "CHF",
   "cash_chf": 2049.71,
   "cash_usd": 4982.47,
@@ -271,17 +271,17 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2049.71,
     "cash_usd": 4982.47,
-    "cash_usd_in_chf": 4154.98,
-    "positions_value_usd": 1893.45,
-    "positions_value_chf": 1579.14,
-    "total_value_chf": 7783.83,
+    "cash_usd_in_chf": 4154.38,
+    "positions_value_usd": 1888.46,
+    "positions_value_chf": 1574.60,
+    "total_value_chf": 7778.69,
     "total_withdrawn_chf": 1300.00,
-    "total_return_chf": 1583.83,
-    "total_return_pct": 21.12,
+    "total_return_chf": 1578.69,
+    "total_return_pct": 21.05,
     "realized_pnl_net_chf": 1306.59,
-    "latent_pnl_chf": 44.62,
-    "usdchf_rate": 0.8339,
+    "latent_pnl_chf": 40.47,
+    "usdchf_rate": 0.8338,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 29/09/2026 en séance US (mardi). Le trade IA sous scrutin : prospectus d'IPO d'Anthropic fuité (perte $42 Mds en 2025, $518 Mds de cloud/infra engagés, avertissements « risque existentiel »/« résistance à l'arrêt ») + OpenAI abandonne un modèle frontière sur craintes de sûreté → doutes sur la soutenabilité du récit IA. Indices en léger repli : Dow -0.4%, S&P -0.2%, Nasdaq -0.2%. Détente marginale des taux : 10Y ~5.24% (-1bp), toujours près des plus hauts de ~20 ans ; pétrole encore élevé (Brent ~$105) sur géopolitique. NVDA ~$230.72 (+0.8% jour, +5.3% vs entrée $219.18) TIENT malgré le doute IA — les $518 Mds de cloud d'Anthropic valident la demande hardware ; à ~2.5% du plus haut 52s $236.54. GOOGL ~$342.75 (+0.7% vs entrée, repasse nettement au-dessus de l'entrée $340.51, range jour 339.56-343.59 ; Cloud +82%, Gemini ~950M MAU, Strong Buy cible ~$429). Latent P&L : NVDA +$47.46 + GOOGL +$6.05 = +$53.51 (~+45 CHF), les deux en vert. USD/CHF 0.8339 (+0.7% le dollar rebondit) — PRINCIPAL moteur du gain du jour (change favorable + actions vertes). Portefeuille estimé ~7'784 CHF (+21.12%), nouveau plus haut de la reprise vs lundi (~7'740). À venir : PCE + data macro, suivi saga IA (sentiment, pas fondamentaux hardware) + taux/pétrole. Cours en séance non définitifs. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
+    "note": "MAJ 30/09/2026 en séance US (mercredi). PCE d'inflation refroidit : headline +0.3% MoM, 3.4% YoY, sous les attentes → rally mené par la tech (Nasdaq +0.8%, S&P +0.4%, Dow -0.3%). Détente confirmée des taux : 10Y ~5.23% (-1bp, 2e séance), 30Y 5.546% (toujours plus haut 24 ans). Pétrole reflue nettement : Brent ~$97 (vs ~$105 hier) → soulagement inflation importée. NVDA ~$230.47 (stable vs hier ~$230.72, +5.15% vs entrée $219.18) consolide en haut de range, à ~2.6% du plus haut 52s $236.54 ; market cap $5.67 Tn P/E 28.7. GOOGL ~$340.92 (-0.53% jour, +0.12% vs entrée $340.51, range 338.02-342.84) reflue sur amende UE €403M + injonctions accès IA, mais backlog Cloud $514 Mds + TPU/Gemini intacts ; sous MM 20/50j, tient au-dessus EMA 200 (pullback pas cassure, RSI 47.4). USD/CHF ~0.8338 stable = change NEUTRE, la perf du jour vient des seules actions. Latent P&L : NVDA +$47.42 + GOOGL +$1.11 = +$48.53 (~+40 CHF), les deux en vert. Portefeuille estimé ~7'779 CHF (+21.05%), quasi stable vs hier (~7'784) — macro porteuse mais GOOGL digère l'amende UE et change neutre. À venir : digestion PCE + trajectoire Fed, saga antitrust UE GOOGL, suivi 10Y/Brent. Cours en séance non définitifs. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
   }
 }
