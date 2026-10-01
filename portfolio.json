@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-30",
+  "last_updated": "2026-10-01",
   "currency": "CHF",
   "cash_chf": 2049.71,
   "cash_usd": 4982.47,
@@ -271,17 +271,17 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2049.71,
     "cash_usd": 4982.47,
-    "cash_usd_in_chf": 4154.38,
-    "positions_value_usd": 1888.46,
-    "positions_value_chf": 1574.60,
-    "total_value_chf": 7778.69,
+    "cash_usd_in_chf": 4162.85,
+    "positions_value_usd": 1883.22,
+    "positions_value_chf": 1573.43,
+    "total_value_chf": 7785.99,
     "total_withdrawn_chf": 1300.00,
-    "total_return_chf": 1578.69,
-    "total_return_pct": 21.05,
+    "total_return_chf": 1585.99,
+    "total_return_pct": 21.15,
     "realized_pnl_net_chf": 1306.59,
-    "latent_pnl_chf": 40.47,
-    "usdchf_rate": 0.8338,
+    "latent_pnl_chf": 36.16,
+    "usdchf_rate": 0.8355,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 30/09/2026 en séance US (mercredi). PCE d'inflation refroidit : headline +0.3% MoM, 3.4% YoY, sous les attentes → rally mené par la tech (Nasdaq +0.8%, S&P +0.4%, Dow -0.3%). Détente confirmée des taux : 10Y ~5.23% (-1bp, 2e séance), 30Y 5.546% (toujours plus haut 24 ans). Pétrole reflue nettement : Brent ~$97 (vs ~$105 hier) → soulagement inflation importée. NVDA ~$230.47 (stable vs hier ~$230.72, +5.15% vs entrée $219.18) consolide en haut de range, à ~2.6% du plus haut 52s $236.54 ; market cap $5.67 Tn P/E 28.7. GOOGL ~$340.92 (-0.53% jour, +0.12% vs entrée $340.51, range 338.02-342.84) reflue sur amende UE €403M + injonctions accès IA, mais backlog Cloud $514 Mds + TPU/Gemini intacts ; sous MM 20/50j, tient au-dessus EMA 200 (pullback pas cassure, RSI 47.4). USD/CHF ~0.8338 stable = change NEUTRE, la perf du jour vient des seules actions. Latent P&L : NVDA +$47.42 + GOOGL +$1.11 = +$48.53 (~+40 CHF), les deux en vert. Portefeuille estimé ~7'779 CHF (+21.05%), quasi stable vs hier (~7'784) — macro porteuse mais GOOGL digère l'amende UE et change neutre. À venir : digestion PCE + trajectoire Fed, saga antitrust UE GOOGL, suivi 10Y/Brent. Cours en séance non définitifs. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
+    "note": "MAJ 01/10/2026 en séance US (jeudi). Ouverture d'octobre volatile : yields au plus haut depuis 2002 puis rebond obligataire → 10Y revient à ~5.29-5.31%. Indices mitigés : Nasdaq +0.2/0.4% (tech), S&P ~flat, Dow -0.2/-0.9%. Le trade IA se refroidit (AMZN/AMD/INTC en baisse) mais les mega-caps tiennent. NVDA ~$228.38 (-0.9% jour vs $230.47, +4.2% vs entrée $219.18) reflue en haut de range sous pression taux, à ~3.4% du plus haut 52s $236.54, bien plus résiliente que les semis cycliques. GOOGL ~$342.23 (+0.4% jour, +0.51% vs entrée $340.51, range 341.63-353.22) rebondit sur lancement Gemini 4 Argon (IA code + cybersécurité), analystes haussiers, cible ~$429 ; amende UE d'hier reléguée. USD/CHF ~0.8355 (+0.33% vs 0.833) = change PORTEUR, principal moteur du jour (compense le repli NVDA). Brent volatil : ~$96.8 → spike ~$101.6 sur suspension exports carburant Chine (à surveiller). Latent P&L : NVDA +$38.64 + GOOGL +$4.64 = +$43.28 (~+36 CHF), les deux en vert. Portefeuille estimé ~7'786 CHF (+21.15%), léger nouveau plus haut de la reprise vs hier (~7'779) — porté par le change. À venir : trajectoire des taux (pic ?), adoption Gemini 4 Argon, suivi 10Y/Brent (spike Chine). Cours en séance non définitifs. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
   }
 }
