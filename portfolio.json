@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-01",
+  "last_updated": "2026-10-03",
   "currency": "CHF",
   "cash_chf": 2049.71,
   "cash_usd": 4982.47,
@@ -271,17 +271,17 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2049.71,
     "cash_usd": 4982.47,
-    "cash_usd_in_chf": 4162.85,
-    "positions_value_usd": 1883.22,
-    "positions_value_chf": 1573.43,
-    "total_value_chf": 7785.99,
+    "cash_usd_in_chf": 4128.97,
+    "positions_value_usd": 1909.23,
+    "positions_value_chf": 1582.18,
+    "total_value_chf": 7760.86,
     "total_withdrawn_chf": 1300.00,
-    "total_return_chf": 1585.99,
-    "total_return_pct": 21.15,
+    "total_return_chf": 1560.86,
+    "total_return_pct": 20.81,
     "realized_pnl_net_chf": 1306.59,
-    "latent_pnl_chf": 36.16,
-    "usdchf_rate": 0.8355,
+    "latent_pnl_chf": 57.42,
+    "usdchf_rate": 0.8287,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 01/10/2026 en séance US (jeudi). Ouverture d'octobre volatile : yields au plus haut depuis 2002 puis rebond obligataire → 10Y revient à ~5.29-5.31%. Indices mitigés : Nasdaq +0.2/0.4% (tech), S&P ~flat, Dow -0.2/-0.9%. Le trade IA se refroidit (AMZN/AMD/INTC en baisse) mais les mega-caps tiennent. NVDA ~$228.38 (-0.9% jour vs $230.47, +4.2% vs entrée $219.18) reflue en haut de range sous pression taux, à ~3.4% du plus haut 52s $236.54, bien plus résiliente que les semis cycliques. GOOGL ~$342.23 (+0.4% jour, +0.51% vs entrée $340.51, range 341.63-353.22) rebondit sur lancement Gemini 4 Argon (IA code + cybersécurité), analystes haussiers, cible ~$429 ; amende UE d'hier reléguée. USD/CHF ~0.8355 (+0.33% vs 0.833) = change PORTEUR, principal moteur du jour (compense le repli NVDA). Brent volatil : ~$96.8 → spike ~$101.6 sur suspension exports carburant Chine (à surveiller). Latent P&L : NVDA +$38.64 + GOOGL +$4.64 = +$43.28 (~+36 CHF), les deux en vert. Portefeuille estimé ~7'786 CHF (+21.15%), léger nouveau plus haut de la reprise vs hier (~7'779) — porté par le change. À venir : trajectoire des taux (pic ?), adoption Gemini 4 Argon, suivi 10Y/Brent (spike Chine). Cours en séance non définitifs. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
+    "note": "MAJ 03/10/2026 (samedi, marchés fermés — synthèse de la clôture de vendredi 02/10). Rally de vendredi sur jobs report faible : septembre +29K postes vs ~+85K attendus, chômage 4.2% → les paris de hausse Fed s'estompent → rally de soulagement mené par la tech (Nasdaq +1.2%, S&P +0.7%, Dow +0.5%) et détente obligataire (10Y ~5.28% -3bp, 30Y ~5.63%). NVDA ~$233.95 (+1.34% jour, +6.7% vs entrée $219.18) inscrit un NOUVEAU PLUS HAUT HISTORIQUE intraday $237.88, franchit durablement l'ancien plus haut 52s $236.54 — cassure technique haussière. GOOGL ~$343.20 (+1.5% jour, +0.79% vs entrée $340.51, range 341.16-345.77) tient au-dessus de l'entrée, momentum Gemini 4 Argon/cloud intact, cible ~$429. MAIS USD/CHF ~0.8287 (-0.8% vs 0.8355, le dollar se replie sur paris de hausse Fed qui s'estompent) = change DÉFAVORABLE qui annule, une fois converti en CHF, la hausse des actions. Brent reflue à ~$99.7 (-2.6%, le spike Chine s'apaise). Latent P&L : NVDA +$62.03 + GOOGL +$7.26 = +$69.29 (~+57 CHF), les deux en vert. Portefeuille estimé ~7'761 CHF (+20.81%), en léger repli vs jeudi (~7'786) malgré NVDA au plus haut historique — le franc fort efface le gain actions. À venir : confirmation de la détente de taux (tournant ?), réaction du dollar, digestion du plus haut NVDA. Marchés fermés le week-end, réouverture lundi 05/10. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
   }
 }
