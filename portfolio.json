@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-06",
+  "last_updated": "2026-10-07",
   "currency": "CHF",
   "cash_chf": 2049.71,
   "cash_usd": 4982.47,
@@ -271,17 +271,17 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2049.71,
     "cash_usd": 4982.47,
-    "cash_usd_in_chf": 4140.43,
-    "positions_value_usd": 1952.92,
-    "positions_value_chf": 1622.88,
-    "total_value_chf": 7813.02,
+    "cash_usd_in_chf": 4150.40,
+    "positions_value_usd": 1927.52,
+    "positions_value_chf": 1605.63,
+    "total_value_chf": 7805.74,
     "total_withdrawn_chf": 1300.00,
-    "total_return_chf": 1613.02,
-    "total_return_pct": 21.51,
+    "total_return_chf": 1605.74,
+    "total_return_pct": 21.41,
     "realized_pnl_net_chf": 1306.59,
-    "latent_pnl_chf": 93.90,
-    "usdchf_rate": 0.8310,
+    "latent_pnl_chf": 72.96,
+    "usdchf_rate": 0.8330,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 06/10/2026 (mardi, séance ouverte — niveaux clôture/intraday US). S&P 500 +0.7% et Nasdaq +0.5% inscrivent de NOUVEAUX RECORDS ABSOLUS, Dow +0.5% ; yields se détendent (10Y ~5.27%, repli depuis plus haut 24 ans) et pétrole se calme → focus sur la croissance des bénéfices avant la saison des résultats. Concentration record : NVDA+AAPL+MSFT >21% du S&P. NVDA ~$240.81 (+1.10% jour, +9.9% vs entrée $219.18) inscrit un NOUVEAU PLUS HAUT HISTORIQUE (ouv. $241.53, intraday ~$242, market cap ~$5.82 Tn). GOOGL ~$348.71 (+0.28% jour, +2.41% vs entrée $340.51, range 344.68-348.77) prolonge sa remontée sur un DEAL NUCLÉAIRE 20 ANS avec Constellation Energy (sécurise l'électricité pour l'IA/cloud), cible ~$429. USD/CHF ~0.8310 (quasi stable vs hier) = CHANGE NEUTRE, la perf du jour vient des seules actions. 10Y ~5.27% (détente). Brent ~$100.8 (+0.5%, quasi stable). Latent P&L : NVDA +$90.85 + GOOGL +$22.14 = +$112.99 (~+94 CHF), les deux en vert. Portefeuille ~7'813 CHF (+21.51%), NOUVEAU PLUS HAUT de la reprise (vs ~7'790 lundi) — NVDA au plus haut historique. À venir : minutes Fed, saison des résultats, confirmation du tournant de taux. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
+    "note": "MAJ 07/10/2026 (mercredi, séance ouverte — niveaux clôture/intraday US). REPLI DEPUIS LES RECORDS : Dow -0.20% (~-500 pts, ~46'603), S&P 500 -0.38% (~6'715), Nasdaq -0.67% (~22'788) refluent de leurs sommets. Catalyseur : le 10Y revient au PLUS HAUT 24 ANS (~5.32%, intraday ~5.36%) après la détente des jours précédents → pression obligataire qui pèse sur la tech. Prise de bénéfices saine, pas de panique. NVDA ~$236.75 (-1.04% jour, +8.0% vs entrée $219.18) consolide sous le plus haut historique d'hier (~$242, capi approchait $6 Tn), fondamentaux intacts (Q3 ~$108 Mds, ramp Blackwell Ultra/Vera Rubin). GOOGL ~$345.62 (-0.59% jour, +1.50% vs entrée $340.51) reflue légèrement, thèse intacte (Cloud +82% ~$24.8 Mds, deal nucléaire 20 ans Constellation Energy 890 MW, capex 2026 $195-205 Mds, cible analystes ~$429). USD/CHF ~0.8330 (+0.2% vs 0.8310, le dollar se raffermit) = CHANGE LÉGÈREMENT PORTEUR qui amortit le repli actions en CHF. 10Y ~5.32% (retour vers plus haut 24 ans = moteur du repli). Brent ~$100.9 (+0.3%). Bruit du jour : avertissement ~$17.5 Mds de ventes nettes d'initiés NVDA/PLTR/GOOGL sur 5 ans (à relativiser, souvent programmé). Latent P&L : NVDA +$73.79 + GOOGL +$13.79 = +$87.58 (~+73 CHF), les deux encore en vert. Portefeuille ~7'806 CHF (+21.41%), léger repli vs plus haut d'hier (~7'813). À venir : minutes Fed, trajectoire 10Y, earnings GOOGL le 28/10. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
   }
 }
