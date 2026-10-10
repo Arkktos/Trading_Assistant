@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-08",
+  "last_updated": "2026-10-10",
   "currency": "CHF",
   "cash_chf": 2049.71,
   "cash_usd": 4982.47,
@@ -271,17 +271,17 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2049.71,
     "cash_usd": 4982.47,
-    "cash_usd_in_chf": 4146.80,
-    "positions_value_usd": 1915.33,
-    "positions_value_chf": 1594.13,
-    "total_value_chf": 7790.64,
+    "cash_usd_in_chf": 4145.41,
+    "positions_value_usd": 1911.49,
+    "positions_value_chf": 1590.36,
+    "total_value_chf": 7785.48,
     "total_withdrawn_chf": 1300.00,
-    "total_return_chf": 1590.64,
-    "total_return_pct": 21.21,
+    "total_return_chf": 1585.48,
+    "total_return_pct": 21.14,
     "realized_pnl_net_chf": 1306.59,
-    "latent_pnl_chf": 62.76,
-    "usdchf_rate": 0.8323,
+    "latent_pnl_chf": 59.53,
+    "usdchf_rate": 0.8320,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 08/10/2026 (jeudi, séance ouverte — niveaux ~13h EDT). 2e JOUR DE REPLI, ROTATION HORS DES LEADERS IA. Inversion des rôles vs hier : les yields SE DÉTENDENT (10Y ~5.26%, -3bp, respiration après le test du plus haut 24 ans) mais le BRENT SPIKE (+3% ~$103.2) = nouveau facteur d'inflation importée qui relance la nervosité. Prise de bénéfices concentrée sur les leaders IA surchauffés. NVDA ~$231.52 (-2.51% jour vs clôture précédente $237.47, +5.6% vs entrée $219.18) MÈNE LA BAISSE, décroche ~$10 sous le plus haut historique de mardi (~$242, capi avait approché $6 Tn) — respiration attendue, fondamentaux intacts (Q3 ~$108 Mds, ramp Blackwell Ultra/Vera Rubin). GOOGL ~$349.24 (-0.36% jour, +2.56% vs entrée $340.51) RÉSISTE et surperforme NVDA (divergence notable) — thèse intacte (Cloud +82% ~$24.8 Mds, deal nucléaire 20 ans Constellation Energy 890 MW, capex 2026 $195-205 Mds, cible ~$429, earnings 28/10). USD/CHF ~0.8323 (-0.13% vs 0.8330, le dollar se replie légèrement) = CHANGE LÉGÈREMENT DÉFAVORABLE qui amplifie le repli actions en CHF. 10Y ~5.26% (-3bp). Brent ~$103.2 (+3% = nouveau moteur de nervosité, seuil à surveiller $105). Latent P&L : NVDA +$51.83 + GOOGL +$23.57 = +$75.40 (~+63 CHF), les deux encore en vert. Portefeuille ~7'791 CHF (+21.21%), léger repli vs hier (~7'806) — consolidation saine. À venir : minutes Fed, trajectoire Brent, digestion du décrochage NVDA, earnings GOOGL le 28/10. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
+    "note": "MAJ 10/10/2026 (samedi, MARCHÉS FERMÉS — synthèse clôture vendredi 09/10). REBOND TECH EN FIN DE SEMAINE : après 2 séances de repli (mercredi taux, jeudi pétrole), les indices rebondissent vendredi et capent une semaine volatile en hausse à l'approche des résultats. S&P 500 ~7'811.51 (+0.6%), Nasdaq ~27'366 (+0.6%), Dow +0.8%. DIVERGENCE NVDA/GOOGL CONFIRMÉE POUR UNE 2e SÉANCE. GOOGL ~$351.30 (+~0.9% jour, +3.17% vs entrée $340.51) REBONDIT >$350 et surperforme — thèse intacte (Cloud +82% ~$24.8 Mds, deal nucléaire 20 ans Constellation Energy 890 MW, capex 2026 $195-205 Mds, cible ~$429, earnings 28/10), jambe IA la plus solide. NVDA ~$229.28 (-0.52% jour vs clôture précédente $230.48, +4.61% vs entrée $219.18) RESTE LÉGÈREMENT À LA TRAÎNE, ~$13 sous le plus haut historique de mardi (~$242) — prise de bénéfices digérée, fondamentaux intacts (Q3 ~$108 Mds, ramp Blackwell Ultra/Vera Rubin). PÉTROLE SE DÉTEND (Trump écarte une frappe sur l'Iran avant les midterms → Brent reflue vers ~$100) = facteur de nervosité de jeudi qui s'efface. Mais 10Y REMONTE AU PLUS HAUT 24 ANS (~5.36%, intraday 5.3645% plus haut depuis avril 2002) = headwind dominant sur les valos tech. USD/CHF ~0.8320 (quasi stable vs 0.8323) = CHANGE NEUTRE. Latent P&L : GOOGL +$29.13 + NVDA +$42.42 = +$71.55 (~+60 CHF), les deux encore en vert. Portefeuille ~7'785 CHF (+21.14%), quasi stable vs jeudi (~7'791) — consolidation de la semaine digérée, GOOGL prend le relais de NVDA. À venir : minutes Fed, saison des résultats, trajectoire 10Y, earnings GOOGL le 28/10. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
   }
 }
