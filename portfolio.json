@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-12",
+  "last_updated": "2026-10-13",
   "currency": "CHF",
   "cash_chf": 2049.71,
   "cash_usd": 4982.47,
@@ -272,16 +272,16 @@
     "cash_chf": 2049.71,
     "cash_usd": 4982.47,
     "cash_usd_in_chf": 4140.43,
-    "positions_value_usd": 1901.62,
-    "positions_value_chf": 1580.25,
-    "total_value_chf": 7770.39,
+    "positions_value_usd": 1902.70,
+    "positions_value_chf": 1581.14,
+    "total_value_chf": 7771.28,
     "total_withdrawn_chf": 1300.00,
-    "total_return_chf": 1570.39,
-    "total_return_pct": 20.94,
+    "total_return_chf": 1571.28,
+    "total_return_pct": 20.95,
     "realized_pnl_net_chf": 1306.59,
-    "latent_pnl_chf": 51.26,
+    "latent_pnl_chf": 52.16,
     "usdchf_rate": 0.8310,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 12/10/2026 (lundi, SÉANCE OUVERTE — Columbus Day : actions ouvertes, marché obligataire fermé). Niveaux mi-séance ~11h30 ET. ROTATION VALEUR > TECH : les investisseurs fuient le risque tech au profit des valeurs value avant les chiffres d'inflation (CPI septembre mercredi 14/10, PPI jeudi 15/10). Dow +0.49% ~51'909 (surperforme), S&P -0.06% ~7'807 (plat), Nasdaq -0.37% ~27'265 (tech en baisse). NOUVELLE DIVERGENCE NVDA/GOOGL (3e séance). GOOGL ~$352.50 (+~0.6% jour, +3.52% vs entrée $340.51) RÉSISTE ET SURPERFORME — thèse intacte (Cloud +82% ~$24.8 Mds, deal nucléaire 20 ans Constellation Energy 890 MW, capex 2026 $195-205 Mds, cible ~$429, earnings 28/10), jambe IA dominante. NVDA ~$226.16 (-1.4% jour, +3.18% vs entrée $219.18) MÈNE LE REPLI TECH, teste $226 (~$16 sous l'ATH ~$242) — prise de bénéfices classique, fondamentaux intacts (Q3 ~$108 Mds, ramp Blackwell Ultra/Vera Rubin). PÉTROLE REMONTE ~$106 malgré annonces Trump (escalade Moyen-Orient l'emporte) = retour du facteur d'inflation importée avant le CPI. 10Y ~5.24% FIGÉ (bond market fermé Columbus Day). Or ~$4'193 (-0.56%). USD/CHF ~0.8310 estimé (aucune source datée du 12/10 ; réf. ECB 0.8266 au 02/10) = CHANGE LÉGÈREMENT DÉFAVORABLE. Latent P&L : GOOGL +$32.37 + NVDA +$29.32 = +$61.69 (~+51 CHF), les deux encore en vert. Portefeuille ~7'770 CHF (+20.9%), léger repli vs vendredi (~7'785) — rotation hors IA + NVDA -1.4% + change un peu moins porteur. À venir : CPI mercredi, PPI jeudi, reprise du marché obligataire demain, earnings GOOGL le 28/10. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
+    "note": "MAJ 13/10/2026 (mardi, SÉANCE OUVERTE — réouverture du marché obligataire après Columbus Day). Niveaux mi-séance ~11h30 ET. J-1 AVANT LE CPI (septembre, mercredi 14/10 ; PPI jeudi 15/10). COURANTS CONTRAIRES : ouverture des résultats bancaires (JPM/GS en hausse, mais Citi/Wells renforcent les provisions pour pertes sur crédit) vs sell-off des semi-conducteurs (Philly Semi -2.7% la veille, Micron/SK Hynix/Sandisk sous pression) → indices mixtes/en léger repli (Dow ~-0.3%, S&P ~7'788 -0.1%, Nasdaq ~27'139 -0.1%). 4e SÉANCE DE DIVERGENCE NVDA/GOOGL. GOOGL ~$354.61 (+0.54% jour, +4.14% vs entrée $340.51) POURSUIT SA SURPERFORMANCE, tient >$354 — thèse intacte (Cloud +82% ~$24.8 Mds, deal nucléaire 20 ans Constellation Energy 890 MW, capex 2026 $195-205 Mds, cible ~$429, earnings 28/10), jambe IA dominante. NVDA ~$225.06 (-0.56% jour, +2.68% vs entrée $219.18) SUIT LA FAIBLESSE DES CHIPS (~$18 sous l'ATH ~$242) — repli ordonné, fondamentaux intacts, Huang réaffirme $3-4 Tn infra IA d'ici 2030. PÉTROLE SE DÉTEND (ceasefire énergétique Russie/Ukraine → baisse du brut), 10Y SE REPLIE ~5.22% (-4bp, réouverture bond market). WTI ~$92-94, Brent ~$105.83 (-0.8%). USD/CHF ~0.8310 estimé (aucune source datée du 13/10 ; réf. ECB 0.8266 au 02/10) = CHANGE QUASI NEUTRE. Latent P&L : GOOGL +$38.07 + NVDA +$24.70 = +$62.77 (~+52 CHF), les deux encore en vert. Portefeuille ~7'771 CHF (+20.95%), quasi stable vs lundi (~7'770) — détente pétrole/taux compense la faiblesse des chips. À venir : CPI mercredi, PPI jeudi, earnings GOOGL le 28/10. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
   }
 }
