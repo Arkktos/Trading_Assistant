@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-13",
+  "last_updated": "2026-10-16",
   "currency": "CHF",
   "cash_chf": 2049.71,
   "cash_usd": 4982.47,
@@ -271,17 +271,17 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2049.71,
     "cash_usd": 4982.47,
-    "cash_usd_in_chf": 4140.43,
-    "positions_value_usd": 1902.70,
-    "positions_value_chf": 1581.14,
-    "total_value_chf": 7771.28,
+    "cash_usd_in_chf": 4135.45,
+    "positions_value_usd": 1872.00,
+    "positions_value_chf": 1553.76,
+    "total_value_chf": 7738.92,
     "total_withdrawn_chf": 1300.00,
-    "total_return_chf": 1571.28,
-    "total_return_pct": 20.95,
+    "total_return_chf": 1538.92,
+    "total_return_pct": 20.52,
     "realized_pnl_net_chf": 1306.59,
-    "latent_pnl_chf": 52.16,
-    "usdchf_rate": 0.8310,
+    "latent_pnl_chf": 26.61,
+    "usdchf_rate": 0.8300,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 13/10/2026 (mardi, SÉANCE OUVERTE — réouverture du marché obligataire après Columbus Day). Niveaux mi-séance ~11h30 ET. J-1 AVANT LE CPI (septembre, mercredi 14/10 ; PPI jeudi 15/10). COURANTS CONTRAIRES : ouverture des résultats bancaires (JPM/GS en hausse, mais Citi/Wells renforcent les provisions pour pertes sur crédit) vs sell-off des semi-conducteurs (Philly Semi -2.7% la veille, Micron/SK Hynix/Sandisk sous pression) → indices mixtes/en léger repli (Dow ~-0.3%, S&P ~7'788 -0.1%, Nasdaq ~27'139 -0.1%). 4e SÉANCE DE DIVERGENCE NVDA/GOOGL. GOOGL ~$354.61 (+0.54% jour, +4.14% vs entrée $340.51) POURSUIT SA SURPERFORMANCE, tient >$354 — thèse intacte (Cloud +82% ~$24.8 Mds, deal nucléaire 20 ans Constellation Energy 890 MW, capex 2026 $195-205 Mds, cible ~$429, earnings 28/10), jambe IA dominante. NVDA ~$225.06 (-0.56% jour, +2.68% vs entrée $219.18) SUIT LA FAIBLESSE DES CHIPS (~$18 sous l'ATH ~$242) — repli ordonné, fondamentaux intacts, Huang réaffirme $3-4 Tn infra IA d'ici 2030. PÉTROLE SE DÉTEND (ceasefire énergétique Russie/Ukraine → baisse du brut), 10Y SE REPLIE ~5.22% (-4bp, réouverture bond market). WTI ~$92-94, Brent ~$105.83 (-0.8%). USD/CHF ~0.8310 estimé (aucune source datée du 13/10 ; réf. ECB 0.8266 au 02/10) = CHANGE QUASI NEUTRE. Latent P&L : GOOGL +$38.07 + NVDA +$24.70 = +$62.77 (~+52 CHF), les deux encore en vert. Portefeuille ~7'771 CHF (+20.95%), quasi stable vs lundi (~7'770) — détente pétrole/taux compense la faiblesse des chips. À venir : CPI mercredi, PPI jeudi, earnings GOOGL le 28/10. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
+    "note": "MAJ 16/10/2026 (vendredi, SÉANCE OUVERTE — clôture d'une semaine de CHOC INFLATIONNISTE). Niveaux du jour ESTIMÉS (aucune source datée confirmée pour le 16/10 ; dernier NVDA confirmé $228.52 au 13/10, GOOGL ~$352-354 au 9-13/10, USD/CHF ~0.83 estimé). CHANGEMENT DE RÉGIME MACRO : le double coup CPI (septembre, 14/10 : +3.7% YoY headline / +0.6% MoM, core +2.6% YoY / +0.3% MoM, moteur énergie/essence +9.1% MoM lié au conflit Iran) + PPI (15/10 : +6.3% YoY, le plus rapide depuis déc. 2022) révise le scénario Fed du CUT vers un HIKE possible au FOMC du 28/10. Réaction 14/10 : purge tech (S&P -1.11% ~7'719, Nasdaq -1.88% ~26'693, CoreWeave -15%, Oracle -9%) ; rout mémoire Asie (Kospi -8%, Samsung -9%, SK Hynix -11%, chip index 7e séance de baisse). Clôture 15/10 : rotation valeur>tech (Dow ~52'178 +1.08%, S&P ~7'744 +0.33%, Nasdaq ~26'713 +0.08%). NVDA ~$222 estimé (+~1.3% vs entrée $219.18) SUBIT LE SELL-OFF CHIPS, au ras du support/prix d'entrée (~$20 sous l'ATH ~$242) — fondamentaux intacts (Huang $3-4 Tn infra IA), stop mental $210-215. GOOGL ~$348 estimé (+~2.2% vs entrée $340.51) RÉSISTE MIEUX en megacap non-mémoire, reste la jambe dominante — thèse intacte (Cloud +82%, deal Constellation, capex $195-205 Mds, cible ~$425-429), earnings 28/10 (jour du FOMC) = double catalyseur. PARADOXE TAUX : le 10Y se replie malgré l'inflation chaude (flight-to-safety, taux réel ~2.84%, 10Y ~5.1-5.2%). Latent P&L : NVDA +~$12 + GOOGL +~$20 = +~$32 (~+27 CHF), les deux encore en vert mais P&L comprimé vs mardi (~+$63). Portefeuille ~7'739 CHF (+20.5%), léger repli vs mardi (~7'771). À venir : FOMC + earnings GOOGL le 28/10 (double catalyseur critique), suivi Iran/pétrole = variable inflation n°1. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
   }
 }

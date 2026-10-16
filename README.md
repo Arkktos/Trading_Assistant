@@ -58,7 +58,7 @@ Paramètres de l'assistant :
 
 - Travailler directement sur la branche `main`.
 - Après chaque rapport généré :
-  1. **Commit** les changements avec un message descriptif.
+  1. **Commit** les changements. Le message de commit **doit** avoir le format exact : `Daily Report dd-mm-yyyy` (ex. `Daily Report 16-10-2026`). Pas de texte additionnel, pas de majuscules superflues.
   2. **Push** directement sur `main`.
 - Utiliser le token Github contenu dans `GH_TOKEN` si nécessaire.
 - Pour éviter les erreurs d'authentification lors du push, utiliser l'URL du remote incluant le token : `https://x-access-token:<TOKEN>@github.com/user/repo.git` ou s'assurer que la CLI `gh` est authentifiée avec le PAT.
