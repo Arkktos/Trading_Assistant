@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19",
+  "last_updated": "2026-10-20",
   "currency": "CHF",
   "cash_chf": 2049.71,
   "cash_usd": 4982.47,
@@ -272,16 +272,16 @@
     "cash_chf": 2049.71,
     "cash_usd": 4982.47,
     "cash_usd_in_chf": 4100.57,
-    "positions_value_usd": 1818.94,
-    "positions_value_chf": 1497.00,
-    "total_value_chf": 7647.28,
+    "positions_value_usd": 1832.10,
+    "positions_value_chf": 1507.82,
+    "total_value_chf": 7658.10,
     "total_withdrawn_chf": 1300.00,
-    "total_return_chf": 1447.28,
-    "total_return_pct": 19.30,
+    "total_return_chf": 1458.10,
+    "total_return_pct": 19.44,
     "realized_pnl_net_chf": 1306.59,
-    "latent_pnl_chf": -17.27,
+    "latent_pnl_chf": -6.45,
     "usdchf_rate": 0.8230,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 19/10/2026 (lundi, RÉOUVERTURE — niveaux = clôtures CONFIRMÉES du vendredi 16/10, aucun cours intraday 19/10 disponible à la rédaction). NVDA $214.13 (-1.43% vs $217.23, range $213.32-$218.68, after-hours $213.75, 52-sem $164.27-$243.37) PASSE SOUS LE PRIX D'ENTRÉE $219.18 (-2.3%) → PREMIÈRE PERTE LATENTE sur la jambe NVDA (~-$21). GOOGL $340.59 (-2.47% vs $349.22, range $339.08-$350.66, 52-sem $244.15-$408.61, capi ~$4.17 Tn) revient AU RAS du prix d'entrée $340.51 (quasi flat, +0.02%, surperformance effacée). P&L LATENT COMBINÉ BASCULE EN ROUGE pour la 1re fois depuis la ré-entrée du 11/09 : NVDA ~-$21 + GOOGL ~+$0.2 = ~-$21 (~-17 CHF au change 0.823). VENT CONTRAIRE DOMINANT = ROUT SEMI-CONDUCTEURS 8e SÉANCE (SOX plus longue série depuis 2006 ; 16/10 Nasdaq ~-2.15%/S&P ~-1.09%, AMD -5.95%/Micron -5.63%/Broadcom -4.52%/TSMC -2.28%), nouveau moteur = craintes de financement IA (CoreWeave bonds 2032 ~15% = risque de défaut, hyperscalers puces custom = menace demande GPU). FOMC 28/10 RE-PRICÉ VERS LE HOLD : après pic des odds de hausse ~44-48% le matin du CPI (14/10), repli à ~15% hike / ~84-87% hold (Kalshi/Polymarket/futures au 17-19/10), catalysé par un NFP sept FAIBLE (+29k vs +90k attendu) ; range Fed 3.75-4.00% depuis 16/09, PCE sept le 29/10. PARADOXE TAUX persistant : 10Y à 5.10% (flight-to-safety malgré inflation chaude). USD/CHF ~0.823 (mieux sourcé : 0.8226-0.8388 sur 14-17/10, 52-sem haut 0.8354 au 30/09), dollar en léger repli = change légèrement défavorable. Portefeuille ~7'647 CHF (+19.3%), en repli vs synthèse 17/10 (~7'734). GOOGL earnings 28/10 (jour du FOMC) = double catalyseur critique. Oil/Iran non confirmés ce jour (conflit toujours actif). Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
+    "note": "MAJ 20/10/2026 (mardi, cours INTRADAY — séance ouverte à la rédaction, à reconfirmer sur clôture). REBOND DES SEMI-CONDUCTEURS après 8 séances de baisse : SOXX ~+3.6% pré-marché lundi (récup d'une partie de la chute ~-12%), SOX ~+1.2% en séance mardi, achat sur repli. NVDA ~$217.00 (estimation intraday, en redressement depuis la clôture $214.13 du 16/10) RESTE SOUS LE PRIX D'ENTRÉE $219.18 (~-1.0%, ~-$9 latent) ; ~$26 sous l'ATH $243.37 ; stop mental $210-215 non testé. GOOGL ~$341.00 (estimation intraday) QUASI FLAT vs entrée $340.51 (+0.1%, ~+$1) ; plafonné par la rotation hors « communication services » (marché mené par blue chips défensives). P&L LATENT COMBINÉ SE REDRESSE : NVDA ~-$9 + GOOGL ~+$1 = ~-$8 (~-6 CHF au change 0.823), vs ~-$21 vendredi — reste marginalement rouge. INDICES : Dow ~52'478 (+0.99%, ~+600 pts, blue chips : Eli Lilly +5%, 3M deal datacenter Amazon, GM -6%) / S&P ~7'720 (+0.38%) / Nasdaq ~26'477 (+0.18%) ; rotation DÉFENSIVE (utilities/santé en tête, communication en baisse). 10Y 5.11% (-3bp, paradoxe taux toujours en place), or $4'131.70 (-0.20%), PÉTROLE en repli sur espoirs de désescalade au Moyen-Orient (soutien blue chips). FOMC 28/10 : HOLD ~85%, mais BofA maintient qu'une hausse d'octobre reste possible (inflation dégradée depuis sept, « deux hausses cette année » dans les projections), hausse décembre partiellement price ; range Fed 3.75-4.00%, PCE sept 29/10. USD/CHF ~0.823 NON RAFRAÎCHI ce jour (dernier confirmé 16-17/10), à reconfirmer. Portefeuille ~7'658 CHF (+19.4%), en légère hausse vs 19/10 (~7'647). GOOGL earnings 28/10 (jour du FOMC) = double catalyseur critique. SpaceX earnings 20/10 au soir, Meta 21/10. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
   }
 }
