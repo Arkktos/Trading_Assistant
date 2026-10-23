@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-10-23",
   "currency": "CHF",
   "cash_chf": 2049.71,
   "cash_usd": 4982.47,
@@ -271,17 +271,17 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2049.71,
     "cash_usd": 4982.47,
-    "cash_usd_in_chf": 4100.57,
-    "positions_value_usd": 1852.80,
-    "positions_value_chf": 1524.85,
-    "total_value_chf": 7675.13,
+    "cash_usd_in_chf": 4093.10,
+    "positions_value_usd": 1766.67,
+    "positions_value_chf": 1451.32,
+    "total_value_chf": 7594.13,
     "total_withdrawn_chf": 1300.00,
-    "total_return_chf": 1475.13,
-    "total_return_pct": 19.67,
+    "total_return_chf": 1394.13,
+    "total_return_pct": 18.59,
     "realized_pnl_net_chf": 1306.59,
-    "latent_pnl_chf": 10.58,
-    "usdchf_rate": 0.8230,
+    "latent_pnl_chf": -60.18,
+    "usdchf_rate": 0.8215,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 21/10/2026 (mercredi, cours INTRADAY estimés — séance US ouverte/non publiée à la rédaction, à reconfirmer sur clôture). 3e SÉANCE DE STABILISATION DES SEMI-CONDUCTEURS : le rebond du SOX (après 8 séances de baisse, ~-12%) se prolonge pour une 3e séance. NVDA ~$220.00 (estimation intraday ; un snapshot donne ~$219.7 +2.3% jour) REPASSE AU CONTACT DU PRIX D'ENTRÉE $219.18 (~+0.4%, ~+$3 latent) pour la 1re fois depuis le rout ; ~$23 sous l'ATH $243.37 ; stop mental $210-215 non testé. GOOGL ~$344.00 (estimation intraday, snapshot ~$344.10) REBONDIT vs entrée $340.51 (+1.0%, ~+$9) avec la détente de la rotation défensive. P&L LATENT COMBINÉ REPASSE EN VERT (1re fois depuis le rout) : NVDA ~+$3 + GOOGL ~+$9 = ~+$13 (~+11 CHF au change 0.823), vs ~-$8 mardi / ~-$21 vendredi. CLÔTURE 20/10 : Dow 52'495.88 (+1.02%, +529.85 pts, blue chips/défensives en tête) / S&P 7'712.57 (+0.28%) / Nasdaq 26'424.82 (-0.02%, AI/chips comeback en séance). NETFLIX a déçu post-earnings (-5% AH, revenu Q3 ~$12.9-13.4 Mds, deal drama) MAIS sans contagion macro (idiosyncratique). 10Y ~5.10% (paradoxe taux intact, pic récent 5.36% = plus haut 24 ans), or ~$4'110-4'130, PÉTROLE en repli/stable sur espoirs de désescalade Moyen-Orient. FOMC 28/10 : HOLD ~84% (Polymarket/CME), hausse octobre ~16% pas morte, hausse décembre ~70% price ; range Fed 3.75-4.00%, PCE sept 29/10. USD/CHF ~0.823 NON RAFRAÎCHI ce jour (dernier confirmé 16-17/10), à reconfirmer. Portefeuille ~7'675 CHF (+19.7%), en hausse vs 20/10 (~7'658). GOOGL earnings 28/10 (jour du FOMC) = double catalyseur critique à J-7. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
+    "note": "MAJ 23/10/2026 (vendredi — clôture confirmée du 22/10 + cours INTRADAY estimés du 23/10, séance US ouverte à la rédaction, à reconfirmer sur clôture). LE ROUT AI/CHIPS EST DE RETOUR : la stabilisation de 3 séances (le latent était repassé en vert à ~+$13 mercredi 21/10) a été balayée par le pire jeudi tech depuis des mois. CLÔTURE 22/10 : Nasdaq 26'008.86 (-2.60%, plus forte baisse depuis juin) / S&P 7'663.43 (-1.21%, pire jour depuis juillet) / Dow 52'867.98 (+0.02%, défensives résistent, RSP equal-weight +0.73%), Philly SOX -6.7% (plus forte depuis le 23/06), META ~-7% post-earnings = catalyseur du sell-off AI capex. NVDA $212.21 (-4.40% clôture 22/10 ; intraday 23/10 ~$212-213 quasi flat, pré-marché $211.88) REPASSE SOUS L'ENTRÉE $219.18 (~-$7, -3.2% latent), ~$31 sous l'ATH $243.37, stop mental $210-215 TESTÉ (dans la zone, non cassé). GOOGL $324.22 (-3.15% clôture 22/10 ; intraday 23/10 ~$323-324) BIEN SOUS L'ENTRÉE $340.51 (~-$16, -4.8%), entre en faiblesse dans ses earnings du 28/10. P&L LATENT COMBINÉ REPLONGE DANS LE ROUGE : NVDA ~-$29 + GOOGL ~-$44 = ~-$73 (~-60 CHF au change 0.8215), vs ~+$13 mercredi. 10Y repassé SOUS 5% (~4.96%, -15bp, plus bas depuis 23/09, fuite vers les bonds). PÉTROLE au plus haut 5 mois (Brent ~$111-115 / WTI ~$102-111, Moyen-Orient), OR s'effondre vers/sous $4'000 (plus bas 3 mois, peur inflation importée > risque guerre). FOMC 27-28/10 : proba de hausse ≥25bp EFFONDRÉE à ~7.2% (vs ~27.7% il y a 1 semaine, ~55.4% il y a 1 mois), HOLD ~85-93% ; range Fed 3.75-4.00%, PCE sept 29/10. USD/CHF ~0.8215 rafraîchi ce jour (TradingEconomics/XE), léger repli vs ~0.823. Portefeuille ~7'594 CHF (+18.6%), en baisse vs 21/10 (~7'675). GOOGL earnings 28/10 (jour du FOMC) = double catalyseur critique à J-5, position en faiblesse. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
   }
 }
