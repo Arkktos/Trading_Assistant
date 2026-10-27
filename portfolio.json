@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-26",
+  "last_updated": "2026-10-27",
   "currency": "CHF",
   "cash_chf": 2049.71,
   "cash_usd": 4982.47,
@@ -271,17 +271,17 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2049.71,
     "cash_usd": 4982.47,
-    "cash_usd_in_chf": 4093.10,
-    "positions_value_usd": 1768.77,
-    "positions_value_chf": 1452.95,
-    "total_value_chf": 7595.76,
+    "cash_usd_in_chf": 4111.73,
+    "positions_value_usd": 1787.85,
+    "positions_value_chf": 1475.34,
+    "total_value_chf": 7636.78,
     "total_withdrawn_chf": 1300.00,
-    "total_return_chf": 1395.76,
-    "total_return_pct": 18.61,
+    "total_return_chf": 1436.78,
+    "total_return_pct": 19.16,
     "realized_pnl_net_chf": 1306.59,
-    "latent_pnl_chf": -58.33,
-    "usdchf_rate": 0.8215,
+    "latent_pnl_chf": -42.98,
+    "usdchf_rate": 0.8252,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 26/10/2026 (lundi — clôture confirmée du 23/10 + cours INTRADAY estimés du 26/10, séance US ouverte à la rédaction, à reconfirmer sur clôture). NVDA REBONDIT, GOOGL GLISSE ENCORE À J-2 DE SES EARNINGS. CLÔTURE 23/10 (la semaine AI/chips finit dans le rouge) : NVDA $210.96 (-0.59%, plus bas de l'épisode, ~$8 sous l'entrée $219.18) / GOOGL $320.21 (-1.24%, ~$20 sous l'entrée $340.51) ; semaine 19-23/10 : S&P -1.95%, Nasdaq -4.48%, Dow +0.67% (rotation défensive, peur capex AI dominante). INTRADAY 26/10 : rebond des semi — NVDA ~$217.04 (+2.9%) repasse au-dessus de $215 (sort du bas du stop mental $210-215), ~$2 sous l'entrée, ~$26 sous l'ATH $243.37. GOOGL ~$317.48 (-0.9%) NE PARTICIPE PAS AU REBOND, ~-6.8% sous l'entrée, en faiblesse nette avant earnings du 28/10. P&L LATENT COMBINÉ ~-$71 (~-58 CHF au change 0.8215) intraday lundi, en AMÉLIORATION vs ~-$89 à la clôture de vendredi — gain porté par NVDA, GOOGL pèse. Les deux positions restent sous l'entrée. SEMAINE À DOUBLE CATALYSEUR : FOMC merc. 28/10 (hold ~83-90%, hausse ≥25bp ~9-17%, range Fed 3.75-4.00%) + earnings GOOGL/MSFT/AMZN/INTC le 28/10 après clôture (GOOGL = juge de paix binaire pour la position), PCE sept 29/10. MACRO non rafraîchie ce jour (reportée 19-22/10) : 10Y ~5% (4.96-5.14%), or ~$4'000-4'150, pétrole élevé (Brent >$100) — à reconfirmer. USD/CHF ~0.8215 NON RAFRAÎCHI (dernier relevé 23/10), à reconfirmer. Portefeuille ~7'596 CHF (+18.6%), stable vs 23/10 (~7'594). Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
+    "note": "MAJ 27/10/2026 (mardi — clôture confirmée du 26/10 + cours INTRADAY estimés du 27/10, séance US ouverte à la rédaction, à reconfirmer sur clôture). REBOND TECH 2e SÉANCE, GOOGL REJOINT ENFIN LE MOUVEMENT À J-1 DE SES EARNINGS. CLÔTURE 26/10 : NVDA $216.00 (+2.39%, range $212.61-$217.75), S&P +0.70% (7'676.77), Nasdaq +0.82% (26'169.38), Dow +0.28% (52'361.58), SOXX ~+3% (AMD +2.8%, Broadcom +2.3%) — catalyseurs IPO Anthropic + levée Meta ~$95 Md ; NVDA ~10% sous record clôture 06/10 $239.24. INTRADAY 27/10 : semi prolongent (pré-marché NVDA $217.70-$218.31), NVDA ~$219 RECLAIM l'entrée $219.18 (quasi breakeven) ; GOOGL REBONDIT ~+1.5% à ~$321.50 (vs ~$317.48 la veille), PARTICIPE enfin au mouvement, ~-5.6% sous l'entrée $340.51 — résorbe la divergence. P&L LATENT COMBINÉ ~-$52 (~-43 CHF au change 0.8252) intraday mardi, en AMÉLIORATION vs ~-$71 lundi — gain porté par les deux positions. Les deux restent sous l'entrée. J-1 DU DOUBLE CATALYSEUR : FOMC en réunion 27-28/10, décision merc. 28/10 14h ET (hold ~80-83%, hausse ≥25bp ~17-19%, range Fed 3.75-4.00%, pas de SEP) + earnings GOOGL/MSFT/AMZN le 28/10 après clôture (GOOGL = juge de paix binaire), PCE sept 29/10. MACRO : pétrole en détente intraday mardi, rendements stables (10Y ~5%, à reconfirmer), or ~$4'000-4'150 (non rafraîchi). USD/CHF ~0.8252 RAFRAÎCHI (relevés 24-26/10 Macrotrends/Moneyswapp/mataf), en hausse vs 0.8215 — tailwind léger. Portefeuille ~7'637 CHF (+19.2%), en hausse vs 26/10 (~7'596). Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
   }
 }
