@@ -77,5 +77,21 @@ Paramètres de l'assistant :
   1. **Résumé du jour** — l'essentiel en quelques paragraphes/points, pas d'analyse exhaustive point par point.
   2. **Positions ouvertes** — tableau (instrument, quantité, prix d'achat moyen, cours actuel, P&L latent, poids, note courte).
   3. **Synthèse portefeuille** — tableau (cash CHF/USD, valeur des positions, total, performance).
-  4. **Recommandations** — actions/points de vigilance, en liste courte.
+  4. **Recommandations** — actions concrètes & points de vigilance, en liste courte.
 - Pas de chapitre "P&L réalisé cumulé" ni de section "Contexte macro & stratégie" séparée dans le rapport — le détail macro va dans le Résumé du jour si pertinent, en restant bref. Le P&L réalisé et les retraits de capital restent suivis dans `portfolio.json` (champs `closed_positions` / `withdrawals`), pas affichés dans le rapport.
+
+### Style des recommandations (profil AGRESSIF)
+
+Le profil de risque est **agressif** (`config.json`) — les recommandations doivent le refléter, pas se réfugier dans un "tenir / ne rien faire" par défaut.
+
+- **Concret et actionnable.** Chaque reco = une action précise avec niveaux chiffrés : ticker, sens (achat/renfort/allègement/vente/prise de profit), **zone de prix d'entrée ou de sortie**, taille indicative (en CHF ou % du cash), et le déclencheur. Éviter les formulations vagues ("rester patient", "surveiller", "garder les munitions sèches") comme conclusion — si attente il y a, dire **quoi attendre et à quel niveau agir**.
+- **Assumer le risque.** Le cash lourd n'est pas une fin en soi : viser le **redéploiement** du capital disponible vers des idées à conviction. Proposer activement des entrées quand le risque/rendement est favorable, y compris en pré-événement si la thèse le justifie — sans tomber dans l'imprudence (pas de all-in, pas de levier non demandé).
+- **Prioriser.** Classer les recos par conviction/urgence ; distinguer clairement les actions **à faire maintenant** des **conditionnelles** (si niveau X atteint).
+
+### Scan & diversification (élargir au-delà de la tech)
+
+Le portefeuille est trop concentré sur la tech/semi. Chaque rapport doit **scanner plus large** et proposer des idées hors du cœur tech actuel.
+
+- **Balayage multi-secteurs** dans le Résumé ou les Recommandations : au-delà des positions ouvertes et de la watchlist tech, passer en revue d'autres secteurs/classes d'actifs (énergie, santé/pharma, finance/banques, industrie/défense, matières premières & métaux précieux, obligations/taux, crypto, ETF sectoriels ou géographiques hors-US). Faire remonter **les secteurs qui surperforment ou présentent un setup** du moment.
+- **Au moins une idée de diversification concrète par rapport** quand le marché en offre une : un instrument hors-tech avec thèse courte + zone d'entrée, pour réduire la corrélation du portefeuille. Ne pas forcer une entrée si rien n'est convaincant, mais le signaler explicitement.
+- Mettre à jour la `watchlist` de `config.json` quand une idée hors-tech mérite un suivi récurrent.
