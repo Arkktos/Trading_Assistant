@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-27",
+  "last_updated": "2026-10-29",
   "currency": "CHF",
   "cash_chf": 2049.71,
   "cash_usd": 4982.47,
@@ -271,17 +271,17 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2049.71,
     "cash_usd": 4982.47,
-    "cash_usd_in_chf": 4111.73,
-    "positions_value_usd": 1787.85,
-    "positions_value_chf": 1475.34,
-    "total_value_chf": 7636.78,
+    "cash_usd_in_chf": 4126.08,
+    "positions_value_usd": 1681.00,
+    "positions_value_chf": 1391.84,
+    "total_value_chf": 7567.63,
     "total_withdrawn_chf": 1300.00,
-    "total_return_chf": 1436.78,
-    "total_return_pct": 19.16,
+    "total_return_chf": 1367.63,
+    "total_return_pct": 18.24,
     "realized_pnl_net_chf": 1306.59,
-    "latent_pnl_chf": -42.98,
-    "usdchf_rate": 0.8252,
+    "latent_pnl_chf": -131.62,
+    "usdchf_rate": 0.8281,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 27/10/2026 (mardi — clôture confirmée du 26/10 + cours INTRADAY estimés du 27/10, séance US ouverte à la rédaction, à reconfirmer sur clôture). REBOND TECH 2e SÉANCE, GOOGL REJOINT ENFIN LE MOUVEMENT À J-1 DE SES EARNINGS. CLÔTURE 26/10 : NVDA $216.00 (+2.39%, range $212.61-$217.75), S&P +0.70% (7'676.77), Nasdaq +0.82% (26'169.38), Dow +0.28% (52'361.58), SOXX ~+3% (AMD +2.8%, Broadcom +2.3%) — catalyseurs IPO Anthropic + levée Meta ~$95 Md ; NVDA ~10% sous record clôture 06/10 $239.24. INTRADAY 27/10 : semi prolongent (pré-marché NVDA $217.70-$218.31), NVDA ~$219 RECLAIM l'entrée $219.18 (quasi breakeven) ; GOOGL REBONDIT ~+1.5% à ~$321.50 (vs ~$317.48 la veille), PARTICIPE enfin au mouvement, ~-5.6% sous l'entrée $340.51 — résorbe la divergence. P&L LATENT COMBINÉ ~-$52 (~-43 CHF au change 0.8252) intraday mardi, en AMÉLIORATION vs ~-$71 lundi — gain porté par les deux positions. Les deux restent sous l'entrée. J-1 DU DOUBLE CATALYSEUR : FOMC en réunion 27-28/10, décision merc. 28/10 14h ET (hold ~80-83%, hausse ≥25bp ~17-19%, range Fed 3.75-4.00%, pas de SEP) + earnings GOOGL/MSFT/AMZN le 28/10 après clôture (GOOGL = juge de paix binaire), PCE sept 29/10. MACRO : pétrole en détente intraday mardi, rendements stables (10Y ~5%, à reconfirmer), or ~$4'000-4'150 (non rafraîchi). USD/CHF ~0.8252 RAFRAÎCHI (relevés 24-26/10 Macrotrends/Moneyswapp/mataf), en hausse vs 0.8215 — tailwind léger. Portefeuille ~7'637 CHF (+19.2%), en hausse vs 26/10 (~7'596). Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
+    "note": "MAJ 29/10/2026 (jeudi — clôtures confirmées du 28/10 + cours PRÉ-MARCHÉ estimés du 29/10, séance US non ouverte à la rédaction, à reconfirmer sur clôture). LE DOUBLE CATALYSEUR A TRANCHÉ : GOOGL S'EFFONDRE SUR SES EARNINGS, FOMC HOLD HAWKISH. GOOGL Q3 : CA +25% à $127.6 Md, Google Cloud x2 à $30.7 Md (vs ~$28.7 Md attendu) MAIS EPS ajusté $2.12 vs ~$3.02 (perte $8.7 Md sur participations), bénéfice net -25% ~$26.2 Md, capex $51.4 Md, FCF NÉGATIF ~-$9.1 Md ; titre clôture 28/10 $324.89 (+1.34%) PUIS PLONGE ~-11% après-Bourse/pré-marché 29/10 à ~$289.44 — ~-15% sous l'entrée $340.51, P&L GOOGL ~-$138. NVDA RÉSISTE : clôture 28/10 $215.38 (-1.17%), pré-marché 29/10 ~$214.17, ~-2.3% sous l'entrée $219.18 (~-$21). FED 28/10 : HOLD 3.75-4.00% confirmé, VOTE 10-2 (Cook + Hammack dissidentes pour une HAUSSE), Warsh hawkish (« pas de forward guidance », réduction des réunions dès 2027), certains desks pricent une hausse 25bp en déc. P&L LATENT COMBINÉ ~-$159 (~-132 CHF au change 0.8281) vs ~-$52 mardi — dégradation portée à 100% par GOOGL, thèse croissance intacte (Cloud x2) mais marché sanctionne capex/FCF. PCE SEPTEMBRE attendu 29/10 14h30 CET (non dispo à la rédaction ; dernier core PCE ~3.0% YoY). MSFT/AMZN ont publié dans la même fenêtre — réactions non vérifiées. USD/CHF ~0.8281 (en hausse vs 0.8252) — tailwind léger. Portefeuille ~7'568 CHF (+18.2%), EN BAISSE vs 27/10 (~7'637), choc GOOGL amorti par le cash lourd (~82%). Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
   }
 }
