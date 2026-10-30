@@ -44,6 +44,14 @@
       "type": "Crypto",
       "target_zone": "Support Zone $65-70",
       "allocation_target": "300 CHF"
+    },
+    {
+      "ticker": "ZGLD",
+      "name": "Swisscanto (CH) Precious Metal Fund Gold ETF (ou AUCHAH)",
+      "type": "ETF",
+      "target_zone": "Re-entry sur repli/consolidation",
+      "allocation_target": "400 CHF",
+      "status": "Idée de diversification hors-tech (30/10). Setup or : inflation collante (core PCE 3.1%) + Fed hawkish + défiance méga-cap tech. Décorrèle le portefeuille (100% actions tech US sur la partie investie). Soldé 08/09 à 1'057.20 CHF. Ne pas entrer en surchauffe."
     }
   ],
   "devise_de_reference": "CHF",

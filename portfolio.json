@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-10-30",
   "currency": "CHF",
   "cash_chf": 2049.71,
   "cash_usd": 4982.47,
@@ -271,17 +271,17 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2049.71,
     "cash_usd": 4982.47,
-    "cash_usd_in_chf": 4126.08,
-    "positions_value_usd": 1681.00,
-    "positions_value_chf": 1391.84,
-    "total_value_chf": 7567.63,
+    "cash_usd_in_chf": 4092.62,
+    "positions_value_usd": 1663.68,
+    "positions_value_chf": 1366.74,
+    "total_value_chf": 7509.07,
     "total_withdrawn_chf": 1300.00,
-    "total_return_chf": 1367.63,
-    "total_return_pct": 18.24,
+    "total_return_chf": 1309.07,
+    "total_return_pct": 17.45,
     "realized_pnl_net_chf": 1306.59,
-    "latent_pnl_chf": -131.62,
-    "usdchf_rate": 0.8281,
+    "latent_pnl_chf": -144.79,
+    "usdchf_rate": 0.8214,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 29/10/2026 (jeudi — clôtures confirmées du 28/10 + cours PRÉ-MARCHÉ estimés du 29/10, séance US non ouverte à la rédaction, à reconfirmer sur clôture). LE DOUBLE CATALYSEUR A TRANCHÉ : GOOGL S'EFFONDRE SUR SES EARNINGS, FOMC HOLD HAWKISH. GOOGL Q3 : CA +25% à $127.6 Md, Google Cloud x2 à $30.7 Md (vs ~$28.7 Md attendu) MAIS EPS ajusté $2.12 vs ~$3.02 (perte $8.7 Md sur participations), bénéfice net -25% ~$26.2 Md, capex $51.4 Md, FCF NÉGATIF ~-$9.1 Md ; titre clôture 28/10 $324.89 (+1.34%) PUIS PLONGE ~-11% après-Bourse/pré-marché 29/10 à ~$289.44 — ~-15% sous l'entrée $340.51, P&L GOOGL ~-$138. NVDA RÉSISTE : clôture 28/10 $215.38 (-1.17%), pré-marché 29/10 ~$214.17, ~-2.3% sous l'entrée $219.18 (~-$21). FED 28/10 : HOLD 3.75-4.00% confirmé, VOTE 10-2 (Cook + Hammack dissidentes pour une HAUSSE), Warsh hawkish (« pas de forward guidance », réduction des réunions dès 2027), certains desks pricent une hausse 25bp en déc. P&L LATENT COMBINÉ ~-$159 (~-132 CHF au change 0.8281) vs ~-$52 mardi — dégradation portée à 100% par GOOGL, thèse croissance intacte (Cloud x2) mais marché sanctionne capex/FCF. PCE SEPTEMBRE attendu 29/10 14h30 CET (non dispo à la rédaction ; dernier core PCE ~3.0% YoY). MSFT/AMZN ont publié dans la même fenêtre — réactions non vérifiées. USD/CHF ~0.8281 (en hausse vs 0.8252) — tailwind léger. Portefeuille ~7'568 CHF (+18.2%), EN BAISSE vs 27/10 (~7'637), choc GOOGL amorti par le cash lourd (~82%). Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
+    "note": "MAJ 30/10/2026 (vendredi — clôtures CONFIRMÉES du 29/10 + cours overnight/pré-marché 30/10, à reconfirmer sur clôture). LA SANCTION GOOGL EST ACTÉE SUR CLÔTURE : GOOGL s'effondre -12.64% à $283.82, PIRE SÉANCE DE SON HISTOIRE (~-$500 Md de capi en un jour). Nuance clé : le miss EPS ($2.12 vs ~$3.02) est LARGEMENT NON-CASH — perte latente sur la participation SpaceX — pas une chute de la demande (Google Cloud +103% à $30.71 Md). Le marché punit le capex IA / FCF négatif (-$9.1 Md, capex Q3 $51.4 Md) ; titre désormais ~19x bénéfices 2027. Position GOOGL ~-16.6% sous l'entrée $340.51 (P&L ~-$153 sur 2.7 parts). NVDA MEILLEUR ÉLÈVE DE LA TECH : clôture 29/10 $213.66 (-0.80% vs Nasdaq -1.66%), ~-2.5% sous l'entrée $219.18 (~-$23) MAIS pré-marché 30/10 faible ~$208.80 (-2.3%) sur contagion capex IA. P&L LATENT COMBINÉ ~-$176 (~-145 CHF au change 0.8214) vs ~-$159 estimé hier. MACRO : PCE septembre HAWKISH — core +3.1% YoY (vs 3.0% août, accélération), MoM +0.3%, headline 3.6% ; inflation collante, « higher for longer » renforcé (FOMC 28/10 hold 3.75-4.00%, vote 10-2 pour une hausse, Warsh hawkish). THÈME DU MOMENT : le marché trie le capex IA — punit le lourd à FCF dégradé (GOOGL -12.6%, AMZN capex Q3 $77.3 Md -4%) et récompense la discipline (MSFT Azure +48% $33.2 Md, capex allégé ~$45 Md, +4% ; Meta +3%). USD/CHF ~0.8214 (en baisse vs 0.8281 — headwind léger). Portefeuille ~7'509 CHF (+17.5%), EN BAISSE vs 29/10 (~7'568), choc amorti par le cash lourd (~83%). Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
   }
 }
