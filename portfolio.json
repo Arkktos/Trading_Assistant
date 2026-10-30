@@ -271,17 +271,17 @@
     "deposited_capital": 7500.00,
     "cash_chf": 2049.71,
     "cash_usd": 4982.47,
-    "cash_usd_in_chf": 4092.62,
-    "positions_value_usd": 1663.68,
-    "positions_value_chf": 1366.74,
-    "total_value_chf": 7509.07,
+    "cash_usd_in_chf": 4085.63,
+    "positions_value_usd": 1603.03,
+    "positions_value_chf": 1314.48,
+    "total_value_chf": 7449.82,
     "total_withdrawn_chf": 1300.00,
-    "total_return_chf": 1309.07,
-    "total_return_pct": 17.45,
+    "total_return_chf": 1249.82,
+    "total_return_pct": 16.66,
     "realized_pnl_net_chf": 1306.59,
-    "latent_pnl_chf": -144.79,
-    "usdchf_rate": 0.8214,
+    "latent_pnl_chf": -194.26,
+    "usdchf_rate": 0.8200,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 30/10/2026 (vendredi — clôtures CONFIRMÉES du 29/10 + cours overnight/pré-marché 30/10, à reconfirmer sur clôture). LA SANCTION GOOGL EST ACTÉE SUR CLÔTURE : GOOGL s'effondre -12.64% à $283.82, PIRE SÉANCE DE SON HISTOIRE (~-$500 Md de capi en un jour). Nuance clé : le miss EPS ($2.12 vs ~$3.02) est LARGEMENT NON-CASH — perte latente sur la participation SpaceX — pas une chute de la demande (Google Cloud +103% à $30.71 Md). Le marché punit le capex IA / FCF négatif (-$9.1 Md, capex Q3 $51.4 Md) ; titre désormais ~19x bénéfices 2027. Position GOOGL ~-16.6% sous l'entrée $340.51 (P&L ~-$153 sur 2.7 parts). NVDA MEILLEUR ÉLÈVE DE LA TECH : clôture 29/10 $213.66 (-0.80% vs Nasdaq -1.66%), ~-2.5% sous l'entrée $219.18 (~-$23) MAIS pré-marché 30/10 faible ~$208.80 (-2.3%) sur contagion capex IA. P&L LATENT COMBINÉ ~-$176 (~-145 CHF au change 0.8214) vs ~-$159 estimé hier. MACRO : PCE septembre HAWKISH — core +3.1% YoY (vs 3.0% août, accélération), MoM +0.3%, headline 3.6% ; inflation collante, « higher for longer » renforcé (FOMC 28/10 hold 3.75-4.00%, vote 10-2 pour une hausse, Warsh hawkish). THÈME DU MOMENT : le marché trie le capex IA — punit le lourd à FCF dégradé (GOOGL -12.6%, AMZN capex Q3 $77.3 Md -4%) et récompense la discipline (MSFT Azure +48% $33.2 Md, capex allégé ~$45 Md, +4% ; Meta +3%). USD/CHF ~0.8214 (en baisse vs 0.8281 — headwind léger). Portefeuille ~7'509 CHF (+17.5%), EN BAISSE vs 29/10 (~7'568), choc amorti par le cash lourd (~83%). Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
+    "note": "MAJ 30/10/2026 FIN DE SÉANCE (vendredi — cours intraday temps réel ~15:08 EDT, ~1h avant clôture, à reconfirmer sur clôture définitive). LA CONTAGION CAPEX IA S'EST PROPAGÉE DU LEADER AU RESTE DE LA TECH. NVDA, qui avait résisté jeudi (-0.80%), LÂCHE À SON TOUR : -4.93% à ~$203.12 intraday, plus bas depuis début août, sur selloff large du complexe IA (AMD/AVGO aussi en baisse). ~-7.3% sous l'entrée $219.18 (P&L ~-$67 sur 4.2 parts). Earnings NVDA CONFIRMÉS 17/11. GOOGL continue de glisser post-choc 29/10 : -2.14% à ~$277.75 (~-18.4% sous l'entrée $340.51, P&L ~-$169 sur 2.7 parts) ; miss EPS non-cash (SpaceX), opérationnel solide (Cloud +103% à $30.71 Md), forward PE ~20 — thèse intacte, marché en mode « vendre d'abord ». P&L LATENT COMBINÉ DÉGRADÉ ~-$237 (~-194 CHF au change 0.820) vs ~-$176 ce matin — dégradation quasi-entièrement due à NVDA. MACRO : PCE septembre HAWKISH — core +3.1% YoY, MoM +0.3%, headline 3.6% ; inflation collante, « higher for longer » renforcé (FOMC 28/10 hold 3.75-4.00%, vote 10-2, Warsh hawkish). THÈME : le marché vend l'IA en bloc (coût/délai de rentabilisation du capex) ; privilégier la discipline de capex (MSFT) au capex-lourd pour tout redéploiement. USD/CHF ~0.820 (headwind léger). Portefeuille ~7'450 CHF (+16.7%), EN BAISSE vs ce matin (~7'509) ; seul le cash lourd (~84%) amortit. Cours 30/10 intraday ~15:08 EDT, à reconfirmer sur clôture définitive. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
   }
 }
