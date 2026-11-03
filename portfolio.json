@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-02",
+  "last_updated": "2026-11-03",
   "currency": "CHF",
   "cash_chf": 2049.71,
   "cash_usd": 4982.47,
@@ -272,16 +272,16 @@
     "cash_chf": 2049.71,
     "cash_usd": 4982.47,
     "cash_usd_in_chf": 4080.64,
-    "positions_value_usd": 1631.14,
-    "positions_value_chf": 1335.90,
-    "total_value_chf": 7466.25,
+    "positions_value_usd": 1629.61,
+    "positions_value_chf": 1334.65,
+    "total_value_chf": 7465.00,
     "total_withdrawn_chf": 1300.00,
-    "total_return_chf": 1266.25,
-    "total_return_pct": 16.88,
+    "total_return_chf": 1265.00,
+    "total_return_pct": 16.87,
     "realized_pnl_net_chf": 1306.59,
-    "latent_pnl_chf": -171.05,
+    "latent_pnl_chf": -172.26,
     "usdchf_rate": 0.8190,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 02/11/2026 INTRADAY (lundi — cours temps réel ~13:00-13:45 EDT, à reconfirmer sur clôture définitive 21:00 CET). REBOND TECHNIQUE APRÈS LA PURGE DE VENDREDI (Nasdaq -2.86% le 30/10, pire séance depuis début juin, cash-burn IA post Intel/Amazon). NVDA +0.85% à ~$206 : le support psychologique $200 (plus-bas vendredi $200.92) a tenu ; ~-6.0% sous l'entrée $219.18 (P&L ~-$55 sur 4.2 parts), amélioré vs ~-$67 vendredi. GOOGL +1.37% à ~$283.68 : reprise >$280, plancher en formation après le choc 29/10 (-12.64%) ; ~-16.7% sous l'entrée $340.51 (P&L ~-$153 sur 2.7 parts), amélioré vs ~-$169 vendredi ; miss EPS non-cash (SpaceX), Cloud +103% à $30.71 Md, P/E ~14.6, PT moyen analystes ~$410, earnings 03/02/27. P&L LATENT COMBINÉ AMÉLIORÉ ~-$209 (~-171 CHF au change 0.819) vs ~-$237 vendredi. SCAN HORS-TECH : OR +2.3% à ~$3'966/oz (rebond depuis plus-bas d'un an) — la décorrélation travaille ; rotation sectorielle nette (Énergie +19% 3M, Santé +14% 3M et XLV au plus haut 52s, Staples +6% ; banques EU à la traîne ~-10%). MACRO inchangée : core PCE septembre +3.1% YoY, MoM +0.3%, headline 3.6% ; Fed « higher for longer » (FOMC 28/10 hold 3.75-4.00%, vote 10-2). USD/CHF ~0.819 (headwind léger, en baisse vs 0.820). Portefeuille ~7'466 CHF (+16.9%), stabilisé/léger mieux vs vendredi (~7'450) ; cash lourd (~82%) = socle. NVDA earnings CONFIRMÉS 17/11. Cours 02/11 intraday, à reconfirmer sur clôture. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
+    "note": "MAJ 03/11/2026 INTRADAY (mardi — cours temps réel ~13:45-14:00 EDT, à reconfirmer sur clôture définitive 21:00 CET). LE REBOND S'ÉTEND, MENÉ PAR NVDA (2e séance verte après la purge du 30/10). NVDA +2.9% à ~$207.95 : casse une série de 4 séances de baisse, repasse devant Apple comme n°1 mondial (~$5.01 T vs $4.83 T), porté par l'aval de Jensen Huang au deal all-stock Marvell/Lumentum ($115 Md) ; ~-5.1% sous l'entrée $219.18 (P&L ~-$47 sur 4.2 parts), amélioré vs ~-$55 hier ; support $200 tenu (plus-bas 30/10 $200.92). GOOGL +0.4% à ~$280.08 : ne suit PAS le rebond (Nasdaq +0.7%), glisse vs ~$283.68 hier ; tient juste >$280 ; ~-17.7% sous l'entrée $340.51 (P&L ~-$163 sur 2.7 parts), DÉGRADÉ vs ~-$153 hier ; miss EPS non-cash (SpaceX), Cloud +103%, P/E ~14.6, PT moyen ~$410, earnings 03/02/27, plancher 52s $270.70 à défendre. P&L LATENT COMBINÉ ~-$210 (~-172 CHF au change 0.819), QUASI-STABLE vs ~-$209 hier : gain NVDA annulé par la mollesse GOOGL. Nasdaq 100 +0.7% à ~28'184 mais en 3e correction de l'année (~-10% du pic 06/10, -5.3% en octobre). SCAN HORS-TECH : OR ~$3'940/oz en LÉGER REPLI (≈-0.5 à -1%) après le spike +2.3% d'hier (bruit midterms US + pétrole/taux) = fenêtre d'entrée attendue sur ETF or ; rotation sectorielle de fond intacte (Santé XLV au plus haut 52s, Énergie, Staples > tech). MACRO : jour des élections de mi-mandat US ; core PCE septembre +3.1% YoY, headline 3.6% ; Fed « higher for longer » (FOMC 28/10 hold 3.75-4.00%, vote 10-2). USD/CHF ~0.819 NON RECONFIRMÉ aujourd'hui (repris du 02/11). Portefeuille ~7'465 CHF (+16.9%), stable vs hier (~7'466) ; cash lourd (~82%) = socle. NVDA earnings CONFIRMÉS 17/11. Cours 03/11 intraday, à reconfirmer sur clôture. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
   }
 }
