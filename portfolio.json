@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-11-03",
+  "last_updated": "2026-11-04",
   "currency": "CHF",
-  "cash_chf": 2049.71,
+  "cash_chf": 1221.54,
   "cash_usd": 4982.47,
-  "deposited_capital": 7500.00,
+  "deposited_capital": 7500.0,
   "positions": [
     {
       "ticker_swissquote": "NVDA",
@@ -36,6 +36,39 @@
       "order_id": 307043843,
       "order_type": "limit",
       "notes": "Re-entry S3. Limit $340.51, exécuté le 11/09/2026 18:28 CET. Jour du CPI août. Haut de zone $330-340."
+    },
+    {
+      "ticker_swissquote": "AUCHAH",
+      "isin": "CH0106027128",
+      "valor": 10602712,
+      "name": "UBS ETF (CH) Gold hedged CHF (diversification or)",
+      "type": "ETF",
+      "exchange": "SWX",
+      "currency": "CHF",
+      "quantity": 3.1265,
+      "average_buy_price": 127.94,
+      "effective_buy_price": 127.93859,
+      "buy_date": "2026-11-03",
+      "total_cost_chf": 400.0,
+      "order_id": 312707649,
+      "order_type": "market",
+      "notes": "Achat au montant (400 CHF) le 03/11/2026, SIX. Reco diversification #4 (or) du 03/11. Source : capture Swissquote 04/11."
+    },
+    {
+      "ticker_swissquote": "NOVN",
+      "isin": "CH0012005267",
+      "name": "Novartis AG (diversification santé/pharma CHF)",
+      "type": "equity",
+      "exchange": "SWX",
+      "currency": "CHF",
+      "quantity": 3,
+      "average_buy_price": 132.08,
+      "effective_buy_price": 132.08333,
+      "buy_date": "2026-11-04",
+      "total_cost_chf": 396.25,
+      "order_id": 312807330,
+      "order_type": "market",
+      "notes": "Achat au marché le 04/11/2026 10:16:26, SIX. Reco diversification #5 (santé) du 03/11, variante pharma EU en CHF. Source : capture Swissquote 04/11."
     }
   ],
   "closed_positions": [
@@ -70,17 +103,55 @@
       "buy_date": "2026-04-29",
       "sell_date": "2026-05-26",
       "total_shares_bought": 12,
-      "total_cost_usd": 4167.00,
-      "fees_buy_usd": 37.10,
-      "total_cost_with_fees_usd": 4204.10,
+      "total_cost_usd": 4167.0,
+      "fees_buy_usd": 37.1,
+      "total_cost_with_fees_usd": 4204.1,
       "total_cost_chf": 3347.64,
       "usdchf_at_purchase": 0.7997,
       "sales": [
-        {"date": "2026-05-12", "quantity": 4, "price": 387.62, "fees_usd": 13.21, "net_proceeds_usd": 1537.27, "realized_pnl_usd": 135.91},
-        {"date": "2026-05-22", "quantity": 2, "price": 385.00, "fees_usd": 0.59, "net_proceeds_usd": 769.41, "realized_pnl_usd": 75.50},
-        {"date": "2026-05-22", "quantity": 3, "price": 385.00, "fees_usd": 12.61, "net_proceeds_usd": 1142.39, "realized_pnl_usd": 113.25},
-        {"date": "2026-05-22", "quantity": 1, "price": 387.23, "fees_usd": 7.03, "net_proceeds_usd": 380.20, "realized_pnl_usd": 39.98},
-        {"date": "2026-05-26", "quantity": 2, "price": 386.09, "currency": "USD", "fees_usd": 16.41, "net_proceeds_usd": 755.77, "realized_pnl_usd": 61.27, "order_id": 295879887, "time": "13:03:59"}
+        {
+          "date": "2026-05-12",
+          "quantity": 4,
+          "price": 387.62,
+          "fees_usd": 13.21,
+          "net_proceeds_usd": 1537.27,
+          "realized_pnl_usd": 135.91
+        },
+        {
+          "date": "2026-05-22",
+          "quantity": 2,
+          "price": 385.0,
+          "fees_usd": 0.59,
+          "net_proceeds_usd": 769.41,
+          "realized_pnl_usd": 75.5
+        },
+        {
+          "date": "2026-05-22",
+          "quantity": 3,
+          "price": 385.0,
+          "fees_usd": 12.61,
+          "net_proceeds_usd": 1142.39,
+          "realized_pnl_usd": 113.25
+        },
+        {
+          "date": "2026-05-22",
+          "quantity": 1,
+          "price": 387.23,
+          "fees_usd": 7.03,
+          "net_proceeds_usd": 380.2,
+          "realized_pnl_usd": 39.98
+        },
+        {
+          "date": "2026-05-26",
+          "quantity": 2,
+          "price": 386.09,
+          "currency": "USD",
+          "fees_usd": 16.41,
+          "net_proceeds_usd": 755.77,
+          "realized_pnl_usd": 61.27,
+          "order_id": 295879887,
+          "time": "13:03:59"
+        }
       ],
       "total_net_proceeds_usd": 4585.04,
       "realized_pnl_usd": 380.94,
@@ -93,8 +164,8 @@
       "quantity": 0,
       "sell_date": "2026-06-08",
       "sale_price": 298.42,
-      "net_proceeds_usd": 1492.10,
-      "realized_pnl_usd": 207.80,
+      "net_proceeds_usd": 1492.1,
+      "realized_pnl_usd": 207.8,
       "notes": "Clôture totale le 08/06."
     },
     {
@@ -102,9 +173,9 @@
       "name": "NVIDIA Corporation (S1)",
       "quantity": 0,
       "sell_date": "2026-06-08",
-      "sale_price": 210.00,
-      "net_proceeds_usd": 3150.00,
-      "realized_pnl_usd": -60.00,
+      "sale_price": 210.0,
+      "net_proceeds_usd": 3150.0,
+      "realized_pnl_usd": -60.0,
       "notes": "Clôture totale le 08/06. Position S1."
     },
     {
@@ -127,11 +198,11 @@
       "buy_date": "2026-06-22",
       "sell_date": "2026-08-07",
       "total_shares": 3.3062,
-      "total_cost_usd": 1250.00,
-      "sale_price_per_unit": 501.00,
+      "total_cost_usd": 1250.0,
+      "sale_price_per_unit": 501.0,
       "order_type": "limit",
       "gross_proceeds_usd": 1656.41,
-      "fees_sale_usd": 20.00,
+      "fees_sale_usd": 20.0,
       "net_proceeds_usd": 1636.41,
       "realized_pnl_usd": 386.41,
       "realized_pnl_pct": 30.91,
@@ -148,11 +219,11 @@
       "buy_date": "2026-06-22",
       "sell_date": "2026-08-07",
       "total_shares": 4.2106,
-      "total_cost_usd": 1500.00,
-      "sale_price_per_unit": 355.00,
+      "total_cost_usd": 1500.0,
+      "sale_price_per_unit": 355.0,
       "order_type": "market",
       "gross_proceeds_usd": 1494.76,
-      "fees_sale_usd": 20.00,
+      "fees_sale_usd": 20.0,
       "net_proceeds_usd": 1474.76,
       "realized_pnl_usd": -25.24,
       "realized_pnl_pct": -1.68,
@@ -169,18 +240,34 @@
       "buy_date": "2026-08-07",
       "sell_date": "2026-09-03",
       "total_shares": 10,
-      "total_cost_usd": 2220.30,
+      "total_cost_usd": 2220.3,
       "buy_order_id": 303755274,
       "sales": [
-        {"date": "2026-09-03", "time": "20:58:56", "quantity": 7, "price": 229.40, "fees_usd": 32.19, "net_proceeds_usd": 1573.61, "order_id": 306335790},
-        {"date": "2026-09-03", "time": "20:58:56", "quantity": 3, "price": 229.40, "fees_usd": 8.10, "net_proceeds_usd": 680.10, "order_id": 306335790}
+        {
+          "date": "2026-09-03",
+          "time": "20:58:56",
+          "quantity": 7,
+          "price": 229.4,
+          "fees_usd": 32.19,
+          "net_proceeds_usd": 1573.61,
+          "order_id": 306335790
+        },
+        {
+          "date": "2026-09-03",
+          "time": "20:58:56",
+          "quantity": 3,
+          "price": 229.4,
+          "fees_usd": 8.1,
+          "net_proceeds_usd": 680.1,
+          "order_id": 306335790
+        }
       ],
-      "sale_price_per_unit": 229.40,
-      "gross_proceeds_usd": 2294.00,
+      "sale_price_per_unit": 229.4,
+      "gross_proceeds_usd": 2294.0,
       "fees_sale_usd": 40.29,
       "net_proceeds_usd": 2253.71,
       "realized_pnl_usd": 33.41,
-      "realized_pnl_pct": 1.50,
+      "realized_pnl_pct": 1.5,
       "notes": "Position S2 pre-earnings play (Q2 FY2027 le 26/08). Soldée le 03/09/2026 à $229.40 (10 parts). Détenue 27 jours. P&L réalisé : +$33.41 (+1.5%). Earnings jouées sans gain notable — sortie avant le CPI/FOMC de septembre."
     },
     {
@@ -194,14 +281,44 @@
       "sell_date": "2026-09-03",
       "total_cost_usd": 750.17,
       "tranches": [
-        {"date": "2026-06-13", "quantity": 0.00584695, "price": 64136.00, "cost_usd": 375.05, "label": "S1"},
-        {"date": "2026-06-29", "quantity": 0.00614627, "price": 60427.00, "fees_usd": 3.72, "cost_usd": 375.12, "order_id": 299902592, "label": "S3 DCA"}
+        {
+          "date": "2026-06-13",
+          "quantity": 0.00584695,
+          "price": 64136.0,
+          "cost_usd": 375.05,
+          "label": "S1"
+        },
+        {
+          "date": "2026-06-29",
+          "quantity": 0.00614627,
+          "price": 60427.0,
+          "fees_usd": 3.72,
+          "cost_usd": 375.12,
+          "order_id": 299902592,
+          "label": "S3 DCA"
+        }
       ],
       "sales": [
-        {"date": "2026-09-03", "time": "20:58:52", "quantity": 0.01, "price": 81266.00, "fees_usd": 8.13, "net_proceeds_usd": 804.53, "order_id": 306335598},
-        {"date": "2026-09-03", "time": "20:58:56", "quantity": 0.00199322, "price": 81266.00, "fees_usd": 1.62, "net_proceeds_usd": 160.36, "order_id": 306335598}
+        {
+          "date": "2026-09-03",
+          "time": "20:58:52",
+          "quantity": 0.01,
+          "price": 81266.0,
+          "fees_usd": 8.13,
+          "net_proceeds_usd": 804.53,
+          "order_id": 306335598
+        },
+        {
+          "date": "2026-09-03",
+          "time": "20:58:56",
+          "quantity": 0.00199322,
+          "price": 81266.0,
+          "fees_usd": 1.62,
+          "net_proceeds_usd": 160.36,
+          "order_id": 306335598
+        }
       ],
-      "sale_price_per_unit": 81266.00,
+      "sale_price_per_unit": 81266.0,
       "gross_proceeds_usd": 974.66,
       "fees_sale_usd": 9.75,
       "net_proceeds_usd": 964.89,
@@ -214,15 +331,23 @@
       "name": "Ethereum",
       "type": "crypto",
       "quantity": 0,
-      "average_buy_price": 1912.70,
+      "average_buy_price": 1912.7,
       "buy_date": "2026-08-07",
       "sell_date": "2026-09-03",
       "total_cost_usd": 478.18,
       "buy_order_id": 41384708,
       "sales": [
-        {"date": "2026-09-03", "time": "20:59:16", "quantity": 0.25, "price": 2513.30, "fees_usd": 6.29, "net_proceeds_usd": 622.03, "order_id": 306335616}
+        {
+          "date": "2026-09-03",
+          "time": "20:59:16",
+          "quantity": 0.25,
+          "price": 2513.3,
+          "fees_usd": 6.29,
+          "net_proceeds_usd": 622.03,
+          "order_id": 306335616
+        }
       ],
-      "sale_price_per_unit": 2513.30,
+      "sale_price_per_unit": 2513.3,
       "gross_proceeds_usd": 628.33,
       "fees_sale_usd": 6.29,
       "net_proceeds_usd": 622.03,
@@ -236,14 +361,22 @@
       "type": "ETF",
       "currency": "CHF",
       "quantity": 0,
-      "average_buy_price": 1002.80,
+      "average_buy_price": 1002.8,
       "buy_date": "2026-06-22",
       "sell_date": "2026-09-08",
-      "total_cost_chf": 375.00,
+      "total_cost_chf": 375.0,
       "sales": [
-        {"date": "2026-09-08", "time": "09:10:33", "quantity": 0.374, "price": 1057.20, "fees_chf": 4.15, "net_proceeds_chf": 391.24, "order_id": 306605580}
+        {
+          "date": "2026-09-08",
+          "time": "09:10:33",
+          "quantity": 0.374,
+          "price": 1057.2,
+          "fees_chf": 4.15,
+          "net_proceeds_chf": 391.24,
+          "order_id": 306605580
+        }
       ],
-      "sale_price_per_unit": 1057.20,
+      "sale_price_per_unit": 1057.2,
       "gross_proceeds_chf": 395.39,
       "fees_sale_chf": 4.15,
       "net_proceeds_chf": 391.24,
@@ -256,32 +389,35 @@
   "withdrawals": [
     {
       "date": "2026-06-09",
-      "amount_chf": 700.00,
+      "amount_chf": 700.0,
       "type": "profit_withdrawal",
       "notes": "Retrait de 700 CHF de bénéfice réalisé. Visible dans cash_chf : 3'359.19 CHF (09/06) → 2'659.19 CHF (13/06, note \"Post-retrait\" dans le rapport)."
     },
     {
       "date": "2026-09-08",
-      "amount_chf": 600.00,
+      "amount_chf": 600.0,
       "type": "profit_withdrawal",
       "notes": "Retrait de 600 CHF de bénéfice réalisé après liquidation totale du portefeuille. Débit visible le 08/09 05:11:37, cash_chf 2'258.47 → 1'658.47 CHF."
     }
   ],
   "performance": {
-    "deposited_capital": 7500.00,
-    "cash_chf": 2049.71,
+    "deposited_capital": 7500.0,
+    "cash_chf": 1221.54,
     "cash_usd": 4982.47,
-    "cash_usd_in_chf": 4080.64,
-    "positions_value_usd": 1629.61,
-    "positions_value_chf": 1334.65,
-    "total_value_chf": 7465.00,
-    "total_withdrawn_chf": 1300.00,
-    "total_return_chf": 1265.00,
-    "total_return_pct": 16.87,
+    "cash_usd_in_chf": 4070.93,
+    "positions_value_usd": 1639.58,
+    "positions_value_chf": 2143.84,
+    "positions_value_usd_in_chf": 1339.62,
+    "positions_value_chf_native": 804.22,
+    "total_value_chf": 7436.3,
+    "total_withdrawn_chf": 1300.0,
+    "total_return_chf": 1236.3,
+    "total_return_pct": 16.48,
     "realized_pnl_net_chf": 1306.59,
-    "latent_pnl_chf": -172.26,
-    "usdchf_rate": 0.8190,
+    "latent_pnl_chf": -152.97,
+    "usdchf_rate": 0.8171,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 03/11/2026 INTRADAY (mardi — cours temps réel ~13:45-14:00 EDT, à reconfirmer sur clôture définitive 21:00 CET). LE REBOND S'ÉTEND, MENÉ PAR NVDA (2e séance verte après la purge du 30/10). NVDA +2.9% à ~$207.95 : casse une série de 4 séances de baisse, repasse devant Apple comme n°1 mondial (~$5.01 T vs $4.83 T), porté par l'aval de Jensen Huang au deal all-stock Marvell/Lumentum ($115 Md) ; ~-5.1% sous l'entrée $219.18 (P&L ~-$47 sur 4.2 parts), amélioré vs ~-$55 hier ; support $200 tenu (plus-bas 30/10 $200.92). GOOGL +0.4% à ~$280.08 : ne suit PAS le rebond (Nasdaq +0.7%), glisse vs ~$283.68 hier ; tient juste >$280 ; ~-17.7% sous l'entrée $340.51 (P&L ~-$163 sur 2.7 parts), DÉGRADÉ vs ~-$153 hier ; miss EPS non-cash (SpaceX), Cloud +103%, P/E ~14.6, PT moyen ~$410, earnings 03/02/27, plancher 52s $270.70 à défendre. P&L LATENT COMBINÉ ~-$210 (~-172 CHF au change 0.819), QUASI-STABLE vs ~-$209 hier : gain NVDA annulé par la mollesse GOOGL. Nasdaq 100 +0.7% à ~28'184 mais en 3e correction de l'année (~-10% du pic 06/10, -5.3% en octobre). SCAN HORS-TECH : OR ~$3'940/oz en LÉGER REPLI (≈-0.5 à -1%) après le spike +2.3% d'hier (bruit midterms US + pétrole/taux) = fenêtre d'entrée attendue sur ETF or ; rotation sectorielle de fond intacte (Santé XLV au plus haut 52s, Énergie, Staples > tech). MACRO : jour des élections de mi-mandat US ; core PCE septembre +3.1% YoY, headline 3.6% ; Fed « higher for longer » (FOMC 28/10 hold 3.75-4.00%, vote 10-2). USD/CHF ~0.819 NON RECONFIRMÉ aujourd'hui (repris du 02/11). Portefeuille ~7'465 CHF (+16.9%), stable vs hier (~7'466) ; cash lourd (~82%) = socle. NVDA earnings CONFIRMÉS 17/11. Cours 03/11 intraday, à reconfirmer sur clôture. Positions inchangées depuis le 11/09 (ventes réelles non vérifiées côté Swissquote)."
+    "unexplained_cash_chf_gap_2026_11_04": -31.92,
+    "note": "MAJ 04/11/2026 — RÉCONCILIÉ AVEC CAPTURE SWISSQUOTE (source de vérité). Achats exécutés : AUCHAH 3.1265 parts pour 400 CHF le 03/11 (PRU 127.94, ordre 312707649) et NOVN 3 parts au marché le 04/11 10:16 (PRU 132.08, ordre 312807330). Cash CHF 2'049.71 -> 1'221.54 (-828.17 ; achats 796.25 + ~31.92 CHF non expliqués, frais/droits de garde probables à vérifier). Cours Swissquote 04/11 : GOOGL $291.55 (+4.12%), NVDA $202.95 (-1.80%), NOVN 134.26 CHF (+2.10%), AUCHAH 128.40 CHF (+2.98%), USD/CHF 0.8171. Contexte : sweep démocrate aux midterms (Congrès), Dow +1'100/1'500, Nasdaq ~+1.1% ; NVDA pénalisée (risque data centers), GOOGL/AAPL/MSFT en hausse, or en hausse sur dollar faible. Total 7'436.30 CHF (+16.48% avec retraits), P&L latent -152.97 CHF, cash ~71%. NVDA earnings 17/11."
   }
 }

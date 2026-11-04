@@ -49,23 +49,41 @@
       "ticker": "ZGLD",
       "name": "Swisscanto (CH) Precious Metal Fund Gold ETF (ou AUCHAH)",
       "type": "ETF",
-      "target_zone": "Re-entry sur repli/consolidation",
-      "allocation_target": "400 CHF",
-      "status": "Idée de diversification hors-tech PRIORITAIRE. Le repli attendu est arrivé : après le spike +2.3% du 02/11 (~$3'966/oz), l'or consolide à ~$3'940/oz le 03/11 (≈-0.5 à -1%, bruit midterms US + pétrole/taux). C'EST LA FENÊTRE D'ENTRÉE. Setup de fond intact : inflation collante (core PCE 3.1%) + Fed hawkish + défiance méga-cap tech. Décorrèle le portefeuille (100% actions tech US sur la partie investie). Soldé 08/09 à 1'057.20 CHF. Plan : entrer ~400 CHF par tranches (1ère moitié si l'or se stabilise >$3'900, 2e moitié sur confirmation ou repli vers $3'850). Ne pas timer le point bas exact."
+      "target_zone": "2e tranche AUCHAH limite 125.50-126 CHF",
+      "allocation_target": "400 CHF investis + 200 CHF 2e tranche",
+      "status": "1re tranche EXÉCUTÉE : AUCHAH 3.1265 parts pour 400 CHF le 03/11/2026 (PRU 127.94). 2e tranche ~200 CHF sur repli post-midterms (limite 125.50-126 CHF). Setup intact : inflation collante, Fed hawkish, dollar faible."
     },
     {
-      "ticker": "XLV",
-      "name": "Secteur Santé US (ETF iShares Health Care / équivalent UCITS, ou pharma EU Novartis/Roche)",
-      "type": "ETF / Equity",
-      "target_zone": "Entrée sur repli (XLV en surchauffe au plus haut 52s)",
+      "ticker": "NOVN",
+      "name": "Novartis AG (santé/pharma CHF)",
+      "type": "Equity",
+      "target_zone": "Renfort sous 130 CHF",
+      "allocation_target": "~600 CHF au total",
+      "status": "EXÉCUTÉ : 3 parts au marché le 04/11/2026 (PRU 132.08). Renfort +1 à 2 parts sous 130 CHF ; ne pas chasser les plus-hauts 52s."
+    },
+    {
+      "ticker": "ZURN / SREN",
+      "name": "Zurich Insurance / Swiss Re (assurance CH)",
+      "type": "Equity",
+      "target_zone": "À définir (scan prochain rapport)",
       "allocation_target": "300-400 CHF",
-      "status": "Idée de diversification hors-tech (ajoutée 02/11). La santé mène la rotation US : XLV meilleur secteur sem. 44 (+3.12%), au plus haut 52 semaines, +14% sur 3 mois. Défensif, décorrélé de la tech, soutenu par le 'higher for longer'. Pour éviter l'expo USD, alternative : grande pharma EU (Novartis/Roche) sur la place suisse. Ne pas acheter le plus-haut brut — viser un léger repli ou cassure confirmée sur volume."
+      "status": "Idée diversification hors-tech ajoutée 04/11 : brique CHF défensive à dividende. Setup non vérifié — scanner niveaux techniques et rendement avant toute entrée."
     }
   ],
   "devise_de_reference": "CHF",
   "preferences_rapport": {
-    "indicateurs_favoris": ["RSI", "MACD", "BBANDS", "SMA", "EMA"],
-    "horizons_analyse": ["intraday", "daily", "weekly"],
+    "indicateurs_favoris": [
+      "RSI",
+      "MACD",
+      "BBANDS",
+      "SMA",
+      "EMA"
+    ],
+    "horizons_analyse": [
+      "intraday",
+      "daily",
+      "weekly"
+    ],
     "style_recommandations": {
       "profil": "agressif",
       "consignes": [
