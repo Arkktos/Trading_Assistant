@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-04",
+  "last_updated": "2026-11-05",
   "currency": "CHF",
   "cash_chf": 1221.54,
   "cash_usd": 4982.47,
@@ -404,20 +404,20 @@
     "deposited_capital": 7500.0,
     "cash_chf": 1221.54,
     "cash_usd": 4982.47,
-    "cash_usd_in_chf": 4070.93,
-    "positions_value_usd": 1639.58,
-    "positions_value_chf": 2143.84,
-    "positions_value_usd_in_chf": 1339.62,
-    "positions_value_chf_native": 804.22,
-    "total_value_chf": 7436.3,
+    "cash_usd_in_chf": 4065.7,
+    "positions_value_usd": 1572.9,
+    "positions_value_chf": 2091.87,
+    "positions_value_usd_in_chf": 1283.49,
+    "positions_value_chf_native": 808.38,
+    "total_value_chf": 7379.11,
     "total_withdrawn_chf": 1300.0,
-    "total_return_chf": 1236.3,
-    "total_return_pct": 16.48,
+    "total_return_chf": 1179.11,
+    "total_return_pct": 15.72,
     "realized_pnl_net_chf": 1306.59,
-    "latent_pnl_chf": -152.97,
-    "usdchf_rate": 0.8171,
+    "latent_pnl_chf": -205.76,
+    "usdchf_rate": 0.816,
     "custody_fees_chf": -21.62,
     "unexplained_cash_chf_gap_2026_11_04": -31.92,
-    "note": "MAJ 04/11/2026 — RÉCONCILIÉ AVEC CAPTURE SWISSQUOTE (source de vérité). Achats exécutés : AUCHAH 3.1265 parts pour 400 CHF le 03/11 (PRU 127.94, ordre 312707649) et NOVN 3 parts au marché le 04/11 10:16 (PRU 132.08, ordre 312807330). Cash CHF 2'049.71 -> 1'221.54 (-828.17 ; achats 796.25 + ~31.92 CHF non expliqués, frais/droits de garde probables à vérifier). Cours Swissquote 04/11 : GOOGL $291.55 (+4.12%), NVDA $202.95 (-1.80%), NOVN 134.26 CHF (+2.10%), AUCHAH 128.40 CHF (+2.98%), USD/CHF 0.8171. Contexte : sweep démocrate aux midterms (Congrès), Dow +1'100/1'500, Nasdaq ~+1.1% ; NVDA pénalisée (risque data centers), GOOGL/AAPL/MSFT en hausse, or en hausse sur dollar faible. Total 7'436.30 CHF (+16.48% avec retraits), P&L latent -152.97 CHF, cash ~71%. NVDA earnings 17/11."
+    "note": "MAJ 05/11/2026 — ⚠️ COURS ESTIMÉS (pas de capture Swissquote en run auto), dérivés des variations % du 05/11 appliquées au dernier point réel (04/11). À RÉCONCILIER. Estimations : NVDA ~$190 (-6.3%), GOOGL ~$287 (-1.5%), NOVN ~134.5 CHF, AUCHAH ~129.5 CHF, USD/CHF 0.816. Cash inchangé (aucun ordre confirmé le 05/11). Contexte : lendemain du sweep démocrate, déroute IA/semis le 05/11 — S&P ~-2% (efface le rallye de la veille), Nasdaq en correction, VIX +39%, ~2'200 Mds$ évaporés. Déclencheurs : crainte Congrès démocrate sur data centers, Chine retarde l'approbation des H200 Nvidia, guidance molle Qualcomm. NVDA plus lourd poids baissier du S&P. Or + Novartis tiennent (décorrélation validée). Total est. ~7'379 CHF (+15.72% avec retraits), P&L latent est. -205.76 CHF, cash ~71.7%. NVDA SOUS SON STOP <$195 → décision d'allègement. NVDA earnings 17/11."
   }
 }
