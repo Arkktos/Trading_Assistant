@@ -10,32 +10,36 @@
       "name": "NVIDIA Corporation (S3 — CPI re-entry)",
       "type": "equity",
       "exchange": "NASDAQ",
-      "quantity": 4.2,
+      "quantity": 0.2,
       "average_buy_price": 219.18,
       "effective_buy_price": 219.18095,
       "buy_date": "2026-09-11",
-      "total_cost_usd": 920.56,
+      "total_cost_usd": 43.84,
       "fees_buy_usd": 8.36,
       "total_cost_with_fees_usd": 928.92,
       "order_id": 307043909,
       "order_type": "limit",
-      "notes": "Re-entry S3 zone $215-225. Limit $219.18, exécuté le 11/09/2026 18:30 CET. Jour du CPI août."
+      "notes": "Résidu 0.2 part après exécution du STOP @ $195 le 05/11/2026 (4 parts vendues, ordre 312927591). Reste 0.2 part conservée (valeur ~$37) comme billet de loterie earnings 17/11. Cours 05/11 $184.93 (-7.59%). Entrée initiale : limit $219.18, 11/09/2026, jour CPI août."
     },
     {
       "ticker_swissquote": "GOOGL",
       "name": "Alphabet Inc. Class A (S3)",
       "type": "equity",
       "exchange": "NASDAQ",
-      "quantity": 2.7,
-      "average_buy_price": 340.51,
-      "effective_buy_price": 340.51111,
+      "quantity": 3.7,
+      "average_buy_price": 325.78,
+      "effective_buy_price": 325.77838,
       "buy_date": "2026-09-11",
-      "total_cost_usd": 919.38,
+      "total_cost_usd": 1205.38,
       "fees_buy_usd": 8.36,
-      "total_cost_with_fees_usd": 927.74,
+      "total_cost_with_fees_usd": 1213.74,
       "order_id": 307043843,
       "order_type": "limit",
-      "notes": "Re-entry S3. Limit $340.51, exécuté le 11/09/2026 18:28 CET. Jour du CPI août. Haut de zone $330-340."
+      "tranches": [
+        {"date": "2026-09-11", "quantity": 2.7, "price": 340.51, "order_id": 307043843, "label": "S3 initial"},
+        {"date": "2026-11-05", "quantity": 1.0, "price": 286.0, "order_id": 312926692, "label": "renfort — limite $286 exécutée"}
+      ],
+      "notes": "Renfort +1 part le 05/11/2026 via limite $286 (ordre 312926692, exécuté). PRU abaissé de $340.51 à $325.78. Total 3.7 parts. Cours 05/11 $285.58 (-1.15%), P&L latent -120.45 CHF (-12.25%)."
     },
     {
       "ticker_swissquote": "AUCHAH",
@@ -72,6 +76,26 @@
     }
   ],
   "closed_positions": [
+    {
+      "ticker_swissquote": "NVDA",
+      "name": "NVIDIA Corporation (S3 — sortie sur STOP)",
+      "type": "equity",
+      "exchange": "NASDAQ",
+      "quantity": 0,
+      "average_buy_price": 219.18,
+      "buy_date": "2026-09-11",
+      "sell_date": "2026-11-05",
+      "total_shares_sold": 4,
+      "sale_price_per_unit": 195.0,
+      "order_type": "stop",
+      "order_id": 312927591,
+      "gross_proceeds_usd": 780.0,
+      "fees_sale_usd": 13.6,
+      "net_proceeds_usd": 766.4,
+      "realized_pnl_usd": -110.32,
+      "realized_pnl_pct": -12.58,
+      "notes": "STOP @ $195 déclenché le 05/11/2026 lors de la déroute IA/semis (NVDA plus lourd poids baissier du S&P, H200 Chine, Qualcomm). 4 parts sur 4.2 vendues ~$195, résidu 0.2 part conservé (ligne ouverte). P&L réalisé ~-110.32 USD (-12.6%). Le stop a limité la perte : NVDA a continué à $184.93 en séance. Discipline respectée."
+    },
     {
       "ticker_swissquote": "AUCHAH",
       "isin": "CH0106027128",
@@ -403,21 +427,21 @@
   "performance": {
     "deposited_capital": 7500.0,
     "cash_chf": 1221.54,
-    "cash_usd": 4982.47,
-    "cash_usd_in_chf": 4065.7,
-    "positions_value_usd": 1572.9,
-    "positions_value_chf": 2091.87,
-    "positions_value_usd_in_chf": 1283.49,
-    "positions_value_chf_native": 808.38,
-    "total_value_chf": 7379.11,
+    "cash_usd": 5462.87,
+    "cash_usd_in_chf": 4459.89,
+    "positions_value_usd": 1093.63,
+    "positions_value_chf": 1703.23,
+    "positions_value_usd_in_chf": 892.85,
+    "positions_value_chf_native": 810.37,
+    "total_value_chf": 7384.77,
     "total_withdrawn_chf": 1300.0,
-    "total_return_chf": 1179.11,
-    "total_return_pct": 15.72,
-    "realized_pnl_net_chf": 1306.59,
-    "latent_pnl_chf": -205.76,
-    "usdchf_rate": 0.816,
+    "total_return_chf": 1184.77,
+    "total_return_pct": 15.8,
+    "realized_pnl_net_chf": 1216.52,
+    "latent_pnl_chf": -111.97,
+    "usdchf_rate": 0.8164,
     "custody_fees_chf": -21.62,
     "unexplained_cash_chf_gap_2026_11_04": -31.92,
-    "note": "MAJ 05/11/2026 — ⚠️ COURS ESTIMÉS (pas de capture Swissquote en run auto), dérivés des variations % du 05/11 appliquées au dernier point réel (04/11). À RÉCONCILIER. Estimations : NVDA ~$190 (-6.3%), GOOGL ~$287 (-1.5%), NOVN ~134.5 CHF, AUCHAH ~129.5 CHF, USD/CHF 0.816. Cash inchangé (aucun ordre confirmé le 05/11). Contexte : lendemain du sweep démocrate, déroute IA/semis le 05/11 — S&P ~-2% (efface le rallye de la veille), Nasdaq en correction, VIX +39%, ~2'200 Mds$ évaporés. Déclencheurs : crainte Congrès démocrate sur data centers, Chine retarde l'approbation des H200 Nvidia, guidance molle Qualcomm. NVDA plus lourd poids baissier du S&P. Or + Novartis tiennent (décorrélation validée). Total est. ~7'379 CHF (+15.72% avec retraits), P&L latent est. -205.76 CHF, cash ~71.7%. NVDA SOUS SON STOP <$195 → décision d'allègement. NVDA earnings 17/11."
+    "note": "MAJ 05/11/2026 (SOIR) — RÉCONCILIÉ AVEC CAPTURE SWISSQUOTE (source de vérité), remplace les cours estimés du matin. DEUX ORDRES EXÉCUTÉS le 05/11 : (1) STOP NVDA @ $195 déclenché (ordre 312927591) — 4 parts sur 4.2 vendues, résidu 0.2 part ; (2) limite GOOGL @ $286 exécutée (ordre 312926692) — +1 part, PRU 340.51 -> 325.78, total 3.7. Cash USD 4'982.47 -> 5'462.87 (produit vente NVDA ~766 - achat GOOGL 286). Cash CHF inchangé 1'221.54. Cours Swissquote 05/11 : GOOGL $285.58 (-1.15%), NVDA $184.93 (-7.59%), NOVN 134.12 CHF (-0.10%), AUCHAH 130.50 CHF (+1.64%), USD/CHF 0.8164. Ordres encore OUVERTS : NOVN BUY 2 @ 130 CHF (312927170) et AUCHAH BUY 1.5 @ 126 CHF (312926754) — non remplis (cours au-dessus). Contexte : déroute IA/semis (S&P ~-2%, Nasdaq correction, VIX +39%, H200 Chine, Qualcomm). Or + Novartis tiennent (décorrélation validée). Total réel 7'384.77 CHF (+15.80% avec retraits), P&L latent -111.97 CHF, cash ~77%. P&L réalisé net 1'216.52 CHF (après perte NVDA ~-90 CHF sur le stop). NVDA earnings 17/11."
   }
 }
