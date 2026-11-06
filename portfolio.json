@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-05",
+  "last_updated": "2026-11-06",
   "currency": "CHF",
   "cash_chf": 1221.54,
   "cash_usd": 4982.47,
@@ -428,20 +428,20 @@
     "deposited_capital": 7500.0,
     "cash_chf": 1221.54,
     "cash_usd": 5462.87,
-    "cash_usd_in_chf": 4459.89,
-    "positions_value_usd": 1093.63,
-    "positions_value_chf": 1703.23,
-    "positions_value_usd_in_chf": 892.85,
-    "positions_value_chf_native": 810.37,
-    "total_value_chf": 7384.77,
+    "cash_usd_in_chf": 4468.63,
+    "positions_value_usd": 1095.75,
+    "positions_value_chf": 1701.64,
+    "positions_value_usd_in_chf": 896.32,
+    "positions_value_chf_native": 805.32,
+    "total_value_chf": 7391.81,
     "total_withdrawn_chf": 1300.0,
-    "total_return_chf": 1184.77,
-    "total_return_pct": 15.8,
+    "total_return_chf": 1191.81,
+    "total_return_pct": 15.9,
     "realized_pnl_net_chf": 1216.52,
-    "latent_pnl_chf": -111.97,
-    "usdchf_rate": 0.8164,
+    "latent_pnl_chf": -116.48,
+    "usdchf_rate": 0.818,
     "custody_fees_chf": -21.62,
     "unexplained_cash_chf_gap_2026_11_04": -31.92,
-    "note": "MAJ 05/11/2026 (SOIR) — RÉCONCILIÉ AVEC CAPTURE SWISSQUOTE (source de vérité), remplace les cours estimés du matin. DEUX ORDRES EXÉCUTÉS le 05/11 : (1) STOP NVDA @ $195 déclenché (ordre 312927591) — 4 parts sur 4.2 vendues, résidu 0.2 part ; (2) limite GOOGL @ $286 exécutée (ordre 312926692) — +1 part, PRU 340.51 -> 325.78, total 3.7. Cash USD 4'982.47 -> 5'462.87 (produit vente NVDA ~766 - achat GOOGL 286). Cash CHF inchangé 1'221.54. Cours Swissquote 05/11 : GOOGL $285.58 (-1.15%), NVDA $184.93 (-7.59%), NOVN 134.12 CHF (-0.10%), AUCHAH 130.50 CHF (+1.64%), USD/CHF 0.8164. Ordres encore OUVERTS : NOVN BUY 2 @ 130 CHF (312927170) et AUCHAH BUY 1.5 @ 126 CHF (312926754) — non remplis (cours au-dessus). Contexte : déroute IA/semis (S&P ~-2%, Nasdaq correction, VIX +39%, H200 Chine, Qualcomm). Or + Novartis tiennent (décorrélation validée). Total réel 7'384.77 CHF (+15.80% avec retraits), P&L latent -111.97 CHF, cash ~77%. P&L réalisé net 1'216.52 CHF (après perte NVDA ~-90 CHF sur le stop). NVDA earnings 17/11."
+    "note": "MAJ 06/11/2026 — COURS ESTIMÉS WEB, NON RÉCONCILIÉS AVEC SWISSQUOTE (run automatisé, pas de capture ce jour). Quantités/cash inchangés depuis la réconciliation 05/11 soir. AUCUN ordre exécuté le 06/11 : limites NOVN BUY 2 @130 CHF (312927170) et AUCHAH BUY 1.5 @126 CHF (312926754) supposées NON remplies (cours au-dessus). Contexte : REBOND après la déroute du 05/11. Clôtures 05/11 : S&P -4.36% (7'353.73), Nasdaq -5.52% (24'315, correction), Dow -3.44% (51'523). Vendredi 06/11 : Nasdaq +~1.7%, Nvidia +~5.6%, SOX +~4.6%. Jobs US +165K solide -> crainte HAUSSE taux Fed au FOMC 9-10/12. Cours estimés 06/11 : GOOGL ~$285.77 (+1.13%), NVDA ~$192 (+~5.6%), NOVN ~134.00 CHF (flat), AUCHAH ~129.00 CHF (or ~$4'039/oz, -1.1%), USD/CHF ~0.818. Total estimé ~7'391.81 CHF (+15.9% avec retraits), P&L latent ~-116.5 CHF, cash ~77%. P&L réalisé net 1'216.52 CHF inchangé. NVDA earnings 17/11. À réconcilier à la prochaine capture Swissquote."
   }
 }

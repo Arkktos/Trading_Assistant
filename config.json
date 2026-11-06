@@ -65,9 +65,9 @@
       "ticker": "ZURN / SREN",
       "name": "Zurich Insurance / Swiss Re (assurance CH)",
       "type": "Equity",
-      "target_zone": "À définir (scan prochain rapport)",
+      "target_zone": "Entrée sur repli vers support (niveau à vérifier à la prochaine capture)",
       "allocation_target": "300-400 CHF",
-      "status": "Idée diversification hors-tech ajoutée 04/11 : brique CHF défensive à dividende. Setup non vérifié — scanner niveaux techniques et rendement avant toute entrée."
+      "status": "Idée diversification hors-tech #1 (confirmée 06/11) : brique CHF défensive à dividende, faible corrélation tech US, favorisée par un scénario de taux hauts (crainte hausse Fed déc). Setup technique + rendement NON encore vérifiés sur capture — armer une limite sur repli avant entrée. Alternative Swiss Re (SREN)."
     }
   ],
   "devise_de_reference": "CHF",
