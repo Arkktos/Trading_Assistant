@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-09",
+  "last_updated": "2026-11-13",
   "currency": "CHF",
   "cash_chf": 1221.54,
   "cash_usd": 4982.47,
@@ -19,7 +19,7 @@
       "total_cost_with_fees_usd": 928.92,
       "order_id": 307043909,
       "order_type": "limit",
-      "notes": "Résidu 0.2 part après exécution du STOP @ $195 le 05/11/2026 (4 parts vendues, ordre 312927591). Reste 0.2 part conservée (valeur ~$34) comme billet de loterie earnings 17/11 — désormais DOUBLE-binaire : enquête interne 09/11 sur le CEO Jensen Huang (ciblage renseignement étranger présumé) qui soulève des questions sur son avenir. NVDA ~$171 le 09/11 (-5.6% à contre-courant d'un marché +3%, >20% sous le pic ~$239). Le STOP @195 confirmé comme bonne décision. Entrée initiale : limit $219.18, 11/09/2026, jour CPI août."
+      "notes": "Résidu 0.2 part après exécution du STOP @ $195 le 05/11/2026 (4 parts vendues, ordre 312927591). Reste 0.2 part conservée (valeur ~$33) comme loto earnings 17/11 — désormais TRIPLE-binaire : (1) résultats 17/11, (2) SUCCESSION — Jensen Huang a DÉMISSIONNÉ ~12/11, CFO Colette Kress en CEO par intérim, aucun successeur permanent, (3) enquête interne + scrutin Congrès en cours. HSBC a dégradé NVDA à Hold et coupé l'objectif à $170 (de $365). NVDA ~$162.68 le 13/11 (plus bas 52s $148.80, ~-14% intraday jeudi), cap repassée sous $4'000 Md. Reco 13/11 : SOLDER le résidu avant les earnings pour purger le headline-risk (frais ~1/3 de la valeur acceptés). Le STOP @195 confirmé comme excellente décision. Entrée initiale : limit $219.18, 11/09/2026, jour CPI août."
     },
     {
       "ticker_swissquote": "GOOGL",
@@ -428,20 +428,21 @@
     "deposited_capital": 7500.0,
     "cash_chf": 1221.54,
     "cash_usd": 5462.87,
-    "cash_usd_in_chf": 4441.31,
-    "positions_value_usd": 1107.28,
-    "positions_value_chf": 1711.8,
-    "positions_value_usd_in_chf": 900.22,
-    "positions_value_chf_native": 811.6,
-    "total_value_chf": 7374.65,
+    "cash_usd_in_chf": 4479.55,
+    "positions_value_usd": 1120.34,
+    "positions_value_chf": 1730.4,
+    "positions_value_usd_in_chf": 918.68,
+    "positions_value_chf_native": 811.7,
+    "total_value_chf": 7431.5,
     "total_withdrawn_chf": 1300.0,
-    "total_return_chf": 1174.65,
-    "total_return_pct": 15.66,
+    "total_return_chf": 1231.5,
+    "total_return_pct": 16.42,
     "realized_pnl_net_chf": 1216.52,
-    "latent_pnl_chf": -100.5,
-    "usdchf_rate": 0.813,
+    "latent_pnl_chf": -90.3,
+    "usdchf_rate": 0.82,
     "custody_fees_chf": -21.62,
     "unexplained_cash_chf_gap_2026_11_04": -31.92,
-    "note": "MAJ 09/11/2026 — COURS ESTIMÉS WEB INTRADAY, NON RÉCONCILIÉS AVEC SWISSQUOTE (run automatisé, pas de capture ce jour). Quantités/cash inchangés depuis la réconciliation 05/11 soir (week-end 07-08/11 : aucun ordre). Limites NOVN BUY 2 @130 CHF (312927170) et AUCHAH BUY 1.5 @126 CHF (312926754) supposées NON remplies (cours au-dessus). Contexte lundi 09/11 : REBOND LARGE — Nasdaq 100 +~3.1% (meilleure séance depuis 04/08), S&P +~1.5% (7'486), Dow +~1.3% (51'938), VIX -20% à 20.51, 11/11 secteurs verts. EXCEPTION NVDA -5.6% (idiosyncratique) : enquête interne sur le CEO Jensen Huang (ciblage renseignement étranger présumé), >20% sous le pic. Or REBONDIT ~$4'118-4'125/oz (+~2%, dollar plus mou) -> AUCHAH ~131 CHF. CPI attendu cette semaine (relais de l'IA). Cours estimés 09/11 : GOOGL ~$290 (+~1.8%), NVDA ~$171.40 (-5.6%), NOVN ~134.00 CHF (flat), AUCHAH ~131.00 CHF, USD/CHF ~0.813. Total estimé ~7'374.65 CHF (+15.66% avec retraits), P&L latent ~-100.5 CHF, cash ~77%. P&L réalisé net 1'216.52 CHF inchangé. NVDA earnings 17/11. À réconcilier à la prochaine capture Swissquote."
+    "cash_usd_header_vs_perf_gap": "En-tête cash_usd=4982.47 vs bloc perf cash_usd=5462.87 (écart ~480 USD). Rapport 13/11 retient 5462.87 par continuité ; À TRANCHER à la prochaine capture Swissquote (impact ~±394 CHF sur le total).",
+    "note": "MAJ 13/11/2026 — COURS ESTIMÉS WEB INTRADAY, NON RÉCONCILIÉS AVEC SWISSQUOTE (run automatisé, pas de capture ce jour). Quantités/cash inchangés depuis la réconciliation 05/11 soir (semaine 10-13/11 : aucun ordre confirmé). Limites NOVN BUY 2 @130 CHF (312927170) et AUCHAH BUY 1.5 @126 CHF (312926754) supposées NON remplies (cours au-dessus). CHOC NVDA : Jensen Huang a DÉMISSIONNÉ ~12/11, CFO Colette Kress en CEO par intérim, aucun successeur permanent ; HSBC dégrade à Hold, PT $170 (de $365) ; earnings mardi 17/11 SANS CEO en titre. Vente de semis qui s'accélère vendredi : AMD ~-9% (~$533), AVGO ~-6%, INTC/MU ~-5%. Indices 13/11 : S&P ~-0.6%, Nasdaq Comp ~-1%, Dow ~flat, VIX >20, BTC <$70k. MACRO : PPI octobre +0.3% m/m mais +6.5% ANNUEL (plus haut depuis nov-2022) + emploi solide 06/11 -> marché price une HAUSSE Fed au FOMC 9-10/12, 10a US à 5.17%. Or ~$4'140/oz (rallye 5 séances, couverture stagflation) -> AUCHAH ~132 CHF. Cours estimés 13/11 : GOOGL ~$294 (clôture 12/11 $298.70), NVDA ~$162.68 (52w low $148.80), NOVN ~133.00 CHF, AUCHAH ~132.00 CHF, USD/CHF ~0.82. Total estimé ~7'431.5 CHF (+16.42% avec retraits), P&L latent ~-90.3 CHF, cash ~77%. P&L réalisé net 1'216.52 CHF inchangé. Reco clé : solder le résidu NVDA avant earnings ; compléter l'or (stagflation) ; orienter le cash vers CHF défensif/financières (ZURN) plutôt que tech. À réconcilier à la prochaine capture Swissquote."
   }
 }

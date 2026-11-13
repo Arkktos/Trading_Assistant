@@ -7,7 +7,7 @@
       "type": "Equity",
       "target_zone": "Re-entry $330-340 USD",
       "allocation_target": "1200 CHF",
-      "status": "Position ouverte 3.7 parts, PRU $325.78 (renfort +1 @ $286 exécuté le 05/11). Prochain renfort seulement sur clôture >$300 ou repli capitulatif <$265."
+      "status": "Position ouverte 3.7 parts, PRU $325.78 (renfort +1 @ $286 exécuté le 05/11), ~53% des positions. Régime taux-hauts (PPI +6.5%, hausse Fed probable déc) hostile à la duration. Prochain renfort seulement sur clôture >$305 ou repli capitulatif <$265. PRUDENCE : alléger 1 part si clôture sous support ~$280 pour réduire la concentration. Risque de contagion du choc NVDA (earnings 17/11)."
     },
     {
       "ticker": "MSFT",
@@ -51,7 +51,7 @@
       "type": "ETF",
       "target_zone": "2e tranche AUCHAH limite 125.50-126 CHF",
       "allocation_target": "400 CHF investis + 200 CHF 2e tranche",
-      "status": "1re tranche EXÉCUTÉE : AUCHAH 3.1265 parts pour 400 CHF le 03/11/2026 (PRU 127.94). 2e tranche 1.5 parts @ 126 CHF : ORDRE OUVERT au 05/11 (ordre 312926754), non rempli (cours 130.50, or en hausse). Envisager de relever la limite à ~128.50 CHF. Setup intact : couverture validée le 05/11 (+1.64% jour risk-off)."
+      "status": "1re tranche EXÉCUTÉE : AUCHAH 3.1265 parts pour 400 CHF le 03/11/2026 (PRU 127.94). 2e tranche 1.5 parts @ 126 CHF : ORDRE OUVERT (ordre 312926754), non rempli (cours ~132, or ~$4'140/oz, rallye 5 séances). THÈSE RENFORCÉE 13/11 par le PPI +6.5% annuel (stagflation = bid sur l'or réel). Action : RELEVER la limite à ~130.50 CHF (ou achat au montant ~200 CHF) pour compléter la ligne vers 600 CHF. Couverture validée sur 3+ séances de stress."
     },
     {
       "ticker": "NOVN",
@@ -67,7 +67,7 @@
       "type": "Equity",
       "target_zone": "Entrée sur repli vers support (niveau à vérifier à la prochaine capture)",
       "allocation_target": "300-400 CHF",
-      "status": "Idée diversification hors-tech #1 (confirmée 06/11) : brique CHF défensive à dividende, faible corrélation tech US, favorisée par un scénario de taux hauts (crainte hausse Fed déc). Setup technique + rendement NON encore vérifiés sur capture — armer une limite sur repli avant entrée. Alternative Swiss Re (SREN)."
+      "status": "Idée diversification hors-tech #1 (réaffirmée 13/11, conviction renforcée) : brique CHF défensive à gros dividende, faible corrélation tech US. Le PPI +6.5% annuel + 10a US 5.17% + hausse Fed probable déc rendent les assureurs/financières (marge de placement) GAGNANTS du régime taux-hauts. Setup technique + rendement NON encore vérifiés sur capture — armer une limite sur repli avant entrée. Alternative Swiss Re (SREN)."
     }
   ],
   "devise_de_reference": "CHF",
