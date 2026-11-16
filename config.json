@@ -7,7 +7,7 @@
       "type": "Equity",
       "target_zone": "Re-entry $330-340 USD",
       "allocation_target": "1200 CHF",
-      "status": "Position ouverte 3.7 parts, PRU $325.78 (renfort +1 @ $286 exécuté le 05/11), ~53% des positions. Régime taux-hauts (PPI +6.5%, hausse Fed probable déc) hostile à la duration. Prochain renfort seulement sur clôture >$305 ou repli capitulatif <$265. PRUDENCE : alléger 1 part si clôture sous support ~$280 pour réduire la concentration. Risque de contagion du choc NVDA (earnings 17/11)."
+      "status": "Capture 16/11 : 3.7 parts, PRU $325.78, cours $295.77, latent -6.57% / -64.63 CHF, 46.8% des positions. Résiste mieux qu'estimé le 13/11. Régime taux-hauts + binaire FOMC 9-10/12 hostiles à la duration. Renfort seulement sur clôture >$305 ou repli capitulatif <$265. PRUDENCE : alléger 1 part si clôture sous support ~$280. Risque contagion earnings NVDA 17/11."
     },
     {
       "ticker": "MSFT",
@@ -49,9 +49,9 @@
       "ticker": "ZGLD",
       "name": "Swisscanto (CH) Precious Metal Fund Gold ETF (ou AUCHAH)",
       "type": "ETF",
-      "target_zone": "2e tranche AUCHAH limite 125.50-126 CHF",
-      "allocation_target": "400 CHF investis + 200 CHF 2e tranche",
-      "status": "1re tranche EXÉCUTÉE : AUCHAH 3.1265 parts pour 400 CHF le 03/11/2026 (PRU 127.94). 2e tranche 1.5 parts @ 126 CHF : ORDRE OUVERT (ordre 312926754), non rempli (cours ~132, or ~$4'140/oz, rallye 5 séances). THÈSE RENFORCÉE 13/11 par le PPI +6.5% annuel (stagflation = bid sur l'or réel). Action : RELEVER la limite à ~130.50 CHF (ou achat au montant ~200 CHF) pour compléter la ligne vers 600 CHF. Couverture validée sur 3+ séances de stress."
+      "target_zone": "Ligne complétée (5 parts), pas de renfort sous le PRU 128.15",
+      "allocation_target": "~640 CHF investis (objectif 600 atteint)",
+      "status": "LIGNE COMPLÉTÉE : AUCHAH 5 parts, PRU 128.15 CHF (achat initial 3.1265 @127.94 le 03/11 + renfort 1.8735 ~240.74 CHF entre 14 et 16/11). Capture 16/11 : cours 121.86 CHF, latent -4.91% / -31.44 CHF — l'or a REFLUÉ (le rallye estimé le 13/11 ne s'est pas confirmé dans le prix réel de l'ETF). Couverture stagflation à CONSERVER sur le fond, mais NE PAS sur-renforcer sous le PRU ; ajout seulement sur reprise du PRU en clôture."
     },
     {
       "ticker": "NOVN",
@@ -59,7 +59,7 @@
       "type": "Equity",
       "target_zone": "Renfort sous 130 CHF",
       "allocation_target": "~600 CHF au total",
-      "status": "EXÉCUTÉ : 3 parts au marché le 04/11/2026 (PRU 132.08). Renfort 2 parts @ 130 CHF : ORDRE OUVERT au 05/11 (ordre 312927170), non rempli (cours 134.12). Objectif ligne ~600 CHF ; ne pas chasser les plus-hauts 52s."
+      "status": "Capture 16/11 : 3 parts, PRU 132.08, cours 135.46 CHF, latent +2.56% / +10.13 CHF — SEULE LIGNE VERTE, amortisseur du risk-off. Renfort 2 parts @ 130 CHF : ORDRE OUVERT (312927170), non rempli (cours au-dessus). Objectif ligne ~600 CHF ; relever la limite vers ~133 CHF si l'on veut compléter sans attendre un repli improbable. Ne pas chasser les plus-hauts 52s."
     },
     {
       "ticker": "ZURN / SREN",
