@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-16",
+  "last_updated": "2026-11-17",
   "currency": "CHF",
   "cash_chf": 974.77,
   "cash_usd": 5462.87,
@@ -446,19 +446,19 @@
     "deposited_capital": 7500.0,
     "cash_chf": 974.77,
     "cash_usd": 5462.87,
-    "cash_usd_in_chf": 4584.99,
-    "positions_value_usd": 1126.92,
-    "positions_value_chf": 1961.5,
-    "positions_value_usd_in_chf": 945.82,
-    "positions_value_chf_native": 1015.68,
-    "total_value_chf": 7521.26,
+    "cash_usd_in_chf": 4585.53,
+    "positions_value_usd": 1072.48,
+    "positions_value_chf": 1913.37,
+    "positions_value_usd_in_chf": 900.23,
+    "positions_value_chf_native": 1013.14,
+    "total_value_chf": 7473.67,
     "total_withdrawn_chf": 1300.0,
-    "total_return_chf": 1321.26,
-    "total_return_pct": 17.62,
+    "total_return_chf": 1273.67,
+    "total_return_pct": 16.98,
     "realized_pnl_net_chf": 1216.52,
-    "latent_pnl_chf": -94.44,
-    "usdchf_rate": 0.8393,
+    "latent_pnl_chf": -172.21,
+    "usdchf_rate": 0.8394,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 16/11/2026 — CAPTURE SWISSQUOTE RÉELLE (plus une estimation web). Cash CHF 974.77 (baisse de 246.77 vs 13/11, correspond au renfort AUCHAH). Cash USD 5462.87 inchangé (ordre NVDA pas encore exécuté). Positions : GOOGL 3.7 (inchangé, $295.77, G&P -6.57% / -64.63 CHF), NOVN 3 (inchangé, 135.46 CHF, G&P +2.56% / +10.13 CHF), NVDA 0.2 ($162.85, G&P -23.71% / -8.50 CHF) — ORDRE SELL marché 0.2 part placé 16/11 09:02 (314645527, validité 16-11-2026, statut OUVERT, non exécuté à la capture) : exécute la reco 13/11 de solder avant earnings 17/11. AUCHAH passé de 3.1265 à 5 parts (renfort +1.8735 part ~240.74 CHF, PRU quasi stable 127.94→128.15 CHF), 121.86 CHF, G&P -4.91% / -31.44 CHF — exécute la reco 13/11 'compléter l'or'. Total CHF 7'521.26 (+17.62% avec retraits), P&L latent -94.44 CHF, cash ~74% (positions 1'961.50 / 26%). Reco : vérifier exécution de l'ordre NVDA avant clôture 17/11 (earnings sans CEO en titre, risque headline) ; surveiller AUCHAH/or (stagflation) comme couverture ; GOOGL reste la plus grosse ligne (46.83%) et plus gros risque latent — envisager stop ou prise partielle si rebond vers $300+."
+    "note": "MAJ 17/11/2026 — QUOTES WEB LIVE (Google Finance), PAS une capture Swissquote. Quantités et cash repris de la capture 16/11 ; seuls prix et P&L réactualisés. Cours intraday 17/11 : GOOGL $281.55 (-13.58% / -137.4 CHF, SUR le seuil de prudence $280), AUCHAH 122.66 CHF (+0.49% séance, -4.28% / -27.4 CHF vs PRU), NOVN 133.28 CHF (+0.91% / +3.6 CHF, seule ligne verte, en repli), NVDA 0.2 $153.71 (-29.87% / -11.0 CHF). USD/CHF 0.8394. Total CHF ~7'473.67 (+16.98% avec retraits), P&L latent -172.21 CHF (dégradé vs -94 le 16/11, porté par GOOGL et NOVN), cash ~74%. EARNINGS NVDA CE SOIR 17/11 ~23:00 UTC (après clôture) : Jensen Huang démissionnaire (~2'000 Md$ effacés), direction intérim. ORDRE SELL 0.2 NVDA (314645527) était en validité JOUR 16/11 — à vérifier en capture : s'il a expiré sans remplir, le résidu part dans l'événement de ce soir → replacer un SELL marché avant clôture. Reco : (1) vérifier/replacer ordre NVDA ce matin ; (2) GOOGL alléger 1 part si clôture <$280 ; (3) idée diversif hors-tech chiffrée : SREN (Swiss Re) 151.65 CHF, limite 2 parts ~148-150 (~300 CHF), ZURN 652 CHF trop gros/part ; (4) AUCHAH conserver sans sur-renfort sous PRU. Prochaine capture : réconcilier statut ordre NVDA + limites NOVN 2 @130."
   }
 }

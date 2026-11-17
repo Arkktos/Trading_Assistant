@@ -7,7 +7,7 @@
       "type": "Equity",
       "target_zone": "Re-entry $330-340 USD",
       "allocation_target": "1200 CHF",
-      "status": "Capture 16/11 : 3.7 parts, PRU $325.78, cours $295.77, latent -6.57% / -64.63 CHF, 46.8% des positions. Résiste mieux qu'estimé le 13/11. Régime taux-hauts + binaire FOMC 9-10/12 hostiles à la duration. Renfort seulement sur clôture >$305 ou repli capitulatif <$265. PRUDENCE : alléger 1 part si clôture sous support ~$280. Risque contagion earnings NVDA 17/11."
+      "status": "Web live 17/11 : 3.7 parts, PRU $325.78, cours $281.55, latent -13.58% / -137.4 CHF, 45.7% des positions. SUR le seuil de prudence $280. Régime taux-hauts + odds baisse Fed déc effondrés ~40% hostiles à la duration. ACTION : alléger 1 part si clôture ferme <$280 (dégage ~230 CHF). Renfort seulement sur clôture >$305 ou repli capitulatif <$265. Risque contagion earnings NVDA CE SOIR 17/11."
     },
     {
       "ticker": "MSFT",
@@ -51,7 +51,7 @@
       "type": "ETF",
       "target_zone": "Ligne complétée (5 parts), pas de renfort sous le PRU 128.15",
       "allocation_target": "~640 CHF investis (objectif 600 atteint)",
-      "status": "LIGNE COMPLÉTÉE : AUCHAH 5 parts, PRU 128.15 CHF (achat initial 3.1265 @127.94 le 03/11 + renfort 1.8735 ~240.74 CHF entre 14 et 16/11). Capture 16/11 : cours 121.86 CHF, latent -4.91% / -31.44 CHF — l'or a REFLUÉ (le rallye estimé le 13/11 ne s'est pas confirmé dans le prix réel de l'ETF). Couverture stagflation à CONSERVER sur le fond, mais NE PAS sur-renforcer sous le PRU ; ajout seulement sur reprise du PRU en clôture."
+      "status": "LIGNE COMPLÉTÉE : AUCHAH 5 parts, PRU 128.15 CHF (achat initial 3.1265 @127.94 le 03/11 + renfort 1.8735 ~240.74 CHF entre 14 et 16/11). Web live 17/11 : cours 122.66 CHF (+0.49% séance), latent -4.28% / -27.4 CHF — l'or se STABILISE mais reste sous le PRU. Couverture stagflation à CONSERVER sur le fond, NE PAS sur-renforcer sous le PRU ; ajout seulement sur reprise du PRU en clôture."
     },
     {
       "ticker": "NOVN",
@@ -59,15 +59,15 @@
       "type": "Equity",
       "target_zone": "Renfort sous 130 CHF",
       "allocation_target": "~600 CHF au total",
-      "status": "Capture 16/11 : 3 parts, PRU 132.08, cours 135.46 CHF, latent +2.56% / +10.13 CHF — SEULE LIGNE VERTE, amortisseur du risk-off. Renfort 2 parts @ 130 CHF : ORDRE OUVERT (312927170), non rempli (cours au-dessus). Objectif ligne ~600 CHF ; relever la limite vers ~133 CHF si l'on veut compléter sans attendre un repli improbable. Ne pas chasser les plus-hauts 52s."
+      "status": "Web live 17/11 : 3 parts, PRU 132.08, cours 133.28 CHF (-1.83% séance), latent +0.91% / +3.6 CHF — SEULE LIGNE VERTE, mais recule et repasse à peine positif. Renfort 2 parts @ 130 CHF : ORDRE OUVERT (312927170), non rempli (cours au-dessus). Objectif ligne ~600 CHF ; relever la limite vers ~133 CHF si l'on veut compléter sans attendre un repli improbable. Ne pas chasser les plus-hauts 52s."
     },
     {
       "ticker": "ZURN / SREN",
       "name": "Zurich Insurance / Swiss Re (assurance CH)",
       "type": "Equity",
-      "target_zone": "Entrée sur repli vers support (niveau à vérifier à la prochaine capture)",
+      "target_zone": "SREN limite 2 parts ~148-150 CHF (~300 CHF) ; ZURN 1 part = 652 CHF (trop gros vs cible)",
       "allocation_target": "300-400 CHF",
-      "status": "Idée diversification hors-tech #1 (réaffirmée 13/11, conviction renforcée) : brique CHF défensive à gros dividende, faible corrélation tech US. Le PPI +6.5% annuel + 10a US 5.17% + hausse Fed probable déc rendent les assureurs/financières (marge de placement) GAGNANTS du régime taux-hauts. Setup technique + rendement NON encore vérifiés sur capture — armer une limite sur repli avant entrée. Alternative Swiss Re (SREN)."
+      "status": "Idée diversification hors-tech #1, désormais CHIFFRÉE (17/11). Web live : SREN (Swiss Re) 151.65 CHF (+~5% sur 1 mois), ZURN 652 CHF (dividende 4.6%). Assureurs CHF = GAGNANTS du régime taux-hauts (marge de placement), faible corrélation tech US. SREN = véhicule adapté au budget (2 parts ~300 CHF) ; ZURN trop cher/part pour la taille cible. ACTION : armer limite SREN 2 parts ~148-150 CHF, financée par le cash USD ; entrée au marché si clôture >153 (momentum). Rotation de cycle."
     }
   ],
   "devise_de_reference": "CHF",
