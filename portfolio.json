@@ -1,46 +1,27 @@
 {
-  "last_updated": "2026-11-17",
+  "last_updated": "2026-11-18",
   "currency": "CHF",
-  "cash_chf": 974.77,
-  "cash_usd": 5462.87,
+  "cash_chf": 703.72,
+  "cash_usd": 5765.99,
   "deposited_capital": 7500.0,
   "positions": [
-    {
-      "ticker_swissquote": "NVDA",
-      "name": "NVIDIA Corporation (S3 — CPI re-entry)",
-      "type": "equity",
-      "exchange": "NASDAQ",
-      "quantity": 0.2,
-      "average_buy_price": 219.18,
-      "effective_buy_price": 219.18095,
-      "buy_date": "2026-09-11",
-      "total_cost_usd": 43.84,
-      "fees_buy_usd": 8.36,
-      "total_cost_with_fees_usd": 928.92,
-      "order_id": 307043909,
-      "order_type": "limit",
-      "pending_sell_order_id": 314645527,
-      "notes": "Résidu 0.2 part après exécution du STOP @ $195 le 05/11/2026 (4 parts vendues, ordre 312927591). Ordre SELL marché 0.2 part placé le 16/11/2026 (ordre 314645527, validité 16-11-2026, statut OUVERT, non exécuté à la capture) — exécute la reco du 13/11 de solder le résidu avant earnings (17/11) pour purger le risque succession/headline (Jensen Huang démissionnaire, CFO intérim). Prix capture 16/11 : $162.85, G&P -23.71% (-$8.50 / -8.50 CHF). Entrée initiale : limit $219.18, 11/09/2026, jour CPI août."
-    },
     {
       "ticker_swissquote": "GOOGL",
       "name": "Alphabet Inc. Class A (S3)",
       "type": "equity",
       "exchange": "NASDAQ",
-      "quantity": 3.7,
+      "quantity": 2.7,
       "average_buy_price": 325.78,
       "effective_buy_price": 325.77838,
       "buy_date": "2026-09-11",
-      "total_cost_usd": 1205.38,
-      "fees_buy_usd": 8.36,
-      "total_cost_with_fees_usd": 1213.74,
       "order_id": 307043843,
       "order_type": "limit",
       "tranches": [
         {"date": "2026-09-11", "quantity": 2.7, "price": 340.51, "order_id": 307043843, "label": "S3 initial"},
-        {"date": "2026-11-05", "quantity": 1.0, "price": 286.0, "order_id": 312926692, "label": "renfort — limite $286 exécutée"}
+        {"date": "2026-11-05", "quantity": 1.0, "price": 286.0, "order_id": 312926692, "label": "renfort — limite $286 exécutée"},
+        {"date": "2026-11-17", "quantity": -1.0, "label": "allègement 1 part (reco 17/11, concentration) — voir closed_positions GOOGL S3 partiel"}
       ],
-      "notes": "Renfort +1 part le 05/11/2026 via limite $286 (ordre 312926692, exécuté). PRU abaissé de $340.51 à $325.78. Total 3.7 parts. Cours 05/11 $285.58 (-1.15%), P&L latent -120.45 CHF (-12.25%)."
+      "notes": "RÉCONCILIÉ sur capture Swissquote 17/11/2026 : 2.7 parts, PRU $325.78, cours $282.92, G&P -94.89 CHF (-12.84%). L'allègement de 1 part recommandé le 17/11 (ligne SUR le seuil $280) a été EXÉCUTÉ : 3.7 → 2.7 parts, cash USD +~303 (5462.87→5765.99). Le PRU reste $325.78 (une vente ne modifie pas le PRU). Prix de vente non capturé précisément (~$285, net ~303 USD) — voir closed_positions."
     },
     {
       "ticker_swissquote": "AUCHAH",
@@ -61,7 +42,7 @@
         {"date": "2026-11-03", "quantity": 3.1265, "price": 127.93859, "order_id": 312707649, "label": "achat initial 400 CHF"},
         {"date": "2026-11-14/16", "quantity": 1.8735, "price": 128.49, "label": "renfort — complète l'or (reco 13/11), PRU inchangé ~128.15"}
       ],
-      "notes": "Achat initial 400 CHF le 03/11/2026, SIX. Renfort +1.8735 part (~240.74 CHF) entre le 14 et le 16/11/2026, portant la ligne à 5 parts (reco diversification #4 du 03/11, complétée le 13/11 : 'compléter l'or, stagflation'). PRU quasi inchangé (127.94→128.15). Prix capture 16/11 : 121.86 CHF, G&P -4.91%."
+      "notes": "Achat initial 400 CHF le 03/11/2026, SIX. Renfort +1.8735 part (~240.74 CHF) entre le 14 et le 16/11/2026, portant la ligne à 5 parts. PRU 128.148. Capture Swissquote 17/11 : cours 118.24 CHF, G&P -49.54 CHF (-7.73%) — l'or a REPLONGÉ sous le PRU (vs 122.66 web le 17/11 intraday)."
     },
     {
       "ticker_swissquote": "NOVN",
@@ -70,17 +51,51 @@
       "type": "equity",
       "exchange": "SWX",
       "currency": "CHF",
-      "quantity": 3,
-      "average_buy_price": 132.08,
-      "effective_buy_price": 132.08333,
+      "quantity": 5,
+      "average_buy_price": 132.45,
+      "effective_buy_price": 132.45,
       "buy_date": "2026-11-04",
-      "total_cost_chf": 396.25,
-      "order_id": 312807330,
+      "total_cost_chf": 662.25,
       "order_type": "market",
-      "notes": "Achat au marché le 04/11/2026 10:16:26, SIX. Reco diversification #5 (santé) du 03/11, variante pharma EU en CHF. Source : capture Swissquote 04/11."
+      "tranches": [
+        {"date": "2026-11-04", "quantity": 3, "price": 132.08, "order_id": 312807330, "label": "achat initial marché"},
+        {"date": "2026-11-17", "quantity": 2, "price": 133.00, "order_id": 315017400, "label": "renfort limite 2 @ 133.00 — EXÉCUTÉ"}
+      ],
+      "notes": "RÉCONCILIÉ sur capture Swissquote 17/11/2026 : 5 parts, PRU 132.45 CHF, cours 131.48, G&P -4.85 CHF (-0.73%). Renfort 2 parts via limite @ 133.00 (ordre 315017400, EXÉCUTÉ 17/11) complète la ligne santé vers ~662 CHF — remplace la limite 2 @130 non remplie. PRU relevé 132.08 → 132.45. Cash CHF -271 (974.77→703.72)."
     }
   ],
   "closed_positions": [
+    {
+      "ticker_swissquote": "GOOGL",
+      "name": "Alphabet Inc. Class A (S3 — allègement partiel 1 part)",
+      "type": "equity",
+      "exchange": "NASDAQ",
+      "quantity": 0,
+      "average_buy_price": 325.78,
+      "buy_date": "2026-09-11",
+      "sell_date": "2026-11-17",
+      "total_shares_sold": 1,
+      "sale_price_per_unit": 285.0,
+      "net_proceeds_usd": 303.12,
+      "realized_pnl_usd": -22.66,
+      "realized_pnl_pct": -6.96,
+      "estimate": true,
+      "notes": "ESTIMÉ (prix exact non capturé). Allègement de 1 part GOOGL le 17/11/2026, exécutant la reco du 17/11 (ligne 45.7% des positions, cours sur le seuil de prudence $280). Qté 3.7 → 2.7. Cash USD +303.12 (5462.87→5765.99), ce qui implique un prix net ~$285/part et un P&L réalisé ~-22.66 USD (-7.0%). À confirmer sur l'historique d'ordres Swissquote (prix et order_id exacts non capturés)."
+    },
+    {
+      "ticker_swissquote": "NVDA",
+      "name": "NVIDIA Corporation (S3 — résidu 0.2 soldé/expiré)",
+      "type": "equity",
+      "exchange": "NASDAQ",
+      "quantity": 0,
+      "average_buy_price": 219.18,
+      "buy_date": "2026-09-11",
+      "sell_date": "2026-11-17",
+      "total_shares_sold": 0.2,
+      "order_id": 314645527,
+      "estimate": true,
+      "notes": "Résidu 0.2 part NVDA (ordre SELL marché 314645527, validité jour 16/11) ABSENT de la capture Swissquote 17/11 → ligne clôturée avant les earnings du 17/11 soir. Impact financier négligeable (<26 CHF). Prix de sortie non capturé. Objectif atteint : plus aucune exposition NVDA avant l'événement de gouvernance (démission Jensen Huang). NVDA a finalement BATTU le consensus (rev 115.8 Md$ +103%, guide Q4 130 Md$, +3-4% after-hours) — sortie du résidu neutre ex-post."
+    },
     {
       "ticker_swissquote": "NVDA",
       "name": "NVIDIA Corporation (S3 — sortie sur STOP)",
@@ -416,16 +431,20 @@
   ],
   "pending_orders": [
     {
-      "order_id": 314645527,
-      "ticker_swissquote": "NVDA",
-      "side": "SELL",
-      "quantity": 0.2,
-      "order_type": "market",
-      "validity": "2026-11-16",
+      "order_id": 315017008,
+      "ticker_swissquote": "SREN",
+      "name": "Swiss Re AG",
+      "side": "BUY",
+      "quantity": 2,
+      "order_type": "limit",
+      "limit_price": 148.50,
+      "validity": "2026-11-20",
       "status": "Ouvert",
-      "placed_at": "09:02:14",
-      "last_price_at_capture": 162.85,
-      "notes": "Solde du résidu NVDA avant earnings (17/11), reco 13/11. Non exécuté à la capture 16/11."
+      "placed_at": "2026-11-17",
+      "last_price_at_capture": 150.05,
+      "exchange": "SIX Swiss Exchange",
+      "currency": "CHF",
+      "notes": "Idée diversification hors-tech #1 ARMÉE (reco 17/11) : Swiss Re, assureur CHF gagnant du régime taux-hauts, faible corrélation tech US. Limite 2 parts @ 148.50 CHF (~297 CHF), financée par le cash USD. Statut OUVERT à la capture 17/11, cours 150.05 (au-dessus de la limite → non remplie). Si momentum confirmé (clôture > 153) envisager entrée au marché ; sinon laisser la limite travailler le repli."
     }
   ],
   "withdrawals": [
@@ -444,21 +463,20 @@
   ],
   "performance": {
     "deposited_capital": 7500.0,
-    "cash_chf": 974.77,
-    "cash_usd": 5462.87,
-    "cash_usd_in_chf": 4585.53,
-    "positions_value_usd": 1072.48,
-    "positions_value_chf": 1913.37,
-    "positions_value_usd_in_chf": 900.23,
-    "positions_value_chf_native": 1013.14,
-    "total_value_chf": 7473.67,
+    "cash_chf": 703.72,
+    "cash_usd": 5765.99,
+    "cash_usd_in_chf": 4860.73,
+    "positions_value_chf": 1892.55,
+    "positions_value_usd_in_chf": 643.95,
+    "positions_value_chf_native": 1248.60,
+    "total_value_chf": 7456.94,
     "total_withdrawn_chf": 1300.0,
-    "total_return_chf": 1273.67,
-    "total_return_pct": 16.98,
-    "realized_pnl_net_chf": 1216.52,
-    "latent_pnl_chf": -172.21,
-    "usdchf_rate": 0.8394,
+    "total_return_chf": 1256.94,
+    "total_return_pct": 16.76,
+    "realized_pnl_net_chf": 1197.4,
+    "latent_pnl_chf": -149.28,
+    "usdchf_rate": 0.8430,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 17/11/2026 — QUOTES WEB LIVE (Google Finance), PAS une capture Swissquote. Quantités et cash repris de la capture 16/11 ; seuls prix et P&L réactualisés. Cours intraday 17/11 : GOOGL $281.55 (-13.58% / -137.4 CHF, SUR le seuil de prudence $280), AUCHAH 122.66 CHF (+0.49% séance, -4.28% / -27.4 CHF vs PRU), NOVN 133.28 CHF (+0.91% / +3.6 CHF, seule ligne verte, en repli), NVDA 0.2 $153.71 (-29.87% / -11.0 CHF). USD/CHF 0.8394. Total CHF ~7'473.67 (+16.98% avec retraits), P&L latent -172.21 CHF (dégradé vs -94 le 16/11, porté par GOOGL et NOVN), cash ~74%. EARNINGS NVDA CE SOIR 17/11 ~23:00 UTC (après clôture) : Jensen Huang démissionnaire (~2'000 Md$ effacés), direction intérim. ORDRE SELL 0.2 NVDA (314645527) était en validité JOUR 16/11 — à vérifier en capture : s'il a expiré sans remplir, le résidu part dans l'événement de ce soir → replacer un SELL marché avant clôture. Reco : (1) vérifier/replacer ordre NVDA ce matin ; (2) GOOGL alléger 1 part si clôture <$280 ; (3) idée diversif hors-tech chiffrée : SREN (Swiss Re) 151.65 CHF, limite 2 parts ~148-150 (~300 CHF), ZURN 652 CHF trop gros/part ; (4) AUCHAH conserver sans sur-renfort sous PRU. Prochaine capture : réconcilier statut ordre NVDA + limites NOVN 2 @130."
+    "note": "MAJ 18/11/2026 — RÉCONCILIÉ sur CAPTURE SWISSQUOTE réelle du 17/11/2026 (autoritative), corrigeant la dérive du suivi web. Corrections vs portfolio.json précédent : (a) GOOGL 3.7 → 2.7 parts : allègement de 1 part exécuté (reco 17/11), cash USD +303 ; (b) NOVN 3 → 5 parts : renfort limite 2 @ 133 EXÉCUTÉ (ordre 315017400), cash CHF -271, PRU 132.08→132.45 ; (c) NVDA résidu 0.2 CLÔTURÉ (absent de la capture) ; (d) SREN limite 2 @ 148.50 OUVERTE (ordre 315017008, cours 150.05). État capture 17/11 : GOOGL 2.7 @ $282.92 (-94.89 CHF / -12.84%), NOVN 5 @ 131.48 (-4.85 / -0.73%), AUCHAH 5 @ 118.24 (-49.54 / -7.73%, l'or a REPLONGÉ sous PRU). Cash CHF 703.72 + USD 5765.99 (×0.8430 = 4860.73). Positions CHF 1892.55. Total 7456.94 CHF (+16.76% avec retraits 1300). P&L latent -149.28 CHF, cash ~74.6%. CONTEXTE 18/11 : NVDA a BATTU le 17/11 soir (rev 115.8 Md$ +103%, Data Center 107.6 Md$, guide Q4 130 Md$, +3-4% after-hours, ~$160) → détente du complexe IA, tailwind sentiment pour GOOGL. Fed décembre : marché price désormais une HAUSSE ~93% (cut ~2%) — régime taux-hauts hostile à la duration GOOGL, favorable aux assureurs CHF (SREN). Reco : (1) laisser la limite SREN travailler, entrée marché si clôture >153 ; (2) GOOGL conserver 2.7 (concentration réduite), renfort seulement sur reprise >$305 ; (3) AUCHAH conserver sans sur-renfort sous PRU ; (4) NOVN ligne complète, ne pas chasser. Prochaine capture : confirmer prix/order_id exacts de l'allègement GOOGL et exécution SREN."
   }
 }
