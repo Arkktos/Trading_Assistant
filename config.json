@@ -7,7 +7,7 @@
       "type": "Equity",
       "target_zone": "Re-entry $330-340 USD",
       "allocation_target": "1200 CHF",
-      "status": "Capture Swissquote 17/11 : 2.7 parts (ALLÉGÉE de 1 part, reco exécutée), PRU $325.78, cours $282.92, latent -12.84% / -94.89 CHF, 34.0% des positions (concentration ramenée de 46% à 34%). Régime taux-hauts (hausse Fed déc ~93%) hostile à la duration, mais beat NVDA 17/11 soir redonne de l'air au sentiment IA. ACTION : conserver 2.7, pas de rachat tant que pas de reprise >$305 ; renfort capitulatif réservé <$265."
+      "status": "Base capture 17/11 : 2.7 parts (allégée, concentration 34%), PRU $325.78. Suivi web 19/11 : cours ~$287 (latent ~-87 CHF, amélioré grâce à la résilience Nasdaq +0.42% le 18/11). MAIS NVDA a fait 'sell the news' le 18/11 (-2.89% malgré le beat) + dollar plus haut 19 mois = duration toujours sous pression. ACTION : conserver 2.7, pas de rachat tant que pas de reprise >$305 ; renfort capitulatif réservé <$265."
     },
     {
       "ticker": "MSFT",
@@ -51,7 +51,7 @@
       "type": "ETF",
       "target_zone": "Ligne complétée (5 parts), pas de renfort sous le PRU 128.15",
       "allocation_target": "~640 CHF investis (objectif 600 atteint)",
-      "status": "LIGNE COMPLÉTÉE : AUCHAH 5 parts, PRU 128.15 CHF. Capture Swissquote 17/11 : cours 118.24 CHF, latent -7.73% / -49.54 CHF — l'or a REPLONGÉ sous le PRU, momentum court terme cassé (régime taux-hauts + dollar ferme). Couverture stagflation à CONSERVER sur le fond, surtout NE PAS sur-renforcer sous le PRU ; ajout seulement sur reprise du PRU en clôture. Seuil de réflexion vers -12% / ~116 CHF."
+      "status": "LIGNE COMPLÉTÉE : AUCHAH 5 parts, PRU 128.15 CHF. Suivi web 19/11 : cours ~117.5 CHF, latent ~-8.3% / ~-53 CHF — or au plus bas ~1 an (~$3840), dollar plus haut 19 mois, momentum cassé. Couverture stagflation à CONSERVER sur le fond, surtout NE PAS sur-renforcer sous le PRU ; ajout seulement sur reprise du PRU en clôture. Seuil de réflexion vers -12% / ~116 CHF."
     },
     {
       "ticker": "NOVN",
@@ -59,7 +59,7 @@
       "type": "Equity",
       "target_zone": "Renfort sous 130 CHF",
       "allocation_target": "~600 CHF au total",
-      "status": "LIGNE COMPLÉTÉE : Capture Swissquote 17/11 : 5 parts, PRU 132.45, cours 131.48 CHF, latent -0.73% / -4.85 CHF. Renfort 2 parts via limite @ 133.00 (ordre 315017400) EXÉCUTÉ 17/11 — remplace l'ancienne limite 2 @130 non remplie. Ligne santé ~662 CHF, quasi-neutre, amortisseur défensif CHF (+21.8% YTD). Laisser courir ; pas d'ajout (ne pas chasser les plus-hauts 52s), prise de profit partielle envisageable seulement >~138 CHF."
+      "status": "LIGNE COMPLÉTÉE : 5 parts, PRU 132.45. Suivi web 19/11 : cours ~134 CHF, REPASSÉ au-dessus du PRU (latent ~+1.2% / ~+8 CHF) — amortisseur défensif CHF qui fonctionne pendant la correction tech, +21.8% YTD. Laisser courir ; pas d'ajout (ne pas chasser les plus-hauts 52s, high 135.22), prise de profit partielle envisageable seulement >~138 CHF."
     },
     {
       "ticker": "ZURN / SREN",
@@ -67,7 +67,7 @@
       "type": "Equity",
       "target_zone": "SREN limite 2 parts ~148-150 CHF (~300 CHF) ; ZURN 1 part = 652 CHF (trop gros vs cible)",
       "allocation_target": "300-400 CHF",
-      "status": "Idée diversification hors-tech #1, ARMÉE (17/11). Capture Swissquote 17/11 : SREN limite BUY 2 @ 148.50 CHF (ordre 315017008, OUVERT, ~297 CHF financés par le cash USD), cours 150.05. Assureurs CHF = GAGNANTS du régime taux-hauts (hausse Fed déc ~93% pricée), 9M 2026 bénéfice 4.2 Md$, cible pleine année 4.5 Md$, faible corrélation tech US. ACTION : maintenir la limite 148.50 pour capter un repli ; si clôture >153 (momentum), basculer en entrée au marché. ZURN (652 CHF/part, div 4.6%) reste l'alternative premium mais trop gros/part pour la taille cible."
+      "status": "Idée diversification hors-tech #1, ARMÉE (17/11). SREN limite BUY 2 @ 148.50 CHF (ordre 315017008, OUVERT), cours web ~150.85 le 19/11. VALIDITÉ 20/11 — EXPIRE DEMAIN sans être remplie (cours > limite). Régime renforcé pour la thèse : dollar plus haut 19 mois, hausse Fed déc ~77-85% pricée, assureur CHF gagnant des taux-hauts, 9M 4.2 Md$. ACTION (reco 19/11) : si non rempli à la clôture 20/11, re-placer la limite à 149.00 (validité étendue) OU entrer 2 parts au marché sur repli < 150.50 ; ne pas laisser l'idée mourir par expiration. ZURN (652 CHF/part, div 4.6%) alternative premium mais trop gros/part."
     }
   ],
   "devise_de_reference": "CHF",
