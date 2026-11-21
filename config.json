@@ -7,7 +7,7 @@
       "type": "Equity",
       "target_zone": "Re-entry $330-340 USD",
       "allocation_target": "1200 CHF",
-      "status": "Base capture 17/11 : 2.7 parts (allégée, concentration 34%), PRU $325.78. Suivi web 19/11 : cours ~$287 (latent ~-87 CHF, amélioré grâce à la résilience Nasdaq +0.42% le 18/11). MAIS NVDA a fait 'sell the news' le 18/11 (-2.89% malgré le beat) + dollar plus haut 19 mois = duration toujours sous pression. ACTION : conserver 2.7, pas de rachat tant que pas de reprise >$305 ; renfort capitulatif réservé <$265."
+      "status": "Base capture 17/11 : 2.7 parts (allégée, concentration 33%), PRU $325.78. Suivi web 20/11 : cours $265.29 (latent ~-137 CHF / -18.6%) — DÉCROCHAGE avec le krach tech ($287 le 18/11 → $272.66 le 19/11 → $265.29 le 20/11, S&P/Nasdaq en correction). GOOGL a moins baissé que ses pairs IA (moins exposé au capex). ACTION (reco 21/11) : démarrer une RÉ-ENTRÉE ÉTAGÉE, profil agressif, sans attraper le couteau. Tranche 1 : +1 part sur stabilisation (clôture >$275 OU test tenu $258-262). Tranche 2 : +1 part <$248 si la purge continue. Ne pas acheter en chute libre : attendre un signal (clôture verte, RSI<30 qui se retourne)."
     },
     {
       "ticker": "MSFT",
@@ -67,7 +67,7 @@
       "type": "Equity",
       "target_zone": "SREN limite 2 parts ~148-150 CHF (~300 CHF) ; ZURN 1 part = 652 CHF (trop gros vs cible)",
       "allocation_target": "300-400 CHF",
-      "status": "Idée diversification hors-tech #1, ARMÉE (17/11). SREN limite BUY 2 @ 148.50 CHF (ordre 315017008, OUVERT), cours web ~150.85 le 19/11. VALIDITÉ 20/11 — EXPIRE DEMAIN sans être remplie (cours > limite). Régime renforcé pour la thèse : dollar plus haut 19 mois, hausse Fed déc ~77-85% pricée, assureur CHF gagnant des taux-hauts, 9M 4.2 Md$. ACTION (reco 19/11) : si non rempli à la clôture 20/11, re-placer la limite à 149.00 (validité étendue) OU entrer 2 parts au marché sur repli < 150.50 ; ne pas laisser l'idée mourir par expiration. ZURN (652 CHF/part, div 4.6%) alternative premium mais trop gros/part."
+      "status": "Idée diversification hors-tech #1, ARMÉE (17/11). SREN limite BUY 2 @ 148.50 CHF (ordre 315017008). VALIDITÉ 20/11 ÉCHUE — SORT À CONFIRMER sur la capture de lundi : le krach actions du vendredi 20/11 (S&P -3.7%, Nasdaq -5.28%) a pu faire plonger SREN vers/sous 148.50 → limite POSSIBLEMENT REMPLIE ; sinon EXPIRÉE non remplie. Régime renforcé pour la thèse : dollar plus haut 19 mois, hausse Fed déc ~85% pricée, assureur CHF gagnant des taux-hauts, 9M 4.2 Md$, faible corrélation au krach tech US. ACTION (reco 21/11) : si expirée, re-placer limite 2 @ 147.00 CHF OU entrer au marché < 149. ZURN (652 CHF/part, div 4.6%) alternative premium mais trop gros/part."
     }
   ],
   "devise_de_reference": "CHF",
