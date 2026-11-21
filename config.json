@@ -51,7 +51,7 @@
       "type": "ETF",
       "target_zone": "Ligne complétée (5 parts), pas de renfort sous le PRU 128.15",
       "allocation_target": "~640 CHF investis (objectif 600 atteint)",
-      "status": "LIGNE COMPLÉTÉE : AUCHAH 5 parts, PRU 128.15 CHF. Suivi web 19/11 : cours ~117.5 CHF, latent ~-8.3% / ~-53 CHF — or au plus bas ~1 an (~$3840), dollar plus haut 19 mois, momentum cassé. Couverture stagflation à CONSERVER sur le fond, surtout NE PAS sur-renforcer sous le PRU ; ajout seulement sur reprise du PRU en clôture. Seuil de réflexion vers -12% / ~116 CHF."
+      "status": "LIGNE COMPLÉTÉE : AUCHAH 5 parts, PRU 128.148 CHF. Capture 21/11 (clôture 20/11) : cours 112.14 CHF, -12.49% / -80.04 CHF — a ATTEINT le seuil de réflexion -12% (or plus bas ~1 an, dollar 19 mois, momentum cassé). DÉCISION À CADRER : conserver comme couverture si risk-off actions dégénère (refuge potentiel) VS réduire de moitié si cassure < 109 CHF (-15%) en clôture, pour recycler vers CHF rendement (SREN). Défaut : conserver tant que > 109, stop mental 109. PAS de renfort sous le PRU."
     },
     {
       "ticker": "NOVN",
@@ -59,7 +59,7 @@
       "type": "Equity",
       "target_zone": "Renfort sous 130 CHF",
       "allocation_target": "~600 CHF au total",
-      "status": "LIGNE COMPLÉTÉE : 5 parts, PRU 132.45. Suivi web 19/11 : cours ~134 CHF, REPASSÉ au-dessus du PRU (latent ~+1.2% / ~+8 CHF) — amortisseur défensif CHF qui fonctionne pendant la correction tech, +21.8% YTD. Laisser courir ; pas d'ajout (ne pas chasser les plus-hauts 52s, high 135.22), prise de profit partielle envisageable seulement >~138 CHF."
+      "status": "LIGNE COMPLÉTÉE : 5 parts, PRU 132.45. Capture 21/11 (clôture 20/11) : cours 127.76 CHF, -3.54% / -23.45 CHF — a REPLONGÉ sous le PRU avec le repli SIX du krach global (l'estimation web ~134 du 19/11 était fausse). MAIS meilleur comportement RELATIF du book (-3.5% vs GOOGL -18.6%), amortisseur défensif qui fonctionne. Laisser courir ; pas d'ajout > 128, renfort seulement < 125 CHF sur repli, prise de profit partielle > ~138 CHF."
     },
     {
       "ticker": "ZURN / SREN",
@@ -67,7 +67,7 @@
       "type": "Equity",
       "target_zone": "SREN limite 2 parts ~148-150 CHF (~300 CHF) ; ZURN 1 part = 652 CHF (trop gros vs cible)",
       "allocation_target": "300-400 CHF",
-      "status": "Idée diversification hors-tech #1, ARMÉE (17/11). SREN limite BUY 2 @ 148.50 CHF (ordre 315017008). VALIDITÉ 20/11 ÉCHUE — SORT À CONFIRMER sur la capture de lundi : le krach actions du vendredi 20/11 (S&P -3.7%, Nasdaq -5.28%) a pu faire plonger SREN vers/sous 148.50 → limite POSSIBLEMENT REMPLIE ; sinon EXPIRÉE non remplie. Régime renforcé pour la thèse : dollar plus haut 19 mois, hausse Fed déc ~85% pricée, assureur CHF gagnant des taux-hauts, 9M 4.2 Md$, faible corrélation au krach tech US. ACTION (reco 21/11) : si expirée, re-placer limite 2 @ 147.00 CHF OU entrer au marché < 149. ZURN (652 CHF/part, div 4.6%) alternative premium mais trop gros/part."
+      "status": "POSITION OUVERTE — diversification hors-tech #1 ACQUISE. Limite BUY 2 @ 148.50 CHF (ordre 315017008) EXÉCUTÉE le 19/11 09:53:38 (confirmé capture 21/11). Cours clôture 20/11 : 150.00 CHF, +1.01% / +3.00 CHF — SEULE ligne POSITIVE du book pendant le krach IA. Thèse validée : assureur CHF décorrélé, gagnant des taux-hauts (dollar 19 mois, Fed hawkish ~85%), 9M 4.2 Md$, div ~4.2%. ACTION : laisser courir ; renfort possible sur repli < 146 (~+2 parts) pour muscler la ligne hors-tech ; prise de profit partielle > ~160. ZURN (652 CHF/part, div 4.6%) alternative premium mais trop gros/part."
     }
   ],
   "devise_de_reference": "CHF",
