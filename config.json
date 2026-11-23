@@ -7,7 +7,7 @@
       "type": "Equity",
       "target_zone": "Re-entry $330-340 USD",
       "allocation_target": "1200 CHF",
-      "status": "Base capture 17/11 : 2.7 parts (allégée, concentration 33%), PRU $325.78. Suivi web 20/11 : cours $265.29 (latent ~-137 CHF / -18.6%) — DÉCROCHAGE avec le krach tech ($287 le 18/11 → $272.66 le 19/11 → $265.29 le 20/11, S&P/Nasdaq en correction). GOOGL a moins baissé que ses pairs IA (moins exposé au capex). ACTION (reco 21/11) : démarrer une RÉ-ENTRÉE ÉTAGÉE, profil agressif, sans attraper le couteau. Tranche 1 : +1 part sur stabilisation (clôture >$275 OU test tenu $258-262). Tranche 2 : +1 part <$248 si la purge continue. Ne pas acheter en chute libre : attendre un signal (clôture verte, RSI<30 qui se retourne)."
+      "status": "Base capture 21/11 : 2.7 parts (allégée), PRU $325.78, cours clôture 20/11 $265.29. Suivi web 23/11 : REBOND IA violent (Nvidia réintègre Jensen Huang CEO, NVDA +30%, Nasdaq +6-7%), GOOGL estimé ~$288 (latent ~-86 CHF / -11.6%) — participe au rebond. ACTION (reco 23/11) : ré-entrée étagée PAR LIMITE sur repli, NE PAS chasser le spike vertical. Tranche 1 : limite BUY +1 part ~$278 (~190 CHF) sur retest tenu $275-280. Tranche 2 : +1 part <$248 si le PCE du 25/11 casse le rebond. Ne pas renforcer avant le PCE (25/11)."
     },
     {
       "ticker": "MSFT",
@@ -60,6 +60,14 @@
       "target_zone": "Renfort sous 130 CHF",
       "allocation_target": "~600 CHF au total",
       "status": "LIGNE COMPLÉTÉE : 5 parts, PRU 132.45. Capture 21/11 (clôture 20/11) : cours 127.76 CHF, -3.54% / -23.45 CHF — a REPLONGÉ sous le PRU avec le repli SIX du krach global (l'estimation web ~134 du 19/11 était fausse). MAIS meilleur comportement RELATIF du book (-3.5% vs GOOGL -18.6%), amortisseur défensif qui fonctionne. Laisser courir ; pas d'ajout > 128, renfort seulement < 125 CHF sur repli, prise de profit partielle > ~138 CHF."
+    },
+    {
+      "ticker": "RHM",
+      "name": "Rheinmetall AG (défense EU, diversification hors-tech #2)",
+      "type": "Equity",
+      "target_zone": "À caler sur cours live (entrée sur repli)",
+      "allocation_target": "~300-400 CHF",
+      "status": "CANDIDAT watchlist ajouté le 23/11 : défense européenne, décorrélée du couple dollar-fort/tech-US qui domine le book. Budgets EU structurellement porteurs. Candidate #2 hors-tech après SREN. Pas de prix fiable en séance du rebond 23/11 — zone d'entrée à définir sur cours live à la prochaine capture Swissquote. Énergie écartée (pétrole en baisse sur le risk-on)."
     },
     {
       "ticker": "ZURN / SREN",
