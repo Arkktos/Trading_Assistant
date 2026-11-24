@@ -7,7 +7,7 @@
       "type": "Equity",
       "target_zone": "Re-entry $330-340 USD",
       "allocation_target": "1200 CHF",
-      "status": "Base capture 21/11 : 2.7 parts (allégée), PRU $325.78, cours clôture 20/11 $265.29. Suivi web 23/11 : REBOND IA violent (Nvidia réintègre Jensen Huang CEO, NVDA +30%, Nasdaq +6-7%), GOOGL estimé ~$288 (latent ~-86 CHF / -11.6%) — participe au rebond. ACTION (reco 23/11) : ré-entrée étagée PAR LIMITE sur repli, NE PAS chasser le spike vertical. Tranche 1 : limite BUY +1 part ~$278 (~190 CHF) sur retest tenu $275-280. Tranche 2 : +1 part <$248 si le PCE du 25/11 casse le rebond. Ne pas renforcer avant le PCE (25/11)."
+      "status": "Base capture 21/11 : 2.7 parts (allégée), PRU $325.78, cours clôture 20/11 $265.29. Suivi web 24/11 : REFLUX du rebond (NVDA -8/-9% rend le +31% de lundi, 'index indigestion'), GOOGL ~$269.5 (-1.16%, latent ~-128 CHF / -17.3%) — a MIEUX tenu que NVDA (thèse propre Gemini/cloud découplée). ACTION (reco 24/11) : ré-entrée étagée PAR LIMITE, recalée PLUS BAS après le reflux, NE PAS chasser. Tranche 1 : limite BUY +1 part zone ~$262-265 (~175 CHF). Tranche 2 : +1 part <$248 si le PCE du 25/11 casse le marché. NE RIEN ENGAGER avant le PCE (mercredi 25/11, dernier grand point avant FOMC 8-9/12) — attendre le print puis exécuter sur repli."
     },
     {
       "ticker": "MSFT",
