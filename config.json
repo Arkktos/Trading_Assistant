@@ -7,7 +7,7 @@
       "type": "Equity",
       "target_zone": "Re-entry $330-340 USD",
       "allocation_target": "1200 CHF",
-      "status": "Base capture 21/11 : 2.7 parts (allégée), PRU $325.78, cours clôture 20/11 $265.29. Suivi web 24/11 : REFLUX du rebond (NVDA -8/-9% rend le +31% de lundi, 'index indigestion'), GOOGL ~$269.5 (-1.16%, latent ~-128 CHF / -17.3%) — a MIEUX tenu que NVDA (thèse propre Gemini/cloud découplée). ACTION (reco 24/11) : ré-entrée étagée PAR LIMITE, recalée PLUS BAS après le reflux, NE PAS chasser. Tranche 1 : limite BUY +1 part zone ~$262-265 (~175 CHF). Tranche 2 : +1 part <$248 si le PCE du 25/11 casse le marché. NE RIEN ENGAGER avant le PCE (mercredi 25/11, dernier grand point avant FOMC 8-9/12) — attendre le print puis exécuter sur repli."
+      "status": "Base capture 21/11 : 2.7 parts (allégée), PRU $325.78, cours clôture 20/11 $265.29. Suivi web 25/11 : PCE chaud (core 3.3%) → Nasdaq -4.4%, GOOGL replonge ~$258 (latent ~-154 CHF / -20.8%) — duration pénalisée par la hausse des taux (10Y 4.84%). ACTION (reco 25/11) : la condition 'attendre le PCE' est LEVÉE, le print est sorti → DÉCLENCHER la ré-entrée étagée PAR LIMITE. Tranche 1 : limite BUY +1 part zone ~$255-258 (~175 CHF cash USD). Tranche 2 : +1 part <$245 si la hausse des taux prolonge la baisse. PAR LIMITE uniquement, pas au marché (régime taux-hauts = vent contraire sur la duration, accumuler bas par paliers)."
     },
     {
       "ticker": "MSFT",
@@ -67,7 +67,15 @@
       "type": "Equity",
       "target_zone": "À caler sur cours live (entrée sur repli)",
       "allocation_target": "~300-400 CHF",
-      "status": "CANDIDAT watchlist ajouté le 23/11 : défense européenne, décorrélée du couple dollar-fort/tech-US qui domine le book. Budgets EU structurellement porteurs. Candidate #2 hors-tech après SREN. Pas de prix fiable en séance du rebond 23/11 — zone d'entrée à définir sur cours live à la prochaine capture Swissquote. Énergie écartée (pétrole en baisse sur le risk-on)."
+      "status": "CANDIDAT watchlist ajouté le 23/11 : défense européenne, décorrélée du couple dollar-fort/tech-US qui domine le book. Budgets EU structurellement porteurs. Candidate #2 hors-tech après SREN. Pas de prix fiable en séance du rebond 23/11 — zone d'entrée à définir sur cours live à la prochaine capture Swissquote. Énergie écartée (pétrole en baisse)."
+    },
+    {
+      "ticker": "UBSG / ZURN",
+      "name": "UBS Group / Zurich Insurance (financières CHF, gagnantes des taux-hauts)",
+      "type": "Equity",
+      "target_zone": "À caler sur cours live (entrée sur repli)",
+      "allocation_target": "~300-400 CHF",
+      "status": "CANDIDAT watchlist ajouté le 25/11 : le PCE chaud (core 3.3%) verrouille le régime taux-hauts (hausse Fed 8-9/12 ~97%), favorable aux financières CHF au-delà de l'assurance. UBS (UBSG) ou Zurich (ZURN) : même moteur que SREN (taux, décorrélation USD/tech), candidate de diversification hors-tech #3. Zone d'entrée à définir sur cours live à la prochaine capture Swissquote. ZURN ~652 CHF/part (gros/part) ; UBSG plus accessible à l'unité."
     },
     {
       "ticker": "ZURN / SREN",
@@ -75,7 +83,7 @@
       "type": "Equity",
       "target_zone": "SREN limite 2 parts ~148-150 CHF (~300 CHF) ; ZURN 1 part = 652 CHF (trop gros vs cible)",
       "allocation_target": "300-400 CHF",
-      "status": "POSITION OUVERTE — diversification hors-tech #1 ACQUISE. Limite BUY 2 @ 148.50 CHF (ordre 315017008) EXÉCUTÉE le 19/11 09:53:38 (confirmé capture 21/11). Cours clôture 20/11 : 150.00 CHF, +1.01% / +3.00 CHF — SEULE ligne POSITIVE du book pendant le krach IA. Thèse validée : assureur CHF décorrélé, gagnant des taux-hauts (dollar 19 mois, Fed hawkish ~85%), 9M 4.2 Md$, div ~4.2%. ACTION : laisser courir ; renfort possible sur repli < 146 (~+2 parts) pour muscler la ligne hors-tech ; prise de profit partielle > ~160. ZURN (652 CHF/part, div 4.6%) alternative premium mais trop gros/part."
+      "status": "POSITION OUVERTE — diversification hors-tech #1. Limite BUY 2 @ 148.50 CHF (ordre 315017008) EXÉCUTÉE le 19/11 09:53:38 (confirmé capture 21/11). Cours clôture 20/11 : 150.00 CHF, +1.01%. Suivi web 25/11 : ~149.5 CHF (~+2), SEULE ligne positive. THÈSE VALIDÉE PAR LE PCE : le PCE chaud du 25/11 verrouille le régime taux-hauts (hausse Fed 8-9/12 ~97%), moteur direct de l'assureur CHF (rendement obligataire en hausse), décorrélé du couple dollar/tech-US. 9M 4.2 Md$, div ~4.2%. ACTION (reco 25/11) : RENFORT PRIORITAIRE +2 parts sur repli < 148 CHF (~290 CHF cash USD→CHF) pour muscler le hors-tech et la rotation hors-USD ; prise de profit partielle > ~160. Conviction haute."
     }
   ],
   "devise_de_reference": "CHF",
