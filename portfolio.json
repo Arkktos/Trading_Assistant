@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-11-25",
+  "last_updated": "2026-11-26",
   "currency": "CHF",
-  "cash_chf": 401.65,
+  "cash_chf": 721.86,
   "cash_usd": 5765.99,
   "deposited_capital": 7500.0,
   "positions": [
@@ -31,18 +31,19 @@
       "type": "ETF",
       "exchange": "SWX",
       "currency": "CHF",
-      "quantity": 5,
+      "quantity": 2,
       "average_buy_price": 128.15,
       "effective_buy_price": 128.148,
       "buy_date": "2026-11-03",
-      "total_cost_chf": 640.74,
+      "total_cost_chf": 256.30,
       "order_id": 312707649,
       "order_type": "market",
       "tranches": [
         {"date": "2026-11-03", "quantity": 3.1265, "price": 127.93859, "order_id": 312707649, "label": "achat initial 400 CHF"},
-        {"date": "2026-11-14/16", "quantity": 1.8735, "price": 128.49, "label": "renfort — complète l'or (reco 13/11), PRU inchangé ~128.15"}
+        {"date": "2026-11-14/16", "quantity": 1.8735, "price": 128.49, "label": "renfort — complète l'or (reco 13/11), PRU inchangé ~128.15"},
+        {"date": "2026-11-25", "quantity": -3.0, "price": 108.76, "order_id": 315526449, "label": "allègement 3 parts (stop mental 109 franchi) — voir closed_positions AUCHAH partiel 25/11"}
       ],
-      "notes": "RÉCONCILIÉ sur CAPTURE SWISSQUOTE 21/11/2026 (prix clôture 20/11) : 5 parts, PRU 128.148 CHF, cours 112.14 CHF, G&P -80.04 CHF (-12.49%), valeur 560.70 CHF, poids 26.68%. L'or a continué de plonger (plus bas ~1 an, dollar 19 mois) — a ATTEINT le seuil de réflexion -12% (vs ~116.5 estimé web, encore trop optimiste). Achat initial 400 CHF le 03/11, renfort entre 14-16/11 (ordres 313833137/138 @ 128.50). Couverture de fond ; décision à prendre si -15% / ~109 CHF."
+      "notes": "RÉCONCILIÉ sur CAPTURE SWISSQUOTE 26/11/2026 : ALLÉGÉ 5→2 parts. Vente de 3 parts le 25/11/2026 16:15:52 (ordre 315526449 : 2 @ 108.74 + 1 @ 108.80, coûts 6.09, net +320.21 CHF) — l'or a franchi le stop mental 109 CHF après le PCE chaud (core 3.3%), déclenchant la règle 'réduire si cassure < 109'. PRU inchangé 128.148. Capture 26/11 : 2 parts restantes, cours 112.98 CHF, G&P -30.34 CHF (-11.84%), valeur 225.96 CHF, poids 12.61% des positions. Résidu de couverture tactique ; stop dur < 105, PAS de renfort. P&L réalisé partiel -64.23 CHF (voir closed_positions)."
     },
     {
       "ticker_swissquote": "NOVN",
@@ -84,6 +85,29 @@
     }
   ],
   "closed_positions": [
+    {
+      "ticker_swissquote": "AUCHAH",
+      "isin": "CH0106027128",
+      "valor": 10602712,
+      "name": "UBS ETF (CH) Gold hedged CHF (allègement partiel 3 parts — stop mental 109)",
+      "type": "ETF",
+      "exchange": "SWX",
+      "currency": "CHF",
+      "quantity": 0,
+      "average_buy_price": 128.148,
+      "buy_date": "2026-11-03",
+      "sell_date": "2026-11-25",
+      "total_shares_sold": 3,
+      "sale_price_per_unit": 108.76,
+      "fees_sale_chf": 6.09,
+      "gross_proceeds_chf": 326.28,
+      "net_proceeds_chf": 320.21,
+      "realized_pnl_chf": -64.23,
+      "realized_pnl_pct": -16.71,
+      "order_id": 315526449,
+      "estimate": false,
+      "notes": "RÉCONCILIÉ sur capture Swissquote 26/11/2026 (historique d'ordres) : allègement de 3 parts AUCHAH le 25/11/2026 16:15:52 (ordre 315526449, deux exécutions : 2 @ 108.74 net 217.34 + 1 @ 108.80 net 102.87, coûts totaux 6.09). Stop mental 109 CHF franchi après le PCE chaud (or sous pression du couple taux-hauts/dollar-fort). PRU 128.148 → P&L réalisé -64.23 CHF (-16.71%). Qté 5 → 2 (résidu conservé comme couverture tactique). Cash CHF 401.65 → 721.86."
+    },
     {
       "ticker_swissquote": "GOOGL",
       "name": "Alphabet Inc. Class A (S3 — allègement partiel 1 part)",
@@ -454,8 +478,23 @@
       "notes": "Rattrapage S1 Or, remplacement de AUCHAH. Soldé le 08/09/2026 à 1'057.20 CHF/part. P&L réalisé : +16.24 CHF (+4.3%). Dernière position liquidée — portefeuille 100% cash."
     }
   ],
-  "pending_orders": [],
-  "pending_orders_note": "SREN limite 2 @ 148.50 (ordre 315017008) EXÉCUTÉE le 19/11/2026 09:53:38 → déplacée dans positions. Aucun ordre ouvert à la capture du 21/11 (Swissquote : Ordres ouverts 0).",
+  "pending_orders": [
+    {
+      "ticker_swissquote": "SREN",
+      "isin": "CH0126881561",
+      "name": "Swiss Re AG (renfort hors-tech)",
+      "side": "BUY",
+      "quantity": 2,
+      "limit_price": 146.00,
+      "currency": "CHF",
+      "order_id": 315526408,
+      "order_type": "limit",
+      "validity": "2026-12-04",
+      "status": "OPEN",
+      "notes": "Renfort SREN placé par limite BUY 2 @ 146.00 CHF (ordre 315526408, validité 04/12/2026). OUVERT à la capture 26/11 (Swissquote : Ordres ouverts 1). N'exécutera que sur repli marqué : SREN cote 155.20 CHF, bien au-dessus de la limite. Reco 26/11 : remonter vers ~150.50-151 pour un remplissage réaliste, ou conserver 146 comme enchère de repli profond."
+    }
+  ],
+  "pending_orders_note": "SREN limite BUY 2 @ 146.00 (ordre 315526408, validité 04/12) OUVERTE à la capture 26/11 (Swissquote : Ordres ouverts 1). Renfort hors-tech, loin sous le marché (155.20). L'ancienne limite SREN 148.50 (ordre 315017008) avait été exécutée le 19/11 → ligne ouverte.",
   "withdrawals": [
     {
       "date": "2026-06-09",
@@ -472,20 +511,20 @@
   ],
   "performance": {
     "deposited_capital": 7500.0,
-    "cash_chf": 401.65,
+    "cash_chf": 721.86,
     "cash_usd": 5765.99,
-    "cash_usd_in_chf": 4843.78,
-    "positions_value_chf": 2101.22,
-    "positions_value_usd_in_chf": 601.72,
-    "positions_value_chf_native": 1499.50,
-    "total_value_chf": 7346.65,
+    "cash_usd_in_chf": 4809.39,
+    "positions_value_chf": 1792.59,
+    "positions_value_usd_in_chf": 615.03,
+    "positions_value_chf_native": 1177.56,
+    "total_value_chf": 7323.81,
     "total_withdrawn_chf": 1300.0,
-    "total_return_chf": 1146.65,
-    "total_return_pct": 15.29,
-    "realized_pnl_net_chf": 1160.6,
-    "latent_pnl_chf": -237.60,
-    "usdchf_rate": 0.8401,
+    "total_return_chf": 1123.81,
+    "total_return_pct": 14.98,
+    "realized_pnl_net_chf": 1096.37,
+    "latent_pnl_chf": -161.79,
+    "usdchf_rate": 0.8341,
     "custody_fees_chf": -21.62,
-    "note": "MAJ 25/11/2026 (SUIVI WEB/INTRADAY, PAS de capture broker) : aucun ordre exécuté depuis la capture 21/11, donc cash et quantités INCHANGÉS (base autoritative = capture 21/11, chiffres performance ci-dessous conservés). LE PCE A TRANCHÉ, CHAUD : core PCE octobre +3.3% a/a (vs 3.2% attendu, plus haut depuis nov. 2023), headline +3.8% (depuis 3.6% sept.), PIB T3 révisé +4.3%. Hausse Fed du 8-9/12 désormais ~97% 'done deal' (CME, fourchette 3.75-4.00%→4.00-4.25%). Risk-off franc en séance : S&P ~-3.1%, Nasdaq ~-4.4%, Dow -1'039 pts (-2.1%), NVDA ~$148 (-4.65%), 10Y ~4.84%, or ~$3'572 (-0.5%). Estimations web 25/11 : GOOGL ~$258 (replonge avec le Nasdaq, duration pénalisée par les taux ; latent ~-154 CHF / -20.8%), NOVN ~127 (~flat, ~-27, SIX plus calme), AUCHAH ~111.8 (or sous pression, refuge NON armé car risk-off causé par les taux ; ~-82), SREN ~149.5 (~+2, gagnante du régime taux-hauts qui se confirme). Total estimé ~7'320 CHF (~+15.0% avec retraits 1300), P&L latent estimé ~-261 CHF (un peu pire que la capture -237.60, GOOGL et or encaissant le print chaud). CATALYSEUR RESTANT : FOMC 8-9/12 (seul grand rendez-vous avant fin d'année, CPI novembre le 10/12). À RECALER sur prochaine capture Swissquote (l'estimation web a surévalué NOVN/AUCHAH par le passé). --- HISTORIQUE MAJ 24/11/2026 (SUIVI WEB/INTRADAY, PAS de capture broker) : REFLUX du rebond : le +31% de NVDA de lundi largement rendu mardi (NVDA -8/-9% ~$151, 'index indigestion' du retour de Jensen Huang), Nasdaq -1.2/-2.2%, S&P ~-0.5/-1% (~7166), Dow ~flat/+0.4%. Estimations web 24/11 : GOOGL ~$269.5 (-1.16%, mieux que NVDA ; latent ~-128 CHF), NOVN ~128 (~flat, ~-22), AUCHAH ~113 (or +0.4% off plus bas ~14 mois, ~-76), SREN ~150.5 (~+4). Total estimé ~7'360 CHF (~+15.5% avec retraits 1300), P&L latent estimé ~-222 CHF (retour près de la capture -237.60, le gain papier de lundi s'évapore). Macro : hausse Fed 8-9/12 pricée ~93.5-97.8% (CME), Williams hawkish, dollar ferme (USD/CHF ~0.840), or rebond timide. CATALYSEUR IMMINENT : PCE octobre mercredi 25/11 = dernier grand point avant le FOMC. À RECALER sur prochaine capture Swissquote (l'estimation web a surévalué NOVN/AUCHAH par le passé). --- HISTORIQUE MAJ 23/11/2026 (SUIVI WEB/INTRADAY, PAS de capture broker) : aucun ordre exécuté depuis la capture 21/11, donc cash et quantités INCHANGÉS (base autoritative = capture 21/11, chiffres ci-dessous conservés). REBOND VIOLENT du 23/11 : Nvidia a réintégré Jensen Huang CEO → NVDA +27-30% (~$160-164), Nasdaq +6-7%, S&P +4-5%, Dow +2.5% en séance. Estimations web de rebond : GOOGL $265.29→~$288 (latent ~-86 CHF), NOVN 127.76→~129.7 (~-14), AUCHAH 112.14→~114.7 (or +2.5% off plus bas 14 mois, ~-67), SREN 150.00→~150.8 (~+4.6). Total estimé ~7'420 CHF (~+16.3% avec retraits 1300), P&L latent estimé ~-162 CHF (vs -237.60 capture). Macro : odds hausse Fed 8-9/12 reflue ~100%→~92-96%, or rebondit, dollar ferme (DXY ~104.30, USD/CHF ~0.840). Catalyseur : PCE octobre mercredi 25/11. À RECALER sur prochaine capture Swissquote (l'estimation web a surévalué NOVN/AUCHAH par le passé). --- HISTORIQUE MAJ 21/11/2026 RÉCONCILIÉE sur CAPTURE SWISSQUOTE RÉELLE (autoritative, prix clôture 20/11). Corrige les estimations web du rapport initial du 21/11 (qui étaient trop optimistes). CORRECTIONS vs estimations : (a) SREN limite 2 @ 148.50 CONFIRMÉE REMPLIE le 19/11 09:53:38 (ordre 315017008, net -302.07 CHF) — PAS 'à confirmer' ; nouvelle position ouverte, cours 150.00 (+3.00 / +1.01%, SEULE ligne positive). Cash CHF 703.72→401.65. (b) NOVN cours RÉEL 127.76 (-23.45 / -3.54%), PAS ~133.5 flat — a replongé sous le PRU. (c) AUCHAH cours RÉEL 112.14 (-80.04 / -12.49%), PAS ~116.5 — a atteint le seuil -12%. (d) GOOGL cours 265.29 (-137.11 / -18.56%), conforme à l'estimation. (e) Allègement GOOGL 17/11 RÉEL $280.11 (net +275.26), résidu NVDA 0.2 @ $161.66 (net +27.86) — voir closed_positions réconciliés. ÉTAT CAPTURE : cash CHF 401.65 + USD 5765.99 (×0.8401 = 4843.78). Positions 2101.22 (GOOGL 601.72 + NOVN 638.80 + SREN 300.00 + AUCHAH 560.70). TOTAL 7346.65 CHF (+15.29% avec retraits 1300). P&L latent -237.60 CHF (pire que l'estimation -190 : NOVN et AUCHAH plus bas que prévu). Cash espèces ~71.4%. CONTEXTE : krach IA jeudi 19/11 (S&P -2%) + vendredi 20/11 (S&P 6910.39 -3.7% EN CORRECTION, Nasdaq 22617.73 -5.28% efface 2026, NVDA -14%), pire semaine S&P en 18 mois. realized_pnl_net recalibré ~1160.6 (GOOGL allègement -50.52 USD vs -22.66 estimé, résidu NVDA -15.98 USD désormais compté). --- HISTORIQUE : MAJ 19/11/2026 (suivi WEB, PAS de capture broker) — aucun ordre exécuté depuis la capture 17/11, donc cash et quantités INCHANGÉS (base autoritative = capture 17/11). Contexte séance 18/11 : NVDA a fait 'sell the news' (clôture $150.96 -2.89% malgré le beat record, gouvernance + Chine) ; S&P 7323.63 (-0.23%, 5e baisse), Nasdaq 24429.89 (+0.42%), Dow 50198.17 (-1.11%) ; DOLLAR au plus haut de 19 mois ; or au plus bas ~1 an (~$3840). Deltas web estimés 19/11 : GOOGL ~$287 (latent ~-87 CHF, amélioré), NOVN ~134 CHF (REPASSÉ >PRU, ~+8 CHF), AUCHAH ~117.5 (~-53 CHF). Total estimé ~7456 CHF (~+16.7%), quasi-stable. SREN limite 2 @ 148.50 TOUJOURS OUVERTE (cours ~150.85 > limite), validité 20/11 — EXPIRE DEMAIN : reco re-placer à 149.00 ou entrer au marché < 150.50 sur repli. À RECALER sur la prochaine capture Swissquote. --- HISTORIQUE : MAJ 18/11/2026 — RÉCONCILIÉ sur CAPTURE SWISSQUOTE réelle du 17/11/2026 (autoritative), corrigeant la dérive du suivi web. Corrections vs portfolio.json précédent : (a) GOOGL 3.7 → 2.7 parts : allègement de 1 part exécuté (reco 17/11), cash USD +303 ; (b) NOVN 3 → 5 parts : renfort limite 2 @ 133 EXÉCUTÉ (ordre 315017400), cash CHF -271, PRU 132.08→132.45 ; (c) NVDA résidu 0.2 CLÔTURÉ (absent de la capture) ; (d) SREN limite 2 @ 148.50 OUVERTE (ordre 315017008, cours 150.05). État capture 17/11 : GOOGL 2.7 @ $282.92 (-94.89 CHF / -12.84%), NOVN 5 @ 131.48 (-4.85 / -0.73%), AUCHAH 5 @ 118.24 (-49.54 / -7.73%, l'or a REPLONGÉ sous PRU). Cash CHF 703.72 + USD 5765.99 (×0.8430 = 4860.73). Positions CHF 1892.55. Total 7456.94 CHF (+16.76% avec retraits 1300). P&L latent -149.28 CHF, cash ~74.6%. CONTEXTE 18/11 : NVDA a BATTU le 17/11 soir (rev 115.8 Md$ +103%, Data Center 107.6 Md$, guide Q4 130 Md$, +3-4% after-hours, ~$160) → détente du complexe IA, tailwind sentiment pour GOOGL. Fed décembre : marché price désormais une HAUSSE ~93% (cut ~2%) — régime taux-hauts hostile à la duration GOOGL, favorable aux assureurs CHF (SREN). Reco : (1) laisser la limite SREN travailler, entrée marché si clôture >153 ; (2) GOOGL conserver 2.7 (concentration réduite), renfort seulement sur reprise >$305 ; (3) AUCHAH conserver sans sur-renfort sous PRU ; (4) NOVN ligne complète, ne pas chasser. Prochaine capture : confirmer prix/order_id exacts de l'allègement GOOGL et exécution SREN."
+    "note": "MAJ 26/11/2026 RÉCONCILIÉE sur CAPTURE SWISSQUOTE RÉELLE (autoritative ; prix US = clôture 25/11, 26/11 = Thanksgiving marchés US fermés ; prix CHF = SIX). DEUX MOUVEMENTS depuis la capture 21/11 : (a) VENTE AUCHAH 3 parts le 25/11 16:15:52 (ordre 315526449 : 2 @ 108.74 + 1 @ 108.80, net +320.21 CHF) — stop mental 109 franchi, ligne 5→2 parts, P&L réalisé -64.23 CHF (voir closed_positions) ; (b) ordre de renfort SREN limite BUY 2 @ 146.00 (ordre 315526408, validité 04/12) PLACÉ et OUVERT (SREN cote 155.20, loin au-dessus). ÉTAT CAPTURE : cash CHF 721.86 + USD 5765.99 (×0.8341 = 4809.39). Positions 1792.59 (GOOGL 615.03 @ $273.10 / -123.80 CHF -16.76% ; NOVN 641.20 @ 128.24 / -21.05 -3.18% ; SREN 310.40 @ 155.20 / +13.40 +4.51% SEULE LIGNE VERTE ; AUCHAH 225.96 @ 112.98 / -30.34 -11.84%). TOTAL 7323.81 CHF (+14.98% avec retraits 1300). P&L latent -161.79 CHF (amélioré vs -237.60 le 21/11 : rebond GOOGL de son plus bas intraday 25/11 ~$258→$273.10 + SREN en hausse, moins la perte réalisée AUCHAH). Cash espèces 5531.21 CHF (~75.5%). realized_pnl_net recalibré 1160.6→1096.37 (allègement AUCHAH -64.23). CATALYSEUR RESTANT : FOMC 8-9/12 (hausse ~90-97% pricée après le PCE chaud core 3.3%) ; CPI novembre 10/12. --- HISTORIQUE MAJ 25/11/2026 (SUIVI WEB/INTRADAY, PAS de capture broker) : aucun ordre exécuté depuis la capture 21/11, donc cash et quantités INCHANGÉS (base autoritative = capture 21/11, chiffres performance ci-dessous conservés). LE PCE A TRANCHÉ, CHAUD : core PCE octobre +3.3% a/a (vs 3.2% attendu, plus haut depuis nov. 2023), headline +3.8% (depuis 3.6% sept.), PIB T3 révisé +4.3%. Hausse Fed du 8-9/12 désormais ~97% 'done deal' (CME, fourchette 3.75-4.00%→4.00-4.25%). Risk-off franc en séance : S&P ~-3.1%, Nasdaq ~-4.4%, Dow -1'039 pts (-2.1%), NVDA ~$148 (-4.65%), 10Y ~4.84%, or ~$3'572 (-0.5%). Estimations web 25/11 : GOOGL ~$258 (replonge avec le Nasdaq, duration pénalisée par les taux ; latent ~-154 CHF / -20.8%), NOVN ~127 (~flat, ~-27, SIX plus calme), AUCHAH ~111.8 (or sous pression, refuge NON armé car risk-off causé par les taux ; ~-82), SREN ~149.5 (~+2, gagnante du régime taux-hauts qui se confirme). Total estimé ~7'320 CHF (~+15.0% avec retraits 1300), P&L latent estimé ~-261 CHF (un peu pire que la capture -237.60, GOOGL et or encaissant le print chaud). CATALYSEUR RESTANT : FOMC 8-9/12 (seul grand rendez-vous avant fin d'année, CPI novembre le 10/12). À RECALER sur prochaine capture Swissquote (l'estimation web a surévalué NOVN/AUCHAH par le passé). --- HISTORIQUE MAJ 24/11/2026 (SUIVI WEB/INTRADAY, PAS de capture broker) : REFLUX du rebond : le +31% de NVDA de lundi largement rendu mardi (NVDA -8/-9% ~$151, 'index indigestion' du retour de Jensen Huang), Nasdaq -1.2/-2.2%, S&P ~-0.5/-1% (~7166), Dow ~flat/+0.4%. Estimations web 24/11 : GOOGL ~$269.5 (-1.16%, mieux que NVDA ; latent ~-128 CHF), NOVN ~128 (~flat, ~-22), AUCHAH ~113 (or +0.4% off plus bas ~14 mois, ~-76), SREN ~150.5 (~+4). Total estimé ~7'360 CHF (~+15.5% avec retraits 1300), P&L latent estimé ~-222 CHF (retour près de la capture -237.60, le gain papier de lundi s'évapore). Macro : hausse Fed 8-9/12 pricée ~93.5-97.8% (CME), Williams hawkish, dollar ferme (USD/CHF ~0.840), or rebond timide. CATALYSEUR IMMINENT : PCE octobre mercredi 25/11 = dernier grand point avant le FOMC. À RECALER sur prochaine capture Swissquote (l'estimation web a surévalué NOVN/AUCHAH par le passé). --- HISTORIQUE MAJ 23/11/2026 (SUIVI WEB/INTRADAY, PAS de capture broker) : aucun ordre exécuté depuis la capture 21/11, donc cash et quantités INCHANGÉS (base autoritative = capture 21/11, chiffres ci-dessous conservés). REBOND VIOLENT du 23/11 : Nvidia a réintégré Jensen Huang CEO → NVDA +27-30% (~$160-164), Nasdaq +6-7%, S&P +4-5%, Dow +2.5% en séance. Estimations web de rebond : GOOGL $265.29→~$288 (latent ~-86 CHF), NOVN 127.76→~129.7 (~-14), AUCHAH 112.14→~114.7 (or +2.5% off plus bas 14 mois, ~-67), SREN 150.00→~150.8 (~+4.6). Total estimé ~7'420 CHF (~+16.3% avec retraits 1300), P&L latent estimé ~-162 CHF (vs -237.60 capture). Macro : odds hausse Fed 8-9/12 reflue ~100%→~92-96%, or rebondit, dollar ferme (DXY ~104.30, USD/CHF ~0.840). Catalyseur : PCE octobre mercredi 25/11. À RECALER sur prochaine capture Swissquote (l'estimation web a surévalué NOVN/AUCHAH par le passé). --- HISTORIQUE MAJ 21/11/2026 RÉCONCILIÉE sur CAPTURE SWISSQUOTE RÉELLE (autoritative, prix clôture 20/11). Corrige les estimations web du rapport initial du 21/11 (qui étaient trop optimistes). CORRECTIONS vs estimations : (a) SREN limite 2 @ 148.50 CONFIRMÉE REMPLIE le 19/11 09:53:38 (ordre 315017008, net -302.07 CHF) — PAS 'à confirmer' ; nouvelle position ouverte, cours 150.00 (+3.00 / +1.01%, SEULE ligne positive). Cash CHF 703.72→401.65. (b) NOVN cours RÉEL 127.76 (-23.45 / -3.54%), PAS ~133.5 flat — a replongé sous le PRU. (c) AUCHAH cours RÉEL 112.14 (-80.04 / -12.49%), PAS ~116.5 — a atteint le seuil -12%. (d) GOOGL cours 265.29 (-137.11 / -18.56%), conforme à l'estimation. (e) Allègement GOOGL 17/11 RÉEL $280.11 (net +275.26), résidu NVDA 0.2 @ $161.66 (net +27.86) — voir closed_positions réconciliés. ÉTAT CAPTURE : cash CHF 401.65 + USD 5765.99 (×0.8401 = 4843.78). Positions 2101.22 (GOOGL 601.72 + NOVN 638.80 + SREN 300.00 + AUCHAH 560.70). TOTAL 7346.65 CHF (+15.29% avec retraits 1300). P&L latent -237.60 CHF (pire que l'estimation -190 : NOVN et AUCHAH plus bas que prévu). Cash espèces ~71.4%. CONTEXTE : krach IA jeudi 19/11 (S&P -2%) + vendredi 20/11 (S&P 6910.39 -3.7% EN CORRECTION, Nasdaq 22617.73 -5.28% efface 2026, NVDA -14%), pire semaine S&P en 18 mois. realized_pnl_net recalibré ~1160.6 (GOOGL allègement -50.52 USD vs -22.66 estimé, résidu NVDA -15.98 USD désormais compté). --- HISTORIQUE : MAJ 19/11/2026 (suivi WEB, PAS de capture broker) — aucun ordre exécuté depuis la capture 17/11, donc cash et quantités INCHANGÉS (base autoritative = capture 17/11). Contexte séance 18/11 : NVDA a fait 'sell the news' (clôture $150.96 -2.89% malgré le beat record, gouvernance + Chine) ; S&P 7323.63 (-0.23%, 5e baisse), Nasdaq 24429.89 (+0.42%), Dow 50198.17 (-1.11%) ; DOLLAR au plus haut de 19 mois ; or au plus bas ~1 an (~$3840). Deltas web estimés 19/11 : GOOGL ~$287 (latent ~-87 CHF, amélioré), NOVN ~134 CHF (REPASSÉ >PRU, ~+8 CHF), AUCHAH ~117.5 (~-53 CHF). Total estimé ~7456 CHF (~+16.7%), quasi-stable. SREN limite 2 @ 148.50 TOUJOURS OUVERTE (cours ~150.85 > limite), validité 20/11 — EXPIRE DEMAIN : reco re-placer à 149.00 ou entrer au marché < 150.50 sur repli. À RECALER sur la prochaine capture Swissquote. --- HISTORIQUE : MAJ 18/11/2026 — RÉCONCILIÉ sur CAPTURE SWISSQUOTE réelle du 17/11/2026 (autoritative), corrigeant la dérive du suivi web. Corrections vs portfolio.json précédent : (a) GOOGL 3.7 → 2.7 parts : allègement de 1 part exécuté (reco 17/11), cash USD +303 ; (b) NOVN 3 → 5 parts : renfort limite 2 @ 133 EXÉCUTÉ (ordre 315017400), cash CHF -271, PRU 132.08→132.45 ; (c) NVDA résidu 0.2 CLÔTURÉ (absent de la capture) ; (d) SREN limite 2 @ 148.50 OUVERTE (ordre 315017008, cours 150.05). État capture 17/11 : GOOGL 2.7 @ $282.92 (-94.89 CHF / -12.84%), NOVN 5 @ 131.48 (-4.85 / -0.73%), AUCHAH 5 @ 118.24 (-49.54 / -7.73%, l'or a REPLONGÉ sous PRU). Cash CHF 703.72 + USD 5765.99 (×0.8430 = 4860.73). Positions CHF 1892.55. Total 7456.94 CHF (+16.76% avec retraits 1300). P&L latent -149.28 CHF, cash ~74.6%. CONTEXTE 18/11 : NVDA a BATTU le 17/11 soir (rev 115.8 Md$ +103%, Data Center 107.6 Md$, guide Q4 130 Md$, +3-4% after-hours, ~$160) → détente du complexe IA, tailwind sentiment pour GOOGL. Fed décembre : marché price désormais une HAUSSE ~93% (cut ~2%) — régime taux-hauts hostile à la duration GOOGL, favorable aux assureurs CHF (SREN). Reco : (1) laisser la limite SREN travailler, entrée marché si clôture >153 ; (2) GOOGL conserver 2.7 (concentration réduite), renfort seulement sur reprise >$305 ; (3) AUCHAH conserver sans sur-renfort sous PRU ; (4) NOVN ligne complète, ne pas chasser. Prochaine capture : confirmer prix/order_id exacts de l'allègement GOOGL et exécution SREN."
   }
 }

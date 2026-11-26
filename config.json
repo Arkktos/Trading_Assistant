@@ -7,7 +7,7 @@
       "type": "Equity",
       "target_zone": "Re-entry $330-340 USD",
       "allocation_target": "1200 CHF",
-      "status": "Base capture 21/11 : 2.7 parts (allégée), PRU $325.78, cours clôture 20/11 $265.29. Suivi web 25/11 : PCE chaud (core 3.3%) → Nasdaq -4.4%, GOOGL replonge ~$258 (latent ~-154 CHF / -20.8%) — duration pénalisée par la hausse des taux (10Y 4.84%). ACTION (reco 25/11) : la condition 'attendre le PCE' est LEVÉE, le print est sorti → DÉCLENCHER la ré-entrée étagée PAR LIMITE. Tranche 1 : limite BUY +1 part zone ~$255-258 (~175 CHF cash USD). Tranche 2 : +1 part <$245 si la hausse des taux prolonge la baisse. PAR LIMITE uniquement, pas au marché (régime taux-hauts = vent contraire sur la duration, accumuler bas par paliers)."
+      "status": "Capture 26/11 : 2.7 parts (allégée), PRU $325.78, cours $273.10 (clôture 25/11), latent -123.80 CHF (-16.76%). GOOGL a REBONDI de son plus bas intraday du 25/11 (~$258 → $273.10 en clôture, dip-buying) après le PCE chaud. 26/11 = Thanksgiving, marchés US fermés. ACTION (reco 26/11) : armer la ré-entrée étagée PAR LIMITE sur repli. Tranche 1 : limite BUY +1 part zone ~$260-264 (~175 CHF cash USD). Tranche 2 : +1 part <$250 si la hausse des taux prolonge la baisse de la duration. PAR LIMITE uniquement, pas au marché (régime taux-hauts = vent contraire, accumuler bas par paliers)."
     },
     {
       "ticker": "MSFT",
@@ -49,9 +49,9 @@
       "ticker": "ZGLD",
       "name": "Swisscanto (CH) Precious Metal Fund Gold ETF (ou AUCHAH)",
       "type": "ETF",
-      "target_zone": "Ligne complétée (5 parts), pas de renfort sous le PRU 128.15",
-      "allocation_target": "~640 CHF investis (objectif 600 atteint)",
-      "status": "LIGNE COMPLÉTÉE : AUCHAH 5 parts, PRU 128.148 CHF. Capture 21/11 (clôture 20/11) : cours 112.14 CHF, -12.49% / -80.04 CHF — a ATTEINT le seuil de réflexion -12% (or plus bas ~1 an, dollar 19 mois, momentum cassé). DÉCISION À CADRER : conserver comme couverture si risk-off actions dégénère (refuge potentiel) VS réduire de moitié si cassure < 109 CHF (-15%) en clôture, pour recycler vers CHF rendement (SREN). Défaut : conserver tant que > 109, stop mental 109. PAS de renfort sous le PRU."
+      "target_zone": "Résidu 2 parts, stop dur < 105 CHF, PAS de renfort",
+      "allocation_target": "~256 CHF investis (résidu après allègement)",
+      "status": "ALLÉGÉE 5→2 parts : vente de 3 parts le 25/11 (ordre 315526449 @ ~108.76, net +320.21 CHF, réalisé -64.23 CHF) — stop mental 109 CHF franchi après le PCE chaud, règle 'réduire si cassure < 109' exécutée. Capture 26/11 : 2 parts, PRU 128.148, cours 112.98 CHF, -11.84% / -30.34 CHF. Résidu de couverture tactique : l'or ne s'arme pas (risk-off causé par les taux). DÉFAUT : conserver les 2 parts, SOLDER si cassure < 105 CHF en clôture. PAS de renfort sous le PRU."
     },
     {
       "ticker": "NOVN",
@@ -83,7 +83,7 @@
       "type": "Equity",
       "target_zone": "SREN limite 2 parts ~148-150 CHF (~300 CHF) ; ZURN 1 part = 652 CHF (trop gros vs cible)",
       "allocation_target": "300-400 CHF",
-      "status": "POSITION OUVERTE — diversification hors-tech #1. Limite BUY 2 @ 148.50 CHF (ordre 315017008) EXÉCUTÉE le 19/11 09:53:38 (confirmé capture 21/11). Cours clôture 20/11 : 150.00 CHF, +1.01%. Suivi web 25/11 : ~149.5 CHF (~+2), SEULE ligne positive. THÈSE VALIDÉE PAR LE PCE : le PCE chaud du 25/11 verrouille le régime taux-hauts (hausse Fed 8-9/12 ~97%), moteur direct de l'assureur CHF (rendement obligataire en hausse), décorrélé du couple dollar/tech-US. 9M 4.2 Md$, div ~4.2%. ACTION (reco 25/11) : RENFORT PRIORITAIRE +2 parts sur repli < 148 CHF (~290 CHF cash USD→CHF) pour muscler le hors-tech et la rotation hors-USD ; prise de profit partielle > ~160. Conviction haute."
+      "status": "POSITION OUVERTE — diversification hors-tech #1, SEULE ligne verte. Capture 26/11 : 2 parts, PRU 148.50, cours 155.20 CHF, +13.40 CHF (+4.51%). THÈSE VALIDÉE PAR LE PCE : régime taux-hauts verrouillé (hausse Fed 8-9/12 ~90-97%), moteur direct de l'assureur CHF, décorrélé dollar/tech-US. 9M 4.2 Md$, div ~4.2%. RENFORT placé : limite BUY 2 @ 146.00 CHF (ordre 315526408, OUVERT, validité 04/12) — loin sous le marché (155.20). ACTION (reco 26/11) : remonter la limite vers ~150.50-151 pour un remplissage réaliste, ou conserver 146 comme enchère de repli profond. Prise de profit partielle > ~160. Conviction haute."
     }
   ],
   "devise_de_reference": "CHF",
