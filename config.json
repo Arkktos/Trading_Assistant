@@ -7,7 +7,7 @@
       "type": "Equity",
       "target_zone": "Re-entry $330-340 USD",
       "allocation_target": "1200 CHF",
-      "status": "Capture 26/11 : 2.7 parts (allégée), PRU $325.78, cours $273.10 (clôture 25/11), latent -123.80 CHF (-16.76%). GOOGL a REBONDI de son plus bas intraday du 25/11 (~$258 → $273.10 en clôture, dip-buying) après le PCE chaud. 26/11 = Thanksgiving, marchés US fermés. ACTION (reco 26/11) : armer la ré-entrée étagée PAR LIMITE sur repli. Tranche 1 : limite BUY +1 part zone ~$260-264 (~175 CHF cash USD). Tranche 2 : +1 part <$250 si la hausse des taux prolonge la baisse de la duration. PAR LIMITE uniquement, pas au marché (régime taux-hauts = vent contraire, accumuler bas par paliers)."
+      "status": "Capture 26/11 : 2.7 parts (allégée), PRU $325.78, cours ~$274.96 (clôture 27/11 demi-séance, +0.68%), latent est. ~-119.6 CHF (-16.2%). GOOGL a REBONDI de son plus bas du 25/11 (~$258) et tient ~$275 après le rebond Nasdaq (+2.31%) du 27/11. Toujours ~16% sous le PRU. ACTION (reco 26/11) : armer la ré-entrée étagée PAR LIMITE sur repli. Tranche 1 : limite BUY +1 part zone ~$260-264 (~175 CHF cash USD). Tranche 2 : +1 part <$250 si la hausse des taux prolonge la baisse de la duration. PAR LIMITE uniquement, pas au marché (régime taux-hauts = vent contraire, accumuler bas par paliers)."
     },
     {
       "ticker": "MSFT",
@@ -75,7 +75,7 @@
       "type": "Equity",
       "target_zone": "À caler sur cours live (entrée sur repli)",
       "allocation_target": "~300-400 CHF",
-      "status": "CANDIDAT watchlist ajouté le 25/11 : le PCE chaud (core 3.3%) verrouille le régime taux-hauts (hausse Fed 8-9/12 ~97%), favorable aux financières CHF au-delà de l'assurance. UBS (UBSG) ou Zurich (ZURN) : même moteur que SREN (taux, décorrélation USD/tech), candidate de diversification hors-tech #3. Zone d'entrée à définir sur cours live à la prochaine capture Swissquote. ZURN ~652 CHF/part (gros/part) ; UBSG plus accessible à l'unité."
+      "status": "CANDIDAT watchlist (ajouté 25/11, THÈSE RENFORCÉE 28/11) : le PCE chaud (core 3.3%) verrouille décembre, et le marché price désormais ~60% pour une 2e hausse Fed d'ici le 27/01 — le régime taux-hauts se DURCIT, favorable aux financières CHF au-delà de l'assurance. UBS (UBSG) ou Zurich (ZURN) : même moteur que SREN (taux, décorrélation USD/tech), candidate de diversification hors-tech #3 PRIORITAIRE. ACTION : définir une zone d'entrée sur cours live et placer une petite limite (~300 CHF). ZURN ~652 CHF/part (trop gros/part vs cible) ; UBSG plus accessible à l'unité, préféré. Zone exacte à caler sur prochaine capture Swissquote."
     },
     {
       "ticker": "ZURN / SREN",
